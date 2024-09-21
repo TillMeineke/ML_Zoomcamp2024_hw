@@ -1,17 +1,24 @@
 
-## Setting up the Environment
-
-In this section, we'll prepare the environment
+# Setting up the Environment
 
 We need for the course:
 
-- Python 3.11 (note that videos use 3.8)
-- NumPy, Pandas and Scikit-Learn (latest available versions)
-- Matplotlib and Seaborn
-- Jupyter notebooks
+- [Python 3.11](https://docs.python.org/3.11/ "Python 3.11 Docs") (note that videos use 3.8)
+- [NumPy](https://numpy.org "NumPy"), [pandas](https://pandas.pydata.org "pandas") and [scikit-learn](https://scikit-learn.org/stable/ "scikit-learn") (latest available versions)
+- [matplotlib](https://matplotlib.org "matplotlib") and [seaborn](https://seaborn.pydata.org "Seaborn")
+- [Jupyter notebooks](https://jupyter.org "Jupyter notebooks")
 
-On computer with Apple Silicon (arm64) use:
-- Homebrew as package manager, in terminal-app run:
+In this section, I'll describe how I prepared my environment for the course.
+
+I use a MacBook Pro 13" with Apple Silicon (arm64) and VSCode as my main editor. I use Conda as my package manager and created a dedicated environment for the course. I also installed some additional software that I find useful.
+
+Also I create an Ubuntu 24.04 instance on AWS EC2 with a conda environment for the course and setup port forwarding to access Jupyter server with VSCode (Remote-SSH).
+
+Last I have accounts for [kaggle](https://www.kaggle.com/ "kaggle") and [Google Colab](https://colab.research.google.com/ "Google Colab") for running notebooks in the cloud.
+
+I use a Laptop with Apple Silicon (arm64):
+
+- First install [🍺 Homebrew](https://brew.sh) as a package manager, in `Terminal.app` run:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -25,7 +32,7 @@ brew install miniforge visual-studio-code zoom
 
 [Miniforge](https://github.com/conda-forge/miniforge) is a minimal installer for Conda specific to conda-forge. It is a small, bootstrap version of Anaconda that includes only conda, Python, the packages they depend on, and a small number of other useful packages, including pip, zlib and a few others. I created a dedicated [environment.yml](../environment.yml) for the course.
 
-To create this conda environment `ML_Zoomcamp2024` from the file run the following command in the folder with this file:
+To create this conda environment, called `ML_Zoomcamp2024`, from the file run the following command in the folder with this file:
 
 ```bash
 conda env create -f environment.yml
@@ -38,12 +45,14 @@ conda activate ML_Zoomcamp2024
 ```
 
 This installs the most important libraries for data science.
+
 - Python=3.11
 - NumPy, Pandas and Scikit-Learn (latest available versions)
 - Matplotlib and Seaborn
 - Jupiter notebooks
 
 I also added some additional libraries (some needed for later in the course):
+
 - PyTorch, Torchaudio, Torchvision,
 - scipy, xgboost
 - Tensorflow=2.14, Tensorflow-metal=1.1.0
