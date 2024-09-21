@@ -5,7 +5,13 @@ Sep 2024 - Jan 2025
 
 ## [Homework 1: Introduction to Machine Learning](./01-intro/homework_01_till_meineke.ipynb) due 1 Oktober 2024 01:00
 - [x] [Set up the environment](./01-intro/Setup_environment.md)
-- [x] Q1. Pandas version = 2.2.2
+  - [x] locally on Mac
+  - [x] on AWS
+  - [ ] on GCP
+  - [ ] on Azure
+  - [x] Kaggle
+  - [x] Colab
+- [x] Q1. Pandas version
 - [x] Getting data
 - [x] Q2. Records count
 - [x] Q3. Laptop brands
@@ -21,7 +27,7 @@ Sep 2024 - Jan 2025
 - [ ] Learn in public 6:
 - [ ] Learn in public 7:
 
-## [Homework 2: for regression](./02-regression/homework_02_till_meineke.ipynb) due 8 Oktober 2024 01:00
+## [Homework 2: Machine Learning for regression](./02-regression/homework_02_till_meineke.ipynb) due 8 Oktober 2024 01:00
 
 - [ ] Learn in public 1:
 - [ ] Learn in public 2:

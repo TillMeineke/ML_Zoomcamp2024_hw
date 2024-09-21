@@ -15,6 +15,7 @@ channels:
   - defaults
 dependencies:
   - black
+  - flask
   - grpcio
   - gunicorn
   - isort
@@ -38,7 +39,6 @@ dependencies:
   - setuptools
   - tensorflow=2.14
   - tqdm
-  - flask
   - xgboost
   - pip:
     - torch
