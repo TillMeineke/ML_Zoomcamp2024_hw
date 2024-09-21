@@ -128,7 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-
 # Mac Stuff
 .DS_Store
 
@@ -136,4 +135,4 @@ dmypy.json
 .vscode
 
 # Data
-*/data/*
+*/data/*.csv
