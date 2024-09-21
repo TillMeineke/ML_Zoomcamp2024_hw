@@ -1,0 +1,49 @@
+# Conda Environment Setup Instructions
+#  - Using an environment.yml file with conda
+#  - Key Terminal Commands:
+#
+#    conda env create -f environment.yml
+#    conda env update --file environment.yml --prune
+#    conda env export --name ML_Zoomcamp2024 > environment.yml
+#    conda env remove --name ML_Zoomcamp2024
+#    conda env list
+
+name: ML_Zoomcamp2024
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - grpcio
+  - gunicorn
+  - isort
+  - iprogress
+  - ipywidgets
+  - ipykernel
+  - ipython
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - pipenv
+  - pylint
+  - python=3.11
+  - requests
+  - ruff
+  - scikit-learn
+  - scipy
+  - seaborn
+  - setuptools
+  - tensorflow=2.14
+  - tqdm
+  - flask
+  - xgboost
+  - pip:
+    - torch
+    - torchaudio
+    - torchvision
+    - keras-image-helper
+    - tensorflow-metal==1.1.0
+    - tensorflow-serving-api==2.7.0
