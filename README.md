@@ -19,11 +19,11 @@ Sep 2024 - Jan 2025
 - [x] Q5. Maximum final price
 - [x] Q6. Median value of Screen
 - [x] Q7. Sum of weights
-- [ ] Learn in public 1: Setting up the environment
-- [ ] Learn in public 2: Setting up [Portfolio homepage](till.meineke.github.io)
-- [ ] Learn in public 3:
-- [ ] Learn in public 4:
-- [ ] Learn in public 5:
+- [ ] Learn in public 1: Setting up the environments
+- [ ] Learn in public 2: Setup macBook
+- [ ] Learn in public 3: Setup iTerm2
+- [ ] Learn in public 4: Setup VSCode
+- [ ] Learn in public 5: Setting up [Portfolio homepage](till.meineke.github.io)
 - [ ] Learn in public 6:
 - [ ] Learn in public 7:
 
