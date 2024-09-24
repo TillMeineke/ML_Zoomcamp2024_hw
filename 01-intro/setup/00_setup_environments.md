@@ -13,7 +13,7 @@ In this section, I'll describe how I prepared my local and remote environments f
 
 ## Setup Conda Environment on MacBook 13", M1, 2020, 16GB  with Apple Silicon (arm64) running on Sonoma 14.6.1
 
-I use a MacBook Pro 13" with Apple Silicon (arm64) and VSCode as my main editor. I use Conda as my environment manager and created a dedicated environment for the course. I also installed some additional software that I find useful, but that is described in a separate [post](./01_setup_macBook.md "Setup MacBook"). I know macOS 15 was just released, but I prefer to wait a bit before updating my system.
+I use a MacBook Pro 13" with Apple Silicon (arm64) and VSCode as my main editor. I use Conda as my environment manager and created a dedicated environment for the course. I also installed some additional software that I find useful, but that is described in a separate [post](./01_setup_macBook.md "Setup MacBook"). I know macOS 15 was just released, but I prefer to wait a bit before upgrading my system.
 
 - First install [🍺 Homebrew](https://brew.sh "🍺 Homebrew") as a package manager for macOS, in `Terminal.app` run:
 
@@ -77,27 +77,35 @@ I also added some additional libraries (some needed for later in the course):
 - [black](https://black.readthedocs.io/en/stable/index.html), [isort](https://pycqa.github.io/isort/), [pylint](https://www.pylint.org), [ruff]()
 <!-- ! TODO:- [pytest] still missing -->
 
-Tensorflow and [PyTorch](https://developer.apple.com/metal/pytorch/) are installed with Metal GPU support for Apple Silicon (arm64) Macs. Only working with Python<=3.11. You can test the installation with this [notebook](./apple_metal_test_env.ipynb)
+Tensorflow and [PyTorch](https://developer.apple.com/metal/pytorch/) are installed with Metal GPU support for Apple Silicon (arm64) Macs. You can test the installation with this [notebook](./apple_metal_test_env.ipynb)
 
 For me the output looks like this, so everything is installed correctly:
 
-    Python 3.11.10 | packaged by conda-forge | (main, Sep 22 2024, 14:11:13) [Clang 17.0.6 ]
-    Python Platform: macOS-14.6.1-arm64-arm-64bit
+```plaintext
+Python 3.11.10 | packaged by conda-forge | (main, Sep 22 2024, 14:11:13) [Clang 17.0.6 ]
+Python Platform: macOS-14.6.1-arm64-arm-64bit
 
-    Pandas 2.2.2
-    NumPy 1.26.4
-    Scikit-Learn 1.5.1
-    SciPy 1.14.1
+Pandas 2.2.2
+NumPy 1.26.4
+Scikit-Learn 1.5.1
+SciPy 1.14.1
 
-    Tensor Flow Version: 2.14.0
-    Keras Version: 2.14.0
-    GPU is available
+Tensor Flow Version: 2.14.0
+Keras Version: 2.14.0
+GPU is available
 
-    PyTorch version: 2.4.1
-    Is MPS (Metal Performance Shader) built? True
-    Is MPS available? True
-    Using device: mps
+PyTorch version: 2.4.1
+Is MPS (Metal Performance Shader) built? True
+Is MPS available? True
+Using device: mps
+```
 
+FIXME:
+I still need to test the installation of the other libraries required for the course later.
+
+- [ ] pipenv
+- [ ] poetry
+- [ ] 
 
 ### [Visual Studio Code](https://code.visualstudio.com "Visual Studio Code")
 
@@ -119,7 +127,7 @@ The video suggested installing Ubuntu 22.04, but I prefer to use the latest LTS 
 
 Hopefully I will not run into problems with running code locally on Apple Silicon (arm64) and remotely on x86_64. But as pointed out in the video, I can create an arm64 instance on AWS as well.
 
-I'm wondering if there is a more convienient way to connect to the Jupyter server without copying the IP address manually into the `.ssh/config`. If you have any simple suggestion please let me know.
+I'm wondering if there is a more convenient way to connect to the Jupyter server without copying the IP address manually into the `.ssh/config`. If you have any simple suggestion please let me know.
 
 ## Other Cloud Environments
 

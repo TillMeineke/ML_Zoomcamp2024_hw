@@ -4,6 +4,7 @@ Sep 2024 - Jan 2025
 [Course management platform](https://courses.datatalks.club/ml-zoomcamp-2024/)
 
 ## [Homework 1: Introduction to Machine Learning](./01-intro/homework_01_till_meineke.ipynb) due 1 Oktober 2024 01:00
+
 - [x] [Set up the environment](./01-intro/Setup_environment.md)
   - [x] locally on Mac
   - [x] on AWS
@@ -31,22 +32,22 @@ Sep 2024 - Jan 2025
 ## [Homework 2: Machine Learning for regression](./02-regression/homework_02_till_meineke.ipynb) due 8 Oktober 2024 01:00
 
 - [ ] Learn in public 1:
-- [ ] Learn in public 2:
-- [ ] Learn in public 3:
-- [ ] Learn in public 4:
-- [ ] Learn in public 5:
+- [ ] Learn in public 2: Predict the price of a house - e.g. boston dataset
+- [ ] Learn in public 3: [Student Performance Data Set](https://archive.ics.uci.edu/dataset/320/student+performance)
+- [ ] Learn in public 4: [UCI ML datasets](https://archive.ics.uci.edu/datasets)
+- [ ] Learn in public 5: Default prediction - <https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients>
 - [ ] Learn in public 6:
 - [ ] Learn in public 7:
 
 ## [Homework 3: Machine Learning for Classification](./03-classification/homework_03_till_meineke.ipynb) due 15 Oktober 2024 01:00
 
-- [ ] Learn in public 1:
-- [ ] Learn in public 2:
-- [ ] Learn in public 3:
-- [ ] Learn in public 4:
-- [ ] Learn in public 5:
-- [ ] Learn in public 6:
-- [ ] Learn in public 7:
+- [ ] Learn in public 1: exclude least useful features
+- [ ] Learn in public 2: scikit-learn in project of last week
+- [ ] Learn in public 3: use `LinearRegression` (not regularized) and `RidgeRegression` (regularized)
+- [ ] Learn in public 4: Find the best regularization parameter for Ridge
+- [ ] Learn in public 5: using the `OneHotEncoding` class
+- [ ] Learn in public 6: [Lead scoring](https://www.kaggle.com/ashydv/leads-dataset)
+- [ ] Learn in public 7: [Default prediction](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients)
 
 ## [Homework 4: Evaluation Metrics for Classification]() due 22 Oktober 2024 01:00
 
