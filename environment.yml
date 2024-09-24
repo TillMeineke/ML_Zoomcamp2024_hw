@@ -10,37 +10,33 @@
 
 name: ML_Zoomcamp2024
 channels:
-  - anaconda
   - conda-forge
   - defaults
+  - anaconda
 dependencies:
   - black
   - flask
   - grpcio
   - gunicorn
   - isort
-  - iprogress
-  - ipywidgets
-  - ipykernel
-  - ipython
-  - jupyter
+  - jupyterlab
   - matplotlib
   - numpy
-  - pandas
+  - pandas=2.2.3
   - pip
   - pipenv
   - pylint
   - python=3.11
   - requests
   - ruff
-  - scikit-learn
-  - scipy
+  - scikit-learn=1.5.2
   - seaborn
   - setuptools
   - tensorflow=2.14
   - tqdm
   - xgboost
   - pip:
+    - scipy
     - torch
     - torchaudio
     - torchvision
