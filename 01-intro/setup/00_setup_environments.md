@@ -1,6 +1,6 @@
 # Setting up the environments for ML Zoomcamp 2024
 
-21.09.2024
+Last updated 25.09.2024
 
 We need for the course:
 
@@ -109,11 +109,21 @@ Is MPS available? True
 Using device: mps
 ```
 
+[Managing Multiple Python Versions With pyenv](https://realpython.com/intro-to-pyenv/)
+
+[PyEnv: Managing Multiple Python Versions With Ease](https://python.land/virtual-environments/pyenv)
+
+[Python venv: How To Create, Activate, Deactivate, And Delete](https://python.land/virtual-environments/virtualenv)
+
 [python env 101](https://freedium.cfd/towardsdatascience.com/python-environment-101-1d68bda3094d)
 
 [pipenv vs conda](https://towardsdatascience.com/pipenv-vs-conda-for-data-scientists-b9a372faf9d9)
 
 [when and how to use Conda, Pipenv, Virtualenv, Pip, and Poetry](https://medium.com/@maheshkarthu/understanding-when-and-how-to-use-conda-pipenv-virtualenv-pip-and-poetry-is-crucial-for-2a518a951945)
+
+[Using Pipenv to Manage Python Packages and Versions](https://www.linode.com/docs/guides/manage-python-environments-pipenv/)
+
+[Managing Application Dependencies](https://packaging.python.org/en/latest/tutorials/managing-dependencies/)
 
 To get an overview of the different package managers for Python, I created a table with the most important commands and differences. It is not complete (brew, venv and virtualenv are missing), but it should give you a good overview of the most important package managers and their commands.
 
