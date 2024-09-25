@@ -115,6 +115,8 @@ Using device: mps
 
 [when and how to use Conda, Pipenv, Virtualenv, Pip, and Poetry](https://medium.com/@maheshkarthu/understanding-when-and-how-to-use-conda-pipenv-virtualenv-pip-and-poetry-is-crucial-for-2a518a951945)
 
+To get an overview of the different package managers for Python, I created a table with the most important commands and differences. It is not complete (brew, venv and virtualenv are missing), but it should give you a good overview of the most important package managers and their commands.
+
 |manager|[pip](https://pypi.org/project/pip/)|[conda](https://docs.anaconda.com "Docs Anaconda") / [miniforge](https://conda-forge.org/docs/ "conda-forge")|[pyenv](https://github.com/pyenv/pyenv)|[Pipenv](https://pipenv.pypa.io/en/latest/)|[Poetry](https://python-poetry.org)|
 |---|---|---|---|---|---|
 |type of manager| packages|packages / virtual environments|python version management|virtualenv management|dependency management<br> and packaging|
@@ -153,6 +155,10 @@ Hopefully I will not run into problems with running code locally on Apple Silico
 
 I'm wondering if there is a more convenient way to connect to the Jupyter server without copying the IP address manually into the `.ssh/config`. If you have any simple suggestion please let me know.
 
+I try to create an `.dotfile`-repository with all my configurations and settings, but I'm not sure if I find the time to collect all nessesary configuration files. Can you recommend tools like [stow](https://www.gnu.org/software/stow/) or do you have any better suggestions? How do you manage your configuration files efficiently to sync them between different machines?
+
 ## Other Cloud Environments
 
 Last I have accounts for [kaggle](https://www.kaggle.com/ "kaggle") and [Google Colab](https://colab.research.google.com/ "Google Colab") for running notebooks in the cloud.
+
+With all these environments I should be well prepared for the course. For me the most exiting part was creating my first EC2 instance on AWS (it worked without a credit card here in germany).
