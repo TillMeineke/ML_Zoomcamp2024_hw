@@ -1,4 +1,4 @@
-# Setting up the Environment for ML Zoomcamp 2024
+# Setting up the environments for ML Zoomcamp 2024
 
 21.09.2024
 
@@ -6,12 +6,12 @@ We need for the course:
 
 - [Python 3.11](https://docs.python.org/3.11/ "Python 3.11 Docs") (note that videos use 3.8)
 - [NumPy 1.26.4 Release date: 5 Feb, 2024](https://numpy.org "NumPy") (NumPy 2 only works with Python 3.13), [pandas 2.2.3 Release date: 20 Sep 20, 2024](https://pandas.pydata.org "pandas") and [scikit-learn 1.5.2 Release date: Sep, 2024](https://scikit-learn.org/stable/ "scikit-learn") (latest available versions)
-- [matplotlib 3.9.2 Release date: 12 Aug, 2024)](https://matplotlib.org "matplotlib") and [seaborn 0.13.2 Jan, 2024)](https://seaborn.pydata.org "Seaborn")
+- [matplotlib 3.9.2 Release date: 12 Aug, 2024](https://matplotlib.org "matplotlib") and [seaborn 0.13.2 Jan, 2024](https://seaborn.pydata.org "Seaborn")
 - [Jupyter notebooks](https://jupyter.org "Jupyter notebooks")
 
 In this section, I'll describe how I prepared my local and remote environments for the course.
 
-## Setup Conda Environment on MacBook 13", M1, 2020, 16GB  with Apple Silicon (arm64) running on Sonoma 14.6.1
+## Setup Conda Environment on MacBook 13", M1, 2020, 16GB  with Apple Silicon (arm64) running on Sonoma 14.7
 
 I use a MacBook Pro 13" with Apple Silicon (arm64) and VSCode as my main editor. I use Conda as my environment manager and created a dedicated environment for the course. I also installed some additional software that I find useful, but that is described in a separate [post](./01_setup_macBook.md "Setup MacBook"). I know macOS 15 was just released, but I prefer to wait a bit before upgrading my system.
 
@@ -27,7 +27,7 @@ I use a MacBook Pro 13" with Apple Silicon (arm64) and VSCode as my main editor.
 brew install iterm2 miniforge visual-studio-code zoom
 ```
 
-Caveat: brew install conflict with docker desktop and command line tools. You need to install docker desktop first and then the command line tools. [Issue](https://github.com/Homebrew/brew/issues/16309)
+**Caveat**: brew install conflict with docker desktop and command line tools. You need to install docker desktop first and then the command line tools. [Issue](https://github.com/Homebrew/brew/issues/16309)
 
 - When installing docker with brew, if you want to install [docker desktop](https://www.docker.com/products/docker-desktop/), you need to run the following command:
 
@@ -40,6 +40,8 @@ brew install --cask docker
 ```bash
 brew install docker docker-compose
 ```
+
+[How to shrink packages for dockerization](https://towardsdatascience.com/how-to-shrink-numpy-scipy-pandas-and-matplotlib-for-your-data-product-4ec8d7e86ee4)
 
 ### [iTerm2](https://iterm2.com "iTerm2")
 
@@ -74,8 +76,15 @@ I also added some additional libraries (some needed for later in the course):
 - [SciPy](https://scipy.org), [xgboost](https://xgboost.readthedocs.io/en/stable/)
 - [Tensorflow=2.14](https://www.tensorflow.org), [Tensorflow-metal=1.1.0](https://developer.apple.com/metal/tensorflow-plugin/)
 - [Flask](https://flask.palletsprojects.com/en/3.0.x/), [gunicorn](https://gunicorn.org), [grpcio](https://grpc.io), [requests](https://docs.python-requests.org/en/latest/index.html), [tqdm](https://tqdm.github.io)
-- [black](https://black.readthedocs.io/en/stable/index.html), [isort](https://pycqa.github.io/isort/), [pylint](https://www.pylint.org), [ruff]()
-<!-- ! TODO:- [pytest] still missing -->
+- [black](https://black.readthedocs.io/en/stable/index.html), [isort](https://pycqa.github.io/isort/), [pylint](https://www.pylint.org), [ruff](https://docs.astral.sh/ruff/)
+
+I still need to test the installation of other libraries required later in the course .
+
+- [ ] [pytest]() still missing
+- [ ] [pickel-mixin]() still missing
+- [ ] [pipenv]() still missing
+- [ ] [poetry]() still missing
+- [ ] what else?
 
 Tensorflow and [PyTorch](https://developer.apple.com/metal/pytorch/) are installed with Metal GPU support for Apple Silicon (arm64) Macs. You can test the installation with this [notebook](./apple_metal_test_env.ipynb)
 
@@ -83,7 +92,7 @@ For me the output looks like this, so everything is installed correctly:
 
 ```plaintext
 Python 3.11.10 | packaged by conda-forge | (main, Sep 22 2024, 14:11:13) [Clang 17.0.6 ]
-Python Platform: macOS-14.6.1-arm64-arm-64bit
+Python Platform: macOS-14.7-arm64-arm-64bit
 
 Pandas 2.2.2
 NumPy 1.26.4
@@ -100,12 +109,27 @@ Is MPS available? True
 Using device: mps
 ```
 
-FIXME:
-I still need to test the installation of the other libraries required for the course later.
+[python env 101](https://freedium.cfd/towardsdatascience.com/python-environment-101-1d68bda3094d)
 
-- [ ] pipenv
-- [ ] poetry
-- [ ] 
+[pipenv vs conda](https://towardsdatascience.com/pipenv-vs-conda-for-data-scientists-b9a372faf9d9)
+
+[when and how to use Conda, Pipenv, Virtualenv, Pip, and Poetry](https://medium.com/@maheshkarthu/understanding-when-and-how-to-use-conda-pipenv-virtualenv-pip-and-poetry-is-crucial-for-2a518a951945)
+
+|manager|[pip](https://pypi.org/project/pip/)|[conda](https://docs.anaconda.com "Docs Anaconda") / [miniforge](https://conda-forge.org/docs/ "conda-forge")|[pyenv](https://github.com/pyenv/pyenv)|[Pipenv](https://pipenv.pypa.io/en/latest/)|[Poetry](https://python-poetry.org)|
+|---|---|---|---|---|---|
+|type of manager| packages|packages / virtual environments|python version management|virtualenv management|dependency management<br> and packaging|
+|install manager|installed with your Python|`brew install miniforge`|`brew install openssl readline sqlite3 xz zlib && brew install pyenv`|needs Python and pip:<br>`pip install pipenv --user`<br>**Note:** Homebrew installation is discouraged because it works better to install pipenv using `pip` on macOS.|requires Python 3.8+, in your venv (created with `python -m venv .venv`), run `pip install -U pip setuptools && pip install poetry`; for tab completion `mkdir $ZSH_CUSTOM/plugins/poetry && poetry completions zsh > $ZSH_CUSTOM/plugins/poetry/_poetry`; add `poetry` to plugins in `~/.zshrc` |
+|upgrade manager|`pip install --upgrade pip`|`conda update -n base -c conda-forge conda`|`brew upgrade --greedy && brew cleanup`|`pip install --user --upgrade pipenv`|`pip install --upgrade poetry`|
+|list available<br>python versions|use [PiPy](https://pypi.org/search) (via a browser)|`conda search python`|`pyenv install --list`|||
+|install spec.<br>python version||`conda install python==<VERSION>`|`pyenv install <VERSION>`|`pipenv install python==<VERSION>`;<br> Automatically installs required Python version when `pyenv` is available.||
+|set spec.<br>python version||define in `requirements.yml`|`pyenv local <VERSION>`, creates `.python-version`-file|Automatically installs required Python version when `pyenv` is available.||
+|create env||`conda create -n <ENV_NAME>`|`python -m venv .venv`|created when installing package, creates `Pipfile` & `Pipfile.lock`|`python -m venv .venv`|
+|create env<br>from file|`pip install -f requirements.txt`|`conda env create -f environment.yml`|`pip install -f requirements.txt`|`pipenv install`; `Pipfile` needed||
+|activate env||`conda activate <ENV_NAME>`|`source .venv/bin/activate`|`pipenv shell`|`poetry shell`|
+|install package|`pip install <package>`|`conda install <package>` or `pip install <package>`|`pip install <package>`|`pipenv install <package>`||
+|create env file with installed packages|`pip freeze > requirements.txt`|`conda env export --name <ENV_NAME> > environment.yml`|`pip freeze > requirements.txt`|||
+|deactivate env||`conda deactivate`|`deactivate`||`deactivate`|
+|delete env||`conda env remove --name <ENV_NAME>`|`pyenv uninstall <ENV_NAME> && rm .python-version`|||
 
 ### [Visual Studio Code](https://code.visualstudio.com "Visual Studio Code")
 

@@ -26,11 +26,12 @@ Sep 2024 - Jan 2025
 - [ ] Learn in public 3: Setup macBook
 - [ ] Learn in public 4: Setup iTerm2
 - [ ] Learn in public 5: Setup VSCode
-- [ ] Learn in public 6:
-- [ ] Learn in public 7:
+- [ ] Learn in public 6: Organize the homework repository
+- [ ] Learn in public 7: `.dotfiles`?
 
 ## [Homework 2: Machine Learning for regression](./02-regression/homework_02_till_meineke.ipynb) due 8 Oktober 2024 01:00
 
+- [ ] Finished the homework
 - [ ] Learn in public 1:
 - [ ] Learn in public 2: Predict the price of a house - e.g. boston dataset
 - [ ] Learn in public 3: [Student Performance Data Set](https://archive.ics.uci.edu/dataset/320/student+performance)
@@ -41,6 +42,7 @@ Sep 2024 - Jan 2025
 
 ## [Homework 3: Machine Learning for Classification](./03-classification/homework_03_till_meineke.ipynb) due 15 Oktober 2024 01:00
 
+- [ ] Finished the homework
 - [ ] Learn in public 1: exclude least useful features
 - [ ] Learn in public 2: scikit-learn in project of last week
 - [ ] Learn in public 3: use `LinearRegression` (not regularized) and `RidgeRegression` (regularized)
@@ -51,16 +53,18 @@ Sep 2024 - Jan 2025
 
 ## [Homework 4: Evaluation Metrics for Classification]() due 22 Oktober 2024 01:00
 
-- [ ] Learn in public 1:
-- [ ] Learn in public 2:
-- [ ] Learn in public 3:
-- [ ] Learn in public 4:
-- [ ] Learn in public 5:
+- [ ] Finished the homework
+- [ ] Learn in public 1: Check the precision and recall of the dummy classifier that always predict "FALSE"
+- [ ] Learn in public 2: F1 score = 2 P R / (P + R)
+- [ ] Learn in public 3: Evaluate precision and recall at different thresholds, plot P vs R - this way you'll get the precision/recall curve (similar to ROC curve)
+- [ ] Learn in public 4: Area under the PR curve is also a useful metric
+- [ ] Learn in public 5: Calculate the metrics for the suggested datasets from the previous week
 - [ ] Learn in public 6:
 - [ ] Learn in public 7:
 
 ## [Homework 5: Deploying Machine Learning Models]() due 29 Oktober 2024 01:00
 
+- [ ] Finished the homework
 - [ ] Learn in public 1:
 - [ ] Learn in public 2:
 - [ ] Learn in public 3:
@@ -71,6 +75,7 @@ Sep 2024 - Jan 2025
 
 ## [Homework 6: Decision Trees and Ensemble Learning]() due 5 November 2024 01:00
 
+- [ ] Finished the homework
 - [ ] Learn in public 1:
 - [ ] Learn in public 2:
 - [ ] Learn in public 3:
@@ -81,6 +86,7 @@ Sep 2024 - Jan 2025
 
 ## [Homework 8: Neural Networks and Deep Learning]() due 3 December 2024 01:00
 
+- [ ] Finished the homework
 - [ ] Learn in public 1:
 - [ ] Learn in public 2:
 - [ ] Learn in public 3:
@@ -91,6 +97,7 @@ Sep 2024 - Jan 2025
 
 ## [Homework 9: Serverless Deep Learning]() due 10 December 2024 01:00
 
+- [ ] Finished the homework
 - [ ] Learn in public 1:
 - [ ] Learn in public 2:
 - [ ] Learn in public 3:
@@ -101,6 +108,7 @@ Sep 2024 - Jan 2025
 
 ## [Homework 10: Kubernetes and TensorFlow Serving]() due 17 December 2024 01:00
 
+- [ ] Finished the homework
 - [ ] Learn in public 1:
 - [ ] Learn in public 2:
 - [ ] Learn in public 3:
@@ -111,6 +119,6 @@ Sep 2024 - Jan 2025
 
 # Projects
 
-## Midterm Project: due 26 November 2024 00:00
-## Capstone 1 Project: due 7 January 2025 00:00
-## Capstone 2 Project: due 28 January 2025 00:00
+## [ ] Midterm Project: due 26 November 2024 00:00
+## [ ] Capstone 1 Project: due 7 January 2025 00:00
+## [ ] Capstone 2 Project: due 28 January 2025 00:00
