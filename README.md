@@ -22,7 +22,7 @@ Sep 2024 - Jan 2025
   - [x] Q6. Median value of Screen
   - [x] Q7. Sum of weights
 - [x] Learn in public 1: Setting up [Portfolio homepage](till.meineke.github.io) published on 23.09 [medium](https://medium.com/@till.meineke/how-to-setup-a-portfolio-page-on-github-io-3b951fc94f22)
-- [ ] Learn in public 2: Setting up the environments
+- [x] Learn in public 2: Setting up the environments published on 26.09 [medium](https://medium.com/@till.meineke/setting-up-the-environments-for-ml-zoomcamp-2024-eceb6e42e36e)
 - [ ] Learn in public 3: Setup macBook
 - [ ] Learn in public 4: Setup iTerm2
 - [ ] Learn in public 5: Setup VSCode
