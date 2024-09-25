@@ -125,6 +125,7 @@ Using device: mps
 
 [Managing Application Dependencies](https://packaging.python.org/en/latest/tutorials/managing-dependencies/)
 
+#### Python Package Managers
 To get an overview of the different package managers for Python, I created a table with the most important commands and differences. It is not complete (brew, venv and virtualenv are missing), but it should give you a good overview of the most important package managers and their commands.
 
 |manager|[pip](https://pypi.org/project/pip/)|[conda](https://docs.anaconda.com "Docs Anaconda") / [miniforge](https://conda-forge.org/docs/ "conda-forge")|[pyenv](https://github.com/pyenv/pyenv)|[Pipenv](https://pipenv.pypa.io/en/latest/)|[Poetry](https://python-poetry.org)|
@@ -172,3 +173,6 @@ I try to create an `.dotfile`-repository with all my configurations and settings
 Last I have accounts for [kaggle](https://www.kaggle.com/ "kaggle") and [Google Colab](https://colab.research.google.com/ "Google Colab") for running notebooks in the cloud.
 
 With all these environments I should be well prepared for the course. For me the most exiting part was creating my first EC2 instance on AWS (it worked without a credit card here in germany).
+
+
+[](#python-package-managers)
