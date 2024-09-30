@@ -15,6 +15,9 @@ Next to setup VSCode, I installed the following VSCode extensions:
   - Python Environment Manager
 - [Remote - SSH](https://github.com/Microsoft/vscode-remote-release)
 
+color themes:
+- [SpaceCamp](https://github.com/dinogomez/SpaceCamp)
+
 ### Optional: Install additional extensions
 
 - Better Comments
@@ -35,3 +38,5 @@ Next to setup VSCode, I installed the following VSCode extensions:
 - Todo Tree
 - Trailing Spaces
 - vscode-pdf
+
+[Support shell integration in oh-my-zsh and powerlevel10k](https://github.com/microsoft/vscode/issues/146587)

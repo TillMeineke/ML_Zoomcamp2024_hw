@@ -3,7 +3,13 @@
 Sep 2024 - Jan 2025
 [Course management platform](https://courses.datatalks.club/ml-zoomcamp-2024/)
 
+This folder contains the homework for the course. Each week has its own folder. The homework is in the form of Jupyter notebooks.
+
+I also keep track of my progress in this `README.md` file. I will update it every week.
+
 ## [Homework 1: Introduction to Machine Learning](./01-intro/homework_01_till_meineke.ipynb) due 1 Oktober 2024 01:00
+
+Extra material in subfolder contains the setup of the environment, the portfolio page, and other things I learned during the first week of course.
 
 - [x] [Set up the environment](./01-intro/Setup_environment.md)
   - [x] locally on Mac
@@ -22,12 +28,14 @@ Sep 2024 - Jan 2025
   - [x] Q6. Median value of Screen
   - [x] Q7. Sum of weights
 - [x] Learn in public 1: Setting up [Portfolio homepage](till.meineke.github.io) published on 23.09 [medium](https://medium.com/@till.meineke/how-to-setup-a-portfolio-page-on-github-io-3b951fc94f22)
-- [x] Learn in public 2: Setting up the environments published on 26.09 [medium](https://medium.com/@till.meineke/setting-up-the-environments-for-ml-zoomcamp-2024-eceb6e42e36e)
-- [ ] Learn in public 3: Setup macBook
-- [ ] Learn in public 4: Setup iTerm2
-- [ ] Learn in public 5: Setup VSCode
-- [ ] Learn in public 6: Organize the homework repository
-- [ ] Learn in public 7: `.dotfiles`?
+- [x] Learn in public 2: Setting up the environments - medium article published on 26.09 [medium](https://medium.com/@till.meineke/setting-up-the-environments-for-ml-zoomcamp-2024-eceb6e42e36e)
+- [x] Learn in public 3: Setting up the environments - LinkedIn post published on 26.09 [LinkedIn](https://www.linkedin.com/posts/tillmeineke_setting-up-the-environments-for-ml-zoomcamp-activity-7244840475675807745-ExVD?utm_source=share&utm_medium=member_desktop)
+- [x] Learn in public 4: weekly learning published on 30.09 [LinkedIn](https://www.linkedin.com/pulse/learning-ml-zoomcamp-week-1-introduction-till-meineke-k05mc)
+<!-- - [ ] Learn in public 5: Setup macBook
+- [ ] Learn in public 6: Setup iTerm2
+- [ ] Learn in public 7: Setup VSCode
+- [ ] Learn in public 8: Organize the homework repository
+- [ ] Learn in public 9: `.dotfiles`? -->
 
 ## [Homework 2: Machine Learning for regression](./02-regression/homework_02_till_meineke.ipynb) due 8 Oktober 2024 01:00
 

@@ -109,6 +109,8 @@ Is MPS available? True
 Using device: mps
 ```
 
+[How to use pyenv to manage Python versions](https://blog.teclado.com/how-to-use-pyenv-manage-python-versions/)
+
 [Managing Multiple Python Versions With pyenv](https://realpython.com/intro-to-pyenv/)
 
 [PyEnv: Managing Multiple Python Versions With Ease](https://python.land/virtual-environments/pyenv)
@@ -124,6 +126,8 @@ Using device: mps
 [Using Pipenv to Manage Python Packages and Versions](https://www.linode.com/docs/guides/manage-python-environments-pipenv/)
 
 [Managing Application Dependencies](https://packaging.python.org/en/latest/tutorials/managing-dependencies/)
+
+[Virtualenvs with Pyenv](https://medium.com/hackerculture/setting-up-python-3-11-and-virtualenvs-with-pyenv-47f480965e75)
 
 #### Python Package Managers
 To get an overview of the different package managers for Python, I created a table with the most important commands and differences. It is not complete (brew, venv and virtualenv are missing), but it should give you a good overview of the most important package managers and their commands.
@@ -162,6 +166,8 @@ Also I created an Ubuntu 24.04 x86_64 instance on AWS EC2 with a conda environme
 
 The video suggested installing Ubuntu 22.04, but I prefer to use the latest LTS version.
 
+The Python version installed with Ubuntu 24.04 is 3.12.5.
+
 Hopefully I will not run into problems with running code locally on Apple Silicon (arm64) and remotely on x86_64. But as pointed out in the video, I can create an arm64 instance on AWS as well.
 
 I'm wondering if there is a more convenient way to connect to the Jupyter server without copying the IP address manually into the `.ssh/config`. If you have any simple suggestion please let me know.
@@ -173,6 +179,3 @@ I try to create an `.dotfile`-repository with all my configurations and settings
 Last I have accounts for [kaggle](https://www.kaggle.com/ "kaggle") and [Google Colab](https://colab.research.google.com/ "Google Colab") for running notebooks in the cloud.
 
 With all these environments I should be well prepared for the course. For me the most exiting part was creating my first EC2 instance on AWS (it worked without a credit card here in germany).
-
-
-[](#python-package-managers)
