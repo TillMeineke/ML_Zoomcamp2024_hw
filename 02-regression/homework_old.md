@@ -1,66 +1,69 @@
-# Homework
+## Homework [DRAFT]
 
 > Note: sometimes your answer doesn't match one of
 > the options exactly. That's fine.
 > Select the option that's closest to your solution.
 
-## Dataset
+Solution: [homework.ipynb](homework.ipynb)
 
-In this homework, we will use the Laptops price dataset from [Kaggle](https://www.kaggle.com/datasets/juanmerinobermejo/laptops-price-dataset).
+### Dataset
 
-Here's a wget-able [link](https://raw.githubusercontent.com/alexeygrigorev/datasets/master/laptops.csv):
+In this homework, we will use the California Housing Prices from [Kaggle](https://www.kaggle.com/datasets/camnugent/california-housing-prices).
+
+Here's a wget-able [link](https://raw.githubusercontent.com/alexeygrigorev/datasets/master/housing.csv):
 
 ```bash
-wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/laptops.csv
+wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/housing.csv
 ```
 
-The goal of this homework is to create a regression model for predicting the prices (column `'Final Price'`).
-
-## Preparing the dataset
-
-First, we'll normalize the names of the columns:
-
-```python
-df.columns = df.columns.str.lower().str.replace(' ', '_')
-```
-
-Now, instead of `'Final Price'`, we have `'final_price'`.
-
-Next, use only the following columns:
-
-* `'ram'`,
-* `'storage'`,
-* `'screen'`,
-* `'final_price'`
+The goal of this homework is to create a regression model for predicting housing prices (column `'median_house_value'`).
 
 ### EDA
 
-* Look at the `final_price` variable. Does it have a long tail?
+* Load the data.
+* Look at the `median_house_value` variable. Does it have a long tail?
+
+### Preparing the dataset
+
+For this homework, we only want to use a subset of data.
+
+First, keep only the records where `ocean_proximity` is either `'<1H OCEAN'` or `'INLAND'`
+
+Next, use only the following columns:
+
+* `'latitude'`,
+* `'longitude'`,
+* `'housing_median_age'`,
+* `'total_rooms'`,
+* `'total_bedrooms'`,
+* `'population'`,
+* `'households'`,
+* `'median_income'`,
+* `'median_house_value'`
 
 ### Question 1
 
-There's one column with missing values. What is it?
+There's one feature with missing values. What is it?
 
-* `'ram'`
-* `'storage'`
-* `'screen'`
-* `'final_price'`
+* `total_rooms`
+* `total_bedrooms`
+* `population`
+* `households`
 
 ### Question 2
 
-What's the median (50% percentile) for variable `'ram'`?
+What's the median (50% percentile) for variable `'population'`?
 
-* 8
-* 16
-* 24
-* 32
+* 995
+* 1095
+* 1195
+* 1295
 
 ### Prepare and split the dataset
 
 * Shuffle the dataset (the filtered one you created above), use seed `42`.
 * Split your data in train/val/test sets, with 60%/20%/20% distribution.
-
-Use the same code as in the lectures
+* Apply the log transformation to the `median_house_value` variable using the `np.log1p()` function.
 
 ### Question 3
 
@@ -82,7 +85,7 @@ Options:
 
 * Now let's train a regularized linear regression.
 * For this question, fill the NAs with 0.
-* Try different values of `r` from this list: `[0, 0.01, 0.1, 1, 5, 10, 100]`.
+* Try different values of `r` from this list: `[0, 0.000001, 0.0001, 0.001, 0.01, 0.1, 1, 5, 10]`.
 * Use RMSE to evaluate the model on the validation dataset.
 * Round the RMSE scores to 2 decimal digits.
 * Which `r` gives the best RMSE?
@@ -92,10 +95,9 @@ If there are multiple options, select the smallest `r`.
 Options:
 
 * 0
-* 0.01
-* 1
-* 10
-* 100
+* 0.000001
+* 0.001
+* 0.0001
 
 ### Question 5
 
@@ -109,10 +111,10 @@ Options:
 
 What's the value of std?
 
-* 19.176
-* 29.176
-* 39.176
-* 49.176
+* 0.5
+* 0.05
+* 0.005
+* 0.0005
 
 > Note: Standard deviation shows how different the values are.
 > If it's low, then all values are approximately the same.
@@ -128,12 +130,12 @@ What's the value of std?
 
 Options:
 
-* 598.60
-* 608.60
-* 618.60
-* 628.60
+* 0.13
+* 0.23
+* 0.33
+* 0.43
 
 ## Submit the results
 
-* Submit your results here: <https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw02>
+* Submit your results here: TBA
 * If your answer doesn't match options exactly, select the closest one

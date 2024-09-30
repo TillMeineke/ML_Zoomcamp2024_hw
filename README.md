@@ -39,7 +39,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 ## [Homework 2: Machine Learning for regression](./02-regression/homework_02_till_meineke.ipynb) due 8 Oktober 2024 01:00
 
-- [ ] Finished the homework
+- [x] Finished the homework
 - [ ] Learn in public 1:
 - [ ] Learn in public 2: Predict the price of a house - e.g. boston dataset
 - [ ] Learn in public 3: [Student Performance Data Set](https://archive.ics.uci.edu/dataset/320/student+performance)
