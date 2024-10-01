@@ -12,6 +12,7 @@
   - prompt theme: [powerlevel10k](https://github.com/romkatv/powerlevel10k)
   - other plugins
 - other tools: `bat`, `eza`, `fzf`, `tree`, `boxes`, `figlet`, `toilet`, `tldr`, `cht.sh`
+- Keyboard shortcuts
 - fun: `cowsay`, `lolcat`, `fortune`, `sl`, `nyancat`, `cmatrix`, `pipes.sh`, `asciiquarium`, `bb`
 
 Pimp up your terminal to make life easier and more fun. You will even be more efficient and productive during the zoomcamp.
@@ -182,6 +183,7 @@ I use the following plugins:
 
 - `fzf`: fuzzy search
 
+## Keyboard shortcuts
 
 - Install
   - `btop`: a better `htop`

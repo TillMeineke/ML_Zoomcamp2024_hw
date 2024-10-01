@@ -41,7 +41,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 - [x] Finished the homework
 - [ ] Learn in public 1:
-- [ ] Learn in public 2: Predict the price of a house - e.g. boston dataset
+- [ ] Learn in public 2: [California housing dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html) - predict the price of a house
 - [ ] Learn in public 3: [Student Performance Data Set](https://archive.ics.uci.edu/dataset/320/student+performance)
 - [ ] Learn in public 4: [UCI ML datasets](https://archive.ics.uci.edu/datasets)
 - [ ] Learn in public 5: Default prediction - <https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients>
@@ -84,31 +84,31 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 ## [Homework 6: Decision Trees and Ensemble Learning]() due 5 November 2024 01:00
 
 - [ ] Finished the homework
-- [ ] Learn in public 1:
-- [ ] Learn in public 2:
-- [ ] Learn in public 3:
-- [ ] Learn in public 4:
-- [ ] Learn in public 5:
-- [ ] Learn in public 6:
-- [ ] Learn in public 7:
+- [ ] Learn in public 1: do EDA or feature engineering for this dataset to get more insights into the problem
+- [ ] Learn in public 2: For random forest, there are more parameters that we can tune. Check max_features and bootstrap.
+- [ ] Learn in public 3: Try ExtraTreesClassifier
+- [ ] Learn in public 4: Check if not filling NA's help improve performance (XGBoost).
+- [ ] Learn in public 5: Experiment with other XGBoost parameters: subsample and colsample_bytree.
+- [ ] Learn in public 6: When selecting the best split, decision trees find the most useful features. This information can be used for understanding which features are more important than others. See example here (?) for random forest (it's the same for plain decision trees) and for xgboost
+- [ ] Learn in public 7: using trees solving regression problems: check DecisionTreeRegressor, RandomForestRegressor and the objective=reg:squarederror parameter for XGBoost
 
 ## [Homework 8: Neural Networks and Deep Learning]() due 3 December 2024 01:00
 
 - [ ] Finished the homework
-- [ ] Learn in public 1:
-- [ ] Learn in public 2:
-- [ ] Learn in public 3:
-- [ ] Learn in public 4:
-- [ ] Learn in public 5:
-- [ ] Learn in public 6:
-- [ ] Learn in public 7:
+- [ ] Learn in public 1: Add more data, e.g, Zalando etc
+- [ ] Learn in public 2: Albumentations - another way of generating augmentations
+- [ ] Learn in public 3: Use PyTorch or MXNet instead of TensorFlow/Keras
+- [ ] Learn in public 4: In addition to Xception, there are others architectures - try them
+- [ ] Learn in public 5: Project: cats vs dogs
+- [ ] Learn in public 6: Project: Hotdog vs not hotdog
+- [ ] Learn in public 7: Project: Category of images
 
 ## [Homework 9: Serverless Deep Learning]() due 10 December 2024 01:00
 
 - [ ] Finished the homework
-- [ ] Learn in public 1:
-- [ ] Learn in public 2:
-- [ ] Learn in public 3:
+- [ ] Learn in public 1: Try similar serverless services from Google Cloud and Microsoft Azure
+- [ ] Learn in public 2: Deploy cats vs dogs and other Keras models with AWS Lambda
+- [ ] Learn in public 3: AWS Lambda is also good for other libraries, not just Tensorflow. You can deploy Scikit-Learn and XGBoost models with it as well
 - [ ] Learn in public 4:
 - [ ] Learn in public 5:
 - [ ] Learn in public 6:
@@ -117,13 +117,13 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 ## [Homework 10: Kubernetes and TensorFlow Serving]() due 17 December 2024 01:00
 
 - [ ] Finished the homework
-- [ ] Learn in public 1:
-- [ ] Learn in public 2:
-- [ ] Learn in public 3:
-- [ ] Learn in public 4:
-- [ ] Learn in public 5:
-- [ ] Learn in public 6:
-- [ ] Learn in public 7:
+- [ ] Learn in public 1: Other local Kubernetes: minikube, k3d, k3s, microk8s, EKS Anywhere
+- [ ] Learn in public 2: [Rancher desktop](https://rancherdesktop.io/)
+- [ ] Learn in public 3: [Docker desktop](https://www.docker.com/products/docker-desktop/)
+- [ ] Learn in public 4: [Lens](https://k8slens.dev/)
+- [ ] Learn in public 5: Many cloud providers have Kubernetes: GCP, Azure, Digital ocean and others. Look for "Managed Kubernetes" in your favourite search engine
+- [ ] Learn in public 6: Deploy the model from previous modules and from your project with Kubernetes
+- [ ] Learn in public 7: Learn about Kubernetes namespaces. Here we used the default namespace
 
 # Projects
 
