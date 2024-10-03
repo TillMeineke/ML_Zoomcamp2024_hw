@@ -1,0 +1,36 @@
+# Conda Environment Setup Instructions
+#  - Using an environment.yml file with conda
+#  - Key Terminal Commands:
+#
+#    conda env create -f environment.yml
+#    conda env update --file environment.yml --prune
+#    conda env export --name CreditRiskScoring > environment.yml
+#    conda env remove --name CreditRiskScoring
+#    conda env list
+
+name: CreditRiskScoring
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - gunicorn
+  - isort
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - pylint
+  - python=3.8.12
+  - requests
+  - ruff
+  - scikit-learn=0.24.2
+  - scipy
+  - seaborn
+  - tqdm
+  - flask
+  - xgboost
+  - pip:
+    - pipenv

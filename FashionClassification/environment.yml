@@ -1,0 +1,47 @@
+# Conda Environment Setup Instructions
+#  - Using an environment.yml file with conda
+#  - Key Terminal Commands:
+#
+#    conda env create -f environment.yml
+#    conda env update --file environment.yml --prune
+#    conda env export --name FashionClassification > environment.yml
+#    conda env remove --name FashionClassification
+#    conda env list
+
+name: FashionClassification
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - grpcio
+  - gunicorn
+  - isort
+  - iprogress
+  - ipywidgets
+  - ipykernel
+  - ipython
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - pipenv
+  - pylint
+  - python=3.11
+  - requests
+  - ruff
+  - scikit-learn
+  - scipy
+  - seaborn
+  - setuptools
+  - tensorflow=2.14
+  - tqdm
+  - flask
+  - xgboost
+  - pip:
+    - jupyter-client
+    - jupyter-core
+    - keras-image-helper
+    - tensorflow-metal==1.1.0
+    - tensorflow-serving-api==2.7.0

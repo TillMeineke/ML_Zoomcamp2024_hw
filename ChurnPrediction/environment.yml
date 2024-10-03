@@ -1,0 +1,35 @@
+# Conda Environment Setup Instructions
+#  - Using an environment.yml file with conda
+#  - Key Terminal Commands:
+#
+#    conda env create -f environment.yml
+#    conda env update --file environment.yml --prune
+#    conda env export --name ChurnPrediction > environment.yml
+#    conda env remove --name ChurnPrediction
+#    conda env list
+
+name: ChurnPrediction
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - gunicorn
+  - isort
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - pipenv
+  - pylint
+  - python=3.11.3
+  - requests
+  - ruff
+  - scikit-learn=1.5.2
+  - scipy
+  - seaborn
+  - tqdm
+  - flask
+#  - pip:
