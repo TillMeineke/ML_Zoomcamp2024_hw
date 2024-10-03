@@ -30,8 +30,8 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [x] Learn in public 1: Setting up [Portfolio homepage](till.meineke.github.io) published on 23.09 [medium](https://medium.com/@till.meineke/how-to-setup-a-portfolio-page-on-github-io-3b951fc94f22)
 - [x] Learn in public 2: Setting up the environments - medium article published on 26.09 [medium](https://medium.com/@till.meineke/setting-up-the-environments-for-ml-zoomcamp-2024-eceb6e42e36e)
 - [x] Learn in public 3: Setting up the environments - LinkedIn post published on 26.09 [LinkedIn](https://www.linkedin.com/posts/tillmeineke_setting-up-the-environments-for-ml-zoomcamp-activity-7244840475675807745-ExVD?utm_source=share&utm_medium=member_desktop)
-- [x] Learn in public 4: weekly learning published on 30.09 [LinkedIn](https://www.linkedin.com/pulse/learning-ml-zoomcamp-week-1-introduction-till-meineke-k05mc)
-<!-- - [ ] Learn in public 5: Setup macBook
+<!-- - [ ] Learn in public 4:
+- [ ] Learn in public 5: Setup macBook
 - [ ] Learn in public 6: Setup iTerm2
 - [ ] Learn in public 7: Setup VSCode
 - [ ] Learn in public 8: Organize the homework repository
@@ -40,7 +40,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 ## [Homework 2: Machine Learning for regression](./02-regression/homework_02_till_meineke.ipynb) due 8 Oktober 2024 01:00
 
 - [x] Finished the homework
-- [ ] Learn in public 1:
+- [x] Learn in public 1: weekly learning published on 30.09 [LinkedIn](https://www.linkedin.com/pulse/learning-ml-zoomcamp-week-1-introduction-till-meineke-k05mc)
 - [ ] Learn in public 2: [California housing dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html) - predict the price of a house
 - [ ] Learn in public 3: [Student Performance Data Set](https://archive.ics.uci.edu/dataset/320/student+performance)
 - [ ] Learn in public 4: [UCI ML datasets](https://archive.ics.uci.edu/datasets)
