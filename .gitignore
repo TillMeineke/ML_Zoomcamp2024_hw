@@ -135,5 +135,6 @@ dmypy.json
 .vscode
 
 # Data
-*/data/*.csv
-*/data/*.zip
+# */data/*.csv
+*/data/
+/FashionClassification/clothing-dataset-small
