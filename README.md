@@ -50,7 +50,8 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 ## [Homework 3: Machine Learning for Classification](./03-classification/homework_03_till_meineke.ipynb) due 15 Oktober 2024 01:00
 
-- [ ] Finished the homework
+- [x] Finished the homework
+  - [ ] Question 5 still open
 - [ ] Learn in public 1: exclude least useful features
 - [ ] Learn in public 2: scikit-learn in project of last week
 - [ ] Learn in public 3: use `LinearRegression` (not regularized) and `RidgeRegression` (regularized)
@@ -61,7 +62,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 ## [Homework 4: Evaluation Metrics for Classification]() due 22 Oktober 2024 01:00
 
-- [ ] Finished the homework
+- [x] Finished the homework
 - [ ] Learn in public 1: Check the precision and recall of the dummy classifier that always predict "FALSE"
 - [ ] Learn in public 2: F1 score = 2 P R / (P + R)
 - [ ] Learn in public 3: Evaluate precision and recall at different thresholds, plot P vs R - this way you'll get the precision/recall curve (similar to ROC curve)
