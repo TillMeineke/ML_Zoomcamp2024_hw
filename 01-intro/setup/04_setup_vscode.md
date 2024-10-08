@@ -40,3 +40,5 @@ color themes:
 - vscode-pdf
 
 [Support shell integration in oh-my-zsh and powerlevel10k](https://github.com/microsoft/vscode/issues/146587)
+
+## Snippets
