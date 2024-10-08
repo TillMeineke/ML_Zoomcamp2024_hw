@@ -138,5 +138,6 @@ dmypy.json
 */data/*.csv
 */data/*.zip
 */data/*.txt
+*/data/*.geojson
 # */data/
 # /FashionClassification/clothing-dataset-small
