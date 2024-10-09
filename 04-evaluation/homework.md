@@ -150,5 +150,5 @@ If you have ties, select the score with the lowest std. If you still have ties, 
 
 ## Submit the results
 
-* Submit your results here: https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw04
+* Submit your results here: <https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw04>
 * If your answer doesn't match options exactly, select the closest one
