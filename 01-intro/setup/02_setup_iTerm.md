@@ -47,6 +47,12 @@ brew update && brew outdated
 
 Standard shell in macOS is `zsh` in Ubuntu it is `bash`.
 
+Change shell to `zsh`:
+
+```sh
+chsh -s /bin/zsh -u $USER
+```
+
 ## Install [iterm2](https://iterm2.com/):
 
 iTerm2 is a powerful terminal emulator for macOS. It has a lot of features that make your life easier. You can install it with Homebrew:
@@ -161,7 +167,7 @@ Your Terminal will look like this:
 
 ### [other plugins for oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
 
-Check out other plugins for oh-my-zsh. You can install them with Homebrew or with `git clone` in the `~/.oh-my-zsh/custom/plugins` directory. Best read the documentation of the plugin first.
+Check out other plugins for oh-my-zsh. You can install them with Homebrew or with `git clone` in the `~/.oh-my-zsh/custom/plugins` directory. Best read the documentation of the plugin first. Don't forget to include them in your `.zshrc` file
 
 I use the following plugins:
 
