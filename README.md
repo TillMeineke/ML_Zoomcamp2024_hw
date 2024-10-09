@@ -41,11 +41,11 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 - [x] Finished the homework
 - [x] Learn in public 1: weekly learning published on 30.09 [LinkedIn](https://www.linkedin.com/pulse/learning-ml-zoomcamp-week-1-introduction-till-meineke-k05mc)
-- [ ] Learn in public 2: [California housing dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html) - predict the price of a house
+- [x] Learn in public 2: [California housing dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html) - predict the price of a house
 - [ ] Learn in public 3: [Student Performance Data Set](https://archive.ics.uci.edu/dataset/320/student+performance)
 - [ ] Learn in public 4: [UCI ML datasets](https://archive.ics.uci.edu/datasets)
 - [ ] Learn in public 5: Default prediction - <https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients>
-- [ ] Learn in public 6:
+- [x] Learn in public 6: Setup iTerm2
 - [ ] Learn in public 7:
 
 ## [Homework 3: Machine Learning for Classification](./03-classification/homework_03_till_meineke.ipynb) due 15 Oktober 2024 01:00
