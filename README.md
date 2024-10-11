@@ -19,17 +19,11 @@ Extra material in subfolder contains the setup of the environment, the portfolio
   - [x] Kaggle
   - [x] Colab
 - [x] Finished the homework
-  - [x] Q1. Pandas version
-  - [x] Getting data
-  - [x] Q2. Records count
-  - [x] Q3. Laptop brands
-  - [x] Q4. Missing values
-  - [x] Q5. Maximum final price
-  - [x] Q6. Median value of Screen
-  - [x] Q7. Sum of weights
-- [x] Learn in public 1: Setting up [Portfolio homepage](till.meineke.github.io) published on 23.09 [medium](https://medium.com/@till.meineke/how-to-setup-a-portfolio-page-on-github-io-3b951fc94f22)
-- [x] Learn in public 2: Setting up the environments - medium article published on 26.09 [medium](https://medium.com/@till.meineke/setting-up-the-environments-for-ml-zoomcamp-2024-eceb6e42e36e)
-- [x] Learn in public 3: Setting up the environments - LinkedIn post published on 26.09 [LinkedIn](https://www.linkedin.com/posts/tillmeineke_setting-up-the-environments-for-ml-zoomcamp-activity-7244840475675807745-ExVD?utm_source=share&utm_medium=member_desktop)
+  - Q7. Sum of weights was wrong
+- [x] Learn in public 1: Setting up [Portfolio homepage](till.meineke.github.io) [medium](https://medium.com/@till.meineke/how-to-setup-a-portfolio-page-on-github-io-3b951fc94f22)published on 23 September 2024
+- [x] Learn in public 2 & 3: Setting up the environments
+  - [x] [medium](https://medium.com/@till.meineke/setting-up-the-environments-for-ml-zoomcamp-2024-eceb6e42e36e) on 26 September 2024
+  - [x] [LinkedIn](https://www.linkedin.com/posts/tillmeineke_setting-up-the-environments-for-ml-zoomcamp-activity-7244840475675807745-ExVD?utm_source=share&utm_medium=member_desktop) on 26 September 2024
 <!-- - [ ] Learn in public 4:
 - [ ] Learn in public 5: Setup macBook
 - [ ] Learn in public 6: Setup iTerm2
@@ -37,21 +31,25 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Learn in public 8: Organize the homework repository
 - [ ] Learn in public 9: `.dotfiles`? -->
 
-## [Homework 2: Machine Learning for regression](./02-regression/homework_02_till_meineke.ipynb) due 8 Oktober 2024 01:00
+## [Homework 2: Machine Learning for regression](./02-regression/homework_02_till_meineke.ipynb) due 8 Oktober 2024 01:00, extended to 10 Oktober 2024 01:00
 
 - [x] Finished the homework
-- [x] Learn in public 1: weekly learning published on 30.09 [LinkedIn](https://www.linkedin.com/pulse/learning-ml-zoomcamp-week-1-introduction-till-meineke-k05mc)
-- [x] Learn in public 2: [California housing dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html) - predict the price of a house
-- [ ] Learn in public 3: [Student Performance Data Set](https://archive.ics.uci.edu/dataset/320/student+performance)
-- [ ] Learn in public 4: [UCI ML datasets](https://archive.ics.uci.edu/datasets)
-- [ ] Learn in public 5: Default prediction - <https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients>
-- [x] Learn in public 6: Setup iTerm2
-- [ ] Learn in public 7:
+- [x] Learn in public 1: weekly learning [LinkedIn](https://www.linkedin.com/pulse/learning-ml-zoomcamp-week-1-introduction-till-meineke-k05mc) on 30 September 2024
+- [x] Learn in public 2 & 3: [California housing dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html) -  EDA & predict the price of a house
+  - [x] [Slack](https://datatalks-club.slack.com/archives/C0288NJ5XSA/p1728512104462489) on 10 Oktober 2024
+  - [x] [linkedin](https://www.linkedin.com/pulse/eda-california-housing-dataset-till-meineke-pr3mf) on 9 Oktober 2024
+- [x] Learn in public 4 & 5: Setup iTerm2 for ML Zoomcamp
+  - [x] [medium.com](https://medium.com/@till.meineke/costumize-your-terminal-for-ml-zoomcamp-2024-b1530b6a6bf0) on 9 Oktober 2024
+  - [x] [linkedIn](https://www.linkedin.com/posts/tillmeineke_costumize-your-terminal-for-ml-zoomcamp-2024-activity-7249898785428963328-1rcC?utm_source=share&utm_medium=member_desktop) on 9 Oktober 2024
+- [x] Learn in public 6: Importance of cell order execution [Slack](https://datatalks-club.slack.com/archives/C0288NJ5XSA/p1728406911333039?thread_ts=1728406320.928139&cid=C0288NJ5XSA) on 8 Oktober 2024
+- [x] Learn in public 7: Nobel price for AI in Physiks and Chemistry [Slack](https://datatalks-club.slack.com/archives/C0288NJ5XSA/p1728473909631359?thread_ts=1728421282.172389&channel=C0288NJ5XSA&message_ts=1728473909.631359) on 9 Oktober 2024
+- [ ] Learn in public 8: [Student Performance Data Set](https://archive.ics.uci.edu/dataset/320/student+performance)
+- [ ] Learn in public 9: [UCI ML datasets](https://archive.ics.uci.edu/datasets)
+- [ ] Learn in public 10: [Default prediction](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients)
 
 ## [Homework 3: Machine Learning for Classification](./03-classification/homework_03_till_meineke.ipynb) due 15 Oktober 2024 01:00
 
 - [x] Finished the homework
-  - [ ] Question 5 still open
 - [ ] Learn in public 1: exclude least useful features
 - [ ] Learn in public 2: scikit-learn in project of last week
 - [ ] Learn in public 3: use `LinearRegression` (not regularized) and `RidgeRegression` (regularized)

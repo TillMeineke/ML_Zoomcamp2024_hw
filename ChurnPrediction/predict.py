@@ -9,7 +9,7 @@ from flask import jsonify
 
 # parameters
 
-MODEL_FILE = "./model_C=1.0.bin"
+MODEL_FILE = "./models/model_C=1.0.bin"
 
 # Load the model
 with open(MODEL_FILE, "rb") as f_in:
