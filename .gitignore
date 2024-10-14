@@ -141,3 +141,5 @@ dmypy.json
 */data/*.geojson
 # */data/
 # /FashionClassification/clothing-dataset-small
+
+/tool_tips_and_tricks/subs
