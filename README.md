@@ -1,8 +1,5 @@
 # Homework repository for [ML_Zoomcamp 2024](https://github.com/DataTalksClub/machine-learning-zoomcamp)
 
-[!NOTE]
-Hello, world!
-
 Sep 2024 - Jan 2025
 [Course management platform](https://courses.datatalks.club/ml-zoomcamp-2024/)
 
