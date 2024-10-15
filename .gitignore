@@ -83,6 +83,7 @@ ipython_config.py
 
 # pyenv
 #.python-version
+#.python-version
 
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
@@ -133,6 +134,7 @@ dmypy.json
 
 # vscode Stuff
 # .vscode
+!/01-intro/setup/.vscode/extensions.json
 
 # Data
 */data/*.csv
@@ -140,6 +142,6 @@ dmypy.json
 */data/*.txt
 */data/*.geojson
 # */data/
-# /FashionClassification/clothing-dataset-small
+/FashionClassification/clothing-dataset-small
 
 /tool_tips_and_tricks/subs
