@@ -131,8 +131,8 @@ dmypy.json
 # Mac Stuff
 .DS_Store
 
-# vscode Stuff
-# .vscode
+# vscode
+# .vscode/
 
 # Data
 */data/*.csv
@@ -140,6 +140,6 @@ dmypy.json
 */data/*.txt
 */data/*.geojson
 # */data/
-# /FashionClassification/clothing-dataset-small
+/FashionClassification/clothing-dataset-small
 
 /tool_tips_and_tricks/subs
