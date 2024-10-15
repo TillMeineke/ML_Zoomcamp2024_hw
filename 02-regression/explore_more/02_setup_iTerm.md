@@ -224,6 +224,12 @@ BUG:
 
 [OSC 133 support](https://github.com/romkatv/powerlevel10k/issues/1591)
 
-Not installed, but interesting
+## Not installed, but interesting
 
 [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
+
+## Have look later
+
+[Get the best out of the Macbook Touchbar with iTerm2](https://dev.to/yoanmalie/get-the-best-out-of-the-macbook-touchbar-with-iterm2-1001)
+
+[An iTerm2 Cheatsheet](https://gist.github.com/squarism/ae3613daf5c01a98ba3a)

@@ -20,6 +20,8 @@ color themes:
 
 ### Optional: Install additional extensions
 
+[The 30 Best VSCode Extensions You Need to Use in 2024](https://hackr.io/blog/best-vscode-extensions)
+
 - Better Comments
 - Code Runner
 - colorize
@@ -42,3 +44,11 @@ color themes:
 [Support shell integration in oh-my-zsh and powerlevel10k](https://github.com/microsoft/vscode/issues/146587)
 
 ## Snippets
+
+## more to explore
+
+[Nasc VSCode Touchbar](https://marketplace.visualstudio.com/items?itemName=felipe.nasc-touchbar)
+
+[How to customize the touch bar in visual studio code?](https://stackoverflow.com/questions/47060436/how-to-customize-the-touch-bar-in-visual-studio-code)
+
+[How to Configure the Touch Bar in Visual Studio Code in Under 5 Minutes ](https://dev.to/p42/how-to-configure-the-touch-bar-in-visual-studio-code-in-under-5-minutes-50lm)
