@@ -133,15 +133,14 @@ dmypy.json
 .DS_Store
 
 # vscode Stuff
-# .vscode
-!/01-intro/setup/.vscode/extensions.json
+.vscode
 
 # Data
 */data/*.csv
 */data/*.zip
 */data/*.txt
 */data/*.geojson
-# */data/
+*/data/
 /FashionClassification/clothing-dataset-small
 
 /tool_tips_and_tricks/subs
