@@ -135,6 +135,7 @@ dmypy.json
 # .vscode
 !/01-intro/setuo/.vscode/extensions.json
 
+
 # Data
 */data/*.csv
 */data/*.zip
