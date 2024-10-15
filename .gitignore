@@ -132,7 +132,7 @@ dmypy.json
 .DS_Store
 
 # vscode
-.vscode/
+# .vscode/
 
 # Data
 */data/*.csv
