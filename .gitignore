@@ -133,7 +133,8 @@ dmypy.json
 .DS_Store
 
 # vscode Stuff
-.vscode
+01-intro/setup/vscode
+!01-intro/setup/.vscode/extensions.json
 
 # Data
 */data/*.csv
