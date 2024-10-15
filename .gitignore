@@ -135,6 +135,7 @@ dmypy.json
 # vscode Stuff
 .vscode
 
+
 # Data
 */data/*.csv
 */data/*.zip
