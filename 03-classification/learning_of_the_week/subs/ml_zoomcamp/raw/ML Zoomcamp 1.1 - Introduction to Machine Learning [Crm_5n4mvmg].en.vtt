@@ -1,0 +1,2048 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:02.149 align:start position:0%
+ 
+hello<00:00:00.719><c> everyone</c>
+
+00:00:02.149 --> 00:00:02.159 align:start position:0%
+hello everyone
+ 
+
+00:00:02.159 --> 00:00:04.070 align:start position:0%
+hello everyone
+this<00:00:02.399><c> is</c><00:00:02.560><c> our</c><00:00:02.879><c> first</c><00:00:03.120><c> lesson</c><00:00:03.520><c> of</c><00:00:03.600><c> the</c><00:00:03.760><c> first</c>
+
+00:00:04.070 --> 00:00:04.080 align:start position:0%
+this is our first lesson of the first
+ 
+
+00:00:04.080 --> 00:00:06.230 align:start position:0%
+this is our first lesson of the first
+session<00:00:04.560><c> of</c><00:00:04.720><c> machine</c><00:00:05.040><c> learning</c><00:00:05.279><c> zoom</c><00:00:05.520><c> camp</c>
+
+00:00:06.230 --> 00:00:06.240 align:start position:0%
+session of machine learning zoom camp
+ 
+
+00:00:06.240 --> 00:00:09.110 align:start position:0%
+session of machine learning zoom camp
+and<00:00:06.399><c> in</c><00:00:06.560><c> this</c><00:00:07.040><c> lesson</c><00:00:07.359><c> we</c><00:00:07.520><c> will</c><00:00:07.919><c> introduce</c>
+
+00:00:09.110 --> 00:00:09.120 align:start position:0%
+and in this lesson we will introduce
+ 
+
+00:00:09.120 --> 00:00:11.749 align:start position:0%
+and in this lesson we will introduce
+machine<00:00:09.440><c> learning</c><00:00:10.240><c> using</c><00:00:10.480><c> a</c><00:00:10.559><c> simple</c><00:00:10.960><c> example</c>
+
+00:00:11.749 --> 00:00:11.759 align:start position:0%
+machine learning using a simple example
+ 
+
+00:00:11.759 --> 00:00:14.629 align:start position:0%
+machine learning using a simple example
+so<00:00:12.080><c> we</c><00:00:12.240><c> will</c><00:00:12.480><c> talk</c><00:00:12.719><c> about</c><00:00:13.440><c> predicting</c><00:00:14.320><c> the</c>
+
+00:00:14.629 --> 00:00:14.639 align:start position:0%
+so we will talk about predicting the
+ 
+
+00:00:14.639 --> 00:00:18.230 align:start position:0%
+so we will talk about predicting the
+price<00:00:14.880><c> of</c><00:00:15.040><c> a</c><00:00:15.120><c> car</c><00:00:16.320><c> and</c><00:00:16.560><c> imagine</c><00:00:17.199><c> we</c>
+
+00:00:18.230 --> 00:00:18.240 align:start position:0%
+price of a car and imagine we
+ 
+
+00:00:18.240 --> 00:00:20.310 align:start position:0%
+price of a car and imagine we
+are<00:00:18.480><c> riding</c><00:00:19.039><c> a</c>
+
+00:00:20.310 --> 00:00:20.320 align:start position:0%
+are riding a
+ 
+
+00:00:20.320 --> 00:00:21.990 align:start position:0%
+are riding a
+car<00:00:20.560><c> classifieds</c><00:00:21.119><c> website</c><00:00:21.600><c> this</c><00:00:21.840><c> is</c><00:00:21.920><c> a</c>
+
+00:00:21.990 --> 00:00:22.000 align:start position:0%
+car classifieds website this is a
+ 
+
+00:00:22.000 --> 00:00:23.509 align:start position:0%
+car classifieds website this is a
+website<00:00:22.720><c> where</c>
+
+00:00:23.509 --> 00:00:23.519 align:start position:0%
+website where
+ 
+
+00:00:23.519 --> 00:00:26.070 align:start position:0%
+website where
+you<00:00:24.080><c> go</c><00:00:24.480><c> if</c><00:00:24.640><c> you</c><00:00:24.720><c> want</c><00:00:24.960><c> to</c><00:00:25.039><c> sell</c><00:00:25.199><c> your</c><00:00:25.359><c> car</c><00:00:25.840><c> or</c>
+
+00:00:26.070 --> 00:00:26.080 align:start position:0%
+you go if you want to sell your car or
+ 
+
+00:00:26.080 --> 00:00:27.830 align:start position:0%
+you go if you want to sell your car or
+this<00:00:26.320><c> is</c><00:00:26.400><c> a</c><00:00:26.480><c> website</c><00:00:26.960><c> where</c><00:00:27.119><c> you</c><00:00:27.279><c> go</c><00:00:27.599><c> if</c><00:00:27.680><c> you</c>
+
+00:00:27.830 --> 00:00:27.840 align:start position:0%
+this is a website where you go if you
+ 
+
+00:00:27.840 --> 00:00:30.550 align:start position:0%
+this is a website where you go if you
+want<00:00:28.080><c> to</c><00:00:28.240><c> buy</c><00:00:28.560><c> a</c><00:00:28.720><c> used</c><00:00:29.039><c> car</c><00:00:29.760><c> so</c><00:00:29.920><c> for</c><00:00:30.080><c> example</c><00:00:30.400><c> i</c>
+
+00:00:30.550 --> 00:00:30.560 align:start position:0%
+want to buy a used car so for example i
+ 
+
+00:00:30.560 --> 00:00:33.190 align:start position:0%
+want to buy a used car so for example i
+work<00:00:30.800><c> at</c><00:00:30.880><c> twilight's</c><00:00:31.519><c> and</c><00:00:31.679><c> we</c><00:00:31.840><c> also</c><00:00:32.160><c> have</c><00:00:32.399><c> a</c>
+
+00:00:33.190 --> 00:00:33.200 align:start position:0%
+work at twilight's and we also have a
+ 
+
+00:00:33.200 --> 00:00:36.549 align:start position:0%
+work at twilight's and we also have a
+section<00:00:34.000><c> on</c><00:00:34.160><c> the</c><00:00:34.320><c> website</c><00:00:35.360><c> for</c>
+
+00:00:36.549 --> 00:00:36.559 align:start position:0%
+section on the website for
+ 
+
+00:00:36.559 --> 00:00:39.750 align:start position:0%
+section on the website for
+selling<00:00:36.960><c> cars</c><00:00:37.760><c> and</c><00:00:37.920><c> for</c><00:00:38.160><c> buying</c><00:00:38.399><c> cars</c><00:00:39.040><c> and</c>
+
+00:00:39.750 --> 00:00:39.760 align:start position:0%
+selling cars and for buying cars and
+ 
+
+00:00:39.760 --> 00:00:41.670 align:start position:0%
+selling cars and for buying cars and
+this<00:00:40.000><c> is</c><00:00:40.079><c> what</c><00:00:40.239><c> you</c><00:00:40.480><c> see</c><00:00:40.800><c> when</c><00:00:41.040><c> you</c><00:00:41.200><c> go</c><00:00:41.360><c> on</c>
+
+00:00:41.670 --> 00:00:41.680 align:start position:0%
+this is what you see when you go on
+ 
+
+00:00:41.680 --> 00:00:43.430 align:start position:0%
+this is what you see when you go on
+leagues<00:00:41.920><c> and</c><00:00:42.079><c> you</c><00:00:42.399><c> want</c><00:00:42.559><c> to</c><00:00:42.719><c> buy</c><00:00:42.800><c> a</c><00:00:42.879><c> car</c><00:00:43.200><c> you</c>
+
+00:00:43.430 --> 00:00:43.440 align:start position:0%
+leagues and you want to buy a car you
+ 
+
+00:00:43.440 --> 00:00:46.630 align:start position:0%
+leagues and you want to buy a car you
+see<00:00:43.600><c> different</c><00:00:44.000><c> cars</c><00:00:44.480><c> and</c><00:00:44.640><c> you</c><00:00:44.800><c> see</c><00:00:45.520><c> pictures</c>
+
+00:00:46.630 --> 00:00:46.640 align:start position:0%
+see different cars and you see pictures
+ 
+
+00:00:46.640 --> 00:00:48.470 align:start position:0%
+see different cars and you see pictures
+of<00:00:46.800><c> these</c><00:00:47.039><c> cars</c><00:00:47.440><c> you</c><00:00:47.600><c> see</c><00:00:47.840><c> prices</c><00:00:48.160><c> of</c><00:00:48.320><c> these</c>
+
+00:00:48.470 --> 00:00:48.480 align:start position:0%
+of these cars you see prices of these
+ 
+
+00:00:48.480 --> 00:00:50.549 align:start position:0%
+of these cars you see prices of these
+cars
+
+00:00:50.549 --> 00:00:50.559 align:start position:0%
+cars
+ 
+
+00:00:50.559 --> 00:00:51.670 align:start position:0%
+cars
+and
+
+00:00:51.670 --> 00:00:51.680 align:start position:0%
+and
+ 
+
+00:00:51.680 --> 00:00:54.229 align:start position:0%
+and
+imagine<00:00:52.079><c> that</c><00:00:52.320><c> there</c><00:00:52.480><c> is</c><00:00:53.120><c> a</c><00:00:53.280><c> person</c>
+
+00:00:54.229 --> 00:00:54.239 align:start position:0%
+imagine that there is a person
+ 
+
+00:00:54.239 --> 00:00:56.790 align:start position:0%
+imagine that there is a person
+who<00:00:54.399><c> wants</c><00:00:54.719><c> to</c><00:00:54.960><c> sell</c><00:00:55.360><c> a</c><00:00:55.520><c> car</c><00:00:55.840><c> they</c><00:00:56.079><c> do</c>
+
+00:00:56.790 --> 00:00:56.800 align:start position:0%
+who wants to sell a car they do
+ 
+
+00:00:56.800 --> 00:01:00.229 align:start position:0%
+who wants to sell a car they do
+is<00:00:56.960><c> they</c><00:00:57.280><c> take</c><00:00:57.520><c> a</c><00:00:57.600><c> picture</c>
+
+00:01:00.229 --> 00:01:00.239 align:start position:0%
+ 
+ 
+
+00:01:00.239 --> 00:01:01.510 align:start position:0%
+ 
+go<00:01:00.480><c> to</c>
+
+00:01:01.510 --> 00:01:01.520 align:start position:0%
+go to
+ 
+
+00:01:01.520 --> 00:01:03.029 align:start position:0%
+go to
+our<00:01:01.840><c> app</c>
+
+00:01:03.029 --> 00:01:03.039 align:start position:0%
+our app
+ 
+
+00:01:03.039 --> 00:01:05.910 align:start position:0%
+our app
+upload<00:01:03.440><c> the</c><00:01:03.600><c> picture</c><00:01:04.080><c> put</c><00:01:04.320><c> the</c><00:01:04.479><c> title</c><00:01:05.119><c> uh</c><00:01:05.680><c> put</c>
+
+00:01:05.910 --> 00:01:05.920 align:start position:0%
+upload the picture put the title uh put
+ 
+
+00:01:05.920 --> 00:01:07.750 align:start position:0%
+upload the picture put the title uh put
+all<00:01:06.000><c> the</c><00:01:06.159><c> description</c>
+
+00:01:07.750 --> 00:01:07.760 align:start position:0%
+all the description
+ 
+
+00:01:07.760 --> 00:01:09.750 align:start position:0%
+all the description
+and<00:01:07.920><c> then</c><00:01:08.560><c> they</c>
+
+00:01:09.750 --> 00:01:09.760 align:start position:0%
+and then they
+ 
+
+00:01:09.760 --> 00:01:10.710 align:start position:0%
+and then they
+reach
+
+00:01:10.710 --> 00:01:10.720 align:start position:0%
+reach
+ 
+
+00:01:10.720 --> 00:01:13.109 align:start position:0%
+reach
+this<00:01:10.960><c> price</c><00:01:11.360><c> field</c><00:01:11.760><c> so</c><00:01:12.000><c> they</c><00:01:12.320><c> they</c><00:01:12.479><c> need</c><00:01:12.640><c> to</c>
+
+00:01:13.109 --> 00:01:13.119 align:start position:0%
+this price field so they they need to
+ 
+
+00:01:13.119 --> 00:01:15.350 align:start position:0%
+this price field so they they need to
+put<00:01:13.280><c> the</c><00:01:13.439><c> price</c>
+
+00:01:15.350 --> 00:01:15.360 align:start position:0%
+put the price
+ 
+
+00:01:15.360 --> 00:01:17.190 align:start position:0%
+put the price
+and<00:01:15.520><c> this</c><00:01:15.759><c> is</c><00:01:15.840><c> difficult</c>
+
+00:01:17.190 --> 00:01:17.200 align:start position:0%
+and this is difficult
+ 
+
+00:01:17.200 --> 00:01:19.109 align:start position:0%
+and this is difficult
+you
+
+00:01:19.109 --> 00:01:19.119 align:start position:0%
+you
+ 
+
+00:01:19.119 --> 00:01:21.190 align:start position:0%
+you
+don't<00:01:19.439><c> want</c><00:01:19.600><c> to</c><00:01:19.759><c> put</c><00:01:20.240><c> a</c><00:01:20.400><c> price</c><00:01:20.720><c> that</c><00:01:20.880><c> is</c><00:01:21.040><c> too</c>
+
+00:01:21.190 --> 00:01:21.200 align:start position:0%
+don't want to put a price that is too
+ 
+
+00:01:21.200 --> 00:01:23.830 align:start position:0%
+don't want to put a price that is too
+high<00:01:21.759><c> because</c><00:01:22.159><c> nobody</c><00:01:22.479><c> will</c><00:01:22.640><c> buy</c><00:01:22.799><c> a</c><00:01:22.880><c> car</c><00:01:23.600><c> you</c>
+
+00:01:23.830 --> 00:01:23.840 align:start position:0%
+high because nobody will buy a car you
+ 
+
+00:01:23.840 --> 00:01:25.429 align:start position:0%
+high because nobody will buy a car you
+also<00:01:24.080><c> don't</c><00:01:24.240><c> want</c><00:01:24.479><c> to</c><00:01:24.560><c> put</c><00:01:24.799><c> a</c><00:01:24.880><c> price</c><00:01:25.119><c> that</c><00:01:25.360><c> is</c>
+
+00:01:25.429 --> 00:01:25.439 align:start position:0%
+also don't want to put a price that is
+ 
+
+00:01:25.439 --> 00:01:27.429 align:start position:0%
+also don't want to put a price that is
+too<00:01:25.600><c> low</c><00:01:26.320><c> because</c><00:01:26.640><c> in</c><00:01:26.799><c> this</c><00:01:26.960><c> case</c><00:01:27.280><c> you're</c>
+
+00:01:27.429 --> 00:01:27.439 align:start position:0%
+too low because in this case you're
+ 
+
+00:01:27.439 --> 00:01:29.590 align:start position:0%
+too low because in this case you're
+leaving<00:01:27.680><c> money</c><00:01:27.920><c> on</c><00:01:28.080><c> the</c><00:01:28.159><c> table</c><00:01:28.960><c> right</c><00:01:29.360><c> so</c>
+
+00:01:29.590 --> 00:01:29.600 align:start position:0%
+leaving money on the table right so
+ 
+
+00:01:29.600 --> 00:01:32.469 align:start position:0%
+leaving money on the table right so
+somebody<00:01:30.000><c> maybe</c><00:01:30.720><c> would</c><00:01:30.960><c> buy</c><00:01:31.680><c> a</c><00:01:32.000><c> car</c><00:01:32.240><c> for</c><00:01:32.400><c> a</c>
+
+00:01:32.469 --> 00:01:32.479 align:start position:0%
+somebody maybe would buy a car for a
+ 
+
+00:01:32.479 --> 00:01:35.670 align:start position:0%
+somebody maybe would buy a car for a
+higher<00:01:32.799><c> price</c><00:01:33.360><c> right</c><00:01:34.000><c> so</c><00:01:34.240><c> you</c><00:01:34.400><c> want</c><00:01:34.640><c> to</c><00:01:34.799><c> find</c><00:01:35.520><c> a</c>
+
+00:01:35.670 --> 00:01:35.680 align:start position:0%
+higher price right so you want to find a
+ 
+
+00:01:35.680 --> 00:01:37.990 align:start position:0%
+higher price right so you want to find a
+price<00:01:36.000><c> that</c><00:01:36.240><c> is</c><00:01:36.320><c> just</c><00:01:36.560><c> right</c><00:01:37.280><c> so</c>
+
+00:01:37.990 --> 00:01:38.000 align:start position:0%
+price that is just right so
+ 
+
+00:01:38.000 --> 00:01:39.749 align:start position:0%
+price that is just right so
+it's<00:01:38.400><c> it's</c><00:01:38.640><c> difficult</c><00:01:38.960><c> so</c><00:01:39.119><c> how</c><00:01:39.360><c> do</c><00:01:39.520><c> you</c><00:01:39.600><c> do</c>
+
+00:01:39.749 --> 00:01:39.759 align:start position:0%
+it's it's difficult so how do you do
+ 
+
+00:01:39.759 --> 00:01:40.710 align:start position:0%
+it's it's difficult so how do you do
+this
+
+00:01:40.710 --> 00:01:40.720 align:start position:0%
+this
+ 
+
+00:01:40.720 --> 00:01:43.030 align:start position:0%
+this
+um<00:01:41.200><c> so</c><00:01:41.360><c> what</c><00:01:41.600><c> some</c><00:01:41.920><c> people</c><00:01:42.240><c> do</c><00:01:42.479><c> is</c><00:01:42.560><c> they</c><00:01:42.720><c> go</c><00:01:42.960><c> on</c>
+
+00:01:43.030 --> 00:01:43.040 align:start position:0%
+um so what some people do is they go on
+ 
+
+00:01:43.040 --> 00:01:44.310 align:start position:0%
+um so what some people do is they go on
+the<00:01:43.200><c> website</c>
+
+00:01:44.310 --> 00:01:44.320 align:start position:0%
+the website
+ 
+
+00:01:44.320 --> 00:01:45.670 align:start position:0%
+the website
+uh
+
+00:01:45.670 --> 00:01:45.680 align:start position:0%
+uh
+ 
+
+00:01:45.680 --> 00:01:47.990 align:start position:0%
+uh
+they<00:01:45.840><c> look</c><00:01:46.079><c> at</c><00:01:46.399><c> existing</c><00:01:46.880><c> ads</c><00:01:47.360><c> and</c><00:01:47.600><c> they</c><00:01:47.840><c> try</c>
+
+00:01:47.990 --> 00:01:48.000 align:start position:0%
+they look at existing ads and they try
+ 
+
+00:01:48.000 --> 00:01:50.630 align:start position:0%
+they look at existing ads and they try
+to<00:01:48.159><c> do</c><00:01:48.240><c> some</c><00:01:48.479><c> analysis</c><00:01:48.960><c> to</c><00:01:49.040><c> understand</c><00:01:49.680><c> uh</c>
+
+00:01:50.630 --> 00:01:50.640 align:start position:0%
+to do some analysis to understand uh
+ 
+
+00:01:50.640 --> 00:01:52.630 align:start position:0%
+to do some analysis to understand uh
+how<00:01:51.119><c> exactly</c><00:01:51.600><c> they</c><00:01:51.840><c> should</c>
+
+00:01:52.630 --> 00:01:52.640 align:start position:0%
+how exactly they should
+ 
+
+00:01:52.640 --> 00:01:54.870 align:start position:0%
+how exactly they should
+select<00:01:53.040><c> the</c><00:01:53.119><c> price</c><00:01:53.360><c> table</c><00:01:53.680><c> with</c><00:01:53.840><c> similar</c><00:01:54.240><c> ads</c>
+
+00:01:54.870 --> 00:01:54.880 align:start position:0%
+select the price table with similar ads
+ 
+
+00:01:54.880 --> 00:01:56.709 align:start position:0%
+select the price table with similar ads
+and<00:01:55.040><c> based</c><00:01:55.360><c> on</c><00:01:55.520><c> that</c><00:01:55.920><c> he</c>
+
+00:01:56.709 --> 00:01:56.719 align:start position:0%
+and based on that he
+ 
+
+00:01:56.719 --> 00:01:59.109 align:start position:0%
+and based on that he
+select<00:01:57.119><c> the</c><00:01:57.280><c> price</c><00:01:57.600><c> that</c><00:01:57.759><c> works</c>
+
+00:01:59.109 --> 00:01:59.119 align:start position:0%
+select the price that works
+ 
+
+00:01:59.119 --> 00:02:01.429 align:start position:0%
+select the price that works
+that<00:01:59.360><c> probably</c><00:01:59.759><c> works</c>
+
+00:02:01.429 --> 00:02:01.439 align:start position:0%
+that probably works
+ 
+
+00:02:01.439 --> 00:02:03.429 align:start position:0%
+that probably works
+but<00:02:01.680><c> how</c><00:02:02.079><c> can</c><00:02:02.399><c> we</c>
+
+00:02:03.429 --> 00:02:03.439 align:start position:0%
+but how can we
+ 
+
+00:02:03.439 --> 00:02:06.550 align:start position:0%
+but how can we
+as<00:02:04.000><c> the</c><00:02:04.240><c> owners</c><00:02:04.560><c> of</c><00:02:04.640><c> this</c><00:02:05.119><c> website</c><00:02:06.079><c> help</c><00:02:06.399><c> the</c>
+
+00:02:06.550 --> 00:02:06.560 align:start position:0%
+as the owners of this website help the
+ 
+
+00:02:06.560 --> 00:02:07.429 align:start position:0%
+as the owners of this website help the
+user
+
+00:02:07.429 --> 00:02:07.439 align:start position:0%
+user
+ 
+
+00:02:07.439 --> 00:02:09.430 align:start position:0%
+user
+select<00:02:07.840><c> the</c><00:02:07.920><c> best</c><00:02:08.160><c> price</c>
+
+00:02:09.430 --> 00:02:09.440 align:start position:0%
+select the best price
+ 
+
+00:02:09.440 --> 00:02:11.910 align:start position:0%
+select the best price
+and<00:02:09.920><c> the</c><00:02:10.080><c> answer</c><00:02:10.479><c> is</c><00:02:11.039><c> we</c><00:02:11.200><c> can</c><00:02:11.360><c> use</c><00:02:11.599><c> machine</c>
+
+00:02:11.910 --> 00:02:11.920 align:start position:0%
+and the answer is we can use machine
+ 
+
+00:02:11.920 --> 00:02:14.869 align:start position:0%
+and the answer is we can use machine
+learning<00:02:12.720><c> so</c><00:02:13.440><c> let's</c><00:02:13.680><c> first</c><00:02:13.920><c> think</c><00:02:14.160><c> what</c><00:02:14.319><c> do</c><00:02:14.480><c> we</c>
+
+00:02:14.869 --> 00:02:14.879 align:start position:0%
+learning so let's first think what do we
+ 
+
+00:02:14.879 --> 00:02:17.350 align:start position:0%
+learning so let's first think what do we
+know<00:02:15.120><c> about</c><00:02:15.440><c> cars</c><00:02:15.760><c> already</c>
+
+00:02:17.350 --> 00:02:17.360 align:start position:0%
+know about cars already
+ 
+
+00:02:17.360 --> 00:02:19.430 align:start position:0%
+know about cars already
+so<00:02:17.599><c> we</c><00:02:17.760><c> know</c><00:02:18.000><c> the</c><00:02:18.080><c> price</c><00:02:18.400><c> of</c><00:02:18.480><c> these</c><00:02:18.720><c> cars</c><00:02:19.120><c> right</c>
+
+00:02:19.430 --> 00:02:19.440 align:start position:0%
+so we know the price of these cars right
+ 
+
+00:02:19.440 --> 00:02:21.750 align:start position:0%
+so we know the price of these cars right
+so<00:02:19.599><c> this</c><00:02:19.840><c> is</c><00:02:20.080><c> uh</c><00:02:20.720><c> this</c><00:02:20.879><c> is</c><00:02:20.959><c> what</c><00:02:21.200><c> users</c>
+
+00:02:21.750 --> 00:02:21.760 align:start position:0%
+so this is uh this is what users
+ 
+
+00:02:21.760 --> 00:02:25.430 align:start position:0%
+so this is uh this is what users
+actually<00:02:22.160><c> told</c><00:02:22.480><c> us</c><00:02:22.879><c> so</c><00:02:23.040><c> we</c><00:02:23.120><c> know</c><00:02:23.280><c> the</c><00:02:23.440><c> price</c>
+
+00:02:25.430 --> 00:02:25.440 align:start position:0%
+actually told us so we know the price
+ 
+
+00:02:25.440 --> 00:02:28.070 align:start position:0%
+actually told us so we know the price
+then<00:02:25.680><c> we</c><00:02:25.840><c> know</c><00:02:26.160><c> uh</c><00:02:26.640><c> age</c><00:02:26.879><c> of</c><00:02:27.040><c> a</c><00:02:27.120><c> car</c>
+
+00:02:28.070 --> 00:02:28.080 align:start position:0%
+then we know uh age of a car
+ 
+
+00:02:28.080 --> 00:02:31.190 align:start position:0%
+then we know uh age of a car
+so<00:02:28.319><c> we</c><00:02:28.480><c> know</c><00:02:28.720><c> when</c><00:02:28.959><c> a</c><00:02:29.120><c> car</c><00:02:29.360><c> was</c><00:02:29.520><c> manufactured</c>
+
+00:02:31.190 --> 00:02:31.200 align:start position:0%
+so we know when a car was manufactured
+ 
+
+00:02:31.200 --> 00:02:33.589 align:start position:0%
+so we know when a car was manufactured
+the<00:02:31.440><c> older</c><00:02:31.680><c> the</c><00:02:31.840><c> car</c><00:02:32.400><c> the</c><00:02:32.560><c> cheaper</c><00:02:32.959><c> it</c><00:02:33.120><c> is</c>
+
+00:02:33.589 --> 00:02:33.599 align:start position:0%
+the older the car the cheaper it is
+ 
+
+00:02:33.599 --> 00:02:35.670 align:start position:0%
+the older the car the cheaper it is
+right<00:02:34.319><c> then</c><00:02:34.480><c> we</c><00:02:34.640><c> also</c><00:02:34.959><c> know</c><00:02:35.360><c> uh</c><00:02:35.519><c> the</c>
+
+00:02:35.670 --> 00:02:35.680 align:start position:0%
+right then we also know uh the
+ 
+
+00:02:35.680 --> 00:02:38.309 align:start position:0%
+right then we also know uh the
+manufacturer<00:02:36.480><c> of</c><00:02:36.640><c> a</c><00:02:36.720><c> car</c><00:02:37.200><c> so</c><00:02:37.360><c> we</c><00:02:37.519><c> know</c><00:02:37.680><c> if</c>
+
+00:02:38.309 --> 00:02:38.319 align:start position:0%
+manufacturer of a car so we know if
+ 
+
+00:02:38.319 --> 00:02:40.790 align:start position:0%
+manufacturer of a car so we know if
+let's<00:02:38.560><c> say</c><00:02:38.800><c> if</c><00:02:38.959><c> it's</c><00:02:39.120><c> a</c><00:02:39.519><c> bmw</c>
+
+00:02:40.790 --> 00:02:40.800 align:start position:0%
+let's say if it's a bmw
+ 
+
+00:02:40.800 --> 00:02:42.150 align:start position:0%
+let's say if it's a bmw
+then<00:02:41.040><c> it's</c><00:02:41.120><c> more</c><00:02:41.360><c> expensive</c><00:02:41.840><c> than</c><00:02:42.080><c> a</c>
+
+00:02:42.150 --> 00:02:42.160 align:start position:0%
+then it's more expensive than a
+ 
+
+00:02:42.160 --> 00:02:44.150 align:start position:0%
+then it's more expensive than a
+volkswagen<00:02:42.879><c> for</c><00:02:43.040><c> example</c><00:02:43.440><c> right</c><00:02:43.680><c> so</c>
+
+00:02:44.150 --> 00:02:44.160 align:start position:0%
+volkswagen for example right so
+ 
+
+00:02:44.160 --> 00:02:46.229 align:start position:0%
+volkswagen for example right so
+manufacturer<00:02:45.120><c> who</c><00:02:45.360><c> made</c><00:02:45.519><c> the</c><00:02:45.680><c> car</c><00:02:46.000><c> also</c>
+
+00:02:46.229 --> 00:02:46.239 align:start position:0%
+manufacturer who made the car also
+ 
+
+00:02:46.239 --> 00:02:49.030 align:start position:0%
+manufacturer who made the car also
+influences<00:02:46.959><c> the</c><00:02:47.040><c> price</c><00:02:47.280><c> of</c><00:02:47.440><c> car</c>
+
+00:02:49.030 --> 00:02:49.040 align:start position:0%
+influences the price of car
+ 
+
+00:02:49.040 --> 00:02:50.949 align:start position:0%
+influences the price of car
+then<00:02:49.440><c> we</c><00:02:49.599><c> know</c><00:02:49.920><c> mileage</c>
+
+00:02:50.949 --> 00:02:50.959 align:start position:0%
+then we know mileage
+ 
+
+00:02:50.959 --> 00:02:52.309 align:start position:0%
+then we know mileage
+this<00:02:51.120><c> is</c><00:02:51.440><c> uh</c>
+
+00:02:52.309 --> 00:02:52.319 align:start position:0%
+this is uh
+ 
+
+00:02:52.319 --> 00:02:55.030 align:start position:0%
+this is uh
+uh<00:02:52.879><c> how</c><00:02:53.040><c> many</c><00:02:53.200><c> kilometers</c><00:02:53.760><c> the</c><00:02:53.920><c> car</c><00:02:54.319><c> drove</c><00:02:54.879><c> so</c>
+
+00:02:55.030 --> 00:02:55.040 align:start position:0%
+uh how many kilometers the car drove so
+ 
+
+00:02:55.040 --> 00:02:56.309 align:start position:0%
+uh how many kilometers the car drove so
+far
+
+00:02:56.309 --> 00:02:56.319 align:start position:0%
+far
+ 
+
+00:02:56.319 --> 00:02:59.190 align:start position:0%
+far
+then<00:02:56.720><c> um</c><00:02:57.440><c> yeah</c><00:02:57.680><c> we</c><00:02:58.000><c> have</c><00:02:58.400><c> all</c><00:02:58.640><c> these</c><00:02:58.879><c> kind</c><00:02:59.120><c> of</c>
+
+00:02:59.190 --> 00:02:59.200 align:start position:0%
+then um yeah we have all these kind of
+ 
+
+00:02:59.200 --> 00:03:01.350 align:start position:0%
+then um yeah we have all these kind of
+things<00:02:59.599><c> that</c><00:02:59.760><c> we</c><00:02:59.920><c> know</c><00:03:00.319><c> uh</c><00:03:00.560><c> about</c><00:03:00.800><c> the</c><00:03:00.959><c> car</c>
+
+00:03:01.350 --> 00:03:01.360 align:start position:0%
+things that we know uh about the car
+ 
+
+00:03:01.360 --> 00:03:02.390 align:start position:0%
+things that we know uh about the car
+right<00:03:01.599><c> so</c>
+
+00:03:02.390 --> 00:03:02.400 align:start position:0%
+right so
+ 
+
+00:03:02.400 --> 00:03:04.390 align:start position:0%
+right so
+also<00:03:03.120><c> model</c>
+
+00:03:04.390 --> 00:03:04.400 align:start position:0%
+also model
+ 
+
+00:03:04.400 --> 00:03:06.949 align:start position:0%
+also model
+um<00:03:05.040><c> number</c><00:03:05.280><c> of</c><00:03:05.440><c> doors</c><00:03:05.920><c> and</c>
+
+00:03:06.949 --> 00:03:06.959 align:start position:0%
+um number of doors and
+ 
+
+00:03:06.959 --> 00:03:10.550 align:start position:0%
+um number of doors and
+everything<00:03:07.360><c> else</c><00:03:07.599><c> right</c>
+
+00:03:10.550 --> 00:03:10.560 align:start position:0%
+ 
+ 
+
+00:03:10.560 --> 00:03:13.670 align:start position:0%
+ 
+and<00:03:10.959><c> usually</c><00:03:11.920><c> using</c><00:03:12.239><c> this</c><00:03:12.480><c> information</c>
+
+00:03:13.670 --> 00:03:13.680 align:start position:0%
+and usually using this information
+ 
+
+00:03:13.680 --> 00:03:15.750 align:start position:0%
+and usually using this information
+an<00:03:13.920><c> expert</c><00:03:14.319><c> can</c><00:03:14.480><c> determine</c><00:03:14.959><c> the</c><00:03:15.120><c> price</c><00:03:15.599><c> so</c>
+
+00:03:15.750 --> 00:03:15.760 align:start position:0%
+an expert can determine the price so
+ 
+
+00:03:15.760 --> 00:03:17.509 align:start position:0%
+an expert can determine the price so
+let's<00:03:16.000><c> say</c><00:03:16.159><c> if</c><00:03:16.319><c> you</c><00:03:16.400><c> want</c><00:03:16.560><c> to</c><00:03:16.720><c> sell</c><00:03:16.959><c> a</c><00:03:17.040><c> car</c>
+
+00:03:17.509 --> 00:03:17.519 align:start position:0%
+let's say if you want to sell a car
+ 
+
+00:03:17.519 --> 00:03:19.350 align:start position:0%
+let's say if you want to sell a car
+through<00:03:17.760><c> a</c><00:03:17.840><c> dealership</c><00:03:18.640><c> you</c><00:03:18.800><c> go</c><00:03:19.040><c> to</c><00:03:19.200><c> this</c>
+
+00:03:19.350 --> 00:03:19.360 align:start position:0%
+through a dealership you go to this
+ 
+
+00:03:19.360 --> 00:03:21.509 align:start position:0%
+through a dealership you go to this
+dealership<00:03:20.319><c> and</c><00:03:20.480><c> an</c><00:03:20.640><c> expert</c><00:03:21.040><c> looks</c><00:03:21.280><c> at</c><00:03:21.360><c> the</c>
+
+00:03:21.509 --> 00:03:21.519 align:start position:0%
+dealership and an expert looks at the
+ 
+
+00:03:21.519 --> 00:03:22.869 align:start position:0%
+dealership and an expert looks at the
+car
+
+00:03:22.869 --> 00:03:22.879 align:start position:0%
+car
+ 
+
+00:03:22.879 --> 00:03:25.910 align:start position:0%
+car
+and<00:03:23.120><c> then</c><00:03:23.680><c> knowing</c><00:03:24.480><c> the</c><00:03:24.720><c> year</c><00:03:25.440><c> the</c>
+
+00:03:25.910 --> 00:03:25.920 align:start position:0%
+and then knowing the year the
+ 
+
+00:03:25.920 --> 00:03:27.910 align:start position:0%
+and then knowing the year the
+manufacturer<00:03:26.879><c> mileage</c><00:03:27.440><c> and</c><00:03:27.599><c> all</c><00:03:27.680><c> these</c>
+
+00:03:27.910 --> 00:03:27.920 align:start position:0%
+manufacturer mileage and all these
+ 
+
+00:03:27.920 --> 00:03:30.390 align:start position:0%
+manufacturer mileage and all these
+things<00:03:28.480><c> an</c><00:03:28.720><c> expert</c><00:03:29.120><c> can</c><00:03:29.280><c> determine</c><00:03:29.840><c> how</c><00:03:30.080><c> much</c>
+
+00:03:30.390 --> 00:03:30.400 align:start position:0%
+things an expert can determine how much
+ 
+
+00:03:30.400 --> 00:03:33.110 align:start position:0%
+things an expert can determine how much
+this<00:03:31.040><c> car</c><00:03:31.360><c> costs</c><00:03:32.080><c> because</c><00:03:32.400><c> they</c><00:03:32.560><c> typically</c>
+
+00:03:33.110 --> 00:03:33.120 align:start position:0%
+this car costs because they typically
+ 
+
+00:03:33.120 --> 00:03:36.710 align:start position:0%
+this car costs because they typically
+know<00:03:33.599><c> how</c><00:03:34.159><c> much</c><00:03:34.480><c> similar</c><00:03:34.879><c> cars</c><00:03:35.440><c> cost</c><00:03:35.920><c> right</c><00:03:36.480><c> so</c>
+
+00:03:36.710 --> 00:03:36.720 align:start position:0%
+know how much similar cars cost right so
+ 
+
+00:03:36.720 --> 00:03:38.550 align:start position:0%
+know how much similar cars cost right so
+based<00:03:36.959><c> on</c><00:03:37.120><c> the</c><00:03:37.280><c> knowledge</c><00:03:38.159><c> they</c><00:03:38.319><c> can</c>
+
+00:03:38.550 --> 00:03:38.560 align:start position:0%
+based on the knowledge they can
+ 
+
+00:03:38.560 --> 00:03:40.630 align:start position:0%
+based on the knowledge they can
+determine<00:03:38.959><c> that</c><00:03:39.200><c> this</c><00:03:39.360><c> particular</c><00:03:39.920><c> car</c>
+
+00:03:40.630 --> 00:03:40.640 align:start position:0%
+determine that this particular car
+ 
+
+00:03:40.640 --> 00:03:43.589 align:start position:0%
+determine that this particular car
+that<00:03:40.799><c> was</c><00:03:40.959><c> manufactured</c><00:03:41.680><c> on</c><00:03:41.760><c> this</c><00:03:42.000><c> year</c>
+
+00:03:43.589 --> 00:03:43.599 align:start position:0%
+that was manufactured on this year
+ 
+
+00:03:43.599 --> 00:03:44.710 align:start position:0%
+that was manufactured on this year
+by
+
+00:03:44.710 --> 00:03:44.720 align:start position:0%
+by
+ 
+
+00:03:44.720 --> 00:03:47.110 align:start position:0%
+by
+this<00:03:44.959><c> company</c><00:03:45.680><c> with</c><00:03:45.840><c> this</c><00:03:46.159><c> mileage</c>
+
+00:03:47.110 --> 00:03:47.120 align:start position:0%
+this company with this mileage
+ 
+
+00:03:47.120 --> 00:03:49.990 align:start position:0%
+this company with this mileage
+usually<00:03:47.519><c> costs</c><00:03:48.000><c> that</c><00:03:48.239><c> much</c><00:03:48.879><c> right</c><00:03:49.040><c> so</c><00:03:49.280><c> expert</c>
+
+00:03:49.990 --> 00:03:50.000 align:start position:0%
+usually costs that much right so expert
+ 
+
+00:03:50.000 --> 00:03:52.949 align:start position:0%
+usually costs that much right so expert
+can<00:03:50.239><c> do</c><00:03:50.400><c> this</c><00:03:50.959><c> and</c><00:03:51.120><c> the</c><00:03:51.200><c> way</c><00:03:51.440><c> experts</c><00:03:51.920><c> do</c><00:03:52.080><c> this</c>
+
+00:03:52.949 --> 00:03:52.959 align:start position:0%
+can do this and the way experts do this
+ 
+
+00:03:52.959 --> 00:03:55.589 align:start position:0%
+can do this and the way experts do this
+is<00:03:53.680><c> they</c><00:03:53.920><c> learn</c><00:03:54.640><c> this</c><00:03:54.879><c> from</c><00:03:55.120><c> data</c><00:03:55.439><c> they</c>
+
+00:03:55.589 --> 00:03:55.599 align:start position:0%
+is they learn this from data they
+ 
+
+00:03:55.599 --> 00:03:57.830 align:start position:0%
+is they learn this from data they
+learned<00:03:55.920><c> it</c><00:03:56.080><c> from</c>
+
+00:03:57.830 --> 00:03:57.840 align:start position:0%
+learned it from
+ 
+
+00:03:57.840 --> 00:04:00.070 align:start position:0%
+learned it from
+looking<00:03:58.400><c> at</c><00:03:58.799><c> prices</c><00:03:59.200><c> of</c><00:03:59.360><c> our</c><00:03:59.840><c> other</c>
+
+00:04:00.070 --> 00:04:00.080 align:start position:0%
+looking at prices of our other
+ 
+
+00:04:00.080 --> 00:04:01.830 align:start position:0%
+looking at prices of our other
+dealerships<00:04:00.720><c> perhaps</c>
+
+00:04:01.830 --> 00:04:01.840 align:start position:0%
+dealerships perhaps
+ 
+
+00:04:01.840 --> 00:04:05.990 align:start position:0%
+dealerships perhaps
+so<00:04:02.000><c> they</c><00:04:02.239><c> basically</c><00:04:02.720><c> needed</c><00:04:02.959><c> to</c><00:04:03.120><c> learn</c><00:04:03.360><c> a</c><00:04:03.439><c> lot</c>
+
+00:04:05.990 --> 00:04:06.000 align:start position:0%
+ 
+ 
+
+00:04:06.000 --> 00:04:07.670 align:start position:0%
+ 
+for<00:04:06.239><c> that</c><00:04:06.560><c> and</c><00:04:06.640><c> then</c><00:04:06.879><c> they</c><00:04:07.040><c> extracted</c><00:04:07.519><c> some</c>
+
+00:04:07.670 --> 00:04:07.680 align:start position:0%
+for that and then they extracted some
+ 
+
+00:04:07.680 --> 00:04:09.750 align:start position:0%
+for that and then they extracted some
+patterns<00:04:08.480><c> and</c>
+
+00:04:09.750 --> 00:04:09.760 align:start position:0%
+patterns and
+ 
+
+00:04:09.760 --> 00:04:12.470 align:start position:0%
+patterns and
+they<00:04:10.000><c> know</c><00:04:10.560><c> that</c><00:04:11.120><c> if</c><00:04:11.280><c> a</c><00:04:11.360><c> car</c><00:04:11.599><c> is</c><00:04:11.760><c> old</c><00:04:12.159><c> then</c><00:04:12.319><c> it's</c>
+
+00:04:12.470 --> 00:04:12.480 align:start position:0%
+they know that if a car is old then it's
+ 
+
+00:04:12.480 --> 00:04:14.390 align:start position:0%
+they know that if a car is old then it's
+less<00:04:12.720><c> expensive</c><00:04:13.360><c> and</c><00:04:13.439><c> the</c><00:04:13.599><c> more</c>
+
+00:04:14.390 --> 00:04:14.400 align:start position:0%
+less expensive and the more
+ 
+
+00:04:14.400 --> 00:04:17.110 align:start position:0%
+less expensive and the more
+uh<00:04:14.879><c> car</c><00:04:15.120><c> drove</c><00:04:15.920><c> the</c>
+
+00:04:17.110 --> 00:04:17.120 align:start position:0%
+uh car drove the
+ 
+
+00:04:17.120 --> 00:04:18.310 align:start position:0%
+uh car drove the
+um
+
+00:04:18.310 --> 00:04:18.320 align:start position:0%
+um
+ 
+
+00:04:18.320 --> 00:04:20.150 align:start position:0%
+um
+like<00:04:18.560><c> the</c><00:04:18.720><c> less</c><00:04:18.959><c> expensive</c><00:04:19.440><c> it</c><00:04:19.519><c> becomes</c><00:04:19.919><c> right</c>
+
+00:04:20.150 --> 00:04:20.160 align:start position:0%
+like the less expensive it becomes right
+ 
+
+00:04:20.160 --> 00:04:21.990 align:start position:0%
+like the less expensive it becomes right
+and<00:04:20.239><c> things</c><00:04:20.479><c> like</c><00:04:20.639><c> this</c><00:04:21.120><c> so</c><00:04:21.280><c> they</c><00:04:21.519><c> know</c><00:04:21.759><c> this</c>
+
+00:04:21.990 --> 00:04:22.000 align:start position:0%
+and things like this so they know this
+ 
+
+00:04:22.000 --> 00:04:23.909 align:start position:0%
+and things like this so they know this
+because<00:04:22.320><c> they</c><00:04:22.479><c> have</c><00:04:22.880><c> they</c><00:04:23.040><c> are</c><00:04:23.199><c> experts</c><00:04:23.840><c> in</c>
+
+00:04:23.909 --> 00:04:23.919 align:start position:0%
+because they have they are experts in
+ 
+
+00:04:23.919 --> 00:04:25.510 align:start position:0%
+because they have they are experts in
+this<00:04:24.160><c> area</c>
+
+00:04:25.510 --> 00:04:25.520 align:start position:0%
+this area
+ 
+
+00:04:25.520 --> 00:04:27.830 align:start position:0%
+this area
+and<00:04:25.759><c> if</c><00:04:25.919><c> an</c><00:04:26.080><c> expert</c><00:04:26.400><c> can</c><00:04:26.639><c> do</c><00:04:26.800><c> this</c><00:04:27.199><c> so</c><00:04:27.520><c> can</c><00:04:27.759><c> a</c>
+
+00:04:27.830 --> 00:04:27.840 align:start position:0%
+and if an expert can do this so can a
+ 
+
+00:04:27.840 --> 00:04:30.150 align:start position:0%
+and if an expert can do this so can a
+model<00:04:28.479><c> right</c>
+
+00:04:30.150 --> 00:04:30.160 align:start position:0%
+model right
+ 
+
+00:04:30.160 --> 00:04:31.749 align:start position:0%
+model right
+if<00:04:30.320><c> we</c><00:04:30.479><c> have</c><00:04:30.639><c> a</c><00:04:30.800><c> data</c><00:04:31.120><c> set</c><00:04:31.280><c> with</c><00:04:31.520><c> all</c><00:04:31.600><c> these</c>
+
+00:04:31.749 --> 00:04:31.759 align:start position:0%
+if we have a data set with all these
+ 
+
+00:04:31.759 --> 00:04:33.590 align:start position:0%
+if we have a data set with all these
+characteristics<00:04:32.479><c> of</c><00:04:32.639><c> a</c><00:04:32.720><c> car</c><00:04:33.040><c> and</c><00:04:33.120><c> through</c><00:04:33.440><c> the</c>
+
+00:04:33.590 --> 00:04:33.600 align:start position:0%
+characteristics of a car and through the
+ 
+
+00:04:33.600 --> 00:04:35.189 align:start position:0%
+characteristics of a car and through the
+prices
+
+00:04:35.189 --> 00:04:35.199 align:start position:0%
+prices
+ 
+
+00:04:35.199 --> 00:04:37.350 align:start position:0%
+prices
+we<00:04:35.360><c> can</c><00:04:36.000><c> take</c><00:04:36.160><c> a</c><00:04:36.240><c> machine</c><00:04:36.560><c> learning</c><00:04:36.800><c> algorithm</c>
+
+00:04:37.350 --> 00:04:37.360 align:start position:0%
+we can take a machine learning algorithm
+ 
+
+00:04:37.360 --> 00:04:39.110 align:start position:0%
+we can take a machine learning algorithm
+put<00:04:37.600><c> all</c><00:04:37.680><c> this</c><00:04:37.919><c> data</c><00:04:38.240><c> there</c>
+
+00:04:39.110 --> 00:04:39.120 align:start position:0%
+put all this data there
+ 
+
+00:04:39.120 --> 00:04:40.150 align:start position:0%
+put all this data there
+and
+
+00:04:40.150 --> 00:04:40.160 align:start position:0%
+and
+ 
+
+00:04:40.160 --> 00:04:42.070 align:start position:0%
+and
+model<00:04:40.560><c> will</c><00:04:40.800><c> learn</c><00:04:41.199><c> all</c><00:04:41.360><c> these</c><00:04:41.600><c> patterns</c>
+
+00:04:42.070 --> 00:04:42.080 align:start position:0%
+model will learn all these patterns
+ 
+
+00:04:42.080 --> 00:04:43.110 align:start position:0%
+model will learn all these patterns
+itself
+
+00:04:43.110 --> 00:04:43.120 align:start position:0%
+itself
+ 
+
+00:04:43.120 --> 00:04:44.629 align:start position:0%
+itself
+so<00:04:43.280><c> this</c><00:04:43.520><c> is</c><00:04:43.680><c> the</c><00:04:43.759><c> essence</c><00:04:44.160><c> of</c><00:04:44.320><c> machine</c>
+
+00:04:44.629 --> 00:04:44.639 align:start position:0%
+so this is the essence of machine
+ 
+
+00:04:44.639 --> 00:04:47.430 align:start position:0%
+so this is the essence of machine
+learning<00:04:45.040><c> so</c><00:04:45.280><c> we</c><00:04:45.520><c> take</c><00:04:45.840><c> data</c>
+
+00:04:47.430 --> 00:04:47.440 align:start position:0%
+learning so we take data
+ 
+
+00:04:47.440 --> 00:04:49.830 align:start position:0%
+learning so we take data
+and<00:04:48.080><c> the</c><00:04:48.240><c> model</c><00:04:48.639><c> extracts</c><00:04:49.120><c> patterns</c><00:04:49.520><c> from</c><00:04:49.759><c> the</c>
+
+00:04:49.830 --> 00:04:49.840 align:start position:0%
+and the model extracts patterns from the
+ 
+
+00:04:49.840 --> 00:04:50.870 align:start position:0%
+and the model extracts patterns from the
+data
+
+00:04:50.870 --> 00:04:50.880 align:start position:0%
+data
+ 
+
+00:04:50.880 --> 00:04:53.590 align:start position:0%
+data
+and<00:04:51.120><c> in</c><00:04:51.199><c> this</c><00:04:51.440><c> way</c>
+
+00:04:53.590 --> 00:04:53.600 align:start position:0%
+and in this way
+ 
+
+00:04:53.600 --> 00:04:55.670 align:start position:0%
+and in this way
+we<00:04:53.840><c> can</c><00:04:54.080><c> replicate</c><00:04:54.560><c> what</c><00:04:54.800><c> experts</c><00:04:55.280><c> learn</c><00:04:55.520><c> from</c>
+
+00:04:55.670 --> 00:04:55.680 align:start position:0%
+we can replicate what experts learn from
+ 
+
+00:04:55.680 --> 00:04:57.030 align:start position:0%
+we can replicate what experts learn from
+data<00:04:56.080><c> as</c><00:04:56.240><c> well</c>
+
+00:04:57.030 --> 00:04:57.040 align:start position:0%
+data as well
+ 
+
+00:04:57.040 --> 00:04:58.150 align:start position:0%
+data as well
+right
+
+00:04:58.150 --> 00:04:58.160 align:start position:0%
+right
+ 
+
+00:04:58.160 --> 00:05:00.469 align:start position:0%
+right
+the<00:04:58.320><c> information</c><00:04:58.800><c> we</c><00:04:58.960><c> know</c><00:04:59.199><c> about</c><00:04:59.520><c> the</c><00:04:59.759><c> cars</c>
+
+00:05:00.469 --> 00:05:00.479 align:start position:0%
+the information we know about the cars
+ 
+
+00:05:00.479 --> 00:05:03.110 align:start position:0%
+the information we know about the cars
+is<00:05:00.720><c> called</c><00:05:00.960><c> features</c><00:05:01.680><c> so</c><00:05:01.919><c> all</c><00:05:02.000><c> this</c><00:05:02.560><c> age</c>
+
+00:05:03.110 --> 00:05:03.120 align:start position:0%
+is called features so all this age
+ 
+
+00:05:03.120 --> 00:05:05.110 align:start position:0%
+is called features so all this age
+manufacturer<00:05:03.840><c> mileage</c><00:05:04.400><c> and</c><00:05:04.479><c> so</c><00:05:04.720><c> on</c><00:05:04.960><c> its</c>
+
+00:05:05.110 --> 00:05:05.120 align:start position:0%
+manufacturer mileage and so on its
+ 
+
+00:05:05.120 --> 00:05:06.790 align:start position:0%
+manufacturer mileage and so on its
+features<00:05:05.520><c> it's</c><00:05:05.759><c> everything</c><00:05:06.160><c> we</c><00:05:06.320><c> know</c><00:05:06.479><c> about</c>
+
+00:05:06.790 --> 00:05:06.800 align:start position:0%
+features it's everything we know about
+ 
+
+00:05:06.800 --> 00:05:08.390 align:start position:0%
+features it's everything we know about
+cars
+
+00:05:08.390 --> 00:05:08.400 align:start position:0%
+cars
+ 
+
+00:05:08.400 --> 00:05:10.710 align:start position:0%
+cars
+and<00:05:08.639><c> target</c><00:05:09.199><c> is</c><00:05:09.440><c> what</c><00:05:09.680><c> we</c><00:05:09.759><c> want</c><00:05:09.919><c> to</c><00:05:10.000><c> predict</c><00:05:10.560><c> so</c>
+
+00:05:10.710 --> 00:05:10.720 align:start position:0%
+and target is what we want to predict so
+ 
+
+00:05:10.720 --> 00:05:12.710 align:start position:0%
+and target is what we want to predict so
+this<00:05:10.960><c> is</c><00:05:11.039><c> what</c><00:05:11.520><c> we</c><00:05:11.759><c> want</c><00:05:12.080><c> our</c><00:05:12.240><c> model</c><00:05:12.560><c> to</c>
+
+00:05:12.710 --> 00:05:12.720 align:start position:0%
+this is what we want our model to
+ 
+
+00:05:12.720 --> 00:05:15.590 align:start position:0%
+this is what we want our model to
+predict<00:05:13.680><c> just</c><00:05:13.919><c> looking</c><00:05:14.320><c> at</c><00:05:14.479><c> the</c><00:05:15.120><c> at</c><00:05:15.360><c> all</c><00:05:15.520><c> the</c>
+
+00:05:15.590 --> 00:05:15.600 align:start position:0%
+predict just looking at the at all the
+ 
+
+00:05:15.600 --> 00:05:17.590 align:start position:0%
+predict just looking at the at all the
+features<00:05:16.400><c> right</c><00:05:16.639><c> so</c><00:05:16.800><c> this</c><00:05:17.039><c> is</c><00:05:17.120><c> what</c><00:05:17.360><c> we</c>
+
+00:05:17.590 --> 00:05:17.600 align:start position:0%
+features right so this is what we
+ 
+
+00:05:17.600 --> 00:05:19.430 align:start position:0%
+features right so this is what we
+interested<00:05:18.080><c> in</c>
+
+00:05:19.430 --> 00:05:19.440 align:start position:0%
+interested in
+ 
+
+00:05:19.440 --> 00:05:20.469 align:start position:0%
+interested in
+we<00:05:19.600><c> take</c>
+
+00:05:20.469 --> 00:05:20.479 align:start position:0%
+we take
+ 
+
+00:05:20.479 --> 00:05:22.830 align:start position:0%
+we take
+all<00:05:20.720><c> our</c><00:05:20.880><c> features</c><00:05:21.759><c> and</c>
+
+00:05:22.830 --> 00:05:22.840 align:start position:0%
+all our features and
+ 
+
+00:05:22.840 --> 00:05:26.469 align:start position:0%
+all our features and
+we<00:05:23.759><c> extract</c><00:05:24.320><c> them</c><00:05:24.880><c> for</c><00:05:25.199><c> all</c><00:05:25.360><c> the</c><00:05:25.520><c> cars</c><00:05:25.840><c> we</c><00:05:26.000><c> have</c>
+
+00:05:26.469 --> 00:05:26.479 align:start position:0%
+we extract them for all the cars we have
+ 
+
+00:05:26.479 --> 00:05:27.990 align:start position:0%
+we extract them for all the cars we have
+so<00:05:26.639><c> we</c><00:05:26.800><c> have</c><00:05:26.960><c> a</c><00:05:27.039><c> table</c>
+
+00:05:27.990 --> 00:05:28.000 align:start position:0%
+so we have a table
+ 
+
+00:05:28.000 --> 00:05:31.110 align:start position:0%
+so we have a table
+then<00:05:28.320><c> also</c><00:05:28.560><c> we</c><00:05:28.720><c> have</c><00:05:29.039><c> a</c><00:05:29.520><c> column</c><00:05:29.919><c> with</c><00:05:30.160><c> prices</c>
+
+00:05:31.110 --> 00:05:31.120 align:start position:0%
+then also we have a column with prices
+ 
+
+00:05:31.120 --> 00:05:32.950 align:start position:0%
+then also we have a column with prices
+and<00:05:31.280><c> what</c><00:05:31.440><c> we</c><00:05:31.600><c> do</c><00:05:31.759><c> next</c>
+
+00:05:32.950 --> 00:05:32.960 align:start position:0%
+and what we do next
+ 
+
+00:05:32.960 --> 00:05:35.350 align:start position:0%
+and what we do next
+is<00:05:33.680><c> we</c><00:05:33.840><c> take</c><00:05:34.080><c> the</c><00:05:34.160><c> features</c><00:05:34.560><c> the</c><00:05:34.639><c> target</c><00:05:35.199><c> and</c>
+
+00:05:35.350 --> 00:05:35.360 align:start position:0%
+is we take the features the target and
+ 
+
+00:05:35.360 --> 00:05:39.350 align:start position:0%
+is we take the features the target and
+trainer<00:05:35.759><c> model</c><00:05:36.320><c> so</c><00:05:36.560><c> a</c><00:05:36.840><c> model</c><00:05:38.080><c> he</c><00:05:38.639><c> contains</c><00:05:39.280><c> it</c>
+
+00:05:39.350 --> 00:05:39.360 align:start position:0%
+trainer model so a model he contains it
+ 
+
+00:05:39.360 --> 00:05:40.310 align:start position:0%
+trainer model so a model he contains it
+kind<00:05:39.600><c> of</c>
+
+00:05:40.310 --> 00:05:40.320 align:start position:0%
+kind of
+ 
+
+00:05:40.320 --> 00:05:42.710 align:start position:0%
+kind of
+encapsulates<00:05:41.199><c> all</c><00:05:41.440><c> the</c><00:05:41.600><c> patterns</c><00:05:42.240><c> it</c><00:05:42.400><c> learned</c>
+
+00:05:42.710 --> 00:05:42.720 align:start position:0%
+encapsulates all the patterns it learned
+ 
+
+00:05:42.720 --> 00:05:44.469 align:start position:0%
+encapsulates all the patterns it learned
+from<00:05:42.880><c> the</c><00:05:43.039><c> data</c>
+
+00:05:44.469 --> 00:05:44.479 align:start position:0%
+from the data
+ 
+
+00:05:44.479 --> 00:05:46.950 align:start position:0%
+from the data
+and<00:05:44.560><c> then</c><00:05:44.960><c> we</c><00:05:45.120><c> can</c><00:05:45.360><c> use</c><00:05:45.600><c> this</c><00:05:45.840><c> model</c><00:05:46.560><c> to</c><00:05:46.720><c> make</c>
+
+00:05:46.950 --> 00:05:46.960 align:start position:0%
+and then we can use this model to make
+ 
+
+00:05:46.960 --> 00:05:49.270 align:start position:0%
+and then we can use this model to make
+predictions<00:05:47.759><c> for</c><00:05:48.000><c> prices</c><00:05:48.479><c> of</c><00:05:48.639><c> cars</c><00:05:48.880><c> for</c><00:05:49.039><c> which</c>
+
+00:05:49.270 --> 00:05:49.280 align:start position:0%
+predictions for prices of cars for which
+ 
+
+00:05:49.280 --> 00:05:52.469 align:start position:0%
+predictions for prices of cars for which
+we<00:05:49.520><c> don't</c><00:05:49.759><c> know</c><00:05:50.000><c> price</c><00:05:50.720><c> so</c><00:05:50.960><c> if</c><00:05:51.039><c> we</c><00:05:51.199><c> take</c><00:05:52.160><c> just</c>
+
+00:05:52.469 --> 00:05:52.479 align:start position:0%
+we don't know price so if we take just
+ 
+
+00:05:52.479 --> 00:05:54.469 align:start position:0%
+we don't know price so if we take just
+features<00:05:53.360><c> all</c><00:05:53.520><c> the</c><00:05:53.680><c> information</c><00:05:54.080><c> about</c><00:05:54.320><c> the</c>
+
+00:05:54.469 --> 00:05:54.479 align:start position:0%
+features all the information about the
+ 
+
+00:05:54.479 --> 00:05:57.510 align:start position:0%
+features all the information about the
+car<00:05:54.720><c> we</c><00:05:54.960><c> know</c><00:05:55.680><c> except</c><00:05:56.080><c> price</c><00:05:56.880><c> because</c><00:05:57.280><c> this</c><00:05:57.440><c> is</c>
+
+00:05:57.510 --> 00:05:57.520 align:start position:0%
+car we know except price because this is
+ 
+
+00:05:57.520 --> 00:05:59.590 align:start position:0%
+car we know except price because this is
+what<00:05:57.680><c> we</c><00:05:57.840><c> want</c><00:05:57.919><c> to</c><00:05:58.080><c> predict</c><00:05:58.880><c> we</c><00:05:59.039><c> take</c><00:05:59.280><c> all</c><00:05:59.360><c> this</c>
+
+00:05:59.590 --> 00:05:59.600 align:start position:0%
+what we want to predict we take all this
+ 
+
+00:05:59.600 --> 00:06:01.270 align:start position:0%
+what we want to predict we take all this
+information
+
+00:06:01.270 --> 00:06:01.280 align:start position:0%
+information
+ 
+
+00:06:01.280 --> 00:06:04.150 align:start position:0%
+information
+we<00:06:01.680><c> take</c><00:06:01.919><c> a</c><00:06:02.000><c> model</c><00:06:02.639><c> we</c><00:06:02.880><c> put</c><00:06:03.120><c> in</c>
+
+00:06:04.150 --> 00:06:04.160 align:start position:0%
+we take a model we put in
+ 
+
+00:06:04.160 --> 00:06:06.390 align:start position:0%
+we take a model we put in
+the<00:06:04.319><c> model</c><00:06:04.800><c> all</c><00:06:04.880><c> this</c><00:06:05.120><c> data</c><00:06:05.680><c> and</c><00:06:05.840><c> the</c><00:06:06.000><c> model</c>
+
+00:06:06.390 --> 00:06:06.400 align:start position:0%
+the model all this data and the model
+ 
+
+00:06:06.400 --> 00:06:07.670 align:start position:0%
+the model all this data and the model
+outputs
+
+00:06:07.670 --> 00:06:07.680 align:start position:0%
+outputs
+ 
+
+00:06:07.680 --> 00:06:10.150 align:start position:0%
+outputs
+the<00:06:07.919><c> prediction</c><00:06:08.400><c> the</c><00:06:08.560><c> price</c><00:06:09.120><c> right</c>
+
+00:06:10.150 --> 00:06:10.160 align:start position:0%
+the prediction the price right
+ 
+
+00:06:10.160 --> 00:06:13.510 align:start position:0%
+the prediction the price right
+and<00:06:10.400><c> if</c><00:06:10.479><c> we</c><00:06:10.639><c> see</c><00:06:11.039><c> um</c><00:06:11.360><c> so</c><00:06:11.520><c> the</c><00:06:11.680><c> model</c><00:06:12.080><c> is</c><00:06:12.160><c> not</c>
+
+00:06:13.510 --> 00:06:13.520 align:start position:0%
+and if we see um so the model is not
+ 
+
+00:06:13.520 --> 00:06:16.150 align:start position:0%
+and if we see um so the model is not
+always<00:06:13.919><c> able</c><00:06:14.319><c> to</c><00:06:14.560><c> correctly</c><00:06:15.120><c> predict</c><00:06:15.840><c> the</c>
+
+00:06:16.150 --> 00:06:16.160 align:start position:0%
+always able to correctly predict the
+ 
+
+00:06:16.160 --> 00:06:19.189 align:start position:0%
+always able to correctly predict the
+exact<00:06:16.560><c> price</c><00:06:16.800><c> of</c><00:06:17.039><c> a</c><00:06:17.120><c> very</c><00:06:17.440><c> specific</c><00:06:18.000><c> car</c>
+
+00:06:19.189 --> 00:06:19.199 align:start position:0%
+exact price of a very specific car
+ 
+
+00:06:19.199 --> 00:06:21.670 align:start position:0%
+exact price of a very specific car
+but<00:06:19.600><c> the</c><00:06:19.759><c> predictions</c><00:06:20.720><c> are</c><00:06:20.880><c> usually</c><00:06:21.280><c> correct</c>
+
+00:06:21.670 --> 00:06:21.680 align:start position:0%
+but the predictions are usually correct
+ 
+
+00:06:21.680 --> 00:06:24.710 align:start position:0%
+but the predictions are usually correct
+on<00:06:21.919><c> average</c><00:06:22.639><c> right</c><00:06:23.360><c> so</c><00:06:23.600><c> on</c><00:06:23.840><c> average</c><00:06:24.240><c> for</c><00:06:24.400><c> a</c><00:06:24.479><c> car</c>
+
+00:06:24.710 --> 00:06:24.720 align:start position:0%
+on average right so on average for a car
+ 
+
+00:06:24.720 --> 00:06:27.270 align:start position:0%
+on average right so on average for a car
+of<00:06:24.800><c> heat</c><00:06:25.120><c> this</c><00:06:25.360><c> year</c><00:06:26.080><c> of</c><00:06:26.160><c> this</c><00:06:26.400><c> manufacturer</c>
+
+00:06:27.270 --> 00:06:27.280 align:start position:0%
+of heat this year of this manufacturer
+ 
+
+00:06:27.280 --> 00:06:29.909 align:start position:0%
+of heat this year of this manufacturer
+with<00:06:27.680><c> this</c><00:06:28.000><c> mileage</c><00:06:28.800><c> this</c><00:06:28.960><c> is</c><00:06:29.120><c> on</c><00:06:29.360><c> average</c><00:06:29.680><c> how</c>
+
+00:06:29.909 --> 00:06:29.919 align:start position:0%
+with this mileage this is on average how
+ 
+
+00:06:29.919 --> 00:06:32.309 align:start position:0%
+with this mileage this is on average how
+much<00:06:30.240><c> this</c><00:06:30.479><c> car</c><00:06:30.800><c> costs</c><00:06:31.360><c> right</c><00:06:31.600><c> so</c><00:06:32.080><c> for</c><00:06:32.240><c> a</c>
+
+00:06:32.309 --> 00:06:32.319 align:start position:0%
+much this car costs right so for a
+ 
+
+00:06:32.319 --> 00:06:34.790 align:start position:0%
+much this car costs right so for a
+specific<00:06:32.720><c> car</c><00:06:32.960><c> it</c><00:06:33.120><c> might</c><00:06:33.280><c> not</c><00:06:33.440><c> be</c><00:06:33.600><c> correct</c>
+
+00:06:34.790 --> 00:06:34.800 align:start position:0%
+specific car it might not be correct
+ 
+
+00:06:34.800 --> 00:06:37.189 align:start position:0%
+specific car it might not be correct
+so<00:06:35.039><c> it</c><00:06:35.120><c> can</c><00:06:35.360><c> predict</c><00:06:35.840><c> smaller</c><00:06:36.720><c> value</c><00:06:37.039><c> or</c>
+
+00:06:37.189 --> 00:06:37.199 align:start position:0%
+so it can predict smaller value or
+ 
+
+00:06:37.199 --> 00:06:40.230 align:start position:0%
+so it can predict smaller value or
+higher<00:06:37.520><c> volume</c><00:06:38.400><c> but</c><00:06:38.639><c> on</c><00:06:38.880><c> average</c>
+
+00:06:40.230 --> 00:06:40.240 align:start position:0%
+higher volume but on average
+ 
+
+00:06:40.240 --> 00:06:41.189 align:start position:0%
+higher volume but on average
+it's
+
+00:06:41.189 --> 00:06:41.199 align:start position:0%
+it's
+ 
+
+00:06:41.199 --> 00:06:44.469 align:start position:0%
+it's
+more<00:06:41.360><c> or</c><00:06:41.520><c> less</c><00:06:41.759><c> correct</c>
+
+00:06:44.469 --> 00:06:44.479 align:start position:0%
+ 
+ 
+
+00:06:44.479 --> 00:06:46.469 align:start position:0%
+ 
+so<00:06:44.800><c> once</c><00:06:45.039><c> we</c><00:06:45.120><c> have</c><00:06:45.280><c> this</c><00:06:45.440><c> model</c>
+
+00:06:46.469 --> 00:06:46.479 align:start position:0%
+so once we have this model
+ 
+
+00:06:46.479 --> 00:06:49.430 align:start position:0%
+so once we have this model
+we<00:06:46.639><c> can</c><00:06:46.880><c> actually</c><00:06:47.280><c> use</c><00:06:47.919><c> it</c><00:06:48.160><c> to</c><00:06:48.319><c> help</c><00:06:48.560><c> our</c><00:06:48.800><c> user</c>
+
+00:06:49.430 --> 00:06:49.440 align:start position:0%
+we can actually use it to help our user
+ 
+
+00:06:49.440 --> 00:06:51.830 align:start position:0%
+we can actually use it to help our user
+if<00:06:49.599><c> we</c><00:06:50.240><c> again</c><00:06:50.560><c> talk</c><00:06:50.800><c> about</c><00:06:51.039><c> an</c><00:06:51.199><c> example</c><00:06:51.599><c> when</c>
+
+00:06:51.830 --> 00:06:51.840 align:start position:0%
+if we again talk about an example when
+ 
+
+00:06:51.840 --> 00:06:54.070 align:start position:0%
+if we again talk about an example when
+we<00:06:52.080><c> want</c><00:06:52.240><c> to</c><00:06:52.400><c> help</c><00:06:52.639><c> our</c><00:06:52.800><c> user</c><00:06:53.360><c> determine</c><00:06:53.919><c> the</c>
+
+00:06:54.070 --> 00:06:54.080 align:start position:0%
+we want to help our user determine the
+ 
+
+00:06:54.080 --> 00:06:56.550 align:start position:0%
+we want to help our user determine the
+price<00:06:54.319><c> of</c><00:06:54.479><c> a</c><00:06:54.560><c> car</c><00:06:54.880><c> so</c><00:06:55.039><c> the</c><00:06:55.199><c> user</c><00:06:55.919><c> puts</c><00:06:56.240><c> all</c><00:06:56.400><c> the</c>
+
+00:06:56.550 --> 00:06:56.560 align:start position:0%
+price of a car so the user puts all the
+ 
+
+00:06:56.560 --> 00:07:00.950 align:start position:0%
+price of a car so the user puts all the
+information<00:06:57.360><c> about</c><00:06:57.680><c> the</c><00:06:57.919><c> car</c><00:06:58.560><c> in</c><00:06:58.880><c> our</c><00:06:59.120><c> form</c><00:06:59.759><c> so</c>
+
+00:07:00.950 --> 00:07:00.960 align:start position:0%
+information about the car in our form so
+ 
+
+00:07:00.960 --> 00:07:03.350 align:start position:0%
+information about the car in our form so
+all<00:07:01.360><c> these</c><00:07:01.599><c> things</c><00:07:01.840><c> we</c><00:07:01.919><c> talked</c><00:07:02.160><c> about</c>
+
+00:07:03.350 --> 00:07:03.360 align:start position:0%
+all these things we talked about
+ 
+
+00:07:03.360 --> 00:07:05.510 align:start position:0%
+all these things we talked about
+then<00:07:03.520><c> we</c><00:07:03.680><c> can</c><00:07:03.840><c> extract</c><00:07:04.160><c> this</c><00:07:04.400><c> information</c><00:07:05.280><c> as</c>
+
+00:07:05.510 --> 00:07:05.520 align:start position:0%
+then we can extract this information as
+ 
+
+00:07:05.520 --> 00:07:08.790 align:start position:0%
+then we can extract this information as
+features<00:07:06.160><c> right</c><00:07:06.720><c> year</c><00:07:07.440><c> make</c><00:07:07.919><c> mileage</c><00:07:08.479><c> and</c><00:07:08.560><c> so</c>
+
+00:07:08.790 --> 00:07:08.800 align:start position:0%
+features right year make mileage and so
+ 
+
+00:07:08.800 --> 00:07:11.909 align:start position:0%
+features right year make mileage and so
+on<00:07:09.280><c> and</c><00:07:09.520><c> we</c><00:07:09.680><c> put</c><00:07:09.919><c> this</c><00:07:10.319><c> in</c><00:07:10.560><c> a</c><00:07:10.639><c> model</c>
+
+00:07:11.909 --> 00:07:11.919 align:start position:0%
+on and we put this in a model
+ 
+
+00:07:11.919 --> 00:07:14.950 align:start position:0%
+on and we put this in a model
+and<00:07:12.479><c> what</c><00:07:12.639><c> the</c><00:07:12.800><c> model</c><00:07:13.759><c> produces</c>
+
+00:07:14.950 --> 00:07:14.960 align:start position:0%
+and what the model produces
+ 
+
+00:07:14.960 --> 00:07:17.270 align:start position:0%
+and what the model produces
+is<00:07:15.199><c> the</c><00:07:15.360><c> price</c><00:07:16.080><c> so</c><00:07:16.479><c> and</c><00:07:16.720><c> we</c><00:07:16.960><c> take</c><00:07:17.120><c> the</c>
+
+00:07:17.270 --> 00:07:17.280 align:start position:0%
+is the price so and we take the
+ 
+
+00:07:17.280 --> 00:07:19.110 align:start position:0%
+is the price so and we take the
+predictions<00:07:17.759><c> of</c><00:07:17.919><c> a</c><00:07:18.000><c> model</c><00:07:18.319><c> the</c><00:07:18.479><c> output</c><00:07:18.880><c> of</c><00:07:18.960><c> the</c>
+
+00:07:19.110 --> 00:07:19.120 align:start position:0%
+predictions of a model the output of the
+ 
+
+00:07:19.120 --> 00:07:21.830 align:start position:0%
+predictions of a model the output of the
+model<00:07:19.759><c> and</c><00:07:20.000><c> put</c><00:07:20.240><c> it</c><00:07:20.400><c> in</c><00:07:20.560><c> the</c><00:07:20.720><c> form</c><00:07:21.440><c> and</c><00:07:21.599><c> this</c>
+
+00:07:21.830 --> 00:07:21.840 align:start position:0%
+model and put it in the form and this
+ 
+
+00:07:21.840 --> 00:07:24.230 align:start position:0%
+model and put it in the form and this
+way<00:07:22.000><c> we</c><00:07:22.160><c> help</c><00:07:22.400><c> the</c><00:07:22.560><c> user</c><00:07:23.039><c> so</c><00:07:23.280><c> the</c><00:07:23.440><c> user</c><00:07:24.080><c> is</c>
+
+00:07:24.230 --> 00:07:24.240 align:start position:0%
+way we help the user so the user is
+ 
+
+00:07:24.240 --> 00:07:26.790 align:start position:0%
+way we help the user so the user is
+happy<00:07:24.560><c> because</c><00:07:24.800><c> they</c><00:07:25.039><c> don't</c><00:07:25.280><c> need</c><00:07:25.599><c> to</c>
+
+00:07:26.790 --> 00:07:26.800 align:start position:0%
+happy because they don't need to
+ 
+
+00:07:26.800 --> 00:07:29.110 align:start position:0%
+happy because they don't need to
+go<00:07:27.039><c> through</c><00:07:27.280><c> this</c>
+
+00:07:29.110 --> 00:07:29.120 align:start position:0%
+go through this
+ 
+
+00:07:29.120 --> 00:07:31.670 align:start position:0%
+go through this
+procedure<00:07:29.840><c> of</c><00:07:30.560><c> trying</c><00:07:30.880><c> to</c><00:07:30.960><c> figure</c><00:07:31.280><c> out</c><00:07:31.520><c> what</c>
+
+00:07:31.670 --> 00:07:31.680 align:start position:0%
+procedure of trying to figure out what
+ 
+
+00:07:31.680 --> 00:07:33.110 align:start position:0%
+procedure of trying to figure out what
+is<00:07:31.840><c> the</c><00:07:31.919><c> right</c><00:07:32.160><c> price</c>
+
+00:07:33.110 --> 00:07:33.120 align:start position:0%
+is the right price
+ 
+
+00:07:33.120 --> 00:07:35.589 align:start position:0%
+is the right price
+to<00:07:33.360><c> help</c><00:07:33.680><c> them</c><00:07:34.000><c> and</c><00:07:34.240><c> if</c><00:07:34.400><c> they</c><00:07:34.560><c> want</c><00:07:34.880><c> they</c><00:07:35.039><c> can</c>
+
+00:07:35.589 --> 00:07:35.599 align:start position:0%
+to help them and if they want they can
+ 
+
+00:07:35.599 --> 00:07:38.469 align:start position:0%
+to help them and if they want they can
+adjust<00:07:36.000><c> the</c><00:07:36.080><c> price</c><00:07:36.479><c> put</c><00:07:36.720><c> it</c><00:07:36.880><c> higher</c><00:07:37.599><c> or</c><00:07:37.840><c> lower</c>
+
+00:07:38.469 --> 00:07:38.479 align:start position:0%
+adjust the price put it higher or lower
+ 
+
+00:07:38.479 --> 00:07:39.909 align:start position:0%
+adjust the price put it higher or lower
+depending<00:07:39.120><c> on</c>
+
+00:07:39.909 --> 00:07:39.919 align:start position:0%
+depending on
+ 
+
+00:07:39.919 --> 00:07:42.070 align:start position:0%
+depending on
+what<00:07:40.080><c> they</c><00:07:40.240><c> want</c><00:07:40.960><c> so</c><00:07:41.120><c> this</c><00:07:41.360><c> way</c><00:07:41.520><c> we</c><00:07:41.680><c> can</c><00:07:41.840><c> use</c>
+
+00:07:42.070 --> 00:07:42.080 align:start position:0%
+what they want so this way we can use
+ 
+
+00:07:42.080 --> 00:07:44.070 align:start position:0%
+what they want so this way we can use
+machine<00:07:42.400><c> learning</c><00:07:42.720><c> to</c><00:07:42.880><c> help</c><00:07:43.360><c> the</c><00:07:43.520><c> user</c>
+
+00:07:44.070 --> 00:07:44.080 align:start position:0%
+machine learning to help the user
+ 
+
+00:07:44.080 --> 00:07:46.150 align:start position:0%
+machine learning to help the user
+determine<00:07:44.639><c> the</c>
+
+00:07:46.150 --> 00:07:46.160 align:start position:0%
+determine the
+ 
+
+00:07:46.160 --> 00:07:49.189 align:start position:0%
+determine the
+best<00:07:46.479><c> price</c><00:07:46.879><c> of</c><00:07:47.039><c> the</c><00:07:47.199><c> car</c><00:07:47.680><c> right</c>
+
+00:07:49.189 --> 00:07:49.199 align:start position:0%
+best price of the car right
+ 
+
+00:07:49.199 --> 00:07:51.670 align:start position:0%
+best price of the car right
+and<00:07:49.360><c> in</c><00:07:49.520><c> summary</c><00:07:50.400><c> so</c><00:07:50.639><c> we</c><00:07:50.879><c> have</c><00:07:51.360><c> machine</c>
+
+00:07:51.670 --> 00:07:51.680 align:start position:0%
+and in summary so we have machine
+ 
+
+00:07:51.680 --> 00:07:52.629 align:start position:0%
+and in summary so we have machine
+learning
+
+00:07:52.629 --> 00:07:52.639 align:start position:0%
+learning
+ 
+
+00:07:52.639 --> 00:07:54.230 align:start position:0%
+learning
+and<00:07:52.800><c> machine</c><00:07:53.120><c> learning</c><00:07:53.440><c> is</c><00:07:53.599><c> a</c><00:07:53.680><c> process</c><00:07:54.080><c> of</c>
+
+00:07:54.230 --> 00:07:54.240 align:start position:0%
+and machine learning is a process of
+ 
+
+00:07:54.240 --> 00:07:57.670 align:start position:0%
+and machine learning is a process of
+extracting<00:07:55.039><c> patterns</c><00:07:55.520><c> from</c><00:07:55.680><c> data</c><00:07:56.560><c> and</c><00:07:56.800><c> data</c>
+
+00:07:57.670 --> 00:07:57.680 align:start position:0%
+extracting patterns from data and data
+ 
+
+00:07:57.680 --> 00:08:00.150 align:start position:0%
+extracting patterns from data and data
+is<00:07:57.919><c> usually</c><00:07:58.400><c> of</c><00:07:58.560><c> two</c><00:07:58.800><c> types</c><00:07:59.599><c> so</c><00:07:59.840><c> we</c><00:08:00.000><c> have</c>
+
+00:08:00.150 --> 00:08:00.160 align:start position:0%
+is usually of two types so we have
+ 
+
+00:08:00.160 --> 00:08:01.830 align:start position:0%
+is usually of two types so we have
+features<00:08:00.639><c> this</c><00:08:00.879><c> is</c><00:08:01.039><c> all</c><00:08:01.120><c> the</c><00:08:01.280><c> information</c>
+
+00:08:01.830 --> 00:08:01.840 align:start position:0%
+features this is all the information
+ 
+
+00:08:01.840 --> 00:08:04.710 align:start position:0%
+features this is all the information
+about<00:08:02.400><c> the</c><00:08:02.720><c> object</c>
+
+00:08:04.710 --> 00:08:04.720 align:start position:0%
+about the object
+ 
+
+00:08:04.720 --> 00:08:06.629 align:start position:0%
+about the object
+and<00:08:04.960><c> target</c><00:08:05.440><c> is</c><00:08:05.759><c> this</c><00:08:06.000><c> is</c><00:08:06.080><c> what</c><00:08:06.240><c> we</c><00:08:06.400><c> want</c><00:08:06.560><c> to</c>
+
+00:08:06.629 --> 00:08:06.639 align:start position:0%
+and target is this is what we want to
+ 
+
+00:08:06.639 --> 00:08:08.629 align:start position:0%
+and target is this is what we want to
+predict<00:08:07.039><c> about</c><00:08:07.280><c> the</c><00:08:07.440><c> object</c>
+
+00:08:08.629 --> 00:08:08.639 align:start position:0%
+predict about the object
+ 
+
+00:08:08.639 --> 00:08:11.029 align:start position:0%
+predict about the object
+and<00:08:09.120><c> output</c><00:08:09.680><c> is</c><00:08:09.919><c> uh</c><00:08:10.319><c> the</c><00:08:10.400><c> model</c><00:08:10.720><c> that</c><00:08:10.960><c> it</c>
+
+00:08:11.029 --> 00:08:11.039 align:start position:0%
+and output is uh the model that it
+ 
+
+00:08:11.039 --> 00:08:13.510 align:start position:0%
+and output is uh the model that it
+consistently<00:08:11.680><c> encapsulates</c><00:08:12.560><c> that</c><00:08:12.879><c> contains</c>
+
+00:08:13.510 --> 00:08:13.520 align:start position:0%
+consistently encapsulates that contains
+ 
+
+00:08:13.520 --> 00:08:15.029 align:start position:0%
+consistently encapsulates that contains
+all<00:08:13.680><c> these</c><00:08:13.840><c> patterns</c>
+
+00:08:15.029 --> 00:08:15.039 align:start position:0%
+all these patterns
+ 
+
+00:08:15.039 --> 00:08:18.390 align:start position:0%
+all these patterns
+right<00:08:15.360><c> in</c><00:08:15.759><c> the</c><00:08:16.160><c> example</c><00:08:16.639><c> we</c><00:08:17.120><c> talked</c><00:08:17.440><c> about</c><00:08:18.240><c> the</c>
+
+00:08:18.390 --> 00:08:18.400 align:start position:0%
+right in the example we talked about the
+ 
+
+00:08:18.400 --> 00:08:20.550 align:start position:0%
+right in the example we talked about the
+features<00:08:19.039><c> are</c><00:08:19.440><c> all</c><00:08:19.599><c> these</c><00:08:19.840><c> characteristics</c>
+
+00:08:20.550 --> 00:08:20.560 align:start position:0%
+features are all these characteristics
+ 
+
+00:08:20.560 --> 00:08:21.830 align:start position:0%
+features are all these characteristics
+of<00:08:20.720><c> a</c><00:08:20.800><c> car</c>
+
+00:08:21.830 --> 00:08:21.840 align:start position:0%
+of a car
+ 
+
+00:08:21.840 --> 00:08:23.830 align:start position:0%
+of a car
+and<00:08:22.000><c> the</c><00:08:22.160><c> target</c><00:08:22.479><c> variable</c><00:08:23.039><c> is</c><00:08:23.199><c> the</c><00:08:23.280><c> price</c><00:08:23.680><c> so</c>
+
+00:08:23.830 --> 00:08:23.840 align:start position:0%
+and the target variable is the price so
+ 
+
+00:08:23.840 --> 00:08:26.390 align:start position:0%
+and the target variable is the price so
+we<00:08:24.000><c> put</c><00:08:24.240><c> this</c><00:08:24.479><c> in</c><00:08:24.879><c> machine</c><00:08:25.199><c> learning</c><00:08:25.680><c> and</c><00:08:26.240><c> the</c>
+
+00:08:26.390 --> 00:08:26.400 align:start position:0%
+we put this in machine learning and the
+ 
+
+00:08:26.400 --> 00:08:27.830 align:start position:0%
+we put this in machine learning and the
+output<00:08:26.879><c> of</c><00:08:26.960><c> this</c>
+
+00:08:27.830 --> 00:08:27.840 align:start position:0%
+output of this
+ 
+
+00:08:27.840 --> 00:08:30.790 align:start position:0%
+output of this
+is<00:08:28.000><c> a</c><00:08:28.080><c> model</c><00:08:28.400><c> that</c><00:08:28.560><c> we</c><00:08:28.720><c> can</c><00:08:28.960><c> use</c><00:08:29.440><c> later</c>
+
+00:08:30.790 --> 00:08:30.800 align:start position:0%
+is a model that we can use later
+ 
+
+00:08:30.800 --> 00:08:32.550 align:start position:0%
+is a model that we can use later
+and<00:08:30.960><c> the</c><00:08:31.120><c> way</c><00:08:31.280><c> we</c><00:08:31.440><c> use</c><00:08:31.680><c> it</c><00:08:31.919><c> is</c><00:08:32.080><c> we</c><00:08:32.240><c> take</c><00:08:32.399><c> the</c>
+
+00:08:32.550 --> 00:08:32.560 align:start position:0%
+and the way we use it is we take the
+ 
+
+00:08:32.560 --> 00:08:35.110 align:start position:0%
+and the way we use it is we take the
+features<00:08:33.360><c> so</c><00:08:33.599><c> all</c><00:08:33.760><c> the</c><00:08:33.919><c> data</c><00:08:34.320><c> we</c>
+
+00:08:35.110 --> 00:08:35.120 align:start position:0%
+features so all the data we
+ 
+
+00:08:35.120 --> 00:08:37.269 align:start position:0%
+features so all the data we
+have<00:08:35.440><c> about</c><00:08:35.680><c> the</c><00:08:35.839><c> objects</c><00:08:36.800><c> without</c><00:08:37.200><c> the</c>
+
+00:08:37.269 --> 00:08:37.279 align:start position:0%
+have about the objects without the
+ 
+
+00:08:37.279 --> 00:08:39.269 align:start position:0%
+have about the objects without the
+target<00:08:37.599><c> variable</c><00:08:38.320><c> right</c>
+
+00:08:39.269 --> 00:08:39.279 align:start position:0%
+target variable right
+ 
+
+00:08:39.279 --> 00:08:41.750 align:start position:0%
+target variable right
+we<00:08:39.519><c> put</c><00:08:39.680><c> them</c><00:08:40.159><c> in</c><00:08:40.240><c> the</c><00:08:40.399><c> model</c><00:08:40.959><c> and</c><00:08:41.120><c> the</c><00:08:41.360><c> model</c>
+
+00:08:41.750 --> 00:08:41.760 align:start position:0%
+we put them in the model and the model
+ 
+
+00:08:41.760 --> 00:08:43.829 align:start position:0%
+we put them in the model and the model
+outputs<00:08:42.240><c> predictions</c><00:08:42.880><c> it</c><00:08:43.039><c> tries</c><00:08:43.279><c> to</c><00:08:43.440><c> predict</c>
+
+00:08:43.829 --> 00:08:43.839 align:start position:0%
+outputs predictions it tries to predict
+ 
+
+00:08:43.839 --> 00:08:44.470 align:start position:0%
+outputs predictions it tries to predict
+the
+
+00:08:44.470 --> 00:08:44.480 align:start position:0%
+the
+ 
+
+00:08:44.480 --> 00:08:47.269 align:start position:0%
+the
+target<00:08:44.800><c> variable</c><00:08:45.839><c> from</c><00:08:46.080><c> the</c><00:08:46.240><c> features</c><00:08:47.040><c> that</c>
+
+00:08:47.269 --> 00:08:47.279 align:start position:0%
+target variable from the features that
+ 
+
+00:08:47.279 --> 00:08:49.750 align:start position:0%
+target variable from the features that
+we<00:08:47.440><c> provide</c><00:08:48.160><c> and</c><00:08:48.399><c> in</c><00:08:48.560><c> our</c><00:08:48.720><c> example</c>
+
+00:08:49.750 --> 00:08:49.760 align:start position:0%
+we provide and in our example
+ 
+
+00:08:49.760 --> 00:08:52.389 align:start position:0%
+we provide and in our example
+we<00:08:50.399><c> took</c><00:08:50.720><c> the</c><00:08:50.959><c> information</c><00:08:51.519><c> about</c><00:08:51.760><c> the</c><00:08:51.920><c> car</c>
+
+00:08:52.389 --> 00:08:52.399 align:start position:0%
+we took the information about the car
+ 
+
+00:08:52.399 --> 00:08:54.710 align:start position:0%
+we took the information about the car
+here<00:08:52.800><c> make</c><00:08:53.040><c> mileage</c><00:08:53.680><c> on</c>
+
+00:08:54.710 --> 00:08:54.720 align:start position:0%
+here make mileage on
+ 
+
+00:08:54.720 --> 00:08:57.110 align:start position:0%
+here make mileage on
+and<00:08:55.519><c> we</c><00:08:55.680><c> put</c><00:08:55.920><c> this</c><00:08:56.080><c> in</c><00:08:56.240><c> the</c><00:08:56.399><c> model</c><00:08:56.800><c> and</c><00:08:56.959><c> the</c>
+
+00:08:57.110 --> 00:08:57.120 align:start position:0%
+and we put this in the model and the
+ 
+
+00:08:57.120 --> 00:08:59.190 align:start position:0%
+and we put this in the model and the
+model<00:08:57.760><c> produced</c>
+
+00:08:59.190 --> 00:08:59.200 align:start position:0%
+model produced
+ 
+
+00:08:59.200 --> 00:09:01.190 align:start position:0%
+model produced
+the<00:08:59.440><c> predictions</c><00:09:00.080><c> of</c><00:09:00.160><c> the</c><00:09:00.320><c> price</c><00:09:00.720><c> and</c><00:09:00.880><c> this</c><00:09:01.120><c> is</c>
+
+00:09:01.190 --> 00:09:01.200 align:start position:0%
+the predictions of the price and this is
+ 
+
+00:09:01.200 --> 00:09:02.470 align:start position:0%
+the predictions of the price and this is
+what<00:09:01.360><c> we</c><00:09:01.519><c> can</c><00:09:01.680><c> use</c>
+
+00:09:02.470 --> 00:09:02.480 align:start position:0%
+what we can use
+ 
+
+00:09:02.480 --> 00:09:04.150 align:start position:0%
+what we can use
+later<00:09:03.200><c> and</c>
+
+00:09:04.150 --> 00:09:04.160 align:start position:0%
+later and
+ 
+
+00:09:04.160 --> 00:09:07.750 align:start position:0%
+later and
+in<00:09:04.320><c> the</c><00:09:04.560><c> application</c><00:09:05.120><c> to</c><00:09:05.279><c> help</c><00:09:05.519><c> the</c><00:09:05.680><c> user</c><00:09:06.000><c> make</c>
+
+00:09:07.750 --> 00:09:07.760 align:start position:0%
+in the application to help the user make
+ 
+
+00:09:07.760 --> 00:09:10.150 align:start position:0%
+in the application to help the user make
+to<00:09:07.920><c> select</c><00:09:08.160><c> the</c><00:09:08.240><c> best</c><00:09:08.480><c> price</c>
+
+00:09:10.150 --> 00:09:10.160 align:start position:0%
+to select the best price
+ 
+
+00:09:10.160 --> 00:09:11.509 align:start position:0%
+to select the best price
+so<00:09:10.320><c> this</c><00:09:10.480><c> is</c><00:09:10.640><c> how</c><00:09:10.800><c> you</c><00:09:10.880><c> can</c><00:09:11.040><c> use</c><00:09:11.200><c> machine</c>
+
+00:09:11.509 --> 00:09:11.519 align:start position:0%
+so this is how you can use machine
+ 
+
+00:09:11.519 --> 00:09:14.150 align:start position:0%
+so this is how you can use machine
+learning<00:09:12.240><c> and</c><00:09:12.720><c> in</c><00:09:12.880><c> the</c><00:09:13.040><c> next</c><00:09:13.360><c> lesson</c><00:09:13.839><c> we</c><00:09:14.000><c> will</c>
+
+00:09:14.150 --> 00:09:14.160 align:start position:0%
+learning and in the next lesson we will
+ 
+
+00:09:14.160 --> 00:09:16.710 align:start position:0%
+learning and in the next lesson we will
+talk<00:09:14.399><c> about</c>
+
+00:09:16.710 --> 00:09:16.720 align:start position:0%
+talk about
+ 
+
+00:09:16.720 --> 00:09:18.790 align:start position:0%
+talk about
+we<00:09:16.880><c> will</c><00:09:17.040><c> compare</c><00:09:17.440><c> machine</c><00:09:17.760><c> learning</c><00:09:18.560><c> with</c>
+
+00:09:18.790 --> 00:09:18.800 align:start position:0%
+we will compare machine learning with
+ 
+
+00:09:18.800 --> 00:09:21.590 align:start position:0%
+we will compare machine learning with
+rule-based<00:09:19.360><c> systems</c><00:09:20.160><c> and</c><00:09:20.800><c> rule-based</c><00:09:21.200><c> system</c>
+
+00:09:21.590 --> 00:09:21.600 align:start position:0%
+rule-based systems and rule-based system
+ 
+
+00:09:21.600 --> 00:09:23.990 align:start position:0%
+rule-based systems and rule-based system
+is<00:09:21.839><c> like</c><00:09:22.080><c> a</c><00:09:22.160><c> more</c><00:09:22.399><c> traditional</c><00:09:23.040><c> way</c>
+
+00:09:23.990 --> 00:09:24.000 align:start position:0%
+is like a more traditional way
+ 
+
+00:09:24.000 --> 00:09:27.030 align:start position:0%
+is like a more traditional way
+of<00:09:24.240><c> making</c><00:09:24.560><c> predictions</c><00:09:25.360><c> and</c><00:09:25.760><c> we</c><00:09:26.000><c> will</c><00:09:26.399><c> uh</c>
+
+00:09:27.030 --> 00:09:27.040 align:start position:0%
+of making predictions and we will uh
+ 
+
+00:09:27.040 --> 00:09:29.990 align:start position:0%
+of making predictions and we will uh
+work<00:09:27.519><c> we</c><00:09:27.680><c> will</c><00:09:27.920><c> talk</c><00:09:28.160><c> about</c><00:09:28.480><c> a</c><00:09:28.640><c> spam</c><00:09:29.120><c> detection</c>
+
+00:09:29.990 --> 00:09:30.000 align:start position:0%
+work we will talk about a spam detection
+ 
+
+00:09:30.000 --> 00:09:32.230 align:start position:0%
+work we will talk about a spam detection
+system<00:09:30.720><c> and</c><00:09:30.959><c> we</c><00:09:31.120><c> will</c><00:09:31.440><c> illustrate</c><00:09:32.080><c> the</c>
+
+00:09:32.230 --> 00:09:32.240 align:start position:0%
+system and we will illustrate the
+ 
+
+00:09:32.240 --> 00:09:33.990 align:start position:0%
+system and we will illustrate the
+differences<00:09:32.880><c> between</c><00:09:33.200><c> machine</c><00:09:33.519><c> learning</c><00:09:33.839><c> and</c>
+
+00:09:33.990 --> 00:09:34.000 align:start position:0%
+differences between machine learning and
+ 
+
+00:09:34.000 --> 00:09:36.389 align:start position:0%
+differences between machine learning and
+rule-based<00:09:34.480><c> systems</c><00:09:35.200><c> on</c><00:09:35.360><c> that</c><00:09:35.600><c> example</c><00:09:36.160><c> so</c>
+
+00:09:36.389 --> 00:09:36.399 align:start position:0%
+rule-based systems on that example so
+ 
+
+00:09:36.399 --> 00:09:38.720 align:start position:0%
+rule-based systems on that example so
+stay<00:09:36.640><c> tuned</c>
+
