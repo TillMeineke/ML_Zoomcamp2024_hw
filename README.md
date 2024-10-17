@@ -44,7 +44,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 ## [Homework 3: Machine Learning for Classification](./03-classification/homework_03_till_meineke.ipynb) due 15 October 2024 01:00, extended to 17 October 2024 01:00
 
-- [x] Finished the homework (x/6)
+- [x] Finished the homework (4/6)
 - [x] Learn in public 1: weekly learning [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7251516995173568514-G2ok?utm_source=share&utm_medium=member_desktop) on 14 October 2024
 - [x] Learn in public 2, 3 & 4: Keep the pace
   - [x] [medium](https://medium.com/@till.meineke/how-to-keep-up-with-the-ml-zoomcamp-2024-2ba82fdf98db) on 14 October 2024
