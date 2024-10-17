@@ -1,0 +1,84 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+  // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+  // List of extensions which should be recommended for users of the ML Zoomcamp.
+  "recommendations": [
+    // basic extensions for Python / Jupyter
+    "donjayamanne.python-extension-pack",
+    "donjayamanne.python-environment-manager",
+    "KevinRose.vsc-python-indent",
+    "ms-python.debugpy",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter",
+    "njpwerner.autodocstring",
+    "VisualStudioExptTeam.vscodeintellicode",
+
+    // git/github
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "GitHub.codespaces",
+    "github.vscode-github-actions",
+    "GitHub.vscode-pull-request-github",
+    "huizhou.githd",
+    "mhutchie.git-graph",
+
+    // Colors, themes and highlighting
+    "aaron-bond.better-comments",
+    "cliffordfajardo.highlight-line-vscode",
+    "Gruntfuggly.todo-tree",
+    "kamikillerto.vscode-colorize",
+    "mechatroner.rainbow-csv",
+    "oderwat.indent-rainbow",
+    "PaulGomez.spacecamp",
+    "PKief.material-icon-theme",
+
+    // Markdown
+    "bierner.markdown-preview-github-styles",
+    "bierner.markdown-mermaid",
+    "DavidAnson.vscode-markdownlint",
+    "goessner.mdmath",
+    "wayou.vscode-todo-highlight",
+    "JayFiDev.markdown-touchbar",
+    "yahyabatulu.vscode-markdown-alert",
+    "yzane.markdown-pdf",
+    "yzhang.markdown-all-in-one",
+
+    // Docker and remote
+    "mikestead.dotenv",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-containers",
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "foxundermoon.shell-format",
+    "rangav.vscode-thunder-client",
+
+    // other file types
+    "DotJoshJohnson.xml",
+    "esbenp.prettier-vscode",
+    "inferrinizzard.prettier-sql-vscode",
+    "pomdtr.excalidraw-editor",
+    "tomoki1207.pdf",
+    "redhat.vscode-yaml",
+
+    // Coding assistance
+    "amedomary.touchbarvscode",
+    "christian-kohler.path-intellisense",
+    "EricSia.pythonsnippets3",
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "ms-python.black-formatter",
+    "ms-python.isort",
+    "ms-python.pylint",
+    "ms-toolsai.datawrangler",
+    "streetsidesoftware.code-spell-checker",
+
+    "formulahendry.code-runner",
+    "ms-vsliveshare.vsliveshare",
+  ],
+  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+  "unwantedRecommendations": []
+}
