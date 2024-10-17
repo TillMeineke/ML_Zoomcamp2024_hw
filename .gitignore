@@ -134,6 +134,7 @@ dmypy.json
 
 # vscode Stuff
 .vscode
+!/01-intro/setup/.vscode/extensions.json
 
 # Data
 */data/*.csv
@@ -143,4 +144,4 @@ dmypy.json
 */data/
 /FashionClassification/clothing-dataset-small
 
-/tool_tips_and_tricks/subs
+/tool_tips_tricks_books/subs
