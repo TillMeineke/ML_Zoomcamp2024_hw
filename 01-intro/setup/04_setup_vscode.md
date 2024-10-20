@@ -52,3 +52,10 @@ color themes:
 [How to customize the touch bar in visual studio code?](https://stackoverflow.com/questions/47060436/how-to-customize-the-touch-bar-in-visual-studio-code)
 
 [How to Configure the Touch Bar in Visual Studio Code in Under 5 Minutes ](https://dev.to/p42/how-to-configure-the-touch-bar-in-visual-studio-code-in-under-5-minutes-50lm)
+
+## useful links
+
+[Setup macOS for Development]
+
+[Setup macOS for Development
+]: https://dev.to/equiman/setup-macos-for-development-3kc2
