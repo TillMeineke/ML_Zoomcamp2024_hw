@@ -228,8 +228,14 @@ BUG:
 
 [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
 
-## Have look later
+## Have look later / usefull links
 
-[Get the best out of the Macbook Touchbar with iTerm2](https://dev.to/yoanmalie/get-the-best-out-of-the-macbook-touchbar-with-iterm2-1001)
+[Get the best out of the Macbook Touchbar with iTerm2]
 
-[An iTerm2 Cheatsheet](https://gist.github.com/squarism/ae3613daf5c01a98ba3a)
+[An iTerm2 Cheatsheet]
+
+[iTerm2 + Oh My Zsh! + Powerlevel10K best terminal combination for Geeks!]
+
+[Get the best out of the Macbook Touchbar with iTerm2]: https://dev.to/yoanmalie/get-the-best-out-of-the-macbook-touchbar-with-iterm2-1001
+[An iTerm2 Cheatsheet]: https://gist.github.com/squarism/ae3613daf5c01a98ba3a
+[iTerm2 + Oh My Zsh! + Powerlevel10K best terminal combination for Geeks!]: https://dev.to/equiman/iterm2--oh-my-zsh--powerlevel9k-best-terminal-combination-for-geeks-58l5

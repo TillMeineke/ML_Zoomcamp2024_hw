@@ -129,6 +129,8 @@ Using device: mps
 
 [Virtualenvs with Pyenv](https://medium.com/hackerculture/setting-up-python-3-11-and-virtualenvs-with-pyenv-47f480965e75)
 
+[Stop using Pip, use Poetry Instead!](https://nanthony007.medium.com/stop-using-pip-use-poetry-instead-db7164f4fc72)
+
 #### Python Package Managers
 To get an overview of the different package managers for Python, I created a table with the most important commands and differences. It is not complete (brew, venv and virtualenv are missing), but it should give you a good overview of the most important package managers and their commands.
 
