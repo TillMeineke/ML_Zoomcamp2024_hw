@@ -1,4 +1,4 @@
-# Setup MacBook with Apple Silicon (arm64) for data science
+# Setup MacBook with Apple Silicon (arm64) for ML Zoomcamp 2024
 
 I use a MacBook Pro 13" with Apple Silicon (arm64) and VSCode as my main editor. I use Conda as my environment manager and created a dedicated environment for the course. I also installed some additional software that I find useful.
 
