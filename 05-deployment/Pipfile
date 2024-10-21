@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 scikit-learn = "==1.5.2"
+flask = "*"
+gunicorn = "*"
 
 [dev-packages]
 
