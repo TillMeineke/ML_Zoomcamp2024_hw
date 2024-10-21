@@ -19,16 +19,16 @@ Extra material in subfolder contains the setup of the environment, the portfolio
   - [ ] on Azure
   - [x] Kaggle
   - [x] Colab
-- [x] Finished the homework (6/7)
+- [x] Finished the homework (scored 6/7)
   - Q7. Sum of weights was wrong
 - [x] Learn in public 1: Setting up [Portfolio homepage](till.meineke.github.io) [medium](https://medium.com/@till.meineke/how-to-setup-a-portfolio-page-on-github-io-3b951fc94f22) published on 23 September 2024
 - [x] Learn in public 2 & 3: Setting up the environments
   - [x] [medium](https://medium.com/@till.meineke/setting-up-the-environments-for-ml-zoomcamp-2024-eceb6e42e36e) on 26 September 2024
   - [x] [LinkedIn](https://www.linkedin.com/posts/tillmeineke_setting-up-the-environments-for-ml-zoomcamp-activity-7244840475675807745-ExVD?utm_source=share&utm_medium=member_desktop) on 26 September 2024
 
-## [Homework 2: Machine Learning for regression](./02-regression/homework_02_till_meineke.ipynb) due 8 October 2024 01:00, extended to 10 October 2024 01:00
+## [Homework 2: Machine Learning for Regression](./02-regression/homework_02_till_meineke.ipynb) due 8 October 2024 01:00, extended to 10 October 2024 01:00
 
-- [x] Finished the homework (6/6)
+- [x] Finished the homework (scored 6/6)
 - [x] Learn in public 1: weekly learning [LinkedIn](https://www.linkedin.com/pulse/learning-ml-zoomcamp-week-1-introduction-till-meineke-k05mc) on 30 September 2024
 - [x] Learn in public 2 & 3: Explore more [California housing dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html) - EDA & predict the price of a house
   - [x] [Slack](https://datatalks-club.slack.com/archives/C0288NJ5XSA/p1728512104462489) on 10 October 2024
@@ -39,12 +39,11 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [x] Learn in public 6: Importance of cell order execution [Slack](https://datatalks-club.slack.com/archives/C0288NJ5XSA/p1728406911333039?thread_ts=1728406320.928139&cid=C0288NJ5XSA) on 8 October 2024
 - [x] Learn in public 7: Nobel price for AI in physics and chemistry [Slack](https://datatalks-club.slack.com/archives/C0288NJ5XSA/p1728473909631359?thread_ts=1728421282.172389&channel=C0288NJ5XSA&message_ts=1728473909.631359) on 9 October 2024
 - [ ] Explore more: [Student Performance Data Set](https://archive.ics.uci.edu/dataset/320/student+performance)
-- [ ] Explore more: [UCI ML datasets](https://archive.ics.uci.edu/datasets)
-- [ ] Explore more: [Default prediction](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients)
+- [x] Explore more: [UCI ML datasets](https://archive.ics.uci.edu/datasets)
 
 ## [Homework 3: Machine Learning for Classification](./03-classification/homework_03_till_meineke.ipynb) due 15 October 2024 01:00, extended to 17 October 2024 01:00
 
-- [x] Finished the homework (5/6)
+- [x] Finished the homework (scored 5/6)
 - [x] Learn in public 1: weekly learning [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7251516995173568514-G2ok?utm_source=share&utm_medium=member_desktop) on 14 October 2024
 - [x] Learn in public 2, 3 & 4: Keep the pace
   - [x] [medium](https://medium.com/@till.meineke/how-to-keep-up-with-the-ml-zoomcamp-2024-2ba82fdf98db) on 14 October 2024
@@ -54,7 +53,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
   - [x] [medium](https://medium.com/@till.meineke/unlocking-the-power-of-ml-zoomcamp-a-subtitle-adventure-60aa7343d988) on 16 October 2024
   - [x] [linkedIn](https://www.linkedin.com/posts/tillmeineke_unlocking-the-power-of-ml-zoomcamp-a-subtitle-activity-7252423016293224448--Zhi?utm_source=share&utm_medium=member_desktop) on 16 October 2024
 - [x] Learn in public 7: Gemini is takeing project lead [Slack](https://datatalks-club.slack.com/archives/C0288NJ5XSA/p1729065197020029) on 16 October 2024
-- [ ] Explore more: exclude least useful features
+- [x] Explore more: exclude least useful features
 - [ ] Explore more: scikit-learn in project of last week
 - [ ] Explore more: use `LinearRegression` (not regularized) and `RidgeRegression` (regularized)
 - [ ] Explore more: Find the best regularization parameter for Ridge
@@ -62,10 +61,10 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Explore more: [Lead scoring](https://www.kaggle.com/ashydv/leads-dataset)
 - [ ] Explore more: [Default prediction](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients)
 
-## [Homework 4: Evaluation Metrics for Classification]() due 22 October 2024 01:00
+## [Homework 4: Evaluation Metrics for Classification](./04-evaluation/homework_04_till_meineke.ipynb) due 22 October 2024 01:00
 
 - [x] Finished the homework
-- [ ] Learn in public 1: weekly learning
+- [x] Learn in public 1: weekly learning [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7254050287621971968-E2Hw?utm_source=share&utm_medium=member_desktop) on 21 October 2024
 - [ ] Explore more: Check the precision and recall of the dummy classifier that always predict "FALSE"
 - [ ] Explore more: F1 score = 2 P R / (P + R)
 - [ ] Explore more: Evaluate precision and recall at different thresholds, plot P vs R - this way you'll get the precision/recall curve (similar to ROC curve)
