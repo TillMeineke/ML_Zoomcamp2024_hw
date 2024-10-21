@@ -1,4 +1,47 @@
-### [Visual Studio Code (VSCode)](https://code.visualstudio.com/docs/python/python-quick-start "VSCode Python Quick Start")
+# Working with Visual Studio Code for ML Zoomcamp 2024
+
+- [Working with Visual Studio Code for ML Zoomcamp 2024](#working-with-visual-studio-code-for-ml-zoomcamp-2024)
+  - [What is Visual Studio Code?](#what-is-visual-studio-code)
+  - [How do I install VS Code?](#how-do-i-install-vs-code)
+  - [How do I configure VS Code?](#how-do-i-configure-vs-code)
+  - [How do I install extensions for VS Code?](#how-do-i-install-extensions-for-vs-code)
+  - [How do I open VS Code from the terminal?](#how-do-i-open-vs-code-from-the-terminal)
+  - [How do I select a virtual environment in VS Code](#how-do-i-select-a-virtual-environment-in-vs-code)
+  - [How do I work with jupyter notebooks in VS Code?](#how-do-i-work-with-jupyter-notebooks-in-vs-code)
+  - [Optional: Install additional extensions](#optional-install-additional-extensions)
+  - [Snippets](#snippets)
+  - [more to explore](#more-to-explore)
+  - [useful links](#useful-links)
+
+In this article, I will try to answer the above questions to enhance your experience with Visual Studio Code during the [ML Zoomcamp 2024](https://github.com/DataTalksClub/machine-learning-zoomcamp):
+
+When working in Data Science and Machine Learning and throughout the ML Zoomcamp and also afterwards you will work a lot with jupyter notebooks. These are a fantastic tool to analyse and clean your data, visualise it and develop machine learning models. If you dont want to use your browser (with JupyterLab or Jupyter Notebook) to work with jupyter notebooks, you can also use an IDE, for example [Visual Studio Code (VSCode)](https://code.visualstudio.com/docs/python/python-quick-start "VSCode Python Quick Start").
+
+## What is Visual Studio Code?
+
+VS Code is a free IDE (integrated development environment), which is available for macOS, Linux and Windows. An IDE is like a toolbox especially designed for software development. VS Code is a powerful source code editor, that supports many different programming languages with additional features like a debugger and compiler, syntax highlighting, code spell checking, linting and formatting, and much more. It has a rich marketplace for extensions and can also be used to create and execute jupyter notebooks. With and IDE like VS Code, you can seamlessly work on jupyter notebooks for analysing your data and developing ML models and also create Python scripts, that are later used for deployment.
+
+## How do I install VS Code?
+
+## How do I configure VS Code?
+
+
+
+## How do I install extensions for VS Code?
+
+
+
+## How do I open VS Code from the terminal?
+
+
+
+## How do I select a virtual environment in VS Code
+
+
+
+## How do I work with jupyter notebooks in VS Code?
+
+
 
 Next to setup VSCode, I installed the following VSCode extensions:
 
@@ -18,7 +61,7 @@ Next to setup VSCode, I installed the following VSCode extensions:
 color themes:
 - [SpaceCamp](https://github.com/dinogomez/SpaceCamp)
 
-### Optional: Install additional extensions
+## Optional: Install additional extensions
 
 [The 30 Best VSCode Extensions You Need to Use in 2024](https://hackr.io/blog/best-vscode-extensions)
 

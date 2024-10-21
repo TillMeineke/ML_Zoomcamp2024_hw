@@ -65,6 +65,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 - [x] Finished the homework
 - [x] Learn in public 1: weekly learning [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7254050287621971968-E2Hw?utm_source=share&utm_medium=member_desktop) on 21 October 2024
+- [x] Learn in public 2: help with MacBook [telegram](https://t.me/mlzoomcamp/156?comment=1642) on 21 October
 - [ ] Explore more: Check the precision and recall of the dummy classifier that always predict "FALSE"
 - [ ] Explore more: F1 score = 2 P R / (P + R)
 - [ ] Explore more: Evaluate precision and recall at different thresholds, plot P vs R - this way you'll get the precision/recall curve (similar to ROC curve)
