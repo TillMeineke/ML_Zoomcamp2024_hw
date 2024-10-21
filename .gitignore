@@ -145,3 +145,4 @@ dmypy.json
 /FashionClassification/clothing-dataset-small
 
 /tool_tips_tricks_books/subs
+/05-deployment/model/*
