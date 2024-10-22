@@ -61,11 +61,16 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Explore more: [Lead scoring](https://www.kaggle.com/ashydv/leads-dataset)
 - [ ] Explore more: [Default prediction](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients)
 
-## [Homework 4: Evaluation Metrics for Classification](./04-evaluation/homework_04_till_meineke.ipynb) due 22 October 2024 01:00
+## [Homework 4: Evaluation Metrics for Classification](./04-evaluation/homework_04_till_meineke.ipynb) due 22 October 2024 01:00, extended to 23 October 2024 23:00
 
 - [x] Finished the homework
 - [x] Learn in public 1: weekly learning [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7254050287621971968-E2Hw?utm_source=share&utm_medium=member_desktop) on 21 October 2024
 - [x] Learn in public 2: help with MacBook [telegram](https://t.me/mlzoomcamp/156?comment=1642) on 21 October
+- [x] Learn in public 3: library HH [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7254429566440509440-suw6?utm_source=share&utm_medium=member_desktop) on 22 October 2024
+- [ ] Learn in public 4:
+- [ ] Learn in public 5:
+- [ ] Learn in public 6:
+- [ ] Learn in public 7:
 - [ ] Explore more: Check the precision and recall of the dummy classifier that always predict "FALSE"
 - [ ] Explore more: F1 score = 2 P R / (P + R)
 - [ ] Explore more: Evaluate precision and recall at different thresholds, plot P vs R - this way you'll get the precision/recall curve (similar to ROC curve)
@@ -80,7 +85,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 ## [Homework 5: Deploying Machine Learning Models]() due 29 October 2024 01:00
 
-- [ ] Finished the homework
+- [x] Finished the homework
 - [ ] Explore more: Flask is not the only framework for creating web services. Try others, e. g. FastAPI
 - [ ] Explore more: Experiment with other ways of managing environment, e. g. virtual env, conda, poetry
 - [ ] Explore more: Explore other ways of deploying web services, e. g. GCP, Azure, Heroku, Python Anywhere, etc.

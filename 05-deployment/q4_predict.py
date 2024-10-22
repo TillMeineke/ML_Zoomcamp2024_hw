@@ -33,4 +33,4 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, host='0.0.0.0', port=9696)
+    app.run(debug=True, host="0.0.0.0", port=9696) #, use_reloader=False) for use in notebook
