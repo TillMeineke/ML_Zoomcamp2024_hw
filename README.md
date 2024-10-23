@@ -67,7 +67,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [x] Learn in public 1: weekly learning [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7254050287621971968-E2Hw?utm_source=share&utm_medium=member_desktop) on 21 October 2024
 - [x] Learn in public 2: help with MacBook [telegram](https://t.me/mlzoomcamp/156?comment=1642) on 21 October
 - [x] Learn in public 3: library HH [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7254429566440509440-suw6?utm_source=share&utm_medium=member_desktop) on 22 October 2024
-- [ ] Learn in public 4:
+- [x] Learn in public 4: promotion for Humble Bundle for Data Visualisation [Slack](https://datatalks-club.slack.com/archives/C01F53D373M/p1729681384298969) on 23 October 2024
 - [ ] Learn in public 5:
 - [ ] Learn in public 6:
 - [ ] Learn in public 7:
