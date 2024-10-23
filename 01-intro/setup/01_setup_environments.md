@@ -109,6 +109,8 @@ Is MPS available? True
 Using device: mps
 ```
 
+[Managing Python on macOS — The Clean Way](https://raycent.medium.com/managing-python-on-macos-the-clean-way-7673cab874f6)
+
 [How to use pyenv to manage Python versions](https://blog.teclado.com/how-to-use-pyenv-manage-python-versions/)
 
 [Managing Multiple Python Versions With pyenv](https://realpython.com/intro-to-pyenv/)
