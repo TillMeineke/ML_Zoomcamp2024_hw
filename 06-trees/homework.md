@@ -1,50 +1,47 @@
 # Homework
 
-> Note: sometimes your answer doesn't match one of
-> the options exactly. That's fine.
-> Select the option that's closest to your solution.
-
-Solution: [homework.ipynb](homework.ipynb)
+> Note: sometimes your answer doesn't match one of the options exactly. That's fine. Select the option that's closest to your solution.
 
 ## Dataset
 
-In this homework, we will use the California Housing Prices from [Kaggle](https://www.kaggle.com/datasets/camnugent/california-housing-prices).
+In this homework, we will use the Students Performance in 2024 JAMB dataset from [Kaggle](https://www.kaggle.com/datasets/idowuadamo/students-performance-in-2024-jamb).
 
-Here's a wget-able [link](https://raw.githubusercontent.com/alexeygrigorev/datasets/master/housing.csv):
+Here's a wget-able [link](https://github.com/alexeygrigorev/datasets/raw/refs/heads/master/jamb_exam_results.csv):
 
 ```bash
-wget https://raw.githubusercontent.com/alexeygrigorev/datasets/master/housing.csv
+wget https://github.com/alexeygrigorev/datasets/raw/refs/heads/master/jamb_exam_results.csv
 ```
 
-The goal of this homework is to create a regression model for predicting housing prices (column `'median_house_value'`).
+The goal of this homework is to create a regression model for predicting the performance of students on a standardized test (column `'JAMB_Score'`).
 
 ## Preparing the dataset
 
-For this homework, we only want to use a subset of data. This is the same subset we used in homework #2.
-But in contrast to homework #2, we are going to use all columns of the dataset.
+First, let's make the names lowercase:
 
-First, keep only the records where `ocean_proximity` is either `'<1H OCEAN'` or `'INLAND'`
+```python
+df.columns = df.columns.str.lower().str.replace(' ', '_')
+```
 
 Preparation:
 
+* Remove the `student_id` column.
 * Fill missing values with zeros.
-* Apply the log transform to `median_house_value`.
 * Do train/validation/test split with 60%/20%/20% distribution.
 * Use the `train_test_split` function and set the `random_state` parameter to 1.
 * Use `DictVectorizer(sparse=True)` to turn the dataframes into matrices.
 
 ## Question 1
 
-Let's train a decision tree regressor to predict the `median_house_value` variable.
+Let's train a decision tree regressor to predict the `jamb_score` variable.
 
 * Train a model with `max_depth=1`.
 
 Which feature is used for splitting the data?
 
-* `ocean_proximity`
-* `total_rooms`
-* `latitude`
-* `population`
+* `study_hours_per_week`
+* `attendance_rate`
+* `teacher_quality`
+* `distance_to_school`
 
 ## Question 2
 
@@ -56,10 +53,10 @@ Train a random forest model with these parameters:
 
 What's the RMSE of this model on validation?
 
-* 0.045
-* 0.245
-* 0.545
-* 0.845
+* 22.13
+* 42.13
+* 62.13
+* 82.12
 
 ## Question 3
 
@@ -74,8 +71,8 @@ Consider 3 decimal places for calculating the answer.
 
 * 10
 * 25
-* 50
-* 160
+* 80
+* 200
 
 ## Question 4
 
@@ -117,10 +114,10 @@ For this homework question, we'll find the most important feature:
 
 What's the most important feature (among these 4)?
 
-* `total_rooms`
-* `median_income`
-* `total_bedrooms`
-* `longitude`
+* `study_hours_per_week`
+* `attendance_rate`
+* `distance_to_school`
+* `teacher_quality`
 
 ## Question 6
 
@@ -136,10 +133,10 @@ xgb_params = {
     'eta': 0.3,
     'max_depth': 6,
     'min_child_weight': 1,
-    
+
     'objective': 'reg:squarederror',
     'nthread': 8,
-    
+
     'seed': 1,
     'verbosity': 1,
 }
@@ -155,10 +152,5 @@ Which eta leads to the best RMSE score on the validation dataset?
 
 ## Submit the results
 
-* Submit your results here: <https://forms.gle/Qa2SuzG7QGZNCaoV9>
-* If your answer doesn't match options exactly, select the closest one.
-* You can submit your solution multiple times. In this case, only the last submission will be used
-
-## Deadline
-
-The deadline for submitting is October 23 (Monday), 23:00 CET. After that the form will be closed.
+* Submit your results here: <https://courses.datatalks.club/ml-zoomcamp-2024/homework/hw06>
+* If your answer doesn't match options exactly, select the closest one
