@@ -32,10 +32,10 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [x] Learn in public 1: weekly learning [LinkedIn](https://www.linkedin.com/pulse/learning-ml-zoomcamp-week-1-introduction-till-meineke-k05mc) on 30 September 2024
 - [x] Learn in public 2 & 3: Explore more [California housing dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html) - EDA & predict the price of a house
   - [x] [Slack](https://datatalks-club.slack.com/archives/C0288NJ5XSA/p1728512104462489) on 10 October 2024
-  - [x] [linkedIn](https://www.linkedin.com/pulse/eda-california-housing-dataset-till-meineke-pr3mf) on 9 October 2024
+  - [x] [LinkedIn](https://www.linkedin.com/pulse/eda-california-housing-dataset-till-meineke-pr3mf) on 9 October 2024
 - [x] Learn in public 4 & 5: Setup iTerm2 for ML Zoomcamp
   - [x] [medium.com](https://medium.com/@till.meineke/costumize-your-terminal-for-ml-zoomcamp-2024-b1530b6a6bf0) on 9 October 2024
-  - [x] [linkedIn](https://www.linkedin.com/posts/tillmeineke_costumize-your-terminal-for-ml-zoomcamp-2024-activity-7249898785428963328-1rcC?utm_source=share&utm_medium=member_desktop) on 9 October 2024
+  - [x] [LinkedIn](https://www.linkedin.com/posts/tillmeineke_costumize-your-terminal-for-ml-zoomcamp-2024-activity-7249898785428963328-1rcC?utm_source=share&utm_medium=member_desktop) on 9 October 2024
 - [x] Learn in public 6: Importance of cell order execution [Slack](https://datatalks-club.slack.com/archives/C0288NJ5XSA/p1728406911333039?thread_ts=1728406320.928139&cid=C0288NJ5XSA) on 8 October 2024
 - [x] Learn in public 7: Nobel price for AI in physics and chemistry [Slack](https://datatalks-club.slack.com/archives/C0288NJ5XSA/p1728473909631359?thread_ts=1728421282.172389&channel=C0288NJ5XSA&message_ts=1728473909.631359) on 9 October 2024
 - [ ] Explore more: [Student Performance Data Set](https://archive.ics.uci.edu/dataset/320/student+performance)
@@ -47,11 +47,11 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [x] Learn in public 1: weekly learning [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7251516995173568514-G2ok?utm_source=share&utm_medium=member_desktop) on 14 October 2024
 - [x] Learn in public 2, 3 & 4: Keep the pace
   - [x] [medium](https://medium.com/@till.meineke/how-to-keep-up-with-the-ml-zoomcamp-2024-2ba82fdf98db) on 14 October 2024
-  - [x] [linkedIn](https://www.linkedin.com/posts/tillmeineke_how-to-keep-up-with-the-ml-zoomcamp-2024-activity-7251568053262385152-yvz6?utm_source=share&utm_medium=member_desktop) on 14 October 2024
+  - [x] [LinkedIn](https://www.linkedin.com/posts/tillmeineke_how-to-keep-up-with-the-ml-zoomcamp-2024-activity-7251568053262385152-yvz6?utm_source=share&utm_medium=member_desktop) on 14 October 2024
   - [x] [Slack](https://datatalks-club.slack.com/archives/C0288NJ5XSA/p1728915061240629?thread_ts=1728596106.858199&cid=C0288NJ5XSA) on 14 October 2024
 - [x] Learn in public 5 & 6: Subtitle adventure
   - [x] [medium](https://medium.com/@till.meineke/unlocking-the-power-of-ml-zoomcamp-a-subtitle-adventure-60aa7343d988) on 16 October 2024
-  - [x] [linkedIn](https://www.linkedin.com/posts/tillmeineke_unlocking-the-power-of-ml-zoomcamp-a-subtitle-activity-7252423016293224448--Zhi?utm_source=share&utm_medium=member_desktop) on 16 October 2024
+  - [x] [LinkedIn](https://www.linkedin.com/posts/tillmeineke_unlocking-the-power-of-ml-zoomcamp-a-subtitle-activity-7252423016293224448--Zhi?utm_source=share&utm_medium=member_desktop) on 16 October 2024
 - [x] Learn in public 7: Gemini is takeing project lead [Slack](https://datatalks-club.slack.com/archives/C0288NJ5XSA/p1729065197020029) on 16 October 2024
 - [x] Explore more: exclude least useful features
 - [ ] Explore more: scikit-learn in project of last week
