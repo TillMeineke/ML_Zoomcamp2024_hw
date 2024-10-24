@@ -32,7 +32,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [x] Learn in public 1: weekly learning [LinkedIn](https://www.linkedin.com/pulse/learning-ml-zoomcamp-week-1-introduction-till-meineke-k05mc) on 30 September 2024
 - [x] Learn in public 2 & 3: Explore more [California housing dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html) - EDA & predict the price of a house
   - [x] [Slack](https://datatalks-club.slack.com/archives/C0288NJ5XSA/p1728512104462489) on 10 October 2024
-  - [x] [linkedin](https://www.linkedin.com/pulse/eda-california-housing-dataset-till-meineke-pr3mf) on 9 October 2024
+  - [x] [linkedIn](https://www.linkedin.com/pulse/eda-california-housing-dataset-till-meineke-pr3mf) on 9 October 2024
 - [x] Learn in public 4 & 5: Setup iTerm2 for ML Zoomcamp
   - [x] [medium.com](https://medium.com/@till.meineke/costumize-your-terminal-for-ml-zoomcamp-2024-b1530b6a6bf0) on 9 October 2024
   - [x] [linkedIn](https://www.linkedin.com/posts/tillmeineke_costumize-your-terminal-for-ml-zoomcamp-2024-activity-7249898785428963328-1rcC?utm_source=share&utm_medium=member_desktop) on 9 October 2024
@@ -63,14 +63,15 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 ## [Homework 4: Evaluation Metrics for Classification](./04-evaluation/homework_04_till_meineke.ipynb) due 22 October 2024 01:00, extended to 23 October 2024 23:00
 
-- [x] Finished the homework
+- [x] Finished the homework (scored 6/6)
 - [x] Learn in public 1: weekly learning [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7254050287621971968-E2Hw?utm_source=share&utm_medium=member_desktop) on 21 October 2024
 - [x] Learn in public 2: help with MacBook [telegram](https://t.me/mlzoomcamp/156?comment=1642) on 21 October
 - [x] Learn in public 3: library HH [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7254429566440509440-suw6?utm_source=share&utm_medium=member_desktop) on 22 October 2024
 - [x] Learn in public 4: promotion for Humble Bundle for Data Visualisation [Slack](https://datatalks-club.slack.com/archives/C01F53D373M/p1729681384298969) on 23 October 2024
-- [ ] Learn in public 5:
-- [ ] Learn in public 6:
-- [ ] Learn in public 7:
+- [x] Learn in public 5 & 6: Working with VSCode
+  - [x] [medium](https://medium.com/@till.meineke/working-with-visual-studio-code-in-ml-zoomcamp-2024-967ee66c29e5) on 23 October 2024
+  - [x] [linkedIn](https://www.linkedin.com/posts/tillmeineke_checkout-my-latest-article-httpslnkdin-activity-7254955147406020608-Fmrv?utm_source=share&utm_medium=member_desktop) on 23 October 2024
+- [x] Learn in public 7: comment [linkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7254859071965548545?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7254859071965548545%2C7254955762173534208%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287254955762173534208%2Curn%3Ali%3Aactivity%3A7254859071965548545%29) on 23 October 2024
 - [ ] Explore more: Check the precision and recall of the dummy classifier that always predict "FALSE"
 - [ ] Explore more: F1 score = 2 P R / (P + R)
 - [ ] Explore more: Evaluate precision and recall at different thresholds, plot P vs R - this way you'll get the precision/recall curve (similar to ROC curve)
@@ -79,20 +80,19 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 <!--  **Learn in public ideas**
 - [ ] Learn in public: Setup macBook/ other apps
-- [ ] Learn in public: Setup VSCode
 - [ ] Learn in public: Organize the homework repository
 - [ ] Learn in public: `.dotfiles`? -->
 
-## [Homework 5: Deploying Machine Learning Models]() due 29 October 2024 01:00
+## [Homework 5: Deploying Machine Learning Models](./05-deployment/homework_05_till_meineke.ipynb) due 29 October 2024 01:00
 
 - [x] Finished the homework
 - [ ] Explore more: Flask is not the only framework for creating web services. Try others, e. g. FastAPI
 - [ ] Explore more: Experiment with other ways of managing environment, e. g. virtual env, conda, poetry
 - [ ] Explore more: Explore other ways of deploying web services, e. g. GCP, Azure, Heroku, Python Anywhere, etc.
 
-## [Homework 6: Decision Trees and Ensemble Learning]() due 5 November 2024 01:00
+## [Homework 6: Decision Trees and Ensemble Learning](./06-trees/homework_06_till_meineke.ipynb) due 5 November 2024 01:00
 
-- [ ] Finished the homework
+- [x] Finished the homework
 - [ ] Explore more: do EDA or feature engineering for this dataset to get more insights into the problem
 - [ ] Explore more: For random forest, there are more parameters that we can tune. Check max_features and bootstrap.
 - [ ] Explore more: Try ExtraTreesClassifier
