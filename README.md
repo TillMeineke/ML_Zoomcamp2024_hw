@@ -70,8 +70,8 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [x] Learn in public 4: promotion for Humble Bundle for Data Visualisation [Slack](https://datatalks-club.slack.com/archives/C01F53D373M/p1729681384298969) on 23 October 2024
 - [x] Learn in public 5 & 6: Working with VSCode
   - [x] [medium](https://medium.com/@till.meineke/working-with-visual-studio-code-in-ml-zoomcamp-2024-967ee66c29e5) on 23 October 2024
-  - [x] [linkedIn](https://www.linkedin.com/posts/tillmeineke_checkout-my-latest-article-httpslnkdin-activity-7254955147406020608-Fmrv?utm_source=share&utm_medium=member_desktop) on 23 October 2024
-- [x] Learn in public 7: comment [linkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7254859071965548545?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7254859071965548545%2C7254955762173534208%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287254955762173534208%2Curn%3Ali%3Aactivity%3A7254859071965548545%29) on 23 October 2024
+  - [x] [LinkedIn](https://www.linkedin.com/posts/tillmeineke_checkout-my-latest-article-httpslnkdin-activity-7254955147406020608-Fmrv?utm_source=share&utm_medium=member_desktop) on 23 October 2024
+- [x] Learn in public 7: comment [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7254859071965548545?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7254859071965548545%2C7254955762173534208%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287254955762173534208%2Curn%3Ali%3Aactivity%3A7254859071965548545%29) on 23 October 2024
 - [ ] Explore more: Check the precision and recall of the dummy classifier that always predict "FALSE"
 - [ ] Explore more: F1 score = 2 P R / (P + R)
 - [ ] Explore more: Evaluate precision and recall at different thresholds, plot P vs R - this way you'll get the precision/recall curve (similar to ROC curve)
