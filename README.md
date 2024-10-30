@@ -78,19 +78,26 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Explore more: Area under the PR curve is also a useful metric
 - [ ] Explore more: Calculate the metrics for the suggested datasets from the previous week
 
+## [Homework 5: Deploying Machine Learning Models](./05-deployment/homework_05_till_meineke.ipynb) due 29 October 2024 00:00, extended to 31 October 2024 morning
+
+- [x] Finished the homework
+- [x] Learn in public 1: weekly learning [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7256627802806833152-tmg_?utm_source=share&utm_medium=member_desktop) on 28 October 2024
+- [x] Learn in public 2: python in zoo [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-hagenbecks-activity-7257087338097352704-U8IV?utm_source=share&utm_medium=member_desktop) on 29 October 2024
+- [x] Learn in public 3: deployment [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7257110420946075649-WP47?utm_source=share&utm_medium=member_desktop) on 29 October 2024
+- [x] Learn in public 4: deployment flask [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7257112284295036929-1sLr?utm_source=share&utm_medium=member_desktop) on 29 October 2024
+- [x] Learn in public 5: course leaderboard top10 [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7257290745663868928-8EyW?utm_source=share&utm_medium=member_desktop) on 30 October 2024
+- [x] Learn in public 6: docker [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7257292555875205120-jWzI?utm_source=share&utm_medium=member_desktop) on 30 October 2024
+- [x] Learn in public 7: beanstalk [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7257294376551206912-eI6t?utm_source=share&utm_medium=member_desktop) on 30 October 2024
+- [ ] Explore more: Flask is not the only framework for creating web services. Try others, e. g. FastAPI
+- [ ] Explore more: Experiment with other ways of managing environment, e. g. virtual env, conda, poetry
+- [ ] Explore more: Explore other ways of deploying web services, e. g. GCP, Azure, Heroku, Python Anywhere, etc.
+
 <!--  **Learn in public ideas**
 - [ ] Learn in public: Setup macBook/ other apps
 - [ ] Learn in public: Organize the homework repository
 - [ ] Learn in public: `.dotfiles`? -->
 
-## [Homework 5: Deploying Machine Learning Models](./05-deployment/homework_05_till_meineke.ipynb) due 29 October 2024 01:00
-
-- [x] Finished the homework
-- [ ] Explore more: Flask is not the only framework for creating web services. Try others, e. g. FastAPI
-- [ ] Explore more: Experiment with other ways of managing environment, e. g. virtual env, conda, poetry
-- [ ] Explore more: Explore other ways of deploying web services, e. g. GCP, Azure, Heroku, Python Anywhere, etc.
-
-## [Homework 6: Decision Trees and Ensemble Learning](./06-trees/homework_06_till_meineke.ipynb) due 5 November 2024 01:00
+## [Homework 6: Decision Trees and Ensemble Learning](./06-trees/homework_06_till_meineke.ipynb) due 5 November 2024 00:00
 
 - [x] Finished the homework
 - [ ] Explore more: do EDA or feature engineering for this dataset to get more insights into the problem
@@ -112,14 +119,14 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Explore more: Project: Hotdog vs not hotdog
 - [ ] Explore more: Project: Category of images
 
-## [Homework 9: Serverless Deep Learning]() due 10 December 2024 01:00
+## [Homework 9: Serverless Deep Learning]() due 10 December 2024 00:00
 
 - [ ] Finished the homework
 - [ ] Explore more: Try similar serverless services from Google Cloud and Microsoft Azure
 - [ ] Explore more: Deploy cats vs dogs and other Keras models with AWS Lambda
 - [ ] Explore more: AWS Lambda is also good for other libraries, not just Tensorflow. You can deploy Scikit-Learn and XGBoost models with it as well
 
-## [Homework 10: Kubernetes and TensorFlow Serving]() due 17 December 2024 01:00
+## [Homework 10: Kubernetes and TensorFlow Serving]() due 17 December 2024 00:00
 
 - [ ] Finished the homework
 - [ ] Explore more: Other local Kubernetes: minikube, k3d, k3s, microk8s, EKS Anywhere
