@@ -117,7 +117,7 @@ helloDog/
 
 ## Deliverables
 
-![](./images/ML_zoomcamp_project_evaluation_criteria.png)
+![](./ML_zoomcamp_project_evaluation_criteria.png)
 
 <!-- ## Missing
 

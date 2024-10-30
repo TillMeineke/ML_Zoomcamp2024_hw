@@ -33,4 +33,5 @@ dependencies:
   - flask
   - xgboost
   - pip:
+    - bentoml==1.0.15
     - pipenv
