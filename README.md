@@ -55,9 +55,9 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [x] Learn in public 7: Gemini is takeing project lead [Slack](https://datatalks-club.slack.com/archives/C0288NJ5XSA/p1729065197020029) on 16 October 2024
 - [x] Explore more: exclude least useful features
 - [ ] Explore more: scikit-learn in project of last week
-- [ ] Explore more: use `LinearRegression` (not regularized) and `RidgeRegression` (regularized)
-- [ ] Explore more: Find the best regularization parameter for Ridge
-- [ ] Explore more: using the `OneHotEncoding` class
+- [x] Explore more: use `LinearRegression` (not regularized) and `RidgeRegression` (regularized)
+- [x] Explore more: Find the best regularization parameter for Ridge
+- [x] Explore more: using the `OneHotEncoding` class
 - [ ] Explore more: [Lead scoring](https://www.kaggle.com/ashydv/leads-dataset)
 - [ ] Explore more: [Default prediction](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients)
 
