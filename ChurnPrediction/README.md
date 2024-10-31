@@ -54,3 +54,5 @@
 - calculate the accuracy
 
 ### 3.11 Model Interpretation
+
+## 4. Evaluation Metrics for Classification

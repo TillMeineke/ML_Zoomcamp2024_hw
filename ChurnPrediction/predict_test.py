@@ -3,7 +3,9 @@
 
 import requests
 
-url = "http://127.0.0.1:9696/predict"
+host = "churn-serving-env.eba-vzejz2a6.eu-central-1.elasticbeanstalk.com"
+url = f"http://{host}/predict"  # local
+# url = "http://127.0.0.1:9696/predict" # local
 
 customer_id = "xyz-123"
 customer = {
@@ -23,9 +25,9 @@ customer = {
     "contract": "month-to-month",
     "paperlessbilling": "yes",
     "paymentmethod": "electronic_check",
-    "tenure": 1,
+    "tenure": 12,
     "monthlycharges": 29.85,
-    "totalcharges": 29.85,
+    "totalcharges": (12 * 29.85),
 }
 
 response = requests.post(url, json=customer).json()
