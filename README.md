@@ -80,7 +80,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 ## [Homework 5: Deploying Machine Learning Models](./05-deployment/homework_05_till_meineke.ipynb) due 29 October 2024 00:00, extended to 31 October 2024 morning
 
-- [x] Finished the homework
+- [x] Finished the homework (scored 6/6)
 - [x] Learn in public 1: weekly learning [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7256627802806833152-tmg_?utm_source=share&utm_medium=member_desktop) on 28 October 2024
 - [x] Learn in public 2: python in zoo [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-hagenbecks-activity-7257087338097352704-U8IV?utm_source=share&utm_medium=member_desktop) on 29 October 2024
 - [x] Learn in public 3: deployment [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7257110420946075649-WP47?utm_source=share&utm_medium=member_desktop) on 29 October 2024
@@ -92,14 +92,16 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Explore more: Experiment with other ways of managing environment, e. g. virtual env, conda, poetry
 - [ ] Explore more: Explore other ways of deploying web services, e. g. GCP, Azure, Heroku, Python Anywhere, etc.
 
-<!--  **Learn in public ideas**
-- [ ] Learn in public: Setup macBook/ other apps
-- [ ] Learn in public: Organize the homework repository
-- [ ] Learn in public: `.dotfiles`? -->
-
 ## [Homework 6: Decision Trees and Ensemble Learning](./06-trees/homework_06_till_meineke.ipynb) due 5 November 2024 00:00
 
 - [x] Finished the homework
+- [x] Learn in public 1: leaderboard week5 [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7259182992189771776-MeC2?utm_source=share&utm_medium=member_desktop) on 4 November 2024
+- [x] Learn in public 2: weekly learning [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7259186203562807296-3DRM?utm_source=share&utm_medium=member_desktop) on 4 November 2024
+- [x] Learn in public 3: Decision Tree [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7259259395312652288-Xjou/?utm_source=share&utm_medium=member_desktop) on 4 November 2024
+- [x] Learn in public 4: Decision Tree Parameter Tuning [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7259285029564940288-nhlC?utm_source=share&utm_medium=member_desktop) on 4 November 2024
+- [x] Learn in public 5: Random Forests [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7259296186312916993-mLnd?utm_source=share&utm_medium=member_desktop) on 4 November 2024
+- [x] Learn in public 6: Boosting [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7259300465681547264-4PUe?utm_source=share&utm_medium=member_desktop) on 4 November 2024
+- [x] Learn in public 7: Wrapping up week 6 [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7259335214248706049-Lsqj?utm_source=share&utm_medium=member_desktop) on 4 November 2024
 - [ ] Explore more: do EDA or feature engineering for this dataset to get more insights into the problem
 - [ ] Explore more: For random forest, there are more parameters that we can tune. Check max_features and bootstrap.
 - [ ] Explore more: Try ExtraTreesClassifier
@@ -107,6 +109,11 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Explore more: Experiment with other XGBoost parameters: subsample and colsample_bytree.
 - [ ] Explore more: When selecting the best split, decision trees find the most useful features. This information can be used for understanding which features are more important than others. See example here (?) for random forest (it's the same for plain decision trees) and for xgboost
 - [ ] Explore more: using trees solving regression problems: check DecisionTreeRegressor, RandomForestRegressor and the objective=reg:squarederror parameter for XGBoost
+
+<!--  **Learn in public ideas**
+- [ ] Learn in public: Setup macBook/ other apps
+- [ ] Learn in public: Organize the homework repository
+- [ ] Learn in public: `.dotfiles`? -->
 
 ## [Homework 8: Neural Networks and Deep Learning]() due 3 December 2024 01:00
 

@@ -146,3 +146,5 @@ dmypy.json
 
 /tool_tips_tricks_books/subs
 /05-deployment/model/*
+
+.github/copilot-instructions.md
