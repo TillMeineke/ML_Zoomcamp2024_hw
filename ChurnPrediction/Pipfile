@@ -10,7 +10,7 @@ flask = "*"
 gunicorn = "*"
 
 [dev-packages]
-awsebcli = "*"
+awsebcli = "==3.19.4"
 
 [requires]
 python_version = "3.11.3"
