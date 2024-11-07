@@ -1,0 +1,74 @@
+# 🍄 fungiIncognita - Mushroom Classification 🍄‍🟫
+
+04.11.2024 - 19.11.2024
+
+Author: Till Meineke
+
+<div style="text-align:center;">
+  <img src="./images/groovyshroovy.gif" alt="Random Image" style="width:300px;height:auto;">
+</div>
+
+source: [Giphy](https://gph.is/g/4DBMX8p)
+
+## Problem description
+
+Walking through the woods collecting mushrooms can be a fun activity. However, it can also be dangerous if you don't know which mushrooms are edible or not. The goal of this project is to build and deploy a model that can predict which mushrooms you picked based on some simple characteristics.
+
+To better understand the problem, I will use the [Classification Mushroom Data 2020](https://visualization.group/data/mushroom/) dataset. The primary data describes 173 mushroom species, which can be used for simulating hypothetical mushrooms. Since the secondary data contains 61,069 hypothetical mushrooms for __binary classification without names__, I have to generate simulated data with species names.
+
+To ensure that the generated dataset is of high quality and relevant for the task you are attempting to solve.
+When working with synthetic data, consider the following points:
+
+- Clearly document how you generated the synthetic dataset and the reasoning behind its design.
+- Provide sufficient context about the dataset and the model you are building for your peers who will review your project.
+
+## EDA
+
+
+
+## Model training
+
+## Exporting notebook to python script
+
+## Reproducibility
+
+
+
+## Model deployment
+
+## Dependency and environment management
+
+Preferably, you can use make commands (from Makefile) or directly run scripts from `scr`.
+Refer to section below for the descriptions of make commands. Before running it, consider creating
+a virtual environment
+
+### Makefile and test example
+
+Try out the make commands (see `make help`).
+
+### Conda environment
+
+Working in conda environment `./environment.yml`. Install with:
+
+```bash
+conda env create -f environment.yml
+```
+
+## Containerization
+
+Currently, you can find the following docker files:
+
+<!-- jupyter.Dockerfile builds an image for running notebooks. -->
+`test.Dockerfile` builds an image to run all tests in (make test-docker).
+`serve.Dockerfile` build an image to serve the trained model via a REST api.
+<!-- To ease the serving it uses open source dploy-kickstart module. To find more info about dploy-kickstart click here. -->
+Finally, you can start all services using `docker-compose`:
+for example `docker-compose up test` or `docker-compose up serve`.
+
+Do you need a notebook for development? Just run docker-compose up jupyter. It will launch a Jupyter Notebook with access to your local development files.
+
+## Cloud deployment
+
+## Submission
+
+[link](https://courses.datatalks.club/ml-zoomcamp-2024/project/midterm)

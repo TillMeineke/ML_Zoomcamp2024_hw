@@ -170,6 +170,8 @@ color themes:
 
 ## Snippets
 
+[rafamadriz/friendly-snippets](https://github.com/rafamadriz/friendly-snippets/tree/main/snippets/python)
+
 ## more to explore
 
 [Nasc VSCode Touchbar](https://marketplace.visualstudio.com/items?itemName=felipe.nasc-touchbar)
