@@ -146,10 +146,13 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 ## Projects
 
-### [ ] Midterm Project: due 26 November 2024 00:00, brought forward to 19 November 2024 00:00
+### [ ] Midterm Project: due 26 November 2024 00:00
 
 - Start: 4 November 2024
 - [x] Problem description: [README](./fungiIncognita/README.md)
+  - [ ] context
+  - [ ] problem
+  - [ ] use of solution
 - [x] Find a dataset: [Classification Mushroom Data 2020](https://visualization.group/data/mushroom/)
 - [ ] Do EDA
   - [ ] ranges of values
@@ -159,7 +162,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Model training
   - [ ] Train multiple models
   - [ ] tune hyperparameters
-- [ ] Export the model to script
+- [ ] Export the best model to script and save model
 - [ ] Reproducibility
   - [ ] re-execute the notebook without errors
   - [ ] execute the training script without errors
@@ -167,6 +170,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Deploy the model - Flask
 - [ ] Dependency and environment management
   - [x] [conda environment](./fungiIncognita/environment.yml)
+  - [x] Makefile <!-- FIXME: -->
   - [ ] requirements.txt
   - [ ] Pipfile
   - [ ] etc?
@@ -183,10 +187,11 @@ Extra material in subfolder contains the setup of the environment, the portfolio
     - [ ] docker - beanstalk
     - [ ] serverless?
   - [ ] README
-    - [ ] deployment
-    - [ ] endpoint
+    - [ ] deployment described with code
+      - [ ] cloud
+      - [ ] kubernetes (local or remote)
+    - [ ] URL for testing / video or screenshot of testing
 - [ ] Write a report
-- [ ] 
 
 ### [ ] Capstone 1 Project: due 7 January 2025 00:00
 
