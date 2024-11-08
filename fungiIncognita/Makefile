@@ -45,7 +45,7 @@ serve: ## serve trained model with a REST API
 # 	kickstart serve -e ml_skeleton_py/model/predict.py -l .
 
 # run-pipeline: install clean generate-dataset train serve  ## install dependencies -> clean artifacts -> generate dataset -> train -> serve
-#	FIXME: 
+#	FIXME: needs implementation
 
 lint: ## flake8 linting and black code style
 	@echo ">>> black files"

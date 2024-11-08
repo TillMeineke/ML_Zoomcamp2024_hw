@@ -24,15 +24,11 @@ When working with synthetic data, consider the following points:
 
 ## EDA
 
-
-
 ## Model training
 
 ## Exporting notebook to python script
 
 ## Reproducibility
-
-
 
 ## Model deployment
 
