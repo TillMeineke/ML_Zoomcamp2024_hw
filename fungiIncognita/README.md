@@ -5,10 +5,10 @@
 Author: Till Meineke
 
 <div style="text-align:center;">
-  <img src="./images/groovyshroovy.gif" alt="Random Image" style="width:300px;height:auto;">
+  <img src="./images/walking_sillyshrooman.webp" alt="Walking sillyshrooman" style="width:300px;height:auto;">
 </div>
 
-source: [Giphy](https://gph.is/g/4DBMX8p)
+source: [Giphy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJxa2xoY2R0YnVnZGVuaWMzcjVzc3VwNGFmOXl1bTJzM2JjOXFmZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/BPvLYetv28UVFBHCO2/giphy.gif)
 
 ## Problem description
 
@@ -65,7 +65,7 @@ Currently, you can find the following docker files:
 Finally, you can start all services using `docker-compose`:
 for example `docker-compose up test` or `docker-compose up serve`.
 
-Do you need a notebook for development? Just run docker-compose up jupyter. It will launch a Jupyter Notebook with access to your local development files.
+<!-- Do you need a notebook for development? Just run docker-compose up jupyter. It will launch a Jupyter Notebook with access to your local development files. -->
 
 ## Cloud deployment
 
