@@ -22,6 +22,37 @@ When working with synthetic data, consider the following points:
 - Clearly document how you generated the synthetic dataset and the reasoning behind its design.
 - Provide sufficient context about the dataset and the model you are building for your peers who will review your project.
 
+## Project structure
+
+```plaintext
+├── .gitignore        <- Files that are ignored by git.
+├── data              <- Data folder
+│   ├── raw
+│   └── secondary_data_generated_with_names.csv
+├── docker            <- Docker files
+│   ├── serve.Dockerfile
+│   └── test.Dockerfile
+├── docs              <- Documentation files
+│   ├── 41598_2021_87602_MOESM1_ESM.pdf
+│   └── s41598-021-87602-3.pdf
+├── environment.yml   <- Conda environment file.
+├── images            <- Images folder
+│   └── ...
+├── LICENSE
+├── Makefile          <- Makefile with commands like `make help`.
+├── notebooks         <- Jupyter notebooks
+│   ├── 01_eda.ipynb
+│   └── generate_sample_dataset.ipynb
+├── README.md         <- This file
+└── src               <- Source code
+    ├── __pycache__
+    ├── data_cat.py
+    ├── gen_corr_norm.py
+    ├── generate_fungi_database_v1.py
+    ├── primary_data_gen.py
+    └── text_attr_match.py
+```
+
 ## EDA
 
 ## Model training

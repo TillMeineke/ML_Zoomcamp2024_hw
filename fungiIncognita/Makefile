@@ -1,7 +1,8 @@
 # stolen from https://github.com/datarootsio/ml-skeleton-py/tree/master
 
 
-# .PHONY: help conda_environment requirements train predict
+#.PHONY: help conda_environment requirements train predict
+#.PHONY: help grow_fungi conda_environment $(DATASET)
 .DEFAULT_GOAL := help
 
 
@@ -31,7 +32,7 @@ clean: ## clean artifacts
 grow_fungi: $(DATASET) ## 🍄 generate dataset, you can pass arguments as follows: make ARGS="--foo 10 --bar 20" generate-dataset
 $(DATASET):
 	@echo ">>> generating dataset"
-	python ./src/generate_fungi_database.py $(ARGS)
+	python ./src/secondary_data_gen.py $(ARGS)
 
 train: $(DATASET) ## train the model, you can pass arguments as follows: make ARGS="--foo 10 --bar 20" train
 	@echo ">>> training model"
