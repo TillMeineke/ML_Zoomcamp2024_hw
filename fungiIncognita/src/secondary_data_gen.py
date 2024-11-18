@@ -44,10 +44,12 @@ def write_to_csv(file_name, funghi_entry_list, use_intervals):
 
     file = open(file_name, "w")
     if not use_intervals:
-       file.write(data_cat.PRIMARY_DATASET_HEADER + "\n")
+#        file.write(data_cat.PRIMARY_DATASET_HEADER.replace("family;name;", "") + "\n")
+        file.write(data_cat.PRIMARY_DATASET_HEADER + "\n")
     else:
         file.write(data_cat.DATASET_HEADER_MIN_MAX.replace("name;", "") + "\n")
     for funghi_entry in funghi_entry_list:
+#        funghi_str = funghi_entry.is_edible
         funghi_str = funghi_entry.family + ";" + funghi_entry.name + ";" + funghi_entry.is_edible
         for category in funghi_entry.categories:
             funghi_str += ";" + str(category)

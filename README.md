@@ -94,7 +94,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 ## [Homework 6: Decision Trees and Ensemble Learning](./06-trees/homework_06_till_meineke.ipynb) due 5 November 2024 00:00
 
-- [x] Finished the homework
+- [x] Finished the homework (scored 6/6)
 - [x] Learn in public 1: leaderboard week5 [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7259182992189771776-MeC2?utm_source=share&utm_medium=member_desktop) on 4 November 2024
 - [x] Learn in public 2: weekly learning [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7259186203562807296-3DRM?utm_source=share&utm_medium=member_desktop) on 4 November 2024
 - [x] Learn in public 3: Decision Tree [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7259259395312652288-Xjou/?utm_source=share&utm_medium=member_desktop) on 4 November 2024
@@ -115,7 +115,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Learn in public: Organize the homework repository
 - [ ] Learn in public: `.dotfiles`? -->
 
-## [Homework 8: Neural Networks and Deep Learning]() due 3 December 2024 01:00
+## [Homework 8: Neural Networks and Deep Learning](./08-deep-learning/homework_08_till_meineke.ipynb) due 3 December 2024 01:00
 
 - [ ] Finished the homework
 - [ ] Explore more: Add more data, e.g, Zalando etc
