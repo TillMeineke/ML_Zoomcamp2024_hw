@@ -370,10 +370,10 @@ def get_list_from_str(text):
 
 if __name__ == "__main__":
     """
-    WARNING: 
+    WARNING:
     Running this module overwrites the following files in data:
         - primary_data_generated.csv
-    
+
     Running this module results in the html files in data/mushrooms_and_toadstools being read and
     a CSV primary_data_generated.csv to be created based on the these html files (the files may be
     extracted from the EPUB version of the book "Mushrooms & Toadstools" by Patrick Harding)

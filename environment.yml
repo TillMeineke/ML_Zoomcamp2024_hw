@@ -32,7 +32,6 @@ dependencies:
   - scikit-learn=1.5.2
   - seaborn
   - setuptools
-  - tensorflow=2.14
   - tqdm
   - xgboost
   - pip:
@@ -41,5 +40,6 @@ dependencies:
     - torchaudio
     - torchvision
     - keras-image-helper
+    - tensorflow==2.17.1
     - tensorflow-metal==1.1.0
     - tensorflow-serving-api==2.7.0

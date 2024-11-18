@@ -1,6 +1,6 @@
 # 🍄 fungiIncognita - Mushroom Classification 🍄‍🟫
 
-04.11.2024 - 19.11.2024
+04.11.2024 - 26.11.2024
 
 Author: Till Meineke
 
@@ -14,9 +14,9 @@ source: [Giphy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJxa2xoY2R0YnVnZGV
 
 Walking through the woods collecting mushrooms can be a fun activity. However, it can also be dangerous if you don't know which mushrooms are edible or not. The goal of this project is to build and deploy a model that can predict which mushrooms you picked based on some simple characteristics.
 
-To better understand the problem, I will use the [Classification Mushroom Data 2020](https://visualization.group/data/mushroom/) dataset. The primary data describes 173 mushroom species, which can be used for simulating hypothetical mushrooms. Since the secondary data contains 61,069 hypothetical mushrooms for __binary classification without names__, I have to generate simulated data with species names.
+To better understand the problem, I will use the [Classification Mushroom Data 2020](https://visualization.group/data/mushroom/) dataset. The primary data describes 173 mushroom species, which can be used for simulating hypothetical mushrooms. Since the attached secondary data contains 61,069 hypothetical mushrooms for __binary classification without names__, I have to generate simulated data with species names.
 
-To ensure that the generated dataset is of high quality and relevant for the task you are attempting to solve.
+Ensure that the generated dataset is of high quality and relevant for the task you are attempting to solve.
 When working with synthetic data, consider the following points:
 
 - Clearly document how you generated the synthetic dataset and the reasoning behind its design.

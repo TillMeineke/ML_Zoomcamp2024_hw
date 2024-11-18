@@ -1,0 +1,6 @@
+If you're using a Mac and receive a message inside Obsidian "Failed to open, no permission to access folder.”
+
+Please Enable Shared Folder of the vault by pressing Get Info in Mac.
+Change your Sharing & Permissions for the vaults to Read and Write for every user.
+
+https://support.apple.com/en-asia/guide/mac-help/mchlp1203/mac

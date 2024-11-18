@@ -13,13 +13,24 @@
 
 >[!WARNING]
 
+>[!CAUTION]
+
 >[!TIP]
 
 >[!NOTE]
 
->[!CAUTION]
+>[!DANGER]
+
+>[!SUCCESS]
+
+>[!BUG]
+
+>[!EXAMPLE]
+
+>[!QUOTE]
 
 ### Toggeling
+
 <details open>
 <summary>Click to hide the source</summary>
 
@@ -41,3 +52,9 @@
 - list
 
 </details>
+
+
+```python {.line-numbers} title:test.py
+import numpy as np
+import pandas as pd
+```
