@@ -110,14 +110,9 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Explore more: When selecting the best split, decision trees find the most useful features. This information can be used for understanding which features are more important than others. See example here (?) for random forest (it's the same for plain decision trees) and for xgboost
 - [ ] Explore more: using trees solving regression problems: check DecisionTreeRegressor, RandomForestRegressor and the objective=reg:squarederror parameter for XGBoost
 
-<!--  **Learn in public ideas**
-- [ ] Learn in public: Setup macBook/ other apps
-- [ ] Learn in public: Organize the homework repository
-- [ ] Learn in public: `.dotfiles`? -->
-
 ## [Homework 8: Neural Networks and Deep Learning](./08-deep-learning/homework_08_till_meineke.ipynb) due 3 December 2024 01:00
 
-- [ ] Finished the homework
+- [x] Finished the homework
 - [ ] Explore more: Add more data, e.g, Zalando etc
 - [ ] Explore more: Albumentations - another way of generating augmentations
 - [ ] Explore more: Use PyTorch or MXNet instead of TensorFlow/Keras
@@ -125,6 +120,11 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Explore more: Project: cats vs dogs
 - [ ] Explore more: Project: Hotdog vs not hotdog
 - [ ] Explore more: Project: Category of images
+
+<!--  **Learn in public ideas**
+- [ ] Learn in public: Setup macBook/ other apps
+- [ ] Learn in public: Organize the homework repository
+- [ ] Learn in public: `.dotfiles`? -->
 
 ## [Homework 9: Serverless Deep Learning]() due 10 December 2024 00:00
 
