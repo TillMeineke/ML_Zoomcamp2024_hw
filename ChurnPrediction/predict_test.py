@@ -3,9 +3,10 @@
 
 import requests
 
-host = "churn-serving-env.eba-vzejz2a6.eu-central-1.elasticbeanstalk.com"
-url = f"http://{host}/predict"  # local
-# url = "http://127.0.0.1:9696/predict" # local
+host = "churn-serving-env.eba-vzejz2a6.eu-central-1.elasticbeanstalk.com" # AWS Elastic Beanstalk (remote)
+# host = "127.0.0.1:9696" # local
+# host = "localhost:9696" # local
+url = f"http://{host}/predict"
 
 customer_id = "xyz-123"
 customer = {
