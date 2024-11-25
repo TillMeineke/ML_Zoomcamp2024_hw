@@ -4,6 +4,16 @@
 
 Author: Till Meineke
 
+> [!IMPORTANT]
+> 
+> Work in progress.
+> 
+> My daugther got sick and I lost 1,5 weeks. I will finish the project, but you can rate this version. Basic functionality is working.
+>
+> Readme is not finished yet. EDA is missing some parts and is unstructured.
+>
+> You can test with `python predict_test.py` in a conda enviroment installed with `conda env create -f environment.yml` in this directory.
+
 <div style="text-align:center;">
   <img src="./images/walking_sillyshrooman.webp" alt="Walking sillyshrooman" style="width:300px;height:auto;">
 </div>
@@ -25,32 +35,49 @@ When working with synthetic data, consider the following points:
 ## Project structure
 
 ```plaintext
-├── .gitignore        <- Files that are ignored by git.
-├── data              <- Data folder
+├── data
 │   ├── raw
-│   └── secondary_data_generated_with_names.csv
-├── docker            <- Docker files
-│   ├── serve.Dockerfile
-│   └── test.Dockerfile
-├── docs              <- Documentation files
-│   ├── 41598_2021_87602_MOESM1_ESM.pdf
-│   └── s41598-021-87602-3.pdf
-├── environment.yml   <- Conda environment file.
-├── images            <- Images folder
-│   └── ...
+│   │   ├── primary_data_edited.csv           <-- Raw data from paper
+│   │   ├── primary_data_meta.txt             <-- Raw data from paper (description)
+│   │   ├── secondary_data_generated.csv      <-- Raw data from paper
+│   │   └── secondary_data_meta.txt           <-- Raw data from paper (description)
+│   └── secondary_data_generated_with_names.csv <-- Generated data
+├── images                            <-- Images for readme
+├── models
+│   └── model_md=20_msl=5.bin         <-- Trained model
+├── notebooks
+│   ├── 01_eda.ipynb                  <-- Exploratory data analysis
+├── references
+│   ├── 'Collins Mushroom Miscellany.epub'  <-- Book with mushroom images
+│   ├── 'Mushroom data creation.pdf'        <-- Main paper for creating mushroom data
+│   ├── 'Mushroom data creation_sup.pdf'    <-- Supplementary material
+│   └── mushrooms-collins-gem.pdf           <-- Book with mushroom images
+├── src                               <-- Source code for use in this project
+│   ├── services
+│   │   ├── Images                    <-- Images from book
+│   │   ├── Text                      <-- Text from book
+│   │   └── rename_images.py          <-- Script to rename images
+│   ├── __init__.py                   <-- Python package initializer file
+│   ├── data_cat.py                   <-- Script to categorize data
+│   ├── gen_corr_norm.py              <-- Script to generate correlated and normalized data
+│   ├── mushroom_class_fix.py
+│   ├── primary_data_gen.py
+│   ├── secondary_data_gen.py         <-- Script to generate secondary data
+│   ├── stats_graphics.py
+│   ├── text_attr_match.py
+│   └── util_func.py
+├── .dockerignore                     <-- Docker ignore file
+├── .gitignore                        <-- Git ignore file
+├── Dockerfile                        <-- Docker file
+├── environment.yml                   <-- Conda environment file
 ├── LICENSE
-├── Makefile          <- Makefile with commands like `make help`.
-├── notebooks         <- Jupyter notebooks
-│   ├── 01_eda.ipynb
-│   └── generate_sample_dataset.ipynb
-├── README.md         <- This file
-└── src               <- Source code
-    ├── __pycache__
-    ├── data_cat.py
-    ├── gen_corr_norm.py
-    ├── generate_fungi_database_v1.py
-    ├── primary_data_gen.py
-    └── text_attr_match.py
+├── Makefile
+├── Pipfile                           <-- Pipenv file
+├── Pipfile.lock                      <-- Pipenv lock file
+├── predict.py                        <-- Prediction script
+├── predict_test.py                   <-- Prediction test script
+├── README.md                         <-- The file you are currently reading
+└── train.py                          <-- Training script
 ```
 
 ## EDA
