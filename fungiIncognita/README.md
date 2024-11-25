@@ -12,7 +12,7 @@ Author: Till Meineke
 >
 > Readme is not finished yet. EDA is missing some parts and is unstructured.
 >
-> You can test with `python predict_test.py` in a conda enviroment installed with `conda env create -f environment.yml` in this directory.
+> You can test with `python predict_test.py` in a conda enviroment installed with `conda env create -f environment.yml` in this directory. ![](./images/prediction_working.png)
 
 <div style="text-align:center;">
   <img src="./images/walking_sillyshrooman.webp" alt="Walking sillyshrooman" style="width:300px;height:auto;">
@@ -81,6 +81,10 @@ When working with synthetic data, consider the following points:
 ```
 
 ## EDA
+
+You can find the EDA in this [notebook](./notebooks/01_eda.ipynb).
+
+
 
 ## Model training
 
