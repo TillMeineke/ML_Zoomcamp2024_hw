@@ -5,8 +5,10 @@
 import requests
 import pandas as pd
 
-# host = "churn-serving-env.eba-vzejz2a6.eu-central-1.elasticbeanstalk.com"  # AWS Elastic Beanstalk (remote)
-host = "127.0.0.1:9696"  # local
+host = "fungi-classifier.eba-rpcwcrqg.eu-central-1.elasticbeanstalk.com"  # AWS Elastic Beanstalk (remote)
+# host = "18.199.224.106:9696"
+# host = "mlzoomcamp-tm.spdns.de:9696"
+# host = "127.0.0.1:9696"  # local
 # host = "localhost:9696" # local
 url = f"http://{host}/predict"
 
@@ -19,9 +21,9 @@ random_fungi = {
     "has-ring": "t",
     "habitat": "d",
     "season": "w",
-    "cap-diameter": 15.0,
-    "stem-height": 1.0,
-    "stem-width": 15.0,
+    "cap-diameter": 7.0,
+    "stem-height": 8.0,
+    "stem-width": 1.0,
 }
 
 
@@ -37,8 +39,3 @@ pred_overview = primary_data[primary_data["name"] == response["fungi"]]
 
 
 print(pred_overview.T)
-
-# if response["churn"] == True:
-#     print("sending promo email to %s" % customer_id)
-# else:
-#     print("not sending promo email to %s" % customer_id)
