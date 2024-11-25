@@ -183,9 +183,9 @@ Extra material in subfolder contains the setup of the environment, the portfolio
   - [ ] README
     - [ ] build a container
     - [ ] run
-- [ ] Cloud deployment
-  - [ ] AWS
-    - [ ] docker - beanstalk
+- [x] Cloud deployment
+  - [x] AWS
+    - [x] docker - beanstalk
     - [ ] serverless?
   - [ ] README
     - [ ] deployment described with code
@@ -193,6 +193,10 @@ Extra material in subfolder contains the setup of the environment, the portfolio
       - [ ] kubernetes (local or remote)
     - [ ] URL for testing / video or screenshot of testing
 - [ ] Write a report
+
+- [ ] Learn in public 1: Leaderboard [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7260339521815220224-jeD7?utm_source=share&utm_medium=member_desktop) on 7 November 2024
+- [ ] Learn in public 2: Prediction working [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266950711664386048-oPj-?utm_source=share&utm_medium=member_desktop) on 26 November 2024
+- [ ] Learn in public 3: 
 
 ### [ ] Capstone 1 Project: due 7 January 2025 00:00
 
