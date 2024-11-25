@@ -105,8 +105,3 @@ habitat_key_words_dict = {'grass': 'g', 'leave': 'l', 'meadow': 'm', 'pasture': 
 
 # category 18
 season_categories_dict = {'spring': 's', 'summer': 'u', 'autumn': 'a', 'winter': 'w'}
-
-
-
-
-
