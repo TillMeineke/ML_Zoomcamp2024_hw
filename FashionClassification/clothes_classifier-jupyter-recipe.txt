@@ -1,0 +1,42 @@
+schema_version: 2024.04.01
+type: workspace
+spec:
+  name: clothes_classifier
+  owner: community/tillmeineke
+  description: ''
+  image: community/saturncloud/saturn-python-tensorflow:2024.08.01
+  instance_type: g4dnxlarge
+  environment_variables: {}
+  working_directory: /home/jovyan/workspace
+  extra_packages:
+    pip:
+      install: scipy
+  start_script: ''
+  token_scope: workspace:{self}:dask:write
+  git_repositories:
+    - url: git@github.com:TillMeineke/ML_Zoomcamp2024_hw.git
+      path: /home/jovyan/workspace/ML_Zoomcamp2024_hw
+      public: false
+      on_restart: preserve changes
+      reference: null
+      reference_type: branch
+  secrets:
+    - location: /home/jovyan/secrets/id_rsa
+      type: file
+      description: ''
+      owner: community/tillmeineke
+      name: id_rsa
+  shared_folders: []
+  ide: jupyter
+  disk_space: 40Gi
+  auto_shutoff: 1 hour
+  start_ssh: true
+  use_spot_instance: false
+  routes:
+    - subdomain: w-tillm-clothesclassifier-4c19a3439cba42feabe612b2d6336b0a
+      container_port: 8888
+      visibility: owner
+  viewers: []
+state:
+  id: 4c19a3439cba42feabe612b2d6336b0a
+  status: running

@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scikit-learn = "*"
+numpy = "*"
+flask = "*"
+gunicorn = "*"
+pandas = "==2.2.3"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

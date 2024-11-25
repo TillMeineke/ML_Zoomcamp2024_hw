@@ -155,30 +155,31 @@ Extra material in subfolder contains the setup of the environment, the portfolio
   - [ ] use of solution
 - [x] Find a dataset: [Classification Mushroom Data 2020](https://visualization.group/data/mushroom/)
 - [ ] Do EDA
-  - [ ] ranges of values
-  - [ ] missing values
+  - [x] ranges of values
+  - [x] missing values
   - [ ] analysis of target variable
   - [ ] feature importance analysis
-- [ ] Model training
-  - [ ] Train multiple models
-  - [ ] tune hyperparameters
-- [ ] Export the best model to script and save model
-- [ ] Reproducibility
-  - [ ] re-execute the notebook without errors
-  - [ ] execute the training script without errors
+- [x] Model training
+  - [x] Train multiple models
+  - [x] tune hyperparameters
+- [x] Export the best model to script and save model
+- [x] Reproducibility
+  - [x] re-execute the notebook without errors
+  - [x] execute the training script without errors
   - [x] submit the dataset
-- [ ] Deploy the model - Flask
+- [x] Deploy the model - Flask
 - [ ] Dependency and environment management
   - [x] [conda environment](./fungiIncognita/environment.yml)
   - [x] Makefile <!-- FIXME: -->
+  - [x] environment.yml
   - [ ] requirements.txt
-  - [ ] Pipfile
+  - [x] Pipfile
   - [ ] etc?
   - [ ] Readme
     - [ ] installation
     - [ ] activation
 - [ ] Containerization
-  - [ ] Dockerfile
+  - [x] Dockerfile
   - [ ] README
     - [ ] build a container
     - [ ] run
