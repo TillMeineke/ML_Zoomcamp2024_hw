@@ -23,7 +23,7 @@ dependencies:
   - ipykernel
   - ipython
   - matplotlib
-  - numpy
+  - numpy=1.26.4
   - pandas
   - pip
   - pipenv
@@ -43,5 +43,5 @@ dependencies:
     - jupyter-client
     - jupyter-core
     - keras-image-helper
-    - tensorflow-metal==1.1.0
+#    - tensorflow-metal==1.1.0
     - tensorflow-serving-api==2.7.0

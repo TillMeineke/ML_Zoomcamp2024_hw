@@ -1,10 +1,12 @@
-ACCOUNT_ID=
-REGION=eu-west-1
+727646501899.dkr.ecr.eu-central-1.amazonaws.com/clothing-tflite-images
+
+ACCOUNT_ID=727646501899
+REGION=eu-central-1
 REGISTRY=clothing-tflite-images
-PREFIX=${ACCOUNT}.dkr.ecr.${REGION}.amazonaws.com/${REGISTRY}
+PREFIX=${ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com/${REGISTRY}
 
 TAG=clothing-model-xception-v4-001
-REMOTE_URI=${PREFIX}:TAG
+REMOTE_URI=${PREFIX}:${TAG}
 
 
 ACCOUNT_ID=
