@@ -84,11 +84,23 @@ When working with synthetic data, consider the following points:
 
 You can find the EDA in this [notebook](./notebooks/01_eda.ipynb).
 
+### Ranges of values
 
+![](./images/3D-scatter_fungi%20features.png)
+
+### Missing values
+
+### Analysis of the target variable
+
+### Feature importance analysis
 
 ## Model training
 
+I used a Logistic Regression model and a Decision Tree model. I used Cross-Validation to evaluate the models.
+
 ## Exporting notebook to python script
+
+See `train.py`. Model is saved in `models` folder.
 
 ## Reproducibility
 

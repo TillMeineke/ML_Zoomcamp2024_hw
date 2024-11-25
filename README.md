@@ -194,9 +194,11 @@ Extra material in subfolder contains the setup of the environment, the portfolio
     - [ ] URL for testing / video or screenshot of testing
 - [ ] Write a report
 
-- [ ] Learn in public 1: Leaderboard [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7260339521815220224-jeD7?utm_source=share&utm_medium=member_desktop) on 7 November 2024
-- [ ] Learn in public 2: Prediction working [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266950711664386048-oPj-?utm_source=share&utm_medium=member_desktop) on 26 November 2024
-- [ ] Learn in public 3: 
+- [x] Learn in public 1: Leaderboard [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7260339521815220224-jeD7?utm_source=share&utm_medium=member_desktop) on 7 November 2024
+- [x] Learn in public 2: Prediction working [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266950711664386048-oPj-?utm_source=share&utm_medium=member_desktop) on 26 November 2024
+- [x] Learn in public 3: Picture of shroom [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266954180316053504--FCz?utm_source=share&utm_medium=member_desktop) on 26 November 2024
+- [x] Learn in public 4: 3D Scatter plot numerical fungi features [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266956394614964224-qdmt?utm_source=share&utm_medium=member_desktop) on 26 November 2024
+- [x] Learn in public 5: 3D Scatter plot interactive [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266959507954548736-qsoj?utm_source=share&utm_medium=member_desktop) on 26 November 2024
 
 ### [ ] Capstone 1 Project: due 7 January 2025 00:00
 
