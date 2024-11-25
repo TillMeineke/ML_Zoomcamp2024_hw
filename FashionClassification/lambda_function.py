@@ -11,7 +11,7 @@ from keras_image_helper import create_preprocessor
 preprocessor = create_preprocessor("xception", target_size=(299, 299))
 
 # Load the TFLite model and get indices of input and output tensors
-interpreter = tflite.Interpreter("./models/clothing_model.tflite")
+interpreter = tflite.Interpreter("./clothing_model.tflite")
 interpreter.allocate_tensors()
 
 input_index = interpreter.get_input_details()[0]["index"]

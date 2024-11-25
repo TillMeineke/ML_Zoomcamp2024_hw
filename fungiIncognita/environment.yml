@@ -37,9 +37,9 @@ dependencies:
   - xgboost
   - pip:
     - scipy
-    - torch
-    - torchaudio
-    - torchvision
-    - keras-image-helper
-    - tensorflow-metal==1.1.0
-    - tensorflow-serving-api==2.7.0
+#    - torch
+#    - torchaudio
+#    - torchvision
+#    - keras-image-helper
+#    - tensorflow-metal==1.1.0
+#    - tensorflow-serving-api==2.7.0
