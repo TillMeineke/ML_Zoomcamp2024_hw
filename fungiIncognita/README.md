@@ -4,6 +4,12 @@
 
 Author: Till Meineke
 
+<div style="text-align:center;">
+  <img src="./images/walking_sillyshrooman.webp" alt="Walking sillyshrooman" style="width:300px;height:auto;">
+</div>
+
+source: [Giphy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJxa2xoY2R0YnVnZGVuaWMzcjVzc3VwNGFmOXl1bTJzM2JjOXFmZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/BPvLYetv28UVFBHCO2/giphy.gif)
+
 > [!IMPORTANT]
 >
 > Work in progress.
@@ -15,12 +21,6 @@ Author: Till Meineke
 > You can test with `python predict_test.py` in a conda enviroment installed with `conda env create -f environment.yml` in this directory.
 >
 > ![Prediction is working](./images/prediction_working.png "It's working")
-
-<div style="text-align:center;">
-  <img src="./images/walking_sillyshrooman.webp" alt="Walking sillyshrooman" style="width:300px;height:auto;">
-</div>
-
-source: [Giphy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJxa2xoY2R0YnVnZGVuaWMzcjVzc3VwNGFmOXl1bTJzM2JjOXFmZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/BPvLYetv28UVFBHCO2/giphy.gif)
 
 ## Problem description
 
