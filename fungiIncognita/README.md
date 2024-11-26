@@ -5,14 +5,16 @@
 Author: Till Meineke
 
 > [!IMPORTANT]
-> 
+>
 > Work in progress.
-> 
+>
 > My daugther got sick and I lost 1,5 weeks. I will finish the project, but you can rate this version. Basic functionality is working.
 >
 > Readme is not finished yet. EDA is missing some parts and is unstructured.
 >
-> You can test with `python predict_test.py` in a conda enviroment installed with `conda env create -f environment.yml` in this directory. ![](./images/prediction_working.png)
+> You can test with `python predict_test.py` in a conda enviroment installed with `conda env create -f environment.yml` in this directory.
+>
+> ![Prediction is working](./images/prediction_working.png "It's working")
 
 <div style="text-align:center;">
   <img src="./images/walking_sillyshrooman.webp" alt="Walking sillyshrooman" style="width:300px;height:auto;">
@@ -46,7 +48,7 @@ When working with synthetic data, consider the following points:
 ├── models
 │   └── model_md=20_msl=5.bin         <-- Trained model
 ├── notebooks
-│   ├── 01_eda.ipynb                  <-- Exploratory data analysis
+│   └── 01_eda.ipynb                  <-- Exploratory data analysis
 ├── references
 │   ├── 'Collins Mushroom Miscellany.epub'  <-- Book with mushroom images
 │   ├── 'Mushroom data creation.pdf'        <-- Main paper for creating mushroom data
@@ -112,32 +114,81 @@ Preferably, you can use make commands (from Makefile) or directly run scripts fr
 Refer to section below for the descriptions of make commands. Before running it, consider creating
 a virtual environment
 
-### Makefile and test example
+### Makefile and test example (not fully implemented)
 
 Try out the make commands (see `make help`).
 
+> [!IMPORTANT]
+>
+> ```bash
+> make grow_fungi
+> ```
+>
+> will overwrite the generated data in `data/secondary_data_generated_with_names.csv`.
+
 ### Conda environment
 
-Working in conda environment `./environment.yml`. Install with:
+Development was done in conda environment `./environment.yml`. Install with:
 
 ```bash
 conda env create -f environment.yml
+```
+
+### Pipenv
+
+For the Docker container, I used pipenv. You can install the environment with:
+
+```bash
+pipenv install
 ```
 
 ## Containerization
 
 Currently, you can find the following docker files:
 
+- [`Dockerfile`](./Dockerfile)
+
+It is used to build an image for running the model. You can build the image with:
+
+```bash
+docker build -t fungi-incognita .
+```
+
+and run it with:
+
+```bash
+docker run -it --rm -p 9696:9696 fungi-incognita
+```
+
+This will start a Flask server on port 9696.
+
+[`predict.py`](./predict.py) is the script that is run when the container starts. It is momentarily configured for testing with docker. You can modify it to test locally without docker, by commenting/uncommenting the following lines:
+
+```python
+# MODEL_FILE = "./models/model_md=20_msl=5.bin" # local testing without docker
+MODEL_FILE = "./model_md=20_msl=5.bin"  # testing with docker
+```
+
 <!-- jupyter.Dockerfile builds an image for running notebooks. -->
-`test.Dockerfile` builds an image to run all tests in (make test-docker).
-`serve.Dockerfile` build an image to serve the trained model via a REST api.
+<!-- `test.Dockerfile` builds an image to run all tests in (make test-docker). -->
+<!-- `serve.Dockerfile` build an image to serve the trained model via a REST api. -->
 <!-- To ease the serving it uses open source dploy-kickstart module. To find more info about dploy-kickstart click here. -->
-Finally, you can start all services using `docker-compose`:
-for example `docker-compose up test` or `docker-compose up serve`.
+<!-- Finally, you can start all services using `docker-compose`: -->
+<!-- for example `docker-compose up test` or `docker-compose up serve`. -->
 
 <!-- Do you need a notebook for development? Just run docker-compose up jupyter. It will launch a Jupyter Notebook with access to your local development files. -->
 
 ## Cloud deployment
+
+### EB deployment
+
+EB is running under `fungi-classifier.eba-rpcwcrqg.eu-central-1.elasticbeanstalk.com`
+
+## Web application (not implemented)
+
+Finally, I will create a web application to classify mushrooms. The user can enter the characteristics of the mushroom or generate a random mushroom.
+
+The application will then classify the mushroom species and provide the user with full information about the species and a picture for reference.
 
 ## Submission
 
