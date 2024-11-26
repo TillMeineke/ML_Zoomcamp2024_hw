@@ -20,7 +20,7 @@ source: [Giphy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJxa2xoY2R0YnVnZGV
 >
 > You can test with `python predict_test.py` in a conda enviroment installed with `conda env create -f environment.yml` in this directory.
 >
-> ![Prediction is working](./images/prediction_working_low.mp4 "It's working")
+> ![Prediction is working](./images/prediction_working.mp4 "It's working")
 
 ## Problem description
 
