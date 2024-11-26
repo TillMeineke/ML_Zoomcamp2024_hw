@@ -24,6 +24,11 @@ source: [Giphy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJxa2xoY2R0YnVnZGV
 >
 > I made a [video](./images/prediction_working.mp4) of local deployment with docker `make deploy` and testing with `make test_deploy`, but it is not rendering on github.
 
+<video controls width="600">
+  <source src="./images/prediction_working.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Problem description
 
 Walking through the woods collecting mushrooms can be a fun activity. However, it can also be dangerous if you don't know which mushrooms are edible or not. The goal of this project is to build and deploy a model that can predict which mushrooms you picked based on some simple characteristics.
