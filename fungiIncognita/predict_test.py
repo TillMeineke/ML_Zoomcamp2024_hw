@@ -2,8 +2,8 @@
 # coding: utf-8
 
 
-import requests
 import pandas as pd
+import requests
 
 host = "fungi-classifier.eba-rpcwcrqg.eu-central-1.elasticbeanstalk.com"  # AWS Elastic Beanstalk (remote)
 # host = "18.199.224.106:9696"
@@ -21,21 +21,20 @@ random_fungi = {
     "has-ring": "t",
     "habitat": "d",
     "season": "w",
-    "cap-diameter": 7.0,
-    "stem-height": 8.0,
-    "stem-width": 1.0,
+    "cap-diameter": 4.0,
+    "stem-height": 3.0,
+    "stem-width": 5.0,
 }
 
 
 response = requests.post(url, json=random_fungi).json()
-#response.value()
+# response.value()
 
 primary_data = pd.read_csv("./data/raw/primary_data_edited.csv", sep=";")
 
 pred_overview = primary_data[primary_data["name"] == response["fungi"]]
-#pred_overview
-#overview = primary_data[primary_data["name"] == "Soft Slipper Toadstool"]
-
+# pred_overview
+# overview = primary_data[primary_data["name"] == "Soft Slipper Toadstool"]
 
 
 print(pred_overview.T)
