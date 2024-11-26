@@ -1,4 +1,4 @@
-import data_cat
+import src.data_cat as data_cat
 
 # general method
 def get_category_attributes_list(sentences, category_key_word_list, attributes_key_words_dict):

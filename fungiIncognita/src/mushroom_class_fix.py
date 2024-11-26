@@ -5,7 +5,7 @@ import pandas as pd
 
 # setting path
 sys.path.append("../")
-import src.data_cat
+import src.data_cat as data_cat
 
 mode_dict = {
     "nb": "Gaussian Naive Bayes",
@@ -195,19 +195,19 @@ def get_train_test(*datas, **kwargs):
         kwargs["test_size"] = 0.2
     # One dataset -> use sklearn.model_selection.train_test_split
     if len(datas) == 1:
-        X = datas[0].drop(columns="class")
-        y = datas[0]["class"].values.reshape(-1, 1)
+        X = datas[0].drop(columns="name")
+        y = datas[0]["name"].values.reshape(-1, 1)
         return train_test_split(X, y, test_size=kwargs["test_size"], random_state=1)
     # Two datasets -> use the first as training set, the second as test set
     elif len(datas) == 2:
         # assign datasets as train and test set and divide into X and y
-        X1 = datas[0].drop(columns="class")
-        y1 = datas[0]["class"].values.reshape(-1, 1)
+        X1 = datas[0].drop(columns="name")
+        y1 = datas[0]["name"].values.reshape(-1, 1)
         X_train, _, y_train, _ = train_test_split(
             X1, y1, test_size=kwargs["test_size"], random_state=1
         )
-        X2 = datas[1].drop(columns="class")
-        y2 = datas[1]["class"].values.reshape(-1, 1)
+        X2 = datas[1].drop(columns="name")
+        y2 = datas[1]["name"].values.reshape(-1, 1)
         _, X_test, _, y_test = train_test_split(
             X2, y2, test_size=kwargs["test_size"], random_state=1
         )
@@ -305,8 +305,8 @@ def cross_fold_validation(data, **kwargs):
         kwargs["scoring"] = "accuracy"
     if "mode" not in kwargs:
         kwargs["mode"] = "log_reg"
-    X = data.drop(columns=["class"])
-    y = data["class"].values.reshape(-1, 1).ravel()
+    X = data.drop(columns=["name"])
+    y = data["name"].values.reshape(-1, 1).ravel()
     model = get_model(kwargs["mode"])
     scores = cross_val_score(model, X, y, cv=kwargs["k"], scoring=kwargs["scoring"])
     return scores

@@ -18,7 +18,7 @@ source: [Giphy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJxa2xoY2R0YnVnZGV
 >
 > Readme is not finished yet. EDA is missing some parts and is unstructured.
 >
-> You can testthe running EB instance with `make test_deploy` or in the provided conda environmet `python predict_test.py`.
+> You can test the running EB instance with `make test_deploy` or in the provided conda environment with `python predict_test.py`.
 >
 > ![Prediction is working](./images/prediction_working.png "It's working")
 >
