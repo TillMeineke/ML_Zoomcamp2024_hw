@@ -1,7 +1,7 @@
 import os
 
-import text_attr_match
-import data_cat
+import src.text_attr_match as text_attr_match
+import src.data_cat as data_cat
 
 """
 WARNING: Cannot be run since the used source book is not freely available. To run this module,

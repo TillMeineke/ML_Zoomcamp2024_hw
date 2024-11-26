@@ -1,9 +1,9 @@
 import pandas as pd
 import random
 
-import primary_data_gen
-import data_cat
-import gen_corr_norm
+import src.primary_data_gen as primary_data_gen
+import src.data_cat as data_cat
+import src.gen_corr_norm as gen_corr_norm
 
 
 class FunghiEntry:
