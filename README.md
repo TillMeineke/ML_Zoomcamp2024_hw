@@ -146,7 +146,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 ## Projects
 
-### [ ] Midterm Project: due 26 November 2024 00:00
+### [x] [Midterm Project](./fungiIncognita): due 26 November 2024 00:00
 
 - Start: 4 November 2024
 - [x] Problem description: [README](./fungiIncognita/README.md)
@@ -154,7 +154,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
   - [ ] problem
   - [ ] use of solution
 - [x] Find a dataset: [Classification Mushroom Data 2020](https://visualization.group/data/mushroom/)
-- [ ] Do EDA
+- [ ] Do [EDA](./fungiIncognita/notebooks/01_eda.ipynb)
   - [x] ranges of values
   - [x] missing values
   - [ ] analysis of target variable
@@ -200,12 +200,14 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [x] Learn in public 4: 3D Scatter plot numerical fungi features [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266956394614964224-qdmt?utm_source=share&utm_medium=member_desktop) on 25 November 2024
 - [x] Learn in public 5: 3D Scatter plot interactive [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266959507954548736-qsoj?utm_source=share&utm_medium=member_desktop) on 25 November 2024
 - [x] Learn in public 6: Largest cap-diameter [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266963858710294528-aWO3?utm_source=share&utm_medium=member_desktop) on 25 November 2024
-- [x] Learn in public 7: [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266991363613708288-hXnO?utm_source=share&utm_medium=member_desktop) on 26 November 2024
+- [x] Learn in public 7: Correlation matrix [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266991363613708288-hXnO?utm_source=share&utm_medium=member_desktop) on 26 November 2024
 - [x] Learn in public 8: Long tails [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266993751548469248-rIPD?utm_source=share&utm_medium=member_desktop) on 26 November 2024
 - [x] Learn in public 9: Update Setup Saturn Cloud [github](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/08-deep-learning/01b-saturn-cloud.md) on 25 November 2024
-- [x] Learn in public 10: EB error [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7267071587487535104-e6kk?utm_source=share&utm_medium=member_desktop) on 26 November 2024
-- [x] Learn in public 11: Harvest time [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7267078507346731008-bSwu?utm_source=share&utm_medium=member_desktop) on 26 November 2024
-- [ ] Learn in public 12: [LinkedIn]() on 26 November 2024
+- [x] Learn in public 10: Fungi without stem [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266996863273213952-h49H?utm_source=share&utm_medium=member_desktop) on 26 November 2024
+- [x] Learn in public 11: EB error [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7267071587487535104-e6kk?utm_source=share&utm_medium=member_desktop) on 26 November 2024
+- [x] Learn in public 12: Harvest time [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7267078507346731008-bSwu?utm_source=share&utm_medium=member_desktop) on 26 November 2024
+- [x] Learn in public 13: Slack feedback [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7267083383216689153-2Ule?utm_source=share&utm_medium=member_desktop) on 26 November 2024
+- [x] Learn in public 14: Pictures from epub [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlsoomcamp-activity-7267086174068879360-h93R?utm_source=share&utm_medium=member_desktop) on 26 November 2024
 
 ### [ ] Capstone 1 Project: due 7 January 2025 00:00
 
