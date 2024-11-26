@@ -168,39 +168,44 @@ Extra material in subfolder contains the setup of the environment, the portfolio
   - [x] execute the training script without errors
   - [x] submit the dataset
 - [x] Deploy the model - Flask
-- [ ] Dependency and environment management
+- [x] Dependency and environment management
   - [x] [conda environment](./fungiIncognita/environment.yml)
-  - [x] Makefile <!-- FIXME: -->
+  - [ ] Makefile <!-- FIXME: -->
   - [x] environment.yml
   - [ ] requirements.txt
   - [x] Pipfile
   - [ ] etc?
-  - [ ] Readme
-    - [ ] installation
-    - [ ] activation
-- [ ] Containerization
+  - [x] Readme
+    - [x] installation
+    - [x] activation
+- [x] Containerization
   - [x] Dockerfile
-  - [ ] README
-    - [ ] build a container
-    - [ ] run
+  - [x] README
+    - [x] build a container
+    - [x] run
 - [x] Cloud deployment
   - [x] AWS
     - [x] docker - beanstalk
     - [ ] serverless?
-  - [ ] README
-    - [ ] deployment described with code
-      - [ ] cloud
+  - [x] README
+    - [x] deployment described with code
+      - [x] cloud
       - [ ] kubernetes (local or remote)
-    - [ ] URL for testing / video or screenshot of testing
+    - [x] URL for testing / video or screenshot of testing
 - [ ] Write a report
 
 - [x] Learn in public 1: Leaderboard [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7260339521815220224-jeD7?utm_source=share&utm_medium=member_desktop) on 7 November 2024
-- [x] Learn in public 2: Prediction working [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266950711664386048-oPj-?utm_source=share&utm_medium=member_desktop) on 26 November 2024
-- [x] Learn in public 3: Picture of shroom [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266954180316053504--FCz?utm_source=share&utm_medium=member_desktop) on 26 November 2024
-- [x] Learn in public 4: 3D Scatter plot numerical fungi features [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266956394614964224-qdmt?utm_source=share&utm_medium=member_desktop) on 26 November 2024
-- [x] Learn in public 5: 3D Scatter plot interactive [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266959507954548736-qsoj?utm_source=share&utm_medium=member_desktop) on 26 November 2024
-- [x] Learn in public 6: Largest cap-diameter [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266963858710294528-aWO3?utm_source=share&utm_medium=member_desktop) on 26 November 2024
-- [ ] Learn in public 7: [LinkedIn]()
+- [x] Learn in public 2: Prediction working [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266950711664386048-oPj-?utm_source=share&utm_medium=member_desktop) on 25 November 2024
+- [x] Learn in public 3: Picture of shroom [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266954180316053504--FCz?utm_source=share&utm_medium=member_desktop) on 25 November 2024
+- [x] Learn in public 4: 3D Scatter plot numerical fungi features [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266956394614964224-qdmt?utm_source=share&utm_medium=member_desktop) on 25 November 2024
+- [x] Learn in public 5: 3D Scatter plot interactive [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266959507954548736-qsoj?utm_source=share&utm_medium=member_desktop) on 25 November 2024
+- [x] Learn in public 6: Largest cap-diameter [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266963858710294528-aWO3?utm_source=share&utm_medium=member_desktop) on 25 November 2024
+- [x] Learn in public 7: [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266991363613708288-hXnO?utm_source=share&utm_medium=member_desktop) on 26 November 2024
+- [x] Learn in public 8: Long tails [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266993751548469248-rIPD?utm_source=share&utm_medium=member_desktop) on 26 November 2024
+- [x] Learn in public 9: Update Setup Saturn Cloud [github](https://github.com/DataTalksClub/machine-learning-zoomcamp/blob/master/08-deep-learning/01b-saturn-cloud.md) on 25 November 2024
+- [x] Learn in public 10: EB error [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7267071587487535104-e6kk?utm_source=share&utm_medium=member_desktop) on 26 November 2024
+- [x] Learn in public 11: Harvest time [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7267078507346731008-bSwu?utm_source=share&utm_medium=member_desktop) on 26 November 2024
+- [ ] Learn in public 12: [LinkedIn]() on 26 November 2024
 
 ### [ ] Capstone 1 Project: due 7 January 2025 00:00
 
