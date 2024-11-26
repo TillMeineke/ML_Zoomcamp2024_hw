@@ -25,7 +25,7 @@ source: [Giphy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJxa2xoY2R0YnVnZGV
 > I made a [video](./images/prediction_working.mp4) of local deployment with docker `make deploy` and testing with `make test_deploy`, but it is not rendering on github.
 
 <video controls width="600">
-  <source src="./images/prediction_working.mp4" type="video/mp4">
+  <source src="./images/prediction_working.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
 
