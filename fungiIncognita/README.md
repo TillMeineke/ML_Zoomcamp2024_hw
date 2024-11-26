@@ -39,47 +39,47 @@ When working with synthetic data, consider the following points:
 ```plaintext
 ├── data
 │   ├── raw
-│   │   ├── primary_data_edited.csv           <-- Raw data from paper
-│   │   ├── primary_data_meta.txt             <-- Raw data from paper (description)
-│   │   ├── secondary_data_generated.csv      <-- Raw data from paper
-│   │   └── secondary_data_meta.txt           <-- Raw data from paper (description)
-│   └── secondary_data_generated_with_names.csv <-- Generated data
-├── images                            <-- Images for readme
+│   │   ├── primary_data_edited.csv                 <-- Raw data from paper
+│   │   ├── primary_data_meta.txt                   <-- Raw data from paper (description)
+│   │   ├── secondary_data_generated.csv            <-- Raw data from paper
+│   │   └── secondary_data_meta.txt                 <-- Raw data from paper (description)
+│   └── secondary_data_generated_with_names.csv     <-- Generated data
+├── images                                          <-- Images for readme
 ├── models
-│   └── model_md=20_msl=5.bin         <-- Trained model
+│   └── model_md=20_msl=5.bin                       <-- Trained model
 ├── notebooks
-│   └── 01_eda.ipynb                  <-- Exploratory data analysis
+│   └── 01_eda.ipynb                                <-- Exploratory data analysis
 ├── references
-│   ├── 'Collins Mushroom Miscellany.epub'  <-- Book with mushroom images
-│   ├── 'Mushroom data creation.pdf'        <-- Main paper for creating mushroom data
-│   ├── 'Mushroom data creation_sup.pdf'    <-- Supplementary material
-│   └── mushrooms-collins-gem.pdf           <-- Book with mushroom images
-├── src                               <-- Source code for use in this project
+│   ├── 'Collins Mushroom Miscellany.epub'          <-- Book with mushroom images
+│   ├── 'Mushroom data creation.pdf'                <-- Main paper for creating mushroom data
+│   ├── 'Mushroom data creation_sup.pdf'            <-- Supplementary material
+│   └── mushrooms-collins-gem.pdf                   <-- Book with mushroom images
+├── src                                             <-- Source code for use in this project
 │   ├── services
-│   │   ├── Images                    <-- Images from book
-│   │   ├── Text                      <-- Text from book
-│   │   └── rename_images.py          <-- Script to rename images
-│   ├── __init__.py                   <-- Python package initializer file
-│   ├── data_cat.py                   <-- Script to categorize data
-│   ├── gen_corr_norm.py              <-- Script to generate correlated and normalized data
+│   │   ├── Images                                  <-- Images from book
+│   │   ├── Text                                    <-- Text from book
+│   │   └── rename_images.py                        <-- Script to rename images
+│   ├── __init__.py                                 <-- Python package initializer file
+│   ├── data_cat.py                                 <-- Script to categorize data
+│   ├── gen_corr_norm.py                            <-- Script to generate correlated and normalized data
 │   ├── mushroom_class_fix.py
 │   ├── primary_data_gen.py
-│   ├── secondary_data_gen.py         <-- Script to generate secondary data
+│   ├── secondary_data_gen.py                       <-- Script to generate secondary data
 │   ├── stats_graphics.py
 │   ├── text_attr_match.py
 │   └── util_func.py
-├── .dockerignore                     <-- Docker ignore file
-├── .gitignore                        <-- Git ignore file
-├── Dockerfile                        <-- Docker file
-├── environment.yml                   <-- Conda environment file
+├── .dockerignore                                   <-- Docker ignore file
+├── .gitignore                                      <-- Git ignore file
+├── Dockerfile                                      <-- Docker file
+├── environment.yml                                 <-- Conda environment file
 ├── LICENSE
 ├── Makefile
-├── Pipfile                           <-- Pipenv file
-├── Pipfile.lock                      <-- Pipenv lock file
-├── predict.py                        <-- Prediction script
-├── predict_test.py                   <-- Prediction test script
-├── README.md                         <-- The file you are currently reading
-└── train.py                          <-- Training script
+├── Pipfile                                         <-- Pipenv file
+├── Pipfile.lock                                    <-- Pipenv lock file
+├── predict.py                                      <-- Prediction script
+├── predict_test.py                                 <-- Prediction test script
+├── README.md                                       <-- The file you are currently reading
+└── train.py                                        <-- Training script
 ```
 
 ## EDA
