@@ -14,29 +14,23 @@ source: [Giphy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJxa2xoY2R0YnVnZGV
 >
 > Work in progress.
 >
-> My daugther got sick and I lost 1,5 weeks. I will finish the project, but you can rate this version. Basic functionality is working.
+> You can rate this version. Basic functionality is working.
 >
 > Readme is not finished yet. EDA is missing some parts and is unstructured.
 >
-> You can test with `python predict_test.py` in a conda enviroment installed with `conda env create -f environment.yml` in this directory.
+> You can testthe running EB instance with `make test_deploy` or in the provided conda environmet `python predict_test.py`.
 >
 > ![Prediction is working](./images/prediction_working.png "It's working")
 >
-> I made a [video](./images/prediction_working.mp4) of local deployment with docker and testing with `predict_test.py`, but it is not rendering on github.
-
-
+> I made a [video](./images/prediction_working.mp4) of local deployment with docker `make deploy` and testing with `make test_deploy`, but it is not rendering on github.
 
 ## Problem description
 
 Walking through the woods collecting mushrooms can be a fun activity. However, it can also be dangerous if you don't know which mushrooms are edible or not. The goal of this project is to build and deploy a model that can predict which mushrooms you picked based on some simple characteristics.
 
-To better understand the problem, I will use the [Classification Mushroom Data 2020](https://visualization.group/data/mushroom/) dataset. The primary data describes 173 mushroom species, which can be used for simulating hypothetical mushrooms. Since the attached secondary data contains 61,069 hypothetical mushrooms for __binary classification without names__, I have to generate simulated data with species names.
+To better understand the problem, I will use the [Classification Mushroom Data 2020](https://visualization.group/data/mushroom/) dataset. The provided primary data describes 173 mushroom species, which can be used for simulating hypothetical mushrooms. Since the provided secondary data contains 61,069 hypothetical mushrooms for __binary classification without names__, I have to generate simulated data with species names.
 
-Ensure that the generated dataset is of high quality and relevant for the task you are attempting to solve.
-When working with synthetic data, consider the following points:
-
-- Clearly document how you generated the synthetic dataset and the reasoning behind its design.
-- Provide sufficient context about the dataset and the model you are building for your peers who will review your project.
+This will ensure that the generated dataset is of high quality and relevant for the task I am attempting to solve.
 
 ## Project structure
 
@@ -48,7 +42,7 @@ When working with synthetic data, consider the following points:
 │   │   ├── secondary_data_generated.csv            <-- Raw data from paper
 │   │   └── secondary_data_meta.txt                 <-- Raw data from paper (description)
 │   └── secondary_data_generated_with_names.csv     <-- Generated data
-├── images                                          <-- Images for readme
+├── images                                          <-- Images for readme and "Learning in public"
 ├── models
 │   └── model_md=20_msl=5.bin                       <-- Trained model
 ├── notebooks
@@ -85,6 +79,50 @@ When working with synthetic data, consider the following points:
 ├── README.md                                       <-- The file you are currently reading
 └── train.py                                        <-- Training script
 ```
+
+## Generating synthetic mushroom data
+
+Working with synthetic data, I was asked to consider the following points:
+
+- Clearly document how you generated the synthetic dataset and the reasoning behind its design.
+- Provide sufficient context about the dataset and the model you are building for your peers who will review your project.
+
+### Documentation of the data generation process
+
+In the [repository](https://github.com/ghattab/secondarydata) I found several scripts belonging to the paper "Mushroom data creation" by Ghattas et al. (2020). The scripts are written in Python and are used to generate the secondary data. I had to modify the scripts to generate the data with species names.
+
+```python
+def write_to_csv(file_name, funghi_entry_list, use_intervals):
+    """
+    Parameters
+    ----------
+    file_name: str
+    name of the written csv file
+    funghi_entry_list: list of FunghiEntry
+    list of mushrooms, each element corresponding to one simulated mushroom
+    use_intervals: bool
+    uses the interval borders as values for the metrical attributes instead of a simulated float value
+
+    Funtionality
+    ------------
+    writes each simulated mushroom as a line in a csv file
+    """
+
+    file = open(file_name, "w")
+    if not use_intervals:
+#        file.write(data_cat.PRIMARY_DATASET_HEADER.replace("family;name;", "") + "\n")
+        file.write(data_cat.PRIMARY_DATASET_HEADER + "\n")
+    else:
+        file.write(data_cat.DATASET_HEADER_MIN_MAX.replace("name;", "") + "\n")
+    for funghi_entry in funghi_entry_list:
+#        funghi_str = funghi_entry.is_edible
+        funghi_str = funghi_entry.family + ";" + funghi_entry.name + ";" + funghi_entry.is_edible
+        for category in funghi_entry.categories:
+            funghi_str += ";" + str(category)
+        file.write(funghi_str + "\n")
+```
+
+### Context of the dataset and the model
 
 ## EDA
 
