@@ -24,7 +24,7 @@ source: [Giphy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJxa2xoY2R0YnVnZGV
 > <img src="./images/prediction_working.png" alt="Prediction is working" style="width:300px;height:auto;">
 > </div>
 >
-> I made a [video](./images/prediction_working.mp4) of local deployment with docker `make deploy` and testing with `make test_deploy`, but it is not rendering on github.
+> I made a ![video](./images/prediction_working.mp4) of local deployment with docker `make deploy` and testing with `make test_deploy`, but it is not rendering on github.
 
 ## Problem description
 
