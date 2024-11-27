@@ -170,18 +170,34 @@ Try out the make commands (see `make help`).
 
 ### Conda environment
 
-Development was done in conda environment `./environment.yml`. Install with:
+Development was done in conda environment [`./environment.yml`](./environment.yml "Conda environment file"). Install with:
+
+
+```bash
+make conda_environment
+```
+
+or
 
 ```bash
 conda env create -f environment.yml
 ```
 
-### Pipenv
+### Pipenv environment
 
-For the Docker container, I used pipenv. You can install the environment with:
+For the Docker container, I used pipenv. See [Pipfile](./Pipfile "Pipenv file") and [Pipfile.lock](./Pipfile.lock "Pipenv lock file"). You can install and activate the environment with:
+
+```bash
+make pipenv_environment
+```
+
+or
 
 ```bash
 pipenv install
+
+# for activation
+pipenv shell
 ```
 
 ## Containerization
@@ -190,16 +206,10 @@ Currently, you can find the following docker files:
 
 - [`Dockerfile`](./Dockerfile)
 
-It is used to build an image for running the model. You can build the image with:
+It is used to build an image for running the model. You can build and run the image with:
 
 ```bash
-docker build -t fungi-incognita .
-```
-
-and run it with:
-
-```bash
-docker run -it --rm -p 9696:9696 fungi-incognita
+make deploy
 ```
 
 This will start a Flask server on port 9696.
@@ -209,6 +219,12 @@ This will start a Flask server on port 9696.
 ```python
 # MODEL_FILE = "./models/model_md=20_msl=5.bin" # local testing without docker
 MODEL_FILE = "./model_md=20_msl=5.bin"  # testing with docker
+```
+
+and run with:
+
+```bash
+python predict.py
 ```
 
 <!-- jupyter.Dockerfile builds an image for running notebooks. -->
@@ -226,11 +242,28 @@ MODEL_FILE = "./model_md=20_msl=5.bin"  # testing with docker
 
 EB is running under `fungi-classifier.eba-rpcwcrqg.eu-central-1.elasticbeanstalk.com`
 
-## Web application (not implemented)
+Try with:
 
-Finally, I will create a web application to classify mushrooms. The user can enter the characteristics of the mushroom or generate a random mushroom.
+```bash
+make test_deploy
+```
+
+## Web application (not fully implemented)
+
+I created a web application to classify mushrooms. The user can enter the characteristics of the mushroom.
+<!--FIXME: or generate a random mushroom -->
 
 The application will then classify the mushroom species and provide the user with full information about the species and a picture for reference.
+
+Start app with:
+
+```bash
+streamlit run app.py
+```
+
+and open browser at `http://localhost:8501`.
+
+Docker implementation is pending.
 
 ## Submission
 
