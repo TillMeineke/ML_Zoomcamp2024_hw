@@ -8,11 +8,11 @@
 
 DATASET := data/raw/primary_data_edited.csv
 
-install: ## install dependencies
+#install: ## install dependencies
 # FIXME: code for installing dependencies
 #	pip install -e ".[test, serve]"
 
-conda_environment: ## create and activate conda environment
+new_conda_environment: ## 🎄 create and activate conda environment 🎄
 	@echo "Creating environment"
 	conda env create -f environment.yml
 	@echo "Activating environment"
@@ -22,7 +22,7 @@ conda_environment: ## create and activate conda environment
 #    $(shell mkdir -p reports/figures)
 #    $(shell mkdir -p reports/)
 
-clean_conda_environment: ## deactivate and remove conda environment
+clean_conda_environment: ## 🗑️ deactivate and remove conda environment 🗑️
 	@echo ">>> deactivating environment"
 	conda deactivate
 	@echo ">>> removing environment"
@@ -31,21 +31,35 @@ clean_conda_environment: ## deactivate and remove conda environment
 #	rm -rf data/raw/*
 #	rm -rf data/cleaned/*
 
-grow_fungi: $(DATASET) ## 🍄 generate dataset, you can pass arguments as follows: make ARGS="--foo 10 --bar 20" generate-dataset
+new_pipenv_environment: ## 🎄 create and activate pipenv environment 🎄
+	@echo "Creating environment"
+	pipenv install
+	@echo "Activating environment"
+	pipenv shell
+
+clean_pipenv_environment: ## 🗑️ deactivate and remove pipenv environment 🗑️
+	@echo ">>> deactivating environment"
+	exit
+	@echo ">>> removing environment"
+	pipenv --rm
+
+grow_fungi: $(DATASET) ## 🍄 generate dataset 🍄
+#, you can pass arguments as follows: make ARGS="--foo 10 --bar 20" generate-dataset
 $(DATASET):
 	@echo ">>> generating dataset"
 	python ./src/secondary_data_gen.py $(ARGS)
 
-train: ## train the model, you can pass arguments as follows: make ARGS="--foo 10 --bar 20" train
+train: ## 🧠 train the model 🧠
+#, you can pass arguments as follows: make ARGS="--foo 10 --bar 20" train
 	@echo ">>> training model"
 	pipenv run python "./train.py"
 
-deploy: ## serve trained model with a REST API
+deploy: ## 💁 serve trained model with a REST API
 	@echo ">>> serving the trained model as a REST API in a docker container"
 	pipenv run docker build -t fungi-incognita .
 	pipenv run docker run -it --rm -p 9696:9696 fungi-incognita
 
-test_deploy: ## test the deployed model
+test_deploy: ## 🧪 test the deployed model 🧪
 	@echo ">>> testing the deployed model"
 	pipenv run python "./predict_test.py"
 
@@ -73,5 +87,5 @@ test_deploy: ## test the deployed model
 # 	@echo ">>> running unit tests in an isolated docker environment"
 # 	docker-compose up test
 
-help: ## show help on available commands
+help: ## ❓ show help on available commands
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'

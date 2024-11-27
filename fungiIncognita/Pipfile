@@ -4,12 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+streamlit = "*"
+pillow = "*"
 scikit-learn = "*"
 numpy = "*"
 flask = "*"
 gunicorn = "*"
 pandas = "==2.2.3"
 requests = "*"
+
 
 [dev-packages]
 awsebcli = "*"

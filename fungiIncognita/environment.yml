@@ -23,6 +23,7 @@ dependencies:
   - matplotlib
   - numpy
   - pandas=2.2.3
+  - pillow
   - pip
   - pipenv
   - pylint
@@ -32,6 +33,7 @@ dependencies:
   - scikit-learn=1.5.2
   - seaborn
   - setuptools
+  - streamlit
   - tensorflow=2.14
   - tqdm
   - xgboost
