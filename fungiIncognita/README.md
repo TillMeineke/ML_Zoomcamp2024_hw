@@ -20,7 +20,9 @@ source: [Giphy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJxa2xoY2R0YnVnZGV
 >
 > You can test the running EB instance with `make test_deploy` or in the provided conda environment with `python predict_test.py`.
 >
-> ![Prediction is working](./images/prediction_working.png "It's working")
+> <div style="text-align:center;">
+> <img src="./images/prediction_working.png" alt="Prediction is working" style="width:300px;height:auto;">
+> </div>
 >
 > I made a [video](./images/prediction_working.mp4) of local deployment with docker `make deploy` and testing with `make test_deploy`, but it is not rendering on github.
 
@@ -124,21 +126,56 @@ def write_to_csv(file_name, funghi_entry_list, use_intervals):
 
 ### Context of the dataset and the model
 
+The dataset is a synthetic dataset with 61,069 hypothetical mushrooms. The dataset contains 173 species of mushrooms with names and these features:
+
+- `family`
+- `class`
+- `cap-diameter`
+- `cap-shape`
+- `cap-surface`
+- `cap-color`
+- `does-bruise-or-bleed`
+- `gill-attachment`
+- `gill-spacing`
+- `gill-color`
+- `stem-height`
+- `stem-width`
+- `stem-root`
+- `stem-surface`
+- `stem-color`
+- `veil-type`
+- `veil-color`
+- `has-ring`
+- `ring-type`
+- `spore-print-color`
+- `habitat`
+- `season`
+
 ## EDA
 
 <!-- Extensive EDA (ranges of values, missing values, analysis of target variable, feature importance analysis) -->
 
-You can find the EDA in this [notebook](./notebooks/01_eda.ipynb).
+You can find the EDA in this [notebook](./notebooks/01_eda.ipynb) (WIP) and this improved 2nd [notebook](./notebooks/new_eda.ipynb) (WIP).
 
 ### Ranges of values
 
-![](./images/3D-scatter_fungi%20features.png)
+<div style="text-align:center;">
+  <img src="./images/3D-scatter_fungi%20features.png" alt="3D Scatter plot of Fungi Features" style="width:300px;height:auto;">
+</div>
 
 ### Missing values
 
+Since we want a __simple model with few features__ to predict the name of the mushroom, we will drop the features with missing values for our first round of modelling.
+
+<!-- FIXME: Add missing values plot,  -->
+
 ### Analysis of the target variable
 
+<!-- FIXME: missing -->
+
 ### Feature importance analysis
+
+<!-- FIXME: missing -->
 
 ## Model training
 

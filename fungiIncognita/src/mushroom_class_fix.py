@@ -162,7 +162,7 @@ def encode_data_numerical(data):
 
     encoded_data = data.copy()
     le = LabelEncoder()
-    encoded_data["class"] = le.fit_transform(data["class"])
+    encoded_data["name"] = le.fit_transform(data["name"])
     encoded_data = pd.get_dummies(encoded_data)
     return encoded_data
 
@@ -485,6 +485,8 @@ def get_evaluation_scores_dict(y_test, y_pred, **kwargs):
         kwargs["round"] = 3
     if "print" not in kwargs:
         kwargs["print"] = True
+    if "average" not in kwargs:
+        kwargs["average"] = None
     accuracy = round(metrics.accuracy_score(y_test, y_pred), kwargs["round"])
     precision = round(metrics.precision_score(y_test, y_pred), kwargs["round"])
     recall = round(metrics.recall_score(y_test, y_pred), kwargs["round"])

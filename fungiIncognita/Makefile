@@ -24,7 +24,7 @@ new_conda_environment: ## 🎄 create conda environment 🎄
 #    $(shell mkdir -p reports/)
 
 # FIXME: needs implementation / not working
-# clean_conda_environment: ## 🗑️ deactivate and remove conda environment 🗑️
+# clean_conda_environment: ## 🗑 ️ deactivate and remove conda environment 🗑️
 # 	@echo ">>> checking environment"
 # 	@if conda env list | grep -q "fungiIncognita"; then \
 # 		echo ">>> deactivating environment"; \
@@ -45,7 +45,7 @@ new_pipenv_environment: ## 🎄 create and activate pipenv environment 🎄
 	@echo "Activating environment"
 	pipenv shell
 
-clean_pipenv_environment: ## 🗑️  deactivate and remove pipenv environment 🗑️
+clean_pipenv_environment: ## 🗑️ deaactivate and remove pipenv environment 🗑️
 	@echo ">>> deactivating environment"
 	exit
 	@echo ">>> removing environment"
