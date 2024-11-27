@@ -12,21 +12,29 @@ DATASET := data/raw/primary_data_edited.csv
 # FIXME: code for installing dependencies
 #	pip install -e ".[test, serve]"
 
-new_conda_environment: ## 🎄 create and activate conda environment 🎄
+new_conda_environment: ## 🎄 create conda environment 🎄
 	@echo "Creating environment"
 	conda env create -f environment.yml
-	@echo "Activating environment"
-	conda activate fungiIncognita
+# and activate FIXME: needs implementation / not working
+#	@echo "Activating environment"
+#	conda activate fungiIncognita
 #    $(shell mkdir -p Data/raw)
 #    $(shell mkdir -p Data/cleaned)
 #    $(shell mkdir -p reports/figures)
 #    $(shell mkdir -p reports/)
 
-clean_conda_environment: ## 🗑️ deactivate and remove conda environment 🗑️
-	@echo ">>> deactivating environment"
-	conda deactivate
-	@echo ">>> removing environment"
-	conda env remove -n fungiIncognita
+# FIXME: needs implementation / not working
+# clean_conda_environment: ## 🗑️ deactivate and remove conda environment 🗑️
+# 	@echo ">>> checking environment"
+# 	@if conda env list | grep -q "fungiIncognita"; then \
+# 		echo ">>> deactivating environment"; \
+# 		source $$(conda info --base)/etc/profile.d/conda.sh && conda deactivate; \
+# 		echo ">>> removing environment"; \
+# 		conda env remove --name fungiIncognita  --yes; \
+# 	else \
+# 		echo ">>> environment not found, skipping cleanup"; \
+# 	fi
+
 #	@echo ">>> cleaning artifacts"
 #	rm -rf data/raw/*
 #	rm -rf data/cleaned/*
@@ -37,13 +45,13 @@ new_pipenv_environment: ## 🎄 create and activate pipenv environment 🎄
 	@echo "Activating environment"
 	pipenv shell
 
-clean_pipenv_environment: ## 🗑️ deactivate and remove pipenv environment 🗑️
+clean_pipenv_environment: ## 🗑️  deactivate and remove pipenv environment 🗑️
 	@echo ">>> deactivating environment"
 	exit
 	@echo ">>> removing environment"
 	pipenv --rm
 
-grow_fungi: $(DATASET) ## 🍄 generate dataset 🍄
+fungi_grow: $(DATASET) ## 🍄 generate dataset 🍄
 #, you can pass arguments as follows: make ARGS="--foo 10 --bar 20" generate-dataset
 $(DATASET):
 	@echo ">>> generating dataset"

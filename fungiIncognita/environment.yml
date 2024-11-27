@@ -14,7 +14,10 @@ channels:
   - defaults
   - anaconda
 dependencies:
+  - altair
+  - altair_viewer
   - black
+  - dython
   - flask
   - grpcio
   - gunicorn
