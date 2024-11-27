@@ -126,6 +126,8 @@ def write_to_csv(file_name, funghi_entry_list, use_intervals):
 
 ## EDA
 
+<!-- Extensive EDA (ranges of values, missing values, analysis of target variable, feature importance analysis) -->
+
 You can find the EDA in this [notebook](./notebooks/01_eda.ipynb).
 
 ### Ranges of values
@@ -140,17 +142,53 @@ You can find the EDA in this [notebook](./notebooks/01_eda.ipynb).
 
 ## Model training
 
+<!-- Trained multiple models and tuned their parameters. -->
+
 I used a Logistic Regression model and a Decision Tree model. I used Cross-Validation to evaluate the models.
 
+You can train the model with:
+
+```bash
+make train
+```
+
+or in your conda environment with:
+
+```bash
+python train.py
+```
+
+or with pipenv:
+
+```bash
+pipenv run python "./train.py"
+```
+if the environment is not activated. You can activate it with:
+
+```bash
+pipenv shell
+
+# and run the script
+python train.py
+```
+
 ## Exporting notebook to python script
+
+<!-- The logic for training the model is exported to a separate script -->
 
 See `train.py`. Model is saved in `models` folder.
 
 ## Reproducibility
 
+<!-- It's possible to re-execute the notebook and the training script without errors. The dataset is committed in the project repository or there are clear instructions on how to download the data -->
+
 ## Model deployment
 
+<!-- odel is deployed (with Flask, BentoML or a similar framework) -->
+
 ## Dependency and environment management
+
+<!-- Provided a file with dependencies and used virtual environment. README says how to install the dependencies and how to activate the environment. -->
 
 Preferably, you can use make commands (from Makefile) or directly run scripts from `scr`.
 Refer to section below for the descriptions of make commands. Before running it, consider creating
@@ -174,7 +212,7 @@ Development was done in conda environment [`./environment.yml`](./environment.ym
 
 
 ```bash
-make conda_environment
+make new_conda_environment
 ```
 
 or
@@ -188,7 +226,7 @@ conda env create -f environment.yml
 For the Docker container, I used pipenv. See [Pipfile](./Pipfile "Pipenv file") and [Pipfile.lock](./Pipfile.lock "Pipenv lock file"). You can install and activate the environment with:
 
 ```bash
-make pipenv_environment
+make new_pipenv_environment
 ```
 
 or
@@ -201,6 +239,8 @@ pipenv shell
 ```
 
 ## Containerization
+
+<!-- The application is containerized and the README describes how to build a container and how to run it. -->
 
 Currently, you can find the following docker files:
 
@@ -238,6 +278,8 @@ python predict.py
 
 ## Cloud deployment
 
+<!-- There's code for deployment to cloud or kubernetes cluster (local or remote). There's a URL for testing - or video/screenshot of testing it. -->
+
 ### EB deployment
 
 EB is running under `fungi-classifier.eba-rpcwcrqg.eu-central-1.elasticbeanstalk.com`
@@ -264,7 +306,3 @@ streamlit run app.py
 and open browser at `http://localhost:8501`.
 
 Docker implementation is pending.
-
-## Submission
-
-[link](https://courses.datatalks.club/ml-zoomcamp-2024/project/midterm)
