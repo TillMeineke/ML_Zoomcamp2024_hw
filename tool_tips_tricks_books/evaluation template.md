@@ -1,6 +1,6 @@
 # Evaluation of midterm project
 
-Evaluation done by Till Meineke on Nov. 29th 2024.
+Evaluation done by Till Meineke on <date>
 
 ## Problem description
 
@@ -50,7 +50,7 @@ Evaluation done by Till Meineke on Nov. 29th 2024.
 
 * 0 points: No containerization
 * 1 point: Dockerfile is provided or a tool that creates a docker image is used (e.g. BentoML)
-* 2 points: The application is containerized and the README describes how to build a contained and how to run it
+* 2 points: The application is containerized and the README describes how to build a container and how to run it
 
 ## Cloud deployment
 

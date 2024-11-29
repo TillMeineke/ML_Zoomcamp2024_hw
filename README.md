@@ -150,9 +150,9 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 - Start: 4 November 2024
 - [x] Problem description: [README](./fungiIncognita/README.md)
-  - [ ] context
-  - [ ] problem
-  - [ ] use of solution
+  - [x] context
+  - [x] problem
+  - [x] use of solution
 - [x] Find a dataset: [Classification Mushroom Data 2020](https://visualization.group/data/mushroom/)
 - [ ] Do [EDA](./fungiIncognita/notebooks/01_eda.ipynb)
   - [x] ranges of values
@@ -176,7 +176,6 @@ Extra material in subfolder contains the setup of the environment, the portfolio
   - [x] environment.yml
   - [ ] requirements.txt
   - [x] Pipfile
-  - [ ] etc?
   - [x] Readme
     - [x] installation
     - [x] activation
@@ -188,13 +187,15 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [x] Cloud deployment
   - [x] AWS
     - [x] docker - beanstalk
-    - [ ] serverless?
   - [x] README
     - [x] deployment described with code
       - [x] cloud
-      - [ ] kubernetes (local or remote)
     - [x] URL for testing / video or screenshot of testing
-- [ ] Write a report
+- [x] Streamlit app
+  - [ ] search field
+  - [ ] genrate random mushroom
+  - [ ] prittfy table
+- [ ] Write a report / make a presentation
 
 - [x] Learn in public 1: Leaderboard [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7260339521815220224-jeD7?utm_source=share&utm_medium=member_desktop) on 7 November 2024
 - [x] Learn in public 2: Prediction working [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266950711664386048-oPj-?utm_source=share&utm_medium=member_desktop) on 25 November 2024
@@ -213,13 +214,13 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 #### Evaluation of 3 midterm projects
 
-- [x] [Project 1 - Laptop price prediction](https://github.com/jxareas/Laptop-Price-Prediction-Midterm), see [evaluation](./Laptop-Price-Prediction-Midterm/evaluation_TM_2024_11_29.md) done on 29 November 2024
+- [x] [Project 1 - Laptop price prediction](https://github.com/jxareas/Laptop-Price-Prediction-Midterm), see [evaluation](./08-deep-learning/evaluation_other_midterm/laptop_price_evaluation_TM_2024_11_29.md) done on 29 November 2024
   - [x] Learn in public 1: AutoViz [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7268227363384016896-Ja06?utm_source=share&utm_medium=member_desktop) on 29 November 2024
   - [x] Learn in public 2: [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7268232013889896450-_aHK?utm_source=share&utm_medium=member_desktop) on 29 November 2024
-- [x] [Project 2 - loan approval](https://github.com/NickodemusRR/loan_approval), see [evaluation](./loan_approval/evaluation_TM_2024_11_29.md) done on 29 November 2024
+- [x] [Project 2 - loan approval](https://github.com/NickodemusRR/loan_approval), see [evaluation](./08-deep-learning/evaluation_other_midterm/loan_approval_evaluation_TM_2024_11_29.md) done on 29 November 2024
   - [ ] Learn in public 1: [LinkedIn]() on 29 November 2024
   - [ ] Learn in public 2: [LinkedIn]() on 29 November 2024
-- [ ] [Project 3 - ](https://github.com/soumikghosal/Midterm-Project), see [evaluation](./Midterm-Project/evaluation_TM_2024_11_29.md) done on 29 November 2024
+- [x] [Project 3 - diabetes](https://github.com/soumikghosal/Midterm-Project), see [evaluation](./08-deep-learning/evaluation_other_midterm/diabetes_evaluation_TM_2024_11_29.md) done on 29 November 2024
   - [ ] Learn in public 1: [LinkedIn]() on 29 November 2024
   - [ ] Learn in public 2: [LinkedIn]() on 29 November 2024
 
