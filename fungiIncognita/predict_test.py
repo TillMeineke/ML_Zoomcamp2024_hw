@@ -5,11 +5,11 @@
 import pandas as pd
 import requests
 
-host = "fungi-classifier.eba-rpcwcrqg.eu-central-1.elasticbeanstalk.com"  # AWS Elastic Beanstalk (remote)
+# host = "fungi-classifier.eba-rpcwcrqg.eu-central-1.elasticbeanstalk.com"  # AWS Elastic Beanstalk (remote)
 # host = "18.199.224.106:9696"
 # host = "mlzoomcamp-tm.spdns.de:9696"
 # host = "127.0.0.1:9696"  # local
-# host = "localhost:9696" # local
+host = "localhost:9696" # local
 url = f"http://{host}/predict"
 
 random_fungi = {
@@ -21,7 +21,7 @@ random_fungi = {
     "has-ring": "t",
     "habitat": "d",
     "season": "w",
-    "cap-diameter": 4.0,
+    "cap-diameter": 40.0,
     "stem-height": 3.0,
     "stem-width": 5.0,
 }

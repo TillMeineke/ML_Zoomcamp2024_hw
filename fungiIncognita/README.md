@@ -12,7 +12,7 @@ source: [Giphy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJxa2xoY2R0YnVnZGV
 
 > [!IMPORTANT]
 >
-> Work in progress.
+> Work in progress. (just eMail me )
 >
 > You can rate this version. Basic functionality is working.
 >

@@ -13,7 +13,6 @@ gunicorn = "*"
 pandas = "==2.2.3"
 requests = "*"
 
-
 [dev-packages]
 awsebcli = "*"
 
