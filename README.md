@@ -167,10 +167,12 @@ Extra material in subfolder contains the setup of the environment, the portfolio
   - [x] re-execute the notebook without errors
   - [x] execute the training script without errors
   - [x] submit the dataset
-- [x] Deploy the model - Flask
+- [x] Deploy the model - Flask / Steamlit
+  - [x] Flask
+  - [x] Streamlit
 - [x] Dependency and environment management
   - [x] [conda environment](./fungiIncognita/environment.yml)
-  - [ ] Makefile <!-- FIXME: -->
+  - [x] Makefile <!-- FIXME: -->
   - [x] environment.yml
   - [ ] requirements.txt
   - [x] Pipfile
@@ -208,6 +210,18 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [x] Learn in public 12: Harvest time [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7267078507346731008-bSwu?utm_source=share&utm_medium=member_desktop) on 26 November 2024
 - [x] Learn in public 13: Slack feedback [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7267083383216689153-2Ule?utm_source=share&utm_medium=member_desktop) on 26 November 2024
 - [x] Learn in public 14: Pictures from epub [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlsoomcamp-activity-7267086174068879360-h93R?utm_source=share&utm_medium=member_desktop) on 26 November 2024
+
+#### Evaluation of 3 midterm projects
+
+- [x] [Project 1 - Laptop price prediction](https://github.com/jxareas/Laptop-Price-Prediction-Midterm), see [evaluation](./Laptop-Price-Prediction-Midterm/evaluation_TM_2024_11_29.md) done on 29 November 2024
+  - [x] Learn in public 1: AutoViz [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7268227363384016896-Ja06?utm_source=share&utm_medium=member_desktop) on 29 November 2024
+  - [x] Learn in public 2: [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7268232013889896450-_aHK?utm_source=share&utm_medium=member_desktop) on 29 November 2024
+- [x] [Project 2 - loan approval](https://github.com/NickodemusRR/loan_approval), see [evaluation](./loan_approval/evaluation_TM_2024_11_29.md) done on 29 November 2024
+  - [ ] Learn in public 1: [LinkedIn]() on 29 November 2024
+  - [ ] Learn in public 2: [LinkedIn]() on 29 November 2024
+- [ ] [Project 3 - ](https://github.com/soumikghosal/Midterm-Project), see [evaluation](./Midterm-Project/evaluation_TM_2024_11_29.md) done on 29 November 2024
+  - [ ] Learn in public 1: [LinkedIn]() on 29 November 2024
+  - [ ] Learn in public 2: [LinkedIn]() on 29 November 2024
 
 ### [ ] Capstone 1 Project: due 7 January 2025 00:00
 

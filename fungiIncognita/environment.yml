@@ -29,6 +29,7 @@ dependencies:
   - pillow
   - pip
   - pipenv
+  - plotly
   - pylint
   - python=3.11
   - requests

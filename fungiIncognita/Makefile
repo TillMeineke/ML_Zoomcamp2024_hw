@@ -45,7 +45,7 @@ new_pipenv_environment: ## 🎄 create and activate pipenv environment 🎄
 	@echo "Activating environment"
 	pipenv shell
 
-clean_pipenv_environment: ## 🗑️ deaactivate and remove pipenv environment 🗑️
+clean_pipenv_environment: ## 🗑️ deactivate and remove pipenv environment 🗑️
 	@echo ">>> deactivating environment"
 	exit
 	@echo ">>> removing environment"
