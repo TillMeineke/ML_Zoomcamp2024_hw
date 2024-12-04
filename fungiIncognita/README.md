@@ -1,22 +1,45 @@
-# 🍄 fungiIncognita - Mushroom Classification 🍄‍🟫
+# 🍄 fungi Incognita - Mushroom Classification 🍄‍🟫
 
 04.11.2024 - 26.11.2024
 
 Author: Till Meineke
 
-<div style="text-align:center;">
-  <img src="./images/walking_sillyshrooman.webp" alt="Walking sillyshrooman" style="width:300px;height:auto;">
-</div>
-
-source: [Giphy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJxa2xoY2R0YnVnZGVuaWMzcjVzc3VwNGFmOXl1bTJzM2JjOXFmZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/BPvLYetv28UVFBHCO2/giphy.gif)
+![Walking sillyshrooman 🍄](./images/walking_sillyshrooman.webp#fungi "Walking sillyshrooman 🍄")
+<style>img[src$="#fungi"] {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10%;
+  width: 300px;
+}
+</style>
+source: [Giphy](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGpyY20wOHF2ZWt3ZzJyMnl3ZHZ5YWh4NXpyNnM1NGExOWM5emhyMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xThtahrD69j07oTLIQ/giphy.webp)
 
 > [!IMPORTANT]
 >
-> Work in progress. (just eMail me )
+> **Work in progress.** (For questions, bugs, hints and improvements just [eMail](mailto:till.meineke@googlemail.com "till.meineke@googlemail.com") me)
+>
+> Missing parts:
+>
+> - [ ] full and clean EDA
+>   - [ ] feature encoding
+>   - [ ] ranges of values
+>   - [x] missing values
+>   - [ ] analysis of target variable
+>   - [ ] feature importance analysis
+> - [ ] models
+>   - [ ] Logistic Regression
+>   - [ ] Decision Tree
+>   - [ ] Random Forest
+>   - [ ] XGBoost
+>   - [ ] LightGBM
+>   - [ ] CatBoost
+> - [ ] model selection and tuning / mlflow?
+> - [ ] test reproducibility
+> - [ ] fix model deployment / styling
+> - [ ] web application styling
+> - [ ] update README with new information, images and videos
 >
 > You can rate this version. Basic functionality is working.
->
-> Readme is not finished yet. EDA is missing some parts and is unstructured.
 >
 > You can test the running EB instance with `make test_deploy` or in the provided conda environment with `python predict_test.py`.
 >
@@ -24,7 +47,7 @@ source: [Giphy](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJxa2xoY2R0YnVnZGV
 > <img src="./images/prediction_working.png" alt="Prediction is working" style="width:300px;height:auto;">
 > </div>
 >
-> I made a [video](./images/prediction_working.mp4) of local deployment with docker `make deploy` and testing with `make test_deploy`, but it is not rendering on github.
+> I made a [video](./images/prediction_working.mp4) of local deployment with docker `make deploy` and testing with `make test_deploy`.
 
 ![video](https://github.com/user-attachments/assets/8ec98f95-265c-4431-89f1-c4bebbbf60dd)
 
@@ -39,6 +62,7 @@ This will ensure that the generated dataset is of high quality and relevant for 
 ## Project structure
 
 ```plaintext
+│
 ├── data
 │   ├── raw
 │   │   ├── primary_data_edited.csv                 <-- Raw data from paper
@@ -46,16 +70,21 @@ This will ensure that the generated dataset is of high quality and relevant for 
 │   │   ├── secondary_data_generated.csv            <-- Raw data from paper
 │   │   └── secondary_data_meta.txt                 <-- Raw data from paper (description)
 │   └── secondary_data_generated_with_names.csv     <-- Generated data
+│
 ├── images                                          <-- Images for readme and "Learning in public"
+│
 ├── models
 │   └── model_md=20_msl=5.bin                       <-- Trained model
+│
 ├── notebooks
 │   └── 01_eda.ipynb                                <-- Exploratory data analysis
+│
 ├── references
 │   ├── 'Collins Mushroom Miscellany.epub'          <-- Book with mushroom images
 │   ├── 'Mushroom data creation.pdf'                <-- Main paper for creating mushroom data
 │   ├── 'Mushroom data creation_sup.pdf'            <-- Supplementary material
 │   └── mushrooms-collins-gem.pdf                   <-- Book with mushroom images
+│
 ├── src                                             <-- Source code for use in this project
 │   ├── services
 │   │   ├── Images                                  <-- Images from book
@@ -66,10 +95,11 @@ This will ensure that the generated dataset is of high quality and relevant for 
 │   ├── gen_corr_norm.py                            <-- Script to generate correlated and normalized data
 │   ├── mushroom_class_fix.py
 │   ├── primary_data_gen.py
-│   ├── secondary_data_gen.py                       <-- Script to generate secondary data
+│   ├── secondary_data_gen.py                       <-- modified Script to generate secondary data
 │   ├── stats_graphics.py
 │   ├── text_attr_match.py
 │   └── util_func.py
+│
 ├── .dockerignore                                   <-- Docker ignore file
 ├── .gitignore                                      <-- Git ignore file
 ├── Dockerfile                                      <-- Docker file
@@ -93,7 +123,7 @@ Working with synthetic data, I was asked to consider the following points:
 
 ### Documentation of the data generation process
 
-In the [repository](https://github.com/ghattab/secondarydata) I found several scripts belonging to the paper "Mushroom data creation" by Ghattas et al. (2020). The scripts are written in Python and are used to generate the secondary data. I had to modify the scripts to generate the data with species names.
+In the [repository](https://github.com/ghattab/secondarydata) I found several scripts belonging to the paper "Mushroom data creation" by D. Wagner et al. (2020). The scripts are written in Python and are used to generate the secondary data. I had to modify the scripts to generate the data with species names.
 
 ```python
 def write_to_csv(file_name, funghi_entry_list, use_intervals):
@@ -202,6 +232,7 @@ or with pipenv:
 ```bash
 pipenv run python "./train.py"
 ```
+
 if the environment is not activated. You can activate it with:
 
 ```bash
@@ -223,7 +254,7 @@ See `train.py`. Model is saved in `models` folder.
 
 ## Model deployment
 
-<!-- odel is deployed (with Flask, BentoML or a similar framework) -->
+<!-- Model is deployed (with Flask, BentoML or a similar framework) -->
 
 ## Dependency and environment management
 
@@ -248,7 +279,6 @@ Try out the make commands (see `make help`).
 ### Conda environment
 
 Development was done in conda environment [`./environment.yml`](./environment.yml "Conda environment file"). Install with:
-
 
 ```bash
 make new_conda_environment
@@ -345,3 +375,16 @@ streamlit run app.py
 and open browser at `http://localhost:8501`.
 
 Docker implementation is pending.
+
+Done.
+
+![Celebrating sillyshrooman 🍄](./images/celeb_shroovy_BGtransparent.webp#fungi2 "Celebrating sillyshrooman 🍄")
+<style>img[src$="#fungi2"] {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10%;
+  width: 300px;
+}
+</style>
+
+Source: [Giphy](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWNvNzI4b3JtZjN5NWpvOHVpc3g3M2VtZGFoejhndDRjcmk1cGo3NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1Bek3O06EXr6YaBcLy/giphy.webp)

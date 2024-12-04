@@ -53,9 +53,23 @@
 
 </details>
 
-
 ```python {.line-numbers} title:test.py
 import numpy as np
 import pandas as pd
 ```
 
+### Image styling
+
+<div style="text-align:center;">
+  <img src="../fungiIncognita/images/happycodingshroom.webp" alt="Happy coding" title="Coding shroom 🍄" style="width:300px;height:auto;border-radius: 10%;">
+</div>
+
+![Fungi](../fungiIncognita/images/happycodingshroom.webp#fungi "Coding shroom 🍄")
+
+<style>img[src$="#fungi"] {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10%;
+  width: 300px;
+}
+</style>

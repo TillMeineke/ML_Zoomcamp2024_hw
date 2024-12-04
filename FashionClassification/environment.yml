@@ -43,5 +43,6 @@ dependencies:
     - jupyter-client
     - jupyter-core
     - keras-image-helper
+    - tensorflow-gpu
 #    - tensorflow-metal==1.1.0
     - tensorflow-serving-api==2.7.0

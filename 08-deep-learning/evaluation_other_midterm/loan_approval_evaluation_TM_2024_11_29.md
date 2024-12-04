@@ -6,13 +6,21 @@ Evaluation done by Till Meineke on Nov. 29th 2024.
 
 * 2 points: Problem is described in README with enough context, so it's clear what the problem is and how the solution will be used
 
+* very short README, no pictures, no real reference to dataset, simple usecase close to the one in the course 
+
 ## EDA
 
 * 2 points: Extensive EDA (ranges of values, missing values, analysis of target variable, feature importance analysis)
 
+* all good
+
 ## Model training
 
 * 3 points: Trained multiple models and tuned their parameters.
+
+* models
+  * logistic regression
+  * Random Forest -> tuned n_estimators
 
 ## Exporting notebook to script
 

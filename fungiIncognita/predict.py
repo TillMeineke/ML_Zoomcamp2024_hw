@@ -5,6 +5,8 @@ import pickle
 
 from flask import Flask, jsonify, request
 
+from typing import Dict, Any, List
+
 # parameters
 
 # MODEL_FILE = "./models/model_md=20_msl=5.bin" # local testing without docker
@@ -19,10 +21,19 @@ app = Flask("fungi-classifier")
 
 @app.route("/predict", methods=["POST"])
 def predict():
-    fungi = request.get_json()
+    """
+    Predict the type of fungi based on input data.
+
+    This function receives input data in JSON format via a request,
+    transforms it using a pre-fitted DictVectorizer, and then uses
+    a pre-trained model to predict the type of fungi.
+
+        Response: A JSON response containing the predicted type of fungi.
+    """
+    fungi: Dict[str, Any] = request.get_json()
 
     X = dv.transform([fungi])
-    prediction = model.predict(X)
+    prediction: List[Any] = model.predict(X)
 
     # print(f"Predicted fungi: {prediction[0]}")
 

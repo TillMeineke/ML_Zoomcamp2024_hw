@@ -131,7 +131,6 @@ import lambda_function
 lambda_function.predict("http://bit.ly/mlbookcamp-pants")
 ```
 
-
 ### 9.5 Preparing a Docker image
 
 - Lambda base images

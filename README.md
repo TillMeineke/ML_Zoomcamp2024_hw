@@ -113,6 +113,13 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 ## [Homework 8: Neural Networks and Deep Learning](./08-deep-learning/homework_08_till_meineke.ipynb) due 3 December 2024 01:00
 
 - [x] Finished the homework
+- [x] Learn in public 1: Wrapping up week 8 [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7270177942490562561-jObO?utm_source=share&utm_medium=member_desktop) on 04 December 2024
+- [x] Learn in public 2: CNNs [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7270179529812230144-p82O?utm_source=share&utm_medium=member_desktop) on 04 December 2024
+- [x] Learn in public 3: Transfer learning [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7270180257918287872-VHZI?utm_source=share&utm_medium=member_desktop) on 04 December 2024
+- [x] Learn in public 4: Regularization and Dropout [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-machinelearning-deeplearning-activity-7270182366520737793-UwGd?utm_source=share&utm_medium=member_desktop) on 04 December 2024
+- [x] Learn in public 5: Augmentation [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-machinelearning-deeplearning-activity-7270190077350187008-p67N?utm_source=share&utm_medium=member_desktop) on 04 December 2024
+- [x] Learn in public 6: Training [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-deeplearning-computervision-activity-7270193848297967616-fVej?utm_source=share&utm_medium=member_desktop) on 04 December 2024
+- [x] Learn in public 7: Env / GPU wrap up [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-deeplearning-gpu-activity-7270195845675859968-TNvo?utm_source=share&utm_medium=member_desktop) on 04 December 2024
 - [ ] Explore more: Add more data, e.g, Zalando etc
 - [ ] Explore more: Albumentations - another way of generating augmentations
 - [ ] Explore more: Use PyTorch or MXNet instead of TensorFlow/Keras
@@ -120,11 +127,6 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Explore more: Project: cats vs dogs
 - [ ] Explore more: Project: Hotdog vs not hotdog
 - [ ] Explore more: Project: Category of images
-
-<!--  **Learn in public ideas**
-- [ ] Learn in public: Setup macBook/ other apps
-- [ ] Learn in public: Organize the homework repository
-- [ ] Learn in public: `.dotfiles`? -->
 
 ## [Homework 9: Serverless Deep Learning]() due 10 December 2024 00:00
 
@@ -194,7 +196,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [x] Streamlit app
   - [ ] search field
   - [ ] genrate random mushroom
-  - [ ] prittfy table
+  - [ ] prettify table
 - [ ] Write a report / make a presentation
 
 - [x] Learn in public 1: Leaderboard [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7260339521815220224-jeD7?utm_source=share&utm_medium=member_desktop) on 7 November 2024
@@ -216,14 +218,19 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 - [x] [Project 1 - Laptop price prediction](https://github.com/jxareas/Laptop-Price-Prediction-Midterm), see [evaluation](./08-deep-learning/evaluation_other_midterm/laptop_price_evaluation_TM_2024_11_29.md) done on 29 November 2024
   - [x] Learn in public 1: AutoViz [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7268227363384016896-Ja06?utm_source=share&utm_medium=member_desktop) on 29 November 2024
-  - [x] Learn in public 2: [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7268232013889896450-_aHK?utm_source=share&utm_medium=member_desktop) on 29 November 2024
+  - [x] Learn in public 2: easy route [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7268232013889896450-_aHK?utm_source=share&utm_medium=member_desktop) on 29 November 2024
 - [x] [Project 2 - loan approval](https://github.com/NickodemusRR/loan_approval), see [evaluation](./08-deep-learning/evaluation_other_midterm/loan_approval_evaluation_TM_2024_11_29.md) done on 29 November 2024
-  - [ ] Learn in public 1: [LinkedIn]() on 29 November 2024
-  - [ ] Learn in public 2: [LinkedIn]() on 29 November 2024
+  - [x] Learn in public 1: data generation [LinkedIn](https://www.linkedin.com/posts/tillmeineke_classification-mushroom-data-2020-activity-7270013069659918336-DA-B?utm_source=share&utm_medium=member_desktop) on 04 December 2024
+  - [x] Learn in public 2: 💋 KISS [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7270016168583712768-60nS?utm_source=share&utm_medium=member_desktop) on 04 December 2024
 - [x] [Project 3 - diabetes](https://github.com/soumikghosal/Midterm-Project), see [evaluation](./08-deep-learning/evaluation_other_midterm/diabetes_evaluation_TM_2024_11_29.md) done on 29 November 2024
-  - [ ] Learn in public 1: [LinkedIn]() on 29 November 2024
-  - [ ] Learn in public 2: [LinkedIn]() on 29 November 2024
+  - [x] Learn in public 1: markdown formatting [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7270040728104284161-MV00?utm_source=share&utm_medium=member_desktop) on 04 December 2024
+  - [x] Learn in public 2: dataset "easy" datasets [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7270043951871524865-AUTk?utm_source=share&utm_medium=member_desktop) on 04 December 2024
 
 ### [ ] Capstone 1 Project: due 7 January 2025 00:00
 
 ### [ ] Capstone 2 Project: due 28 January 2025 00:00
+
+<!--  **Article ideas**
+- [ ] Learn in public: Setup macBook/ other apps
+- [ ] Learn in public: Organize the homework repository
+- [ ] Learn in public: `.dotfiles`? -->
