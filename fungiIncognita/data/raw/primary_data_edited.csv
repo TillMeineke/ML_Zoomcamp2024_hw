@@ -1,4 +1,4 @@
-family;name;class;cap-diameter;cap-shape;Cap-surface;cap-color;does-bruise-or-bleed;gill-attachment;gill-spacing;gill-color;stem-height;stem-width;stem-root;stem-surface;stem-color;veil-type;veil-color;has-ring;ring-type;Spore-print-color;habitat;season
+family;name;class;cap-diameter;cap-shape;cap-surface;cap-color;does-bruise-or-bleed;gill-attachment;gill-spacing;gill-color;stem-height;stem-width;stem-root;stem-surface;stem-color;veil-type;veil-color;has-ring;ring-type;spore-print-color;habitat;season
 Amanita Family;Fly Agaric;p;[10, 20];[x, f];[g, h];[e, o];[f];[e];;[w];[15, 20];[15, 20];[s];[y];[w];[u];[w];[t];[g, p];;[d];[u, a, w]
 Amanita Family;Panther Cap;p;[5, 10];[p, x];[g];[n];[f];[e];;[w];[6, 10];[10, 20];;[y];[w];[u];[w];[t];[p];;[d];[u, a]
 Amanita Family;False Panther Cap;p;[10, 15];[x, f];;[g, n];[f];[e];;[w];[10, 12];[10, 20];;;[w];[u];[w];[t];[e, g];;[d];[u, a]

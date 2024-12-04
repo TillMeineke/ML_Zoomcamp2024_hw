@@ -21,9 +21,11 @@ dependencies:
   - flask
   - grpcio
   - gunicorn
+  - hyperopt
   - isort
   - jupyterlab
   - matplotlib
+  - mlflow
   - numpy
   - pandas=2.2.3
   - pillow
