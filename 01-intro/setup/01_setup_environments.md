@@ -174,9 +174,14 @@ The Python version installed with Ubuntu 24.04 is 3.12.5.
 
 Hopefully I will not run into problems with running code locally on Apple Silicon (arm64) and remotely on x86_64. But as pointed out in the video, I can create an arm64 instance on AWS as well.
 
-I'm wondering if there is a more convenient way to connect to the Jupyter server without copying the IP address manually into the `.ssh/config`. If you have any simple suggestion please let me know.
+I'm wondering if there is a more convenient way to connect to the Jupyter server without copying the IP address manually into the `.ssh/config`. If you have any simple suggestion please let me know. --> ddclient
 
 I try to create an `.dotfile`-repository with all my configurations and settings, but I'm not sure if I find the time to collect all nessesary configuration files. Can you recommend tools like [stow](https://www.gnu.org/software/stow/) or do you have any better suggestions? How do you manage your configuration files efficiently to sync them between different machines?
+
+FIXME: Needs recreation for GPU support.
+
+- clone `machine-learning-zoomcamp` and `ML_Zoomcamp2024_hw`
+- install Miniforge3-24.7.1-0-Linux-x86_64.sh, docker.io, docker-compose, zsh, oh-my-zsh, zsh-autosuggestions, zsh-syntax-highlighting, zsh-completions, zsh-autopair, eza, powerlevel10k, fzf, bat, fd, ripgrep, extract, poetry, pyenv, 
 
 ## Other Cloud Environments
 
