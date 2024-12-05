@@ -130,7 +130,14 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 ## [Homework 9: Serverless Deep Learning]() due 10 December 2024 00:00
 
-- [ ] Finished the homework
+- [x] Finished the homework
+- [ ] Learn in public 1: 
+- [ ] Learn in public 2:
+- [ ] Learn in public 3:
+- [ ] Learn in public 4:
+- [ ] Learn in public 5:
+- [ ] Learn in public 6:
+- [ ] Learn in public 7:
 - [ ] Explore more: Try similar serverless services from Google Cloud and Microsoft Azure
 - [ ] Explore more: Deploy cats vs dogs and other Keras models with AWS Lambda
 - [ ] Explore more: AWS Lambda is also good for other libraries, not just Tensorflow. You can deploy Scikit-Learn and XGBoost models with it as well
