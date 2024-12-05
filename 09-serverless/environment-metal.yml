@@ -1,0 +1,49 @@
+# Conda Environment Setup Instructions
+#  - Using an environment.yml file with conda
+#  - Key Terminal Commands:
+#
+#    conda env create -f environment.yml
+#    conda env update --file environment.yml --prune
+#    conda env export --name homework09-metal > environment.yml
+#    conda env remove --name homework09-metal
+#    conda env list
+
+name: homework09-metal
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - black
+  - grpcio
+  - gunicorn
+  - isort
+  - iprogress
+  - ipywidgets
+  - ipykernel
+  - ipython
+  - matplotlib
+  - numpy=1.26.0
+  - pandas
+  - pip
+  - pipenv
+  - pylint
+  - python=3.11
+  - requests
+  - ruff
+  - scikit-learn
+  - scipy
+  - seaborn
+  - setuptools
+  - tqdm
+  - flask
+  - xgboost
+  - pip:
+    - tensorflow==2.17.1
+    - jupyter-client
+    - jupyter-core
+    - keras-image-helper
+#    - tensorflow-gpu
+    - tensorflow-metal==1.1.0
+    - tensorflow-serving-api==2.7.0
+#    - https://github.com/alexeygrigorev/tflite-aws-lambda/raw/main/tflite/tflite_runtime-2.14.0-cp310-cp310-linux_x86_64.whl # --no-deps
