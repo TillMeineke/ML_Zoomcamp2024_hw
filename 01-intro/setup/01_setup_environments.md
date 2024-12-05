@@ -188,3 +188,40 @@ FIXME: Needs recreation for GPU support.
 Last I have accounts for [kaggle](https://www.kaggle.com/ "kaggle") and [Google Colab](https://colab.research.google.com/ "Google Colab") for running notebooks in the cloud.
 
 With all these environments I should be well prepared for the course. For me the most exiting part was creating my first EC2 instance on AWS (it worked without a credit card here in germany).
+
+## Update for [Renting a server on AWS](https://mlbookcamp.com/article/aws-ec2) for MLzoomcamp 2024
+
+This article covers:
+
+Creating the right EC2 instance
+Connecting to the instance
+Shutting it down
+
+We’ll show how to do it on AWS and create an EC2 (Elastic Compute Cloud) machine on AWS. EC2 is part of AWS and allows you to rent a server of any configuration for any duration of time.
+
+To use AWS, you need to have an AWS account. If you don’t have an account yet, see [Creating an AWS account](https://mlbookcamp.com/article/aws).
+
+### Creating an EC2 instance
+
+EC2 is a service for renting a machine from AWS. You can use it to create a Linux machine to run Jupyter notebook and experiment with machine learning.
+
+To do this, first go to the EC2 page in AWS. The easiest way to do this is by typing “EC2” in the “Find Services” box on the home page of the AWS Management Console; select “EC2” from the drop-down list and press “Enter”:
+
+![Search EC2](./images/01_search_EC2.png "Search EC2")
+
+> [!NOTE]
+> The screenshots were taken in Dec 2024. It’s possible that the content on the AWS web site and the appearance of the management console changed since then.
+
+On the EC2 page, choose “Instances” from the menu on the left and then click “Launch Instance”:
+
+![Launch Instance](./images/02_launch_instance.png "Launch Instance")
+
+This brings you to a six-step form.
+
+1. The first step is to specify the AMI (Amazon Machine Image) you’ll use for the instance. We recommend Ubuntu: it’s one of the most popular Linux distributions and we used it for all the examples in this book. Other images should also work fine, but we haven’t tested them.
+
+At the time of writing, Deep Learning OSS Nvidia Driver AMI GPU TensorFlow 2.17 (Ubuntu 22.04) is available, so use that one: find it in the list and then click “Select”.
+
+
+
+Also note that this AMI is “Free tier eligible,” which means that if you use the free tier for testing AWS, you won’t be charged for using this AMI.
