@@ -40,6 +40,7 @@ def map_and_rename_categorical_features(df: pd.DataFrame) -> pd.DataFrame:
     boolean_mappings = {
         "does-bruise-or-bleed": {"t": True, "f": False},
         "has-ring": {"t": True, "f": False},
+        "class": {"e": "edible", "p": "poisonous"},
     }
 
     color_columns = [

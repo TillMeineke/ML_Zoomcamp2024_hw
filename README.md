@@ -110,7 +110,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Explore more: When selecting the best split, decision trees find the most useful features. This information can be used for understanding which features are more important than others. See example here (?) for random forest (it's the same for plain decision trees) and for xgboost
 - [ ] Explore more: using trees solving regression problems: check DecisionTreeRegressor, RandomForestRegressor and the objective=reg:squarederror parameter for XGBoost
 
-## [Homework 8: Neural Networks and Deep Learning](./08-deep-learning/homework_08_till_meineke.ipynb) due 3 December 2024 01:00
+## [Homework 8: Neural Networks and Deep Learning](./08-deep-learning/homework_08_till_meineke.ipynb) due 3 December 2024 01:00, extended to 5 December 2024 
 
 - [x] Finished the homework
 - [x] Learn in public 1: Wrapping up week 8 [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7270177942490562561-jObO?utm_source=share&utm_medium=member_desktop) on 04 December 2024
@@ -125,13 +125,13 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Explore more: Use PyTorch or MXNet instead of TensorFlow/Keras
 - [ ] Explore more: In addition to Xception, there are others architectures - try them
 - [ ] Explore more: Project: cats vs dogs
-- [ ] Explore more: Project: Hotdog vs not hotdog
+- [x] Explore more: Project: Hotdog vs not hotdog
 - [ ] Explore more: Project: Category of images
 
-## [Homework 9: Serverless Deep Learning]() due 10 December 2024 00:00
+## [Homework 9: Serverless Deep Learning](./09-serverless/homework_09_till_meineke.ipynb) due 10 December 2024 00:00
 
 - [x] Finished the homework
-- [ ] Learn in public 1: 
+- [ ] Learn in public 1:
 - [ ] Learn in public 2:
 - [ ] Learn in public 3:
 - [ ] Learn in public 4:
@@ -155,7 +155,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 ## Projects
 
-### [x] [Midterm Project](./fungiIncognita): due 26 November 2024 00:00
+### [Midterm Project](./fungiIncognita): due 26 November 2024 00:00
 
 - Start: 4 November 2024
 - [x] Problem description: [README](./fungiIncognita/README.md)
@@ -236,6 +236,8 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 ### [ ] Capstone 1 Project: due 7 January 2025 00:00
 
 ### [ ] Capstone 2 Project: due 28 January 2025 00:00
+
+## [Kaggle competition](https://www.kaggle.com/competitions/ml-zoomcamp-2024-competition/)
 
 <!--  **Article ideas**
 - [ ] Learn in public: Setup macBook/ other apps
