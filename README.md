@@ -110,9 +110,9 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Explore more: When selecting the best split, decision trees find the most useful features. This information can be used for understanding which features are more important than others. See example here (?) for random forest (it's the same for plain decision trees) and for xgboost
 - [ ] Explore more: using trees solving regression problems: check DecisionTreeRegressor, RandomForestRegressor and the objective=reg:squarederror parameter for XGBoost
 
-## [Homework 8: Neural Networks and Deep Learning](./08-deep-learning/homework_08_till_meineke.ipynb) due 3 December 2024 01:00, extended to 5 December 2024 
+## [Homework 8: Neural Networks and Deep Learning](./08-deep-learning/homework_08_till_meineke.ipynb) due 3 December 2024 01:00, extended to 5 December 2024
 
-- [x] Finished the homework
+- [x] Finished the homework (scored 5/6)
 - [x] Learn in public 1: Wrapping up week 8 [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7270177942490562561-jObO?utm_source=share&utm_medium=member_desktop) on 04 December 2024
 - [x] Learn in public 2: CNNs [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7270179529812230144-p82O?utm_source=share&utm_medium=member_desktop) on 04 December 2024
 - [x] Learn in public 3: Transfer learning [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7270180257918287872-VHZI?utm_source=share&utm_medium=member_desktop) on 04 December 2024
@@ -131,13 +131,13 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 ## [Homework 9: Serverless Deep Learning](./09-serverless/homework_09_till_meineke.ipynb) due 10 December 2024 00:00
 
 - [x] Finished the homework
-- [ ] Learn in public 1:
-- [ ] Learn in public 2:
-- [ ] Learn in public 3:
-- [ ] Learn in public 4:
-- [ ] Learn in public 5:
-- [ ] Learn in public 6:
-- [ ] Learn in public 7:
+- [x] Learn in public 1: leaderboard week 9 [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7271866627695026176-w-tO?utm_source=share&utm_medium=member_desktop) on 09 December 2024
+- [x] Learn in public 2: Wrapping up week 9 [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-deeplearning-serverless-activity-7271952211218243584-JjFc?utm_source=share&utm_medium=member_desktop) on 09 December 2024
+- [x] Learn in public 3: TF lite [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-machinelearning-mlops-activity-7271954154841939970-4PYw?utm_source=share&utm_medium=member_desktop) on 09 December 2024
+- [x] Learn in public 4: Lambda function 1 [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-aws-lambda-activity-7271972571271622656-lWKh?utm_source=share&utm_medium=member_desktop) on 09 December 2024
+- [x] Learn in public 5: Docker for Lambda [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-docker-aws-activity-7271994756296048640-DMFO?utm_source=share&utm_medium=member_desktop) on 09 December 2024
+- [x] Learn in public 6: AWS API Gateway [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-machinelearning-aws-activity-7272185143866359808-xSeV?utm_source=share&utm_medium=member_desktop) on 10 December 2024
+- [x] Learn in public 7: wrap up week 9 [LinkedIn](https://www.linkedin.com/posts/tillmeineke_machinelearning-awslambda-docker-activity-7272189599391645704-5w8v?utm_source=share&utm_medium=member_desktop) on 10 December 2024
 - [ ] Explore more: Try similar serverless services from Google Cloud and Microsoft Azure
 - [ ] Explore more: Deploy cats vs dogs and other Keras models with AWS Lambda
 - [ ] Explore more: AWS Lambda is also good for other libraries, not just Tensorflow. You can deploy Scikit-Learn and XGBoost models with it as well
@@ -156,6 +156,8 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 ## Projects
 
 ### [Midterm Project](./fungiIncognita): due 26 November 2024 00:00
+
+scored 16/16
 
 - Start: 4 November 2024
 - [x] Problem description: [README](./fungiIncognita/README.md)
@@ -234,6 +236,8 @@ Extra material in subfolder contains the setup of the environment, the portfolio
   - [x] Learn in public 2: dataset "easy" datasets [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7270043951871524865-AUTk?utm_source=share&utm_medium=member_desktop) on 04 December 2024
 
 ### [ ] Capstone 1 Project: due 7 January 2025 00:00
+
+
 
 ### [ ] Capstone 2 Project: due 28 January 2025 00:00
 
