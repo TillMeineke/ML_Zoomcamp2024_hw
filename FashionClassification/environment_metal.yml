@@ -15,7 +15,7 @@ channels:
   - defaults
 dependencies:
   - black
-  - grpcio
+  - grpcio==1.42.0
   - gunicorn
   - isort
   - iprogress
