@@ -130,7 +130,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 
 ## [Homework 9: Serverless Deep Learning](./09-serverless/homework_09_till_meineke.ipynb) due 10 December 2024 00:00
 
-- [x] Finished the homework
+- [x] Finished the homework (scored 6/6)
 - [x] Learn in public 1: leaderboard week 9 [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7271866627695026176-w-tO?utm_source=share&utm_medium=member_desktop) on 09 December 2024
 - [x] Learn in public 2: Wrapping up week 9 [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-deeplearning-serverless-activity-7271952211218243584-JjFc?utm_source=share&utm_medium=member_desktop) on 09 December 2024
 - [x] Learn in public 3: TF lite [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-machinelearning-mlops-activity-7271954154841939970-4PYw?utm_source=share&utm_medium=member_desktop) on 09 December 2024
@@ -142,9 +142,11 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Explore more: Deploy cats vs dogs and other Keras models with AWS Lambda
 - [ ] Explore more: AWS Lambda is also good for other libraries, not just Tensorflow. You can deploy Scikit-Learn and XGBoost models with it as well
 
-## [Homework 10: Kubernetes and TensorFlow Serving]() due 17 December 2024 00:00
+## [Homework 10: Kubernetes and TensorFlow Serving](./10-kubernetes/homework.md) due 17 December 2024 00:00
 
-- [ ] Finished the homework
+- [x] Finished the homework (scored x/7)
+- [x] Learn in public 1: docker-compose [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-dockercompose-mlops-activity-7275886787409924097-UrjH?utm_source=share&utm_medium=member_desktop) on 20 December 2024
+- [ ] Learn in public 2: 
 - [ ] Explore more: Other local Kubernetes: minikube, k3d, k3s, microk8s, EKS Anywhere
 - [ ] Explore more: [Rancher desktop](https://rancherdesktop.io/)
 - [ ] Explore more: [Docker desktop](https://www.docker.com/products/docker-desktop/)

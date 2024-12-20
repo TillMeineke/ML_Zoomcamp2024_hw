@@ -1,17 +1,24 @@
 signature_def['serving_default']:
   The given SavedModel SignatureDef contains the following input(s):
-    inputs['input_17'] tensor_info:
+    inputs['input_8'] tensor_info:
         dtype: DT_FLOAT
         shape: (-1, 299, 299, 3)
-        name: serving_default_input_17:0
+        name: serving_default_input_8:0
   The given SavedModel SignatureDef contains the following output(s):
-    outputs['dense_14'] tensor_info:
+    outputs['dense_7'] tensor_info:
         dtype: DT_FLOAT
         shape: (-1, 10)
         name: StatefulPartitionedCall:0
   Method name is: tensorflow/serving/predict
+The MetaGraph with tag set ['serve'] contains the following ops: {'StringJoin', 'AssignVariableOp', 'AddV2', 'Mean', 'VarHandleOp', 'DisableCopyOnRead', 'Placeholder', 'RestoreV2', 'ShardedFilename', 'StatefulPartitionedCall', 'Const', 'SaveV2', 'MatMul', 'DepthwiseConv2dNative', 'Select', 'Conv2D', 'Relu', 'MaxPool', 'MergeV2Checkpoints', 'ReadVariableOp', 'FusedBatchNormV3', 'Pack', 'NoOp', 'StaticRegexFullMatch', 'Identity', 'BiasAdd'}
+2024-12-11 11:52:30.122000: I metal_plugin/src/device/metal_device.cc:1154] Metal device set to: Apple M1
+2024-12-11 11:52:30.122025: I metal_plugin/src/device/metal_device.cc:296] systemMemory: 16.00 GB
+2024-12-11 11:52:30.122033: I metal_plugin/src/device/metal_device.cc:313] maxCacheSize: 5.33 GB
+2024-12-11 11:52:30.122306: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:306] Could not identify NUMA node of platform GPU ID 0, defaulting to 0. Your kernel may not have been built with NUMA support.
+2024-12-11 11:52:30.122376: I tensorflow/core/common_runtime/pluggable_device/pluggable_device_factory.cc:272] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 0 MB memory) -> physical PluggableDevice (device: 0, name: METAL, pci bus id: <undefined>)
 
 
-serving_default
-input_17 - input
-dense_14 - output
+
+name: serving_default
+  input: input_8
+  output: dense_7

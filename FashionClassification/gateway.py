@@ -25,7 +25,7 @@ def prepare_request(X):
     pb_request = predict_pb2.PredictRequest()
     pb_request.model_spec.name = "clothing-model"
     pb_request.model_spec.signature_name = "serving_default"
-    pb_request.inputs["input_17"].CopyFrom(np_to_protobuf(X))
+    pb_request.inputs["input_8"].CopyFrom(np_to_protobuf(X))
     return pb_request
 
 
@@ -44,7 +44,7 @@ classes = [
 
 
 def prepare_response(pb_response):
-    preds = pb_response.outputs["dense_14"].float_val
+    preds = pb_response.outputs["dense_7"].float_val
     return dict(zip(classes, preds))
 
 
@@ -69,8 +69,8 @@ def predict_endpoint():
 
 
 if __name__ == "__main__":
-    url = "http://bit.ly/mlbookcamp-pants"
-    response = predict(url)
-    print(response)
+    # url = "http://bit.ly/mlbookcamp-pants"
+    # response = predict(url)
+    # print(response)
 
-    # app.run(debug=True, host='0.0.0.0'. port=9696) # deactivate for test with docker
+    app.run(debug=True, host='0.0.0.0', port=9696) # deactivate for test with docker
