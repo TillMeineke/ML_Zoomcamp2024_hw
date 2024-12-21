@@ -23,13 +23,11 @@ You can also access the copy of `back-full.csv` directly:
 wget https://github.com/alexeygrigorev/datasets/raw/refs/heads/master/bank-full.csv
 ```
 
-
 ## Question 1
 
 * Install Pipenv
 * What's the version of pipenv you installed?
 * Use `--version` to find out
-
 
 ## Question 2
 
@@ -37,8 +35,7 @@ wget https://github.com/alexeygrigorev/datasets/raw/refs/heads/master/bank-full.
 * What's the first hash for scikit-learn you get in Pipfile.lock?
 
 > **Note**: you should create an empty folder for homework
-and do it there. 
-
+and do it there.
 
 ## Models
 
@@ -71,7 +68,6 @@ wget $PREFIX/model1.bin
 wget $PREFIX/dv.bin
 ```
 
-
 ## Question 3
 
 Let's use these models!
@@ -83,7 +79,7 @@ Let's use these models!
 {"job": "management", "duration": 400, "poutcome": "success"}
 ```
 
-What's the probability that this client will get a subscription? 
+What's the probability that this client will get a subscription?
 
 * 0.359
 * 0.559
@@ -97,7 +93,6 @@ $ md5sum model1.bin dv.bin
 3d8bb28974e55edefa000fe38fd3ed12  model1.bin
 7d37616e00aa80f2152b8b0511fc2dff  dv.bin
 ```
-
 
 ## Question 4
 
@@ -119,7 +114,6 @@ What's the probability that this client will get a subscription?
 * 0.535
 * 0.735
 * 0.935
-
 
 ## Docker
 
@@ -144,7 +138,6 @@ We already built it and then pushed it to [`svizor/zoomcamp-model:3.11.5-slim`](
 
 > **Note**: You don't need to build this docker image, it's just for your reference.
 
-
 ## Question 5
 
 Download the base image `svizor/zoomcamp-model:3.11.5-slim`. You can easily make it by using [docker pull](https://docs.docker.com/engine/reference/commandline/pull/) command.
@@ -157,7 +150,6 @@ So what's the size of this base image?
 * 330 MB
 
 You can get this information when running `docker images` - it'll be in the "SIZE" column.
-
 
 ## Dockerfile
 
@@ -174,10 +166,9 @@ Now complete it:
 
 * Install all the dependencies form the Pipenv file
 * Copy your Flask script
-* Run it with Gunicorn 
+* Run it with Gunicorn
 
 After that, you can build your docker image.
-
 
 ## Question 6
 
@@ -197,7 +188,6 @@ What's the probability that this client will get a subscription now?
 * 0.530
 * 0.757
 * 0.960
-
 
 ## Submit the results
 
