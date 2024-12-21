@@ -154,7 +154,7 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [x] Learn in public 7: aws eks [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-kubernetes-aws-activity-7276267339484975105-qAGN?utm_source=share&utm_medium=member_desktop) on 21 December 2024
 - [ ] Explore more: Other local Kubernetes: minikube, k3d, k3s, microk8s, EKS Anywhere
 - [ ] Explore more: [Rancher desktop](https://rancherdesktop.io/)
-- [ ] Explore more: [Docker desktop](https://www.docker.com/products/docker-desktop/)
+- [x] Explore more: [Docker desktop](https://www.docker.com/products/docker-desktop/)
 - [ ] Explore more: [Lens](https://k8slens.dev/)
 - [ ] Explore more: Many cloud providers have Kubernetes: GCP, Azure, Digital ocean and others. Look for "Managed Kubernetes" in your favourite search engine
 - [ ] Explore more: Deploy the model from previous modules and from your project with Kubernetes
@@ -211,7 +211,7 @@ scored 16/16
     - [x] URL for testing / video or screenshot of testing
 - [x] Streamlit app
   - [ ] search field
-  - [ ] genrate random mushroom
+  - [ ] generate random mushroom
   - [ ] prettify table
 - [ ] Write a report / make a presentation
 
@@ -253,46 +253,43 @@ scored xx/16
   - [ ] use of solution
 - [ ] Find a dataset: [Dog Breed]()
 - [ ] Do [EDA](./fungiIncognita/notebooks/01_eda.ipynb)
-  - [x] ranges of values
-  - [x] missing values
+  - [ ] ranges of values
+  - [ ] missing values
   - [ ] analysis of target variable
   - [ ] feature importance analysis
-- [x] Model training
-  - [x] Train multiple models
-  - [x] tune hyperparameters
-- [x] Export the best model to script and save model
-- [x] Reproducibility
-  - [x] re-execute the notebook without errors
-  - [x] execute the training script without errors
-  - [x] submit the dataset
-- [x] Deploy the model - Flask / Steamlit
-  - [x] Flask
-  - [x] Streamlit
-- [x] Dependency and environment management
-  - [x] [conda environment](./fungiIncognita/environment.yml)
-  - [x] Makefile <!-- FIXME: -->
-  - [x] environment.yml
+- [ ] Model training
+  - [ ] Train multiple models
+  - [ ] tune hyperparameters
+- [ ] Export the best model to script and save model
+- [ ] Reproducibility
+  - [ ] re-execute the notebook without errors
+  - [ ] execute the training script without errors
+  - [ ] submit the dataset
+- [ ] Deploy the model - Flask / Steamlit
+  - [ ] Flask
+  - [ ] Streamlit
+- [ ] Dependency and environment management
+  - [ ] [conda environment]( FIXME:)
+  - [ ] Makefile <!-- FIXME: -->
+  - [ ] environment.yml
   - [ ] requirements.txt
-  - [x] Pipfile
-  - [x] Readme
-    - [x] installation
-    - [x] activation
-- [x] Containerization
-  - [x] Dockerfile
-  - [x] README
-    - [x] build a container
-    - [x] run
-- [x] Cloud deployment
-  - [x] AWS
-    - [x] docker - beanstalk
-  - [x] README
-    - [x] deployment described with code
-      - [x] cloud
-    - [x] URL for testing / video or screenshot of testing
-- [x] Streamlit app
-  - [ ] search field
-  - [ ] genrate random mushroom
-  - [ ] prettify table
+  - [ ] Pipfile
+  - [ ] Readme
+    - [ ] installation
+    - [ ] activation
+- [ ] Containerization
+  - [ ] Dockerfile
+  - [ ] README
+    - [ ] build a container
+    - [ ] run
+- [ ] Cloud deployment
+  - [ ] AWS
+    - [ ] docker - beanstalk
+  - [ ] README
+    - [ ] deployment described with code
+      - [ ] cloud
+    - [ ] URL for testing / video or screenshot of testing
+- [ ] Streamlit app
 - [ ] Write a report / make a presentation
 
 ### [ ] Capstone 2 Project: due 28 January 2025 00:00
