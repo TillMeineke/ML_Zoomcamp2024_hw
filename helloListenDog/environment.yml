@@ -1,0 +1,52 @@
+# Conda Environment Setup Instructions
+#  - Using an environment.yml file with conda
+#  - Key Terminal Commands:
+#
+#    conda env create -f environment.yml
+#    conda env update --file environment.yml --prune
+#    conda env export --name helloDogBreed > environment.yml
+#    conda env remove --name helloDogBreed
+#    conda env list
+
+name: helloDogBreed
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - black
+  - flask
+  - grpcio
+  - gunicorn
+  - isort
+  - jupyterlab
+  - labelImg
+  - matplotlib
+  - mlflow
+  - numpy<2.0
+  - pandas
+  - pillow
+  - pip
+  - pipenv
+  - plotly
+  - pylint
+  - python=3.11
+  - requests
+  - ruff
+  - scikit-learn=1.5.2
+  - seaborn
+  - setuptools
+  - streamlit
+  - tensorflow
+  - tqdm
+  - xgboost
+  - lxml
+  - pip:
+    - pylabel
+    - scipy
+    - torch
+    - torchaudio
+    - torchvision
+    - keras-image-helper
+    - tensorflow-metal==1.1.0
+    - tensorflow-serving-api==2.7.0

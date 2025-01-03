@@ -143,6 +143,7 @@ dmypy.json
 */data/*.geojson
 */data/
 /FashionClassification/clothing-dataset-small
+!/helloListenDog/data/helloListenDog_v1_dog_detection.v1i.coco.zip
 
 /tool_tips_tricks_books/subs
 /05-deployment/model/*
