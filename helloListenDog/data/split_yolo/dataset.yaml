@@ -19,6 +19,6 @@ names:
 - mastiff
 nc: 18
 path: ..
-test: ../data/images/test
-train: ../data/images/train
-val: ../data/images/val
+test: data/images/test
+train: data/images/train
+val: data/images/val
