@@ -66,7 +66,7 @@ For a project, the repository/folder should contain the following:
     - [ ] 0 points: No script for training a model
     - [ ] 1 point: The logic for training the model is exported to a separate script
 - [ ] Reproducibility
-  - [ ] 0 points: Not possitble to execute the notebook and the training script. Data is missing or it's not easiliy accessible
+  - [ ] 0 points: Not possible to execute the notebook and the training script. Data is missing or it's not easily accessible
   - [ ] 1 point: It's possible to re-execute the notebook and the training script without errors. The dataset is committed in the project repository or there are clear instructions on how to download the data
 - Script `predict.py` (suggested name)
   - [ ] Loading the model
@@ -75,9 +75,9 @@ For a project, the repository/folder should contain the following:
     - [ ] 1 point: Model is deployed (with Flask, BentoML or a similar framework)
 - Files with dependencies
   - [ ] `Pipenv` and `Pipenv.lock` if you use Pipenv
-  - [ ] or equivalents: conda environment file, `requirements.txt` or `pyproject.toml`
+  - [x] or equivalents: conda environment file, `requirements.txt` or `pyproject.toml`
     - [ ] 0 points: No dependency management
-    - [ ] 1 point: Provided a file with dependencies (requirements.txt, pipfile, bentofile.yaml with dependencies, etc)
+    - [x] 1 point: Provided a file with dependencies (requirements.txt, pipfile, bentofile.yaml with dependencies, etc)
     - [ ] 2 points: Provided a file with dependencies and used virtual environment. README says how to install the dependencies and how to activate the env
 - [ ] Dockerfile for running the service
   - [ ] 0 points: No containerization

@@ -7,6 +7,6 @@ data/helloListenDog_v1_dog_detection.v1i.coco/*
 
 /data/fifty-one
 /data/helloListenDog_v1_dog_detection.v1i.coco
-/data/images
+!/data/images
 /data/makesense_labels
 /data/labelImg
