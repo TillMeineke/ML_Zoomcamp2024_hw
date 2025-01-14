@@ -1,0 +1,95 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          15.0,
+          18.0
+        ],
+        [
+          150.12345679012347,
+          147.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          182.46913580246914,
+          4.77777777777777
+        ],
+        [
+          320.4444444444441,
+          156.2469135802469
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          167.1604938271605,
+          66.25925925925925
+        ],
+        [
+          217.03703703703704,
+          127.74074074074073
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          171.35802469135803,
+          95.14814814814814
+        ],
+        [
+          244.44444444444446,
+          166.01234567901233
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          72.09876543209877,
+          96.38271604938271
+        ],
+        [
+          183.20987654320987,
+          178.85185185185185
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "cau_ovcharka_0098.jpg",
+  "imageData": null,
+  "imageHeight": 214,
+  "imageWidth": 320
+}

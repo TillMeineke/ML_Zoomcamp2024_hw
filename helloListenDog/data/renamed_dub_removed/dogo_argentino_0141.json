@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          233.0,
+          145.0
+        ],
+        [
+          341.0,
+          249.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "dogo_argentino",
+      "text": "",
+      "points": [
+        [
+          167.96875,
+          175.640625
+        ],
+        [
+          260.15625,
+          255.328125
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "dogo_argentino_0141.jpg",
+  "imageData": null,
+  "imageHeight": 338,
+  "imageWidth": 450
+}

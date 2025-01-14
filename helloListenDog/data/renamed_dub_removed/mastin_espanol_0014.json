@@ -1,0 +1,61 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "mastin_espanol",
+      "text": "",
+      "points": [
+        [
+          21.240105540897094,
+          22.415567282321895
+        ],
+        [
+          274.67810026385234,
+          212.43007915567284
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          176.9287598944591,
+          -0.33245382585751315
+        ],
+        [
+          267.67810026385223,
+          194.18337730870712
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          87.46701846965699,
+          0.25197889182057626
+        ],
+        [
+          186.67546174142478,
+          203.15435356200527
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "mastin_espanol_0014.jpg",
+  "imageData": null,
+  "imageHeight": 229,
+  "imageWidth": 300
+}

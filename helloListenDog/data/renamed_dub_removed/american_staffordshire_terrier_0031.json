@@ -1,0 +1,27 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "am_staffordshire_terrier",
+      "text": "",
+      "points": [
+        [
+          9.156069364161851,
+          2.028901734104039
+        ],
+        [
+          323.15606936416185,
+          500.02890173410333
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "american_staffordshire_terrier_0031.jpg",
+  "imageData": null,
+  "imageHeight": 500,
+  "imageWidth": 375
+}

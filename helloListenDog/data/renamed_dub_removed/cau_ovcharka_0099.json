@@ -1,0 +1,95 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          169.0,
+          26.0
+        ],
+        [
+          309.0,
+          116.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          84.0,
+          60.0
+        ],
+        [
+          159.0,
+          115.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          47.0,
+          82.0
+        ],
+        [
+          109.0,
+          128.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          31.0,
+          104.0
+        ],
+        [
+          89.0,
+          187.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          159.26289926289928,
+          68.66216216216218
+        ],
+        [
+          200.54054054054055,
+          112.8882063882064
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "cau_ovcharka_0099.jpg",
+  "imageData": null,
+  "imageHeight": 213,
+  "imageWidth": 320
+}

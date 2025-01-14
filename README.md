@@ -212,9 +212,8 @@ scored 16/16
 - [x] Streamlit app
   - [ ] search field
   - [ ] generate random mushroom
-  - [ ] prettify table
-- [ ] Write a report / make a presentation
-
+  - [x] prettify table
+- [x] Write a report / make a presentation / video
 - [x] Learn in public 1: Leaderboard [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7260339521815220224-jeD7?utm_source=share&utm_medium=member_desktop) on 7 November 2024
 - [x] Learn in public 2: Prediction working [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266950711664386048-oPj-?utm_source=share&utm_medium=member_desktop) on 25 November 2024
 - [x] Learn in public 3: Picture of shroom [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7266954180316053504--FCz?utm_source=share&utm_medium=member_desktop) on 25 November 2024
@@ -247,16 +246,16 @@ scored 16/16
 scored xx/16
 
 - Start: 13 December 2024
-- [ ] Problem description: [README](FIXME:)
-  - [ ] context
-  - [ ] problem
-  - [ ] use of solution
-- [ ] Find a dataset: [Dog Breed]()
-- [ ] Do [EDA](./fungiIncognita/notebooks/01_eda.ipynb)
-  - [ ] ranges of values
-  - [ ] missing values
-  - [ ] analysis of target variable
-  - [ ] feature importance analysis
+- [x] Problem description: [README](./helloListenDog/README.md#project-description)
+  - [x] context
+  - [x] problem
+  - [x] use of solution
+- [x] Find a dataset: [Dog Breed](./helloListenDog/README.md#data-collection-labeling-and-preprocessing)
+- [ ] Do Image [EDA](FIXME:) for object detection
+  - [ ] dataset overview
+  - [ ] visual inspection
+  - [ ] image properties
+  - [ ] outliers
 - [ ] Model training
   - [ ] Train multiple models
   - [ ] tune hyperparameters
@@ -269,9 +268,9 @@ scored xx/16
   - [ ] Flask
   - [ ] Streamlit
 - [ ] Dependency and environment management
-  - [ ] [conda environment]( FIXME:)
+  - [x] [conda environment](./helloListenDog/environment.yml)
   - [ ] Makefile <!-- FIXME: -->
-  - [ ] environment.yml
+  - [x] environment.yml
   - [ ] requirements.txt
   - [ ] Pipfile
   - [ ] Readme
@@ -289,7 +288,7 @@ scored xx/16
     - [ ] deployment described with code
       - [ ] cloud
     - [ ] URL for testing / video or screenshot of testing
-- [ ] Streamlit app
+- [ ] Web app (optional)
 - [ ] Write a report / make a presentation
 
 ### [ ] Capstone 2 Project: due 28 January 2025 00:00

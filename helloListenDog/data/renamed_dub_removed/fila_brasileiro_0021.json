@@ -1,0 +1,112 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "fila_brasileiro",
+      "text": "",
+      "points": [
+        [
+          63.0,
+          32.0
+        ],
+        [
+          353.125,
+          279.15625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "fila_brasileiro",
+      "text": "",
+      "points": [
+        [
+          9.765625,
+          131.5
+        ],
+        [
+          148.4375,
+          241.265625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "fila_brasileiro",
+      "text": "",
+      "points": [
+        [
+          53.515625,
+          176.8125
+        ],
+        [
+          178.515625,
+          263.53125
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "fila_brasileiro",
+      "text": "",
+      "points": [
+        [
+          158.984375,
+          135.796875
+        ],
+        [
+          220.703125,
+          297.90625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "fila_brasileiro",
+      "text": "",
+      "points": [
+        [
+          201.953125,
+          181.109375
+        ],
+        [
+          291.40625,
+          328.765625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "fila_brasileiro",
+      "text": "",
+      "points": [
+        [
+          254.6875,
+          182.671875
+        ],
+        [
+          330.46875,
+          255.328125
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "fila_brasileiro_0021.jpg",
+  "imageData": null,
+  "imageHeight": 338,
+  "imageWidth": 450
+}

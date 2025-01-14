@@ -1,0 +1,45 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "rottweiler",
+      "text": "",
+      "points": [
+        [
+          187.37373737373738,
+          74.05555555555556
+        ],
+        [
+          449.4848484848485,
+          437.5656565656567
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          229.2929292929293,
+          389.71212121212125
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "rottweiler_0033.jpg",
+  "imageData": null,
+  "imageHeight": 437,
+  "imageWidth": 500,
+  "text": ""
+}

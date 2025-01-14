@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "mastin_espanol",
+      "text": "",
+      "points": [
+        [
+          0.0,
+          67.0
+        ],
+        [
+          342.671875,
+          296.390625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastin_espanol",
+      "text": "",
+      "points": [
+        [
+          178.125,
+          23.687499999999993
+        ],
+        [
+          445.78125,
+          285.53125
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "mastin_espanol_0008.jpg",
+  "imageData": null,
+  "imageHeight": 338,
+  "imageWidth": 450
+}

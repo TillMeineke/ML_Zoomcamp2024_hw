@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          44.53125,
+          54.15624999999999
+        ],
+        [
+          450.40625,
+          338.421875
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          176.171875,
+          186.578125
+        ],
+        [
+          270.703125,
+          300.640625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "tosa_inu_0112.jpg",
+  "imageData": null,
+  "imageHeight": 338,
+  "imageWidth": 450
+}

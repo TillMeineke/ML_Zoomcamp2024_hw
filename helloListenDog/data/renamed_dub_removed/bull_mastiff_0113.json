@@ -1,0 +1,112 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "bull_mastiff",
+      "text": "",
+      "points": [
+        [
+          230.79190751445088,
+          215.31791907514452
+        ],
+        [
+          398.2485549132948,
+          500.40462427745666
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          0.0,
+          116.0
+        ],
+        [
+          235.0,
+          499.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "bull_terrier",
+      "text": "",
+      "points": [
+        [
+          -0.7341040462428055,
+          333.9364161849711
+        ],
+        [
+          144.0,
+          499.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          189.1734104046243,
+          17.63005780346821
+        ],
+        [
+          397.0,
+          445.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          122.12138728323697,
+          137.28323699421966
+        ],
+        [
+          184.5491329479769,
+          214.7398843930636
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          207.67052023121386,
+          41.907514450867055
+        ],
+        [
+          281.65895953757223,
+          125.72254335260115
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "bull_mastiff_0113.jpg",
+  "imageData": null,
+  "imageHeight": 500,
+  "imageWidth": 398
+}

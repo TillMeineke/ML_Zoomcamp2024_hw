@@ -1,0 +1,214 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          0.0,
+          367.0
+        ],
+        [
+          200.0,
+          577.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          747.0,
+          249.0
+        ],
+        [
+          901.0,
+          572.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          195.0,
+          370.0
+        ],
+        [
+          392.0,
+          575.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          512.0,
+          380.0
+        ],
+        [
+          755.0,
+          575.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          445.0,
+          287.0
+        ],
+        [
+          632.0,
+          446.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          91.0,
+          180.0
+        ],
+        [
+          252.0,
+          334.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          235.0,
+          283.0
+        ],
+        [
+          445.0,
+          466.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          241.0,
+          192.0
+        ],
+        [
+          332.0,
+          337.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          577.0,
+          262.0
+        ],
+        [
+          809.0,
+          432.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          357.0,
+          193.0
+        ],
+        [
+          433.0,
+          293.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          504.0,
+          154.0
+        ],
+        [
+          704.0,
+          297.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          428.0,
+          197.0
+        ],
+        [
+          597.0,
+          325.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "mastiff_0044.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 920
+}

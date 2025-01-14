@@ -1,0 +1,27 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "bull_terrier",
+      "text": "",
+      "points": [
+        [
+          248.14814814814812,
+          14.074074074074074
+        ],
+        [
+          670.0,
+          588.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "bull_terrier_0086.jpg",
+  "imageData": null,
+  "imageHeight": 640,
+  "imageWidth": 920
+}

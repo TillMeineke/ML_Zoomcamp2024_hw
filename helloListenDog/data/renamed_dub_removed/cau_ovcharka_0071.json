@@ -1,0 +1,129 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          193.0,
+          167.0
+        ],
+        [
+          213.0,
+          216.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          2.0,
+          169.0
+        ],
+        [
+          13.0,
+          207.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          26.0,
+          161.0
+        ],
+        [
+          42.0,
+          206.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          138.85416666666669,
+          194.79166666666669
+        ],
+        [
+          435.7708333333333,
+          441.1666666666667
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          281.5625,
+          47.91666666666667
+        ],
+        [
+          422.7083333333333,
+          242.70833333333334
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          328.4375,
+          59.37500000000001
+        ],
+        [
+          360.7291666666667,
+          103.64583333333333
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          14.895833333333314,
+          169.27083333333334
+        ],
+        [
+          26.354166666666657,
+          207.81250000000003
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "cau_ovcharka_0071.jpg",
+  "imageData": null,
+  "imageHeight": 450,
+  "imageWidth": 435
+}

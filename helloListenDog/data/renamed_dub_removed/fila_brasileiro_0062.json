@@ -1,0 +1,231 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          263.0,
+          451.0
+        ],
+        [
+          497.0,
+          866.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          667.0,
+          480.0
+        ],
+        [
+          981.0,
+          906.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          649.0,
+          178.0
+        ],
+        [
+          967.0,
+          587.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          265.0,
+          118.0
+        ],
+        [
+          525.5555555555555,
+          772.2222222222223
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "fila_brasileiro",
+      "text": "",
+      "points": [
+        [
+          542.2222222222223,
+          474.1111111111111
+        ],
+        [
+          778.2222222222223,
+          883.1111111111111
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          525.5555555555555,
+          125.55555555555554
+        ],
+        [
+          674.4444444444445,
+          788.8888888888889
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          622.0,
+          156.0
+        ],
+        [
+          781.1111111111111,
+          707.7777777777778
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          361.1111111111111,
+          144.44444444444443
+        ],
+        [
+          438.8888888888889,
+          227.77777777777777
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          337.77777777777777,
+          480.0
+        ],
+        [
+          421.1111111111111,
+          564.4444444444445
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          803.3333333333334,
+          504.4444444444444
+        ],
+        [
+          888.8888888888889,
+          582.2222222222223
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          713.3333333333334,
+          218.88888888888889
+        ],
+        [
+          794.4444444444445,
+          298.88888888888886
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          642.2222222222222,
+          200.0
+        ],
+        [
+          720.0,
+          271.1111111111111
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          561.1111111111111,
+          172.2222222222222
+        ],
+        [
+          627.7777777777778,
+          232.2222222222222
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "fila_brasileiro_0062.jpg",
+  "imageData": null,
+  "imageHeight": 960,
+  "imageWidth": 1280
+}

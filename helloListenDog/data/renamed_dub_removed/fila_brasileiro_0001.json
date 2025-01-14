@@ -1,0 +1,27 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "fila_brasileiro",
+      "text": "",
+      "points": [
+        [
+          127.3489932885906,
+          105.35234899328859
+        ],
+        [
+          242.78523489932886,
+          240.25167785234902
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "fila_brasileiro_0001.jpg",
+  "imageData": null,
+  "imageHeight": 255,
+  "imageWidth": 450
+}

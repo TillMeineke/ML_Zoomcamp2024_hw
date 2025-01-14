@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          608.0,
+          0.0
+        ],
+        [
+          1576.0,
+          2289.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          1173.1351351351354,
+          -0.7027027027027088
+        ],
+        [
+          2760.0,
+          2291.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "mastiff_0034.jpg",
+  "imageData": null,
+  "imageHeight": 2292,
+  "imageWidth": 3056
+}

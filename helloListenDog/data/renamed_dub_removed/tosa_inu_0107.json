@@ -1,0 +1,62 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "rottweiler",
+      "text": "",
+      "points": [
+        [
+          0.0,
+          61.0
+        ],
+        [
+          201.0,
+          428.0351758793971
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          123.75376884422116,
+          3.934673366834172
+        ],
+        [
+          348.15075376884425,
+          436.18592964824177
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          90.10552763819095,
+          -0.6834170854271463
+        ],
+        [
+          348.8994974874372,
+          376.2010050251256
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "tosa_inu_0107.jpg",
+  "imageData": null,
+  "imageHeight": 436,
+  "imageWidth": 348,
+  "text": ""
+}

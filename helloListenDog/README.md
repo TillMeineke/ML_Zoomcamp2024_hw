@@ -30,7 +30,7 @@ Author: Till Meineke
 >
 > Missing parts: see [Deliverables](#deliverables)
 >
-> You can rate this version. FIXME: Basic functionality is not working until now.
+> You can rate this version. FIXME: Basic functionality is not working until now. I [trained](helloListenDog/notebooks/train_yolo11_object_detection_on_custom_dataset.ipynb) a very rudimentary model with a small dataset, but deployment is still work in progress. Just finished to prepare the dataset (annotations), but still having trouble figuring out which model needs which data format.
 >
 <!-- > You can test the running EB instance with `make test_deploy` or in the provided conda environment with `python predict_test.py`.
 >
@@ -113,7 +113,7 @@ The eleven dog breeds belonging to **Category 3** are depicted below:
 
 ### Model selection
 
-The model should be able to detect dogs in an image, video or camera stream and predict, if the breed belongs to category 1 or category 3. For privacy reasons, the model should be able to detect human faces to blur them out. The model should be able to run on a mobile device, like a smartphone or a Raspberry Pi, but also on a server (project scope).
+The model should be able to detect dogs in an image, video or camera stream and predict, if the breed belongs to category 1 or category 3. For privacy reasons, the model should be able to detect human faces to blur them out. The model should be able to run on a mobile device, like a smartphone <!-- [Object Detection with YOLOv5 on iOS](https://github.com/pytorch/ios-demo-app/tree/master/ObjectDetection)--> or a Raspberry Pi <!--[Real Time Inference on Raspberry Pi 4 (30 fps!)](https://pytorch.org/tutorials/intermediate/realtime_rpi.html) -->, but also on a server (project scope).
 
 #### Why object detection?
 
@@ -177,31 +177,43 @@ Ultralytics recommends for best results, to ensure the YOLOv8/YOLOv11 model is w
 
 I started with training a custom YOLO11 model with a training notebook provided by [Roboflow](https://github.com/roboflow-ai/notebooks/blob/main/notebooks/train-yolo11-object-detection-on-custom-dataset.ipynb), to test my dataset and to get a feeling for the training process and data preparation. This notebook is optimized for training on Google Colab (select GPU runtime), but can be adapted for local training (on macOS you can use the MPS backend for training with Metal programming framework, see [here](https://pytorch.org/docs/stable/notes/mps.html)).
 
-
-
 ### Data collection, labeling and preprocessing
 
 The model will be trained on a dataset of dog images with corresponding labels.
 
-This being my first object detection project, having no experience with generating a labeled dataset, I started looking for dog breed image datasets on [Kaggle]()
+This being my first object detection project, having no experience with generating a labeled dataset, I started looking for dog breed image datasets on Kaggle and found two promising datasets:
 
-|Example Image|dog breed|FCI classification|HR classification|HundeG classification|[Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/) / [Kaggle Find my Dog](./docs/FindMyDog_Kaggle_120breeds.md) <br>[# img]|[143 Different Dog Breeds](./docs/143_Different_Dog_Breeds_Kaggle.md) [# img]| Dataset v1<br> [# img]|
-| :-: | :- | :-: | :- | :-: | :-: | :-: |:-:|
-|![American Pit Bull Terrier](./images/dog_breeds_example/cat_1/small_american_pit_bull_terrier_335fea627b.webp)| American Pit Bull Terrier |-|Terrier vom Kampfhundtyp|1||99||
-|![American Staffordshire Terrier](./images/dog_breeds_example/cat_1/small_american_staffordshire_bull_terrier_3c909daf65.webp)| American Staffordshire Terrier ||Terrier vom Kampfhundtyp|1|164|100||
-|![Bordeaux-Dogge](./images/dog_breeds_example/cat_3/small_dogue_de_bordeaux_2bee3f4c17.webp)| Bordeaux-Dogge ||Doggen und Doggenartige|3||100||
-|![Bullmastiff](./images/dog_breeds_example/cat_3/small_bullmistaff_79d3e1a7b4.webp)| Bullmastiff ||Doggen und Doggenartige|3|156|100||
-|![Bullterrier](./images/dog_breeds_example/cat_1/small_Bullterrier_5b4616711e.webp)| Bullterrier ||Terrier vom Kampfhundtyp|1||100||
-|![Dogo Argentino](./images/dog_breeds_example/cat_3/small_dogo_argentino_293aa0c771.webp)| Dogo Argentino | gr. 2, sec. 2.1 Doggenartige Hunde | Doggen und Doggenartige | 3 ||||
-|![Fila Brasileiro](./images/dog_breeds_example/cat_3/small_fila_brasileiro_6122999b2e.webp)| Fila Brasileiro ||Doggen und Doggenartige|3|||
-|![Kangal](./images/dog_breeds_example/cat_3/small_kangal_16338580d3.webp)| Kangal||Bauern-, Hirten- und Treibhunde|3||||
-|![Kaukasische Owtscharka](./images/dog_breeds_example/cat_3/small_kaukasischer_owtscharka_325e8f2d50.webp)| Kaukasische Owtscharka (Kavkazskaia Ovtcharka)||Bauern-, Hirten- und Treibhunde|3||||
-|![Mastiff](./images/dog_breeds_example/cat_3/small_mastiff_61aa09b79a.webp)| Mastiff ||Doggen und Doggenartige|3||100||
-|![Mastín Español](./images/dog_breeds_example/cat_3/small_mastin_espanol_6f47b45829.webp)| Mastín Español | gr. 2, sec. 2.2 Berghunde|Bauern-, Hirten- und Treibhunde | 3 ||||
-|![Mastino Napoletano](./images/dog_breeds_example/cat_3/small_mastino_napoletano_b05ac8a9a2.webp)| Mastino Napoletano ||Doggen und Doggenartige|3||100||
-|![Rottweiler](./images/dog_breeds_example/cat_3/small_rottweiler_171f7033f1.webp)| Rottweiler||Bauern-, Hirten- und Treibhunde|3|152|||
-|![Staffordshire Bull Terrier](./images/dog_breeds_example/cat_1/small_staffordshire_bullterrier_5c92864e6f.png)| Staffordshire Bull Terrier ||Terrier vom Kampfhundtyp|1|155|||
-|![Tosa Inu](./images/dog_breeds_example/cat_3/small_tosa_inu_11e8b714f8.webp)| Tosa Inu ||Doggen und Doggenartige|3||||
+1. [143 Different Dog Breeds image Classification](https://www.kaggle.com/datasets/rafsunahmad/143-different-dog-breeds-image-classifier "143 Different Dog Breeds image Classification")
+2. [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/)
+
+This already gave me ca. 100 - 250 images for 9 out of the 15 dog breeds in the "Listenhunde" category 1 and 3.
+
+The notebook [Train YOLO11 Object Detection on Custom Dataset](./notebooks/train_yolo11_object_detection_on_custom_dataset.ipynb) from Roboflow ()
+
+|Example Image|dog breed|FCI classification|HR classification|HundeG classification|[Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/) / [Kaggle Find my Dog](./docs/FindMyDog_Kaggle_120breeds.md) <br>[# img]|[143 Different Dog Breeds](./docs/143_Different_Dog_Breeds_Kaggle.md) [# img]|annotated Dataset v1<br> [# dogs]|[hundund.de](https://www.hundund.de/hunderassen/) [# img]|
+| :-: | :- | :-: | :- | :-: | :-: | :-: | :-: | :-: |
+|![American Pit Bull Terrier](./images/dog_breeds_example/cat_1/small_american_pit_bull_terrier_335fea627b.webp)| American Pit Bull Terrier |-|Terrier vom Kampfhundtyp|1|-|99|142|-|
+|![American Staffordshire Terrier](./images/dog_breeds_example/cat_1/small_american_staffordshire_bull_terrier_3c909daf65.webp)| American Staffordshire Terrier ||Terrier vom Kampfhundtyp|1|164|100*|171|-|
+|![Bordeaux-Dogge](./images/dog_breeds_example/cat_3/small_dogue_de_bordeaux_2bee3f4c17.webp)| Bordeaux-Dogge ||Doggen und Doggenartige|3|-|100|120|-|
+|![Bullmastiff](./images/dog_breeds_example/cat_3/small_bullmistaff_79d3e1a7b4.webp)| Bullmastiff ||Doggen und Doggenartige|3|156|100*|166|-|
+|![Bullterrier](./images/dog_breeds_example/cat_1/small_Bullterrier_5b4616711e.webp)| Bullterrier ||Terrier vom Kampfhundtyp|1|-|100|99|-|
+|![Dogo Argentino](./images/dog_breeds_example/cat_3/small_dogo_argentino_293aa0c771.webp)| Dogo Argentino | gr. 2, sec. 2.1 Doggenartige Hunde | Doggen und Doggenartige | 3 |-|-|7|146 / 209|
+|![Fila Brasileiro](./images/dog_breeds_example/cat_3/small_fila_brasileiro_6122999b2e.webp)| Fila Brasileiro ||Doggen und Doggenartige|3|-|-|0|91 / 93|
+|![Kangal](./images/dog_breeds_example/cat_3/small_kangal_16338580d3.webp)| Kangal||Bauern-, Hirten- und Treibhunde|3|-|-|0|106 / 108 |
+|![Kaukasische Owtscharka](./images/dog_breeds_example/cat_3/small_kaukasischer_owtscharka_325e8f2d50.webp)| Kaukasische Owtscharka (Kavkazskaia Ovtcharka)||Bauern-, Hirten- und Treibhunde|3|-|-|2|155 / 296|
+|![Mastiff](./images/dog_breeds_example/cat_3/small_mastiff_61aa09b79a.webp)| Mastiff ||Doggen und Doggenartige|3|-|100|88|-|
+|![Mastín Español](./images/dog_breeds_example/cat_3/small_mastin_espanol_6f47b45829.webp)| Mastín Español | gr. 2, sec. 2.2 Berghunde|Bauern-, Hirten- und Treibhunde | 3 |-|-|0|52 / 52|
+|![Mastino Napoletano](./images/dog_breeds_example/cat_3/small_mastino_napoletano_b05ac8a9a2.webp)| Mastino Napoletano ||Doggen und Doggenartige|3|-|100|120|-|
+|![Rottweiler](./images/dog_breeds_example/cat_3/small_rottweiler_171f7033f1.webp)| Rottweiler||Bauern-, Hirten- und Treibhunde|3|152|-|151|-|
+|![Staffordshire Bull Terrier](./images/dog_breeds_example/cat_1/small_staffordshire_bullterrier_5c92864e6f.png)| Staffordshire Bull Terrier ||Terrier vom Kampfhundtyp|1|155|-|164|-|
+|![Tosa Inu](./images/dog_breeds_example/cat_3/small_tosa_inu_11e8b714f8.webp)| Tosa Inu |gr. 2, sec 2.1|Doggen und Doggenartige|3|-|-|0|121 / 121|
+|extra classes:|||||||||
+|🐶|other dog breed|-||-|-|-|36|-|
+||||||||||
+|👱|human face|-||-|-|-|45|-|
+|🚶‍➡️|person|-||-|-|-|92|-|
+
+_* = not used_
 
 Categorization of dog breeds according to "Enzyklopädie_der_Rassehunde_Band 1 & 2" by Hans Räber. Descriptions provided in `/docs/dog_breeds`.
 
@@ -231,12 +243,14 @@ Terrier vom Kampfhundtyp
 - Bullterrier
 - Staffordshire Bull Terrier
 
-
+<!--
+- [COCO Common Objects in Context - Detection Evaluation](https://cocodataset.org/#detection-eval)
+- [EfficientDet: Scalable and Efficient Object Detection](https://arxiv.org/abs/1911.09070)
+ -->
 
 ### Project structure
 
 <!-- FIXME: file tree with exp -->
-
 
 ## EDA
 <!-- 1. Dataset Overview: Check dataset size, class distribution, file formats, and missing/corrupted files.
@@ -244,6 +258,7 @@ Terrier vom Kampfhundtyp
 Depending on how comfortable you are with working with images, you can even:
 3. Image Properties: Analyze dimensions, aspect ratios, color channels, brightness, and contrast using histograms.
 4. Outliers: Use PCA or t-SNE to find anomalous images. -->
+
 ### Ranges of values
 
 ### Missing values
@@ -254,7 +269,7 @@ Depending on how comfortable you are with working with images, you can even:
 
 ## Model training
 
-##  Exporting notebook to python script
+## Exporting notebook to python script
 
 ## Reproducibility
 
@@ -275,5 +290,10 @@ Depending on how comfortable you are with working with images, you can even:
 ## EB deployment
 
 ## Web application / iOS app
+
+<!--
+- [Get started with LiteRT](https://ai.google.dev/edge/litert/inference)
+- [Object detection task guide with google mediapipe](https://ai.google.dev/edge/mediapipe/solutions/vision/object_detector#models)
+-->
 
 ![Flying Dog](./images/flying_dog.gif#dog "Flying dog")

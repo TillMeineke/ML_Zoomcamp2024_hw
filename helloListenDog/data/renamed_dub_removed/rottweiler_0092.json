@@ -1,0 +1,78 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          255.0,
+          0.0
+        ],
+        [
+          415.204081632653,
+          442.3061224489796
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "rottweiler",
+      "text": "",
+      "points": [
+        [
+          123.82653061224491,
+          44.46938775510203
+        ],
+        [
+          347.8979591836735,
+          379.51020408163265
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          60.0,
+          247.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          19.0,
+          0.0
+        ],
+        [
+          261.07142857142856,
+          354.1632653061225
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "rottweiler_0092.jpg",
+  "imageData": null,
+  "imageHeight": 442,
+  "imageWidth": 415
+}

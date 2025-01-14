@@ -1,0 +1,78 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          1563.5,
+          799.0
+        ],
+        [
+          2504.0,
+          1934.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          133.0,
+          922.0
+        ],
+        [
+          1147.0,
+          2013.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          521.0,
+          61.50000000000006
+        ],
+        [
+          2153.5,
+          1999.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          1146.0,
+          219.00000000000006
+        ],
+        [
+          1523.5,
+          621.5
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "cau_ovcharka_0002.jpg",
+  "imageData": null,
+  "imageHeight": 2128,
+  "imageWidth": 2832
+}

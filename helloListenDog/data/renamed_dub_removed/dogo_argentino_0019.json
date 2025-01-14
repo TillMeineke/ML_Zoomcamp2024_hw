@@ -1,0 +1,27 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "dogo_argentino",
+      "text": "",
+      "points": [
+        [
+          2.936288088642666,
+          90.9141274238227
+        ],
+        [
+          207.2770083102493,
+          240.31024930747913
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "dogo_argentino_0019.jpg",
+  "imageData": null,
+  "imageHeight": 240,
+  "imageWidth": 320
+}

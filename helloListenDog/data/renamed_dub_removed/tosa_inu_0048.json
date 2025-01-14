@@ -1,0 +1,113 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          86.0,
+          102.0
+        ],
+        [
+          186.0,
+          371.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          151.0,
+          216.0
+        ],
+        [
+          236.0,
+          386.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          293.4791666666667,
+          126.04166666666667
+        ],
+        [
+          313.60416666666663,
+          245.08333333333331
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          270.0416666666667,
+          127.60416666666667
+        ],
+        [
+          303.04166666666663,
+          235.43749999999997
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          244.52083333333331,
+          132.81250000000003
+        ],
+        [
+          278.0,
+          240.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          119.0,
+          117.1875
+        ],
+        [
+          161.70833333333331,
+          160.93750000000003
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "tosa_inu_0048.jpg",
+  "imageData": null,
+  "imageHeight": 450,
+  "imageWidth": 313,
+  "text": ""
+}

@@ -1,0 +1,78 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "am_pit_bull_terrier",
+      "text": "",
+      "points": [
+        [
+          278.2068965517242,
+          17.689655172413794
+        ],
+        [
+          663.2068965517242,
+          386.6896551724138
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "am_pit_bull_terrier",
+      "text": "",
+      "points": [
+        [
+          136.0,
+          121.0
+        ],
+        [
+          393.0,
+          476.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "am_pit_bull_terrier",
+      "text": "",
+      "points": [
+        [
+          13.568965517241395,
+          13.67241379310344
+        ],
+        [
+          189.0,
+          250.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "am_pit_bull_terrier",
+      "text": "",
+      "points": [
+        [
+          418.2068965517242,
+          234.551724137931
+        ],
+        [
+          663.2068965517242,
+          597.5517241379305
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "american_pit_bull_terrier_0037.jpg",
+  "imageData": null,
+  "imageHeight": 597,
+  "imageWidth": 663
+}

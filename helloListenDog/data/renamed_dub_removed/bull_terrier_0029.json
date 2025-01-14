@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "bull_terrier",
+      "text": "",
+      "points": [
+        [
+          131.0,
+          13.0
+        ],
+        [
+          372.0,
+          472.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          175.0,
+          259.0
+        ],
+        [
+          309.0,
+          472.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "bull_terrier_0029.jpg",
+  "imageData": null,
+  "imageHeight": 480,
+  "imageWidth": 480
+}

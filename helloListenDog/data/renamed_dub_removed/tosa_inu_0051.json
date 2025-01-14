@@ -1,0 +1,78 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          111.50519031141867,
+          171.45328719723184
+        ],
+        [
+          215.46020761245674,
+          300.3044982698958
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          154.06574394463667,
+          100.51903114186851
+        ],
+        [
+          220.8477508650519,
+          234.7750865051903
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          145.0692041522491,
+          84.60207612456746
+        ],
+        [
+          203.20069204152247,
+          217.1280276816609
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          152.68166089965396,
+          90.13840830449826
+        ],
+        [
+          167.90657439446366,
+          104.32525951557092
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "tosa_inu_0051.jpg",
+  "imageData": null,
+  "imageHeight": 300,
+  "imageWidth": 450
+}

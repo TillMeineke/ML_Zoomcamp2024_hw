@@ -1,0 +1,61 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "kangal",
+      "text": "",
+      "points": [
+        [
+          858.0,
+          457.0
+        ],
+        [
+          1355.0,
+          813.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          208.0,
+          1.0
+        ],
+        [
+          641.0,
+          1050.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          331.7142857142857,
+          94.85714285714289
+        ],
+        [
+          493.14285714285717,
+          224.8571428571429
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "kangal_0003.jpg",
+  "imageData": null,
+  "imageHeight": 1224,
+  "imageWidth": 1632
+}

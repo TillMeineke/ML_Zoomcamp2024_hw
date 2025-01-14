@@ -1,0 +1,27 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "mastin_espanol",
+      "text": "",
+      "points": [
+        [
+          47.916666666666664,
+          14.041666666666668
+        ],
+        [
+          450.80555555555554,
+          251.48611111111111
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "mastin_espanol_0052.jpg",
+  "imageData": null,
+  "imageHeight": 301,
+  "imageWidth": 450
+}

@@ -1,0 +1,146 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "dogo_argentino",
+      "text": "",
+      "points": [
+        [
+          274.0,
+          394.0
+        ],
+        [
+          1168.642857142857,
+          1146.5714285714284
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "dogo_argentino",
+      "text": "",
+      "points": [
+        [
+          985.0,
+          306.0
+        ],
+        [
+          1749.0,
+          796.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "dogo_argentino",
+      "text": "",
+      "points": [
+        [
+          818.0,
+          42.0
+        ],
+        [
+          1381.0,
+          518.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "dogo_argentino",
+      "text": "",
+      "points": [
+        [
+          190.07142857142867,
+          80.50000000000006
+        ],
+        [
+          831.1428571428571,
+          718.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "dogo_argentino",
+      "text": "",
+      "points": [
+        [
+          247.21428571428578,
+          239.4285714285715
+        ],
+        [
+          1102.5714285714287,
+          794.7857142857143
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "dogo_argentino",
+      "text": "",
+      "points": [
+        [
+          507.9285714285715,
+          882.2857142857143
+        ],
+        [
+          1493.642857142857,
+          1403.7142857142856
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "dogo_argentino",
+      "text": "",
+      "points": [
+        [
+          666.8571428571429,
+          728.7142857142858
+        ],
+        [
+          1561.5,
+          1005.5
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "dogo_argentino",
+      "text": "",
+      "points": [
+        [
+          1190.0714285714287,
+          334.0714285714286
+        ],
+        [
+          1525.7857142857144,
+          794.7857142857147
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "dogo_argentino_0071.jpg",
+  "imageData": null,
+  "imageHeight": 1536,
+  "imageWidth": 2048
+}

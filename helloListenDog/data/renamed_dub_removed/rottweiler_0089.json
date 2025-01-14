@@ -1,0 +1,27 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "rottweiler",
+      "text": "",
+      "points": [
+        [
+          195.45454545454544,
+          79.70779220779221
+        ],
+        [
+          387.56709956709955,
+          341.29870129870136
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "rottweiler_0089.jpg",
+  "imageData": null,
+  "imageHeight": 375,
+  "imageWidth": 500
+}

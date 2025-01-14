@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "fila_brasileiro",
+      "text": "",
+      "points": [
+        [
+          123.4375,
+          117.4375
+        ],
+        [
+          332.0,
+          304.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "fila_brasileiro",
+      "text": "",
+      "points": [
+        [
+          169.53125,
+          108.84375
+        ],
+        [
+          341.796875,
+          262.359375
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "fila_brasileiro_0023.jpg",
+  "imageData": null,
+  "imageHeight": 338,
+  "imageWidth": 450
+}

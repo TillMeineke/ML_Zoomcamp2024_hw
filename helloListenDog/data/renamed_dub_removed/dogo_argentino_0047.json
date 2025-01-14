@@ -1,0 +1,62 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          0.0,
+          85.0
+        ],
+        [
+          234.18181818181824,
+          338.5454545454546
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "dogo_argentino",
+      "text": "",
+      "points": [
+        [
+          62.63636363636363,
+          73.72727272727272
+        ],
+        [
+          314.5454545454545,
+          338.54545454545473
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          143.0,
+          111.9090909090909
+        ],
+        [
+          204.0909090909091,
+          171.54545454545453
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "dogo_argentino_0047.jpg",
+  "imageData": null,
+  "imageHeight": 338,
+  "imageWidth": 450,
+  "text": ""
+}

@@ -1,0 +1,129 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "am_pit_bull_terrier",
+      "text": "",
+      "points": [
+        [
+          1099.0,
+          251.0
+        ],
+        [
+          1499.0,
+          634.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "am_pit_bull_terrier",
+      "text": "",
+      "points": [
+        [
+          438.3116883116883,
+          549.512987012987
+        ],
+        [
+          1259.0,
+          1125.2987012987014
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "am_pit_bull_terrier",
+      "text": "",
+      "points": [
+        [
+          0.0,
+          558.0
+        ],
+        [
+          509.0,
+          1124.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "am_pit_bull_terrier",
+      "text": "",
+      "points": [
+        [
+          674.0,
+          200.0
+        ],
+        [
+          1108.0,
+          601.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "am_pit_bull_terrier",
+      "text": "",
+      "points": [
+        [
+          101.94805194805194,
+          552.1103896103896
+        ],
+        [
+          814.9350649350649,
+          1123.538961038961
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "am_pit_bull_terrier",
+      "text": "",
+      "points": [
+        [
+          400.6493506493506,
+          230.03246753246756
+        ],
+        [
+          688.961038961039,
+          715.7467532467532
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "am_pit_bull_terrier",
+      "text": "",
+      "points": [
+        [
+          974.6753246753245,
+          578.0844155844155
+        ],
+        [
+          1351.2987012987014,
+          888.474025974026
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "american_pit_bull_terrier_0041.jpg",
+  "imageData": null,
+  "imageHeight": 1125,
+  "imageWidth": 1500
+}

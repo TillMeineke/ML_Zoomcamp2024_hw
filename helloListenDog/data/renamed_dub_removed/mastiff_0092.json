@@ -1,0 +1,78 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "dogo_argentino",
+      "text": "",
+      "points": [
+        [
+          98.0,
+          16.0
+        ],
+        [
+          660.3896103896103,
+          1030.0324675324673
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "dogo_argentino",
+      "text": "",
+      "points": [
+        [
+          699.3506493506493,
+          296.26623376623377
+        ],
+        [
+          1498.0,
+          744.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "dogo_argentino",
+      "text": "",
+      "points": [
+        [
+          369.48051948051943,
+          11.850649350649327
+        ],
+        [
+          818.8311688311688,
+          820.9415584415584
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "dogo_argentino",
+      "text": "",
+      "points": [
+        [
+          504.5454545454545,
+          239.12337662337663
+        ],
+        [
+          1162.987012987013,
+          894.9675324675325
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "mastiff_0092.jpg",
+  "imageData": null,
+  "imageHeight": 1125,
+  "imageWidth": 1500
+}

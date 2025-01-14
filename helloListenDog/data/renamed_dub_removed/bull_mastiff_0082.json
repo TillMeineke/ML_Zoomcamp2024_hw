@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "bull_mastiff",
+      "text": "",
+      "points": [
+        [
+          0.0,
+          152.0
+        ],
+        [
+          479.43722943722946,
+          360.22727272727275
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "bull_mastiff",
+      "text": "",
+      "points": [
+        [
+          223.5930735930736,
+          89.66450216450217
+        ],
+        [
+          500.4069264069265,
+          272.2467532467531
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "bull_mastiff_0082.jpg",
+  "imageData": null,
+  "imageHeight": 375,
+  "imageWidth": 500
+}

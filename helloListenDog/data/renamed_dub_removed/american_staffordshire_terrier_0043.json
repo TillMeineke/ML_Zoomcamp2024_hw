@@ -1,0 +1,61 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          48.0,
+          0.0
+        ],
+        [
+          500.46320346320346,
+          375.060606060606
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "am_staffordshire_terrier",
+      "text": "",
+      "points": [
+        [
+          62.98701298701298,
+          147.67316017316017
+        ],
+        [
+          283.43290043290045,
+          375.7619047619047
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          279.004329004329,
+          6.98051948051948
+        ],
+        [
+          390.6926406926407,
+          136.41774891774892
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "american_staffordshire_terrier_0043.jpg",
+  "imageData": null,
+  "imageHeight": 375,
+  "imageWidth": 500
+}

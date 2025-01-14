@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          196.09375,
+          153.375
+        ],
+        [
+          450.296875,
+          331.875
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          -0.90625,
+          -0.640625
+        ],
+        [
+          318.09375,
+          329.359375
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "cau_ovcharka_0077.jpg",
+  "imageData": null,
+  "imageHeight": 338,
+  "imageWidth": 450
+}

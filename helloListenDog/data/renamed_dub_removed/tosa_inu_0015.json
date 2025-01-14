@@ -1,0 +1,129 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          216.69550173010379,
+          62.11072664359862
+        ],
+        [
+          284.0,
+          158.38408304498273
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          0.0,
+          84.0
+        ],
+        [
+          450.5709342560554,
+          300.29757785467064
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          80.3840830449827,
+          121.30795847750866
+        ],
+        [
+          224.65397923875432,
+          263.4948096885813
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          0.0,
+          209.0
+        ],
+        [
+          94.85813148788925,
+          300.2110726643597
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          76.90311418685121,
+          215.05190311418684
+        ],
+        [
+          251.98961937716243,
+          300.08996539792383
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          111.159169550173,
+          264.53287197231833
+        ],
+        [
+          247.14532871972315,
+          300.3252595155709
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          402.8546712802768,
+          112.97577854671279
+        ],
+        [
+          450.2283737024221,
+          209.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "tosa_inu_0015.jpg",
+  "imageData": null,
+  "imageHeight": 300,
+  "imageWidth": 450
+}

@@ -1,0 +1,214 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          0.0,
+          203.0
+        ],
+        [
+          260.7083333333333,
+          397.7916666666667
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          8.0,
+          35.0
+        ],
+        [
+          56.0,
+          211.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          0.0,
+          131.0
+        ],
+        [
+          338.08333333333337,
+          363.31250000000006
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          53.0,
+          59.0
+        ],
+        [
+          93.0,
+          142.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          94.0,
+          38.020833333333336
+        ],
+        [
+          165.35416666666669,
+          158.33333333333334
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          249.20833333333331,
+          93.22916666666667
+        ],
+        [
+          285.6666666666667,
+          184.89583333333334
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          34.10416666666666,
+          42.708333333333336
+        ],
+        [
+          50.770833333333314,
+          60.93750000000001
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          115.35416666666669,
+          43.22916666666667
+        ],
+        [
+          135.66666666666669,
+          67.1875
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          137.22916666666669,
+          149.47916666666669
+        ],
+        [
+          171.60416666666669,
+          201.56250000000003
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          46.60416666666666,
+          130.20833333333334
+        ],
+        [
+          94.0,
+          209.37500000000003
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          184.625,
+          177.08333333333334
+        ],
+        [
+          225.77083333333331,
+          228.12500000000003
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          227.85416666666669,
+          173.43750000000003
+        ],
+        [
+          273.1666666666667,
+          213.54166666666669
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "cau_ovcharka_0061.jpg",
+  "imageData": null,
+  "imageHeight": 450,
+  "imageWidth": 338
+}

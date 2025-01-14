@@ -1,0 +1,112 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          -0.8571428571428328,
+          -0.6428571428571672
+        ],
+        [
+          575.7857142857142,
+          1176.9285714285713
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          189.0,
+          637.0
+        ],
+        [
+          701.0,
+          1410.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          1236.2142857142858,
+          -0.14285714285711038
+        ],
+        [
+          1643.2142857142858,
+          792.8571428571436
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          949.0,
+          378.7142857142857
+        ],
+        [
+          1236.1428571428573,
+          835.214285714286
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          838.2857142857142,
+          698.3571428571429
+        ],
+        [
+          1559.7857142857142,
+          1327.1428571428569
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          388.2857142857144,
+          -0.8571428571428248
+        ],
+        [
+          575.7857142857143,
+          186.64285714285717
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "tosa_inu_0097.jpg",
+  "imageData": null,
+  "imageHeight": 1536,
+  "imageWidth": 2048
+}

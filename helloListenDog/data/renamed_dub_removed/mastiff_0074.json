@@ -1,0 +1,61 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "neapolitan_mastiff",
+      "text": "",
+      "points": [
+        [
+          58.891966759002784,
+          51.30193905817175
+        ],
+        [
+          287.0,
+          224.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          51.135734072022174,
+          33.29639889196676
+        ],
+        [
+          148.51246537396122,
+          215.10803324099723
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          105.98337950138506,
+          48.53185595567867
+        ],
+        [
+          121.49584487534628,
+          71.52354570637118
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "mastiff_0074.jpg",
+  "imageData": null,
+  "imageHeight": 240,
+  "imageWidth": 320
+}

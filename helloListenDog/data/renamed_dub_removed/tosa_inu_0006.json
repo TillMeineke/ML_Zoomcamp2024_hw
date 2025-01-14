@@ -1,0 +1,112 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          273.4429065743945,
+          46.88581314878893
+        ],
+        [
+          450.038062283737,
+          201.1141868512111
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          227.42214532871972,
+          81.48788927335639
+        ],
+        [
+          360.9861591695502,
+          225.77854671280278
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          23.0,
+          48.0
+        ],
+        [
+          121.53979238754326,
+          141.00346020761245
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          78.97923875432525,
+          93.25259515570933
+        ],
+        [
+          205.27681660899654,
+          218.16608996539793
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          144.0311418685121,
+          79.41176470588235
+        ],
+        [
+          231.5743944636678,
+          208.13148788927336
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          220.8477508650519,
+          41.69550173010381
+        ],
+        [
+          282.439446366782,
+          179.0657439446367
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "tosa_inu_0006.jpg",
+  "imageData": null,
+  "imageHeight": 300,
+  "imageWidth": 450
+}

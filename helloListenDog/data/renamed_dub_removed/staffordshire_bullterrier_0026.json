@@ -1,0 +1,27 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "dogo_argentino",
+      "text": "",
+      "points": [
+        [
+          13.739130434782624,
+          102.73913043478262
+        ],
+        [
+          240.73913043478262,
+          359.7391304347825
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "staffordshire_bullterrier_0026.jpg",
+  "imageData": null,
+  "imageHeight": 376,
+  "imageWidth": 500
+}

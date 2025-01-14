@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          422.50746268656724,
+          903.044776119403
+        ],
+        [
+          801.7910447761194,
+          1219.1044776119402
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "neapolitan_mastiff",
+      "text": "",
+      "points": [
+        [
+          89.85074626865645,
+          93.73134328358213
+        ],
+        [
+          1680.8955223880598,
+          1151.9402985074628
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "neapolitan_mastiff_0022.jpg",
+  "imageData": null,
+  "imageHeight": 1280,
+  "imageWidth": 1920
+}

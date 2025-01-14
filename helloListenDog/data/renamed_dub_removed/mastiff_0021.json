@@ -1,0 +1,28 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "dogue_de_bordeaux",
+      "text": "",
+      "points": [
+        [
+          132.4425287356322,
+          92.551724137931
+        ],
+        [
+          765.8965517241379,
+          962.7931034482756
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "mastiff_0021.jpg",
+  "imageData": null,
+  "imageHeight": 992,
+  "imageWidth": 835,
+  "text": ""
+}

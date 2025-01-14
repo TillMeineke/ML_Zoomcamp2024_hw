@@ -1,0 +1,45 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "fila_brasileiro",
+      "text": "",
+      "points": [
+        [
+          81.25,
+          38.92187499999999
+        ],
+        [
+          330.0,
+          337.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          0.390625,
+          15.484374999999995
+        ],
+        [
+          88.671875,
+          263.921875
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "fila_brasileiro_0002.jpg",
+  "imageData": null,
+  "imageHeight": 338,
+  "imageWidth": 450,
+  "text": ""
+}

@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          1260.0,
+          891.0
+        ],
+        [
+          1923.0,
+          1661.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          508.8888888888889,
+          275.55555555555554
+        ],
+        [
+          1336.7777777777778,
+          1761.5555555555557
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "tosa_inu_0018.jpg",
+  "imageData": null,
+  "imageHeight": 1920,
+  "imageWidth": 2560
+}

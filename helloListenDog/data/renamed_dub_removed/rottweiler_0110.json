@@ -1,0 +1,28 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          150.76923076923077,
+          101.50000000000001
+        ],
+        [
+          344.3846153846155,
+          333.5384615384612
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "rottweiler_0110.jpg",
+  "imageData": null,
+  "imageHeight": 333,
+  "imageWidth": 500,
+  "text": ""
+}

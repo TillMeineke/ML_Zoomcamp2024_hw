@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "rottweiler",
+      "text": "",
+      "points": [
+        [
+          17.965367965367967,
+          104.81601731601732
+        ],
+        [
+          232.86580086580085,
+          375.5541125541125
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          208.44155844155844,
+          16.937229437229437
+        ],
+        [
+          500.6277056277056,
+          322.4329004329004
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "rottweiler_0018.jpg",
+  "imageData": null,
+  "imageHeight": 375,
+  "imageWidth": 500
+}

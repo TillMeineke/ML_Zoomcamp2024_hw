@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          266.0,
+          25.0
+        ],
+        [
+          1636.0,
+          1230.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          1011.0,
+          1.470588235294116
+        ],
+        [
+          1592.6470588235293,
+          1142.3235294117646
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "mastiff_0079.jpg",
+  "imageData": null,
+  "imageHeight": 1267,
+  "imageWidth": 1900
+}

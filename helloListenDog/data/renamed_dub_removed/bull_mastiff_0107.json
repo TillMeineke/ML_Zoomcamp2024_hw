@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "bull_mastiff",
+      "text": "",
+      "points": [
+        [
+          66.13419913419915,
+          68.0
+        ],
+        [
+          495.13419913419915,
+          344.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          206.70995670995669,
+          199.62121212121212
+        ],
+        [
+          311.32900432900436,
+          296.86580086580057
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "bull_mastiff_0107.jpg",
+  "imageData": null,
+  "imageHeight": 375,
+  "imageWidth": 500
+}

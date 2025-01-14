@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "kangal",
+      "text": "",
+      "points": [
+        [
+          0.0,
+          17.0
+        ],
+        [
+          224.0,
+          337.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "kangal",
+      "text": "",
+      "points": [
+        [
+          0.0,
+          149.0
+        ],
+        [
+          395.171875,
+          338.140625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "kangal_0052.jpg",
+  "imageData": null,
+  "imageHeight": 338,
+  "imageWidth": 450
+}

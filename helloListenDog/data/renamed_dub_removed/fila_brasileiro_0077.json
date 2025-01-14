@@ -1,0 +1,61 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "fila_brasileiro",
+      "text": "",
+      "points": [
+        [
+          0.0,
+          124.0
+        ],
+        [
+          287.265625,
+          338.8125
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          294.140625,
+          56.10937499999999
+        ],
+        [
+          439.453125,
+          195.5625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          7.03125,
+          4.546874999999995
+        ],
+        [
+          450.8125,
+          338.890625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "fila_brasileiro_0077.jpg",
+  "imageData": null,
+  "imageHeight": 338,
+  "imageWidth": 450
+}

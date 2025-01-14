@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "kangal",
+      "text": "",
+      "points": [
+        [
+          92.0,
+          115.0
+        ],
+        [
+          2107.0,
+          1585.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          1086.0,
+          616.0
+        ],
+        [
+          2074.0,
+          1440.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "kangal_0075.jpg",
+  "imageData": null,
+  "imageHeight": 1728,
+  "imageWidth": 2304
+}

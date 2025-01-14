@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "bull_terrier",
+      "text": "",
+      "points": [
+        [
+          173.0,
+          99.0
+        ],
+        [
+          680.3287671232878,
+          1083.390410958904
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "bull_terrier",
+      "text": "",
+      "points": [
+        [
+          106.35616438356169,
+          386.1301369863014
+        ],
+        [
+          466.0,
+          1109.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "bull_terrier_0036.jpg",
+  "imageData": null,
+  "imageHeight": 1175,
+  "imageWidth": 736
+}

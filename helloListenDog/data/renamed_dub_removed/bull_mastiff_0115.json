@@ -1,0 +1,27 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "bull_mastiff",
+      "text": "",
+      "points": [
+        [
+          30.0,
+          23.0
+        ],
+        [
+          197.88161993769472,
+          249.6417445482866
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "bull_mastiff_0115.jpg",
+  "imageData": null,
+  "imageHeight": 270,
+  "imageWidth": 240
+}

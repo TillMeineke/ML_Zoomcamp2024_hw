@@ -1,0 +1,27 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          73.02631578947376,
+          100.87719298245624
+        ],
+        [
+          1040.0,
+          1500.5614035087715
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "mastiff_0076.jpg",
+  "imageData": null,
+  "imageHeight": 1500,
+  "imageWidth": 1125
+}

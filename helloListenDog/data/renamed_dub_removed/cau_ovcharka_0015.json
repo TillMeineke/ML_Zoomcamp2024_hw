@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          223.34024896265558,
+          58.838174273858925
+        ],
+        [
+          416.39419087136935,
+          360.20331950207503
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "staffordshire_bullterrier",
+      "text": "",
+      "points": [
+        [
+          85.99585062240664,
+          91.20331950207468
+        ],
+        [
+          256.24481327800834,
+          360.6390041493778
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "cau_ovcharka_0015.jpg",
+  "imageData": null,
+  "imageHeight": 360,
+  "imageWidth": 450
+}

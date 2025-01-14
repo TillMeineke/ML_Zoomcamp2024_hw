@@ -2,7 +2,7 @@
 #  - Using an environment.yml file with conda
 #  - Key Terminal Commands:
 #
-#    conda env create -f environment.yml
+#    conda env create -f environment.yml -y
 #    conda env update --file environment.yml --prune
 #    conda env export --name helloDogBreed > environment.yml
 #    conda env remove --name helloDogBreed
@@ -15,6 +15,7 @@ channels:
   - anaconda
 dependencies:
   - black
+  - fiftyone
   - flask
   - grpcio
   - gunicorn
@@ -24,11 +25,13 @@ dependencies:
   - matplotlib
   - mlflow
   - numpy<2.0
+  - opencv
   - pandas
   - pillow
   - pip
   - pipenv
   - plotly
+  - pycocotools
   - pylint
   - python=3.11
   - requests
@@ -37,16 +40,19 @@ dependencies:
   - seaborn
   - setuptools
   - streamlit
-  - tensorflow
   - tqdm
   - xgboost
   - lxml
   - pip:
+    - fiftyone
+    - keras-hub
+    - keras-image-helper
+    - label-studio
     - pylabel
     - scipy
+    - tensorflow==2.17.1
+    - tensorflow-metal==1.1.0
+    - tensorflow-serving-api==2.7.0
     - torch
     - torchaudio
     - torchvision
-    - keras-image-helper
-    - tensorflow-metal==1.1.0
-    - tensorflow-serving-api==2.7.0

@@ -1,0 +1,62 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "staffordshire_bullterrier",
+      "text": "",
+      "points": [
+        [
+          35.310734463276816,
+          128.74576271186442
+        ],
+        [
+          396.32768361581924,
+          452.47457627118644
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          177.0,
+          79.0
+        ],
+        [
+          261.0,
+          164.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          207.62711864406776,
+          87.50282485875705
+        ],
+        [
+          227.40112994350284,
+          110.10169491525423
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "staffordshire_bullterrier_0129.jpg",
+  "imageData": null,
+  "imageHeight": 488,
+  "imageWidth": 500,
+  "text": ""
+}

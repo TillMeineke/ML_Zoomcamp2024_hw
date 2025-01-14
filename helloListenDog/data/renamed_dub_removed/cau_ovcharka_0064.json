@@ -1,0 +1,27 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "cau_ovcharka",
+      "text": "",
+      "points": [
+        [
+          25.384615384615387,
+          54.57692307692309
+        ],
+        [
+          447.46153846153845,
+          333.4615384615379
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "cau_ovcharka_0064.jpg",
+  "imageData": null,
+  "imageHeight": 333,
+  "imageWidth": 450
+}

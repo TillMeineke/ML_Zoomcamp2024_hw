@@ -1,0 +1,28 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "am_pit_bull_terrier",
+      "text": "",
+      "points": [
+        [
+          139.0,
+          59.0
+        ],
+        [
+          1296.6206896551726,
+          1346.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "american_pit_bull_terrier_0001.jpg",
+  "imageData": null,
+  "imageHeight": 1492,
+  "imageWidth": 1376,
+  "text": ""
+}

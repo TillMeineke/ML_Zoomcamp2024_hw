@@ -1,0 +1,27 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "bull_terrier",
+      "text": "",
+      "points": [
+        [
+          106.04709141274242,
+          -0.8310249307479296
+        ],
+        [
+          320.0470914127424,
+          211.16897506925207
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "american_staffordshire_terrier_0149.jpg",
+  "imageData": null,
+  "imageHeight": 240,
+  "imageWidth": 320
+}

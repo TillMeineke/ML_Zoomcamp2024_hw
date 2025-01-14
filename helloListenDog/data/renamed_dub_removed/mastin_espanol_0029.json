@@ -1,0 +1,78 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "mastin_espanol",
+      "text": "",
+      "points": [
+        [
+          187.08053691275168,
+          66.37583892617451
+        ],
+        [
+          328.87919463087314,
+          216.67785234899327
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastin_espanol",
+      "text": "",
+      "points": [
+        [
+          314.26174496644296,
+          69.73154362416108
+        ],
+        [
+          444.77852348993287,
+          189.5302013422819
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastin_espanol",
+      "text": "",
+      "points": [
+        [
+          118.95973154362416,
+          2.281879194630875
+        ],
+        [
+          224.3288590604027,
+          172.751677852349
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastin_espanol",
+      "text": "",
+      "points": [
+        [
+          5.5369127516778525,
+          86.84563758389262
+        ],
+        [
+          149.49664429530202,
+          201.2751677852349
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "mastin_espanol_0029.jpg",
+  "imageData": null,
+  "imageHeight": 220,
+  "imageWidth": 450
+}

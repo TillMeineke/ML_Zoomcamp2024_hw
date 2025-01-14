@@ -1,0 +1,27 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "neapolitan_mastiff",
+      "text": "",
+      "points": [
+        [
+          20.072463768115938,
+          5.500000000000006
+        ],
+        [
+          248.02898550724638,
+          251.57971014492753
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "neapolitan_mastiff_0068.jpg",
+  "imageData": null,
+  "imageHeight": 251,
+  "imageWidth": 250
+}

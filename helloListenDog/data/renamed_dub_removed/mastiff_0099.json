@@ -1,0 +1,61 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          753.370786516854,
+          99.77528089887642
+        ],
+        [
+          1301.685393258427,
+          715.505617977528
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          181.46067415730337,
+          102.02247191011236
+        ],
+        [
+          642.1348314606741,
+          785.1685393258426
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "other_dog_breed",
+      "text": "",
+      "points": [
+        [
+          545.5056179775281,
+          94.15730337078654
+        ],
+        [
+          897.191011235955,
+          714.3820224719101
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "mastiff_0099.jpg",
+  "imageData": null,
+  "imageHeight": 840,
+  "imageWidth": 1500
+}

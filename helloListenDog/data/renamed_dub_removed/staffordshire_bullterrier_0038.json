@@ -1,0 +1,333 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "staffordshire_bullterrier",
+      "text": "",
+      "points": [
+        [
+          173.37662337662337,
+          250.7034632034632
+        ],
+        [
+          251.73160173160173,
+          369.5974025974026
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          51.0,
+          0.0
+        ],
+        [
+          221.42857142857144,
+          372.78138528138527
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          223.0,
+          0.0
+        ],
+        [
+          281.73160173160176,
+          204.43290043290042
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          0.0,
+          7.0
+        ],
+        [
+          40.0,
+          105.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          423.0,
+          8.0
+        ],
+        [
+          492.0,
+          165.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          290.0,
+          0.0
+        ],
+        [
+          356.0,
+          118.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          364.0,
+          28.0
+        ],
+        [
+          418.0,
+          124.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          183.0,
+          6.0
+        ],
+        [
+          232.0,
+          201.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          142.64069264069263,
+          28.625541125541126
+        ],
+        [
+          182.034632034632,
+          67.58658008658008
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          275.54112554112555,
+          60.660173160173166
+        ],
+        [
+          342.64069264069263,
+          212.6082251082251
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          13.63636363636364,
+          46.80735930735931
+        ],
+        [
+          83.76623376623377,
+          189.66450216450215
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          16.233766233766232,
+          20.833333333333332
+        ],
+        [
+          35.714285714285715,
+          39.88095238095239
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          64.28571428571428,
+          54.5995670995671
+        ],
+        [
+          82.03463203463204,
+          76.67748917748918
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          314.5021645021645,
+          66.2878787878788
+        ],
+        [
+          330.95238095238096,
+          90.96320346320347
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          383.76623376623377,
+          39.44805194805195
+        ],
+        [
+          407.1428571428571,
+          61.52597402597403
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          459.09090909090907,
+          17.8030303030303
+        ],
+        [
+          480.73593073593076,
+          41.612554112554115
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          378.1385281385281,
+          2.6515151515151514
+        ],
+        [
+          397.6190476190476,
+          26.893939393939394
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          316.66666666666663,
+          2.2186147186147185
+        ],
+        [
+          336.1471861471861,
+          26.46103896103896
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "human_face",
+      "text": "",
+      "points": [
+        [
+          235.28138528138527,
+          11.742424242424242
+        ],
+        [
+          252.5974025974026,
+          31.655844155844154
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "staffordshire_bullterrier_0038.jpg",
+  "imageData": null,
+  "imageHeight": 375,
+  "imageWidth": 500
+}

@@ -1,0 +1,61 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          647.0149253731344,
+          51.97761194029857
+        ],
+        [
+          1385.8208955223881,
+          1210.186567164179
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          206.71641791044786,
+          46.00746268656723
+        ],
+        [
+          766.4179104477612,
+          1174.365671641791
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          35.07462686567172,
+          2.723880597014993
+        ],
+        [
+          624.6268656716418,
+          1183.3208955223881
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "mastiff_0084.jpg",
+  "imageData": null,
+  "imageHeight": 1295,
+  "imageWidth": 1500
+}

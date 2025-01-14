@@ -1,0 +1,27 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "tosa_inu",
+      "text": "",
+      "points": [
+        [
+          -0.6666666666665151,
+          519.0
+        ],
+        [
+          1152.3333333333335,
+          1599.9999999999986
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "tosa_inu_0086.jpg",
+  "imageData": null,
+  "imageHeight": 1600,
+  "imageWidth": 1200
+}

@@ -1,2 +1,12 @@
 data/helloListenDog_v1_dog_detection.v1i.coco/*
 !data/helloListenDog_v1_dog_detection.v1i.coco.zip
+
+!/data
+!/data/*.csv
+!/data/*.txt
+
+/data/fifty-one
+/data/helloListenDog_v1_dog_detection.v1i.coco
+/data/images
+/data/makesense_labels
+/data/labelImg

@@ -1,0 +1,18 @@
+names:
+- am_pit_bull_terrier
+- amstaff
+- bullmastiff
+- bullterrier
+- dogo_argentino
+- dogue_de_bordeaux
+- face
+- mastiff
+- mastino_napoletano
+- other_dog_breed
+- person
+- rottweiler
+- staffford
+nc: 13
+path: ..
+train: training/images
+val: training/images

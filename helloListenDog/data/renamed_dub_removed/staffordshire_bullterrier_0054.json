@@ -1,0 +1,27 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "staffordshire_bullterrier",
+      "text": "",
+      "points": [
+        [
+          129.65367965367963,
+          32.52164502164502
+        ],
+        [
+          334.2987012987013,
+          327.8658008658009
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "staffordshire_bullterrier_0054.jpg",
+  "imageData": null,
+  "imageHeight": 375,
+  "imageWidth": 500
+}

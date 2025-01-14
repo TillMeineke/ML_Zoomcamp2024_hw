@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "am_pit_bull_terrier",
+      "text": "",
+      "points": [
+        [
+          92.96078431372553,
+          38.34640522875816
+        ],
+        [
+          708.9607843137255,
+          512.3464052287582
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "person",
+      "text": "",
+      "points": [
+        [
+          317.34640522875816,
+          -0.2679738562091529
+        ],
+        [
+          518.8235294117646,
+          447.5522875816994
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "american_pit_bull_terrier_0094.jpg",
+  "imageData": null,
+  "imageHeight": 567,
+  "imageWidth": 720
+}

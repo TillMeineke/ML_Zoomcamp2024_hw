@@ -1,0 +1,27 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "kangal",
+      "text": "",
+      "points": [
+        [
+          145.703125,
+          28.374999999999993
+        ],
+        [
+          379.390625,
+          319.703125
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "kangal_0103.jpg",
+  "imageData": null,
+  "imageHeight": 338,
+  "imageWidth": 450
+}

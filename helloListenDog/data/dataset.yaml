@@ -1,0 +1,24 @@
+names:
+- dogue_de_bordeaux
+- staffordshire_bullterrier
+- dogo_argentino
+- other_dog_breed
+- cau_ovcharka
+- person
+- human_face
+- am_pit_bull_terrier
+- fila_brasileiro
+- bull_terrier
+- kangal
+- neapolitan_mastiff
+- rottweiler
+- bull_mastiff
+- mastin_espanol
+- tosa_inu
+- am_staffordshire_terrier
+- mastiff
+nc: 18
+path: ..
+test: ../data/images/test
+train: ../data/images/train
+val: ../data/images/val

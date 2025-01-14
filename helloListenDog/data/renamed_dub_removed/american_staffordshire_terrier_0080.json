@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "am_staffordshire_terrier",
+      "text": "",
+      "points": [
+        [
+          1.0822510822510836,
+          45.50865800865801
+        ],
+        [
+          274.6753246753247,
+          375.51731601731603
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "am_staffordshire_terrier",
+      "text": "",
+      "points": [
+        [
+          69.04761904761904,
+          52.435064935064936
+        ],
+        [
+          500.46320346320346,
+          375.92640692640686
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "american_staffordshire_terrier_0080.jpg",
+  "imageData": null,
+  "imageHeight": 375,
+  "imageWidth": 500
+}

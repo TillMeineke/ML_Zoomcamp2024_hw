@@ -1,0 +1,27 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "dogue_de_bordeaux",
+      "text": "",
+      "points": [
+        [
+          1.793103448275815,
+          61.2413793103448
+        ],
+        [
+          1156.2758620689656,
+          1488.5862068965512
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "dogue_de_bordeaux_0001.jpg",
+  "imageData": null,
+  "imageHeight": 1488,
+  "imageWidth": 1276
+}

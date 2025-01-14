@@ -1,0 +1,44 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "dogue_de_bordeaux",
+      "text": "",
+      "points": [
+        [
+          62.853107344632775,
+          12.92655367231638
+        ],
+        [
+          383.43502824858757,
+          456.51977401129943
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    },
+    {
+      "label": "dogue_de_bordeaux",
+      "text": "",
+      "points": [
+        [
+          304.12994350282486,
+          110.12994350282486
+        ],
+        [
+          566.2429378531074,
+          463.20903954802264
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "dogue_de_bordeaux_0037.jpg",
+  "imageData": null,
+  "imageHeight": 488,
+  "imageWidth": 650
+}

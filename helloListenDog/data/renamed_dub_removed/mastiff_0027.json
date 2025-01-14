@@ -1,0 +1,28 @@
+{
+  "version": "0.4.15",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "mastiff",
+      "text": "",
+      "points": [
+        [
+          104.5,
+          14.5
+        ],
+        [
+          462.0,
+          434.0
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "mastiff_0027.jpg",
+  "imageData": null,
+  "imageHeight": 434,
+  "imageWidth": 600,
+  "text": ""
+}
