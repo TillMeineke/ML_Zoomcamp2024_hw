@@ -30,7 +30,7 @@ Author: Till Meineke
 >
 > Missing parts: see [Deliverables](#deliverables)
 >
-> You can rate this version. FIXME: Basic functionality is not working until now. I [trained](helloListenDog/notebooks/train_yolo11_object_detection_on_custom_dataset.ipynb) a very rudimentary model with a small dataset, but deployment is still work in progress. Just finished to prepare the dataset (annotations), but still having trouble figuring out which model needs which data format.
+> You can rate this version. FIXME: Basic functionality is not working until now. I [trained](helloListenDog/notebooks/train_yolo11_object_detection_on_custom_dataset.ipynb) a very rudimentary model with a small dataset, but deployment is still work in progress. Just finished to prepare the final dataset (with annotations), but still having trouble figuring out which model needs which data format.
 >
 <!-- > You can test the running EB instance with `make test_deploy` or in the provided conda environment with `python predict_test.py`.
 >
@@ -47,7 +47,7 @@ For a project, the repository/folder should contain the following:
     - [x] 2 points: Problem is described in README with enough context, so it's clear what the problem is and how the solution will be used
   - [ ] Instructions on how to run the project
 - Data
-  - [ ] You should either commit the dataset you used or have clear instructions how to download the dataset
+  - [x] You should either commit the dataset you used or have clear instructions how to download the dataset
 - Notebook (suggested name - `notebook.ipynb`) with
   - [ ] Data preparation and data cleaning
   - [ ] EDA, feature importance analysis
@@ -59,7 +59,7 @@ For a project, the repository/folder should contain the following:
 - Script `train.py` (suggested name)
   - [ ] Training the final model
     - [ ] 0 points: No model training
-    - [ ] 1 point: Trained only one model, no parameter tuning
+    - [x] 1 point: Trained only one model, no parameter tuning
     - [ ] 2 points: Trained multiple models (linear and tree-based). For neural networks: tried multiple variations - with dropout or without, with extra inner layers or without
     - [ ] 3 points: Trained multiple models and tuned their parameters. For neural networks: same as previous, but also with tuning: adjusting learning rate, dropout rate, size of the inner layer, etc.
   - [ ] Saving it to a file (e.g. pickle) or saving it with specialized software (BentoML)
