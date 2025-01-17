@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Image_85_jpg.rf.1da7c758e0bd8e55f08be1ab42dc187d.jpg</filename>
+	<path>Image_85_jpg.rf.1da7c758e0bd8e55f08be1ab42dc187d.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mastino_napoletano</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>54</xmin>
+			<xmax>536</xmax>
+			<ymin>39</ymin>
+			<ymax>596</ymax>
+		</bndbox>
+	</object>
+</annotation>

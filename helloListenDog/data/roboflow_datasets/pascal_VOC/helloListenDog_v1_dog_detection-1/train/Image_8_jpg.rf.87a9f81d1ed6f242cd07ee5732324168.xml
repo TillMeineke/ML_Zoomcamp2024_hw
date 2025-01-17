@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Image_8_jpg.rf.87a9f81d1ed6f242cd07ee5732324168.jpg</filename>
+	<path>Image_8_jpg.rf.87a9f81d1ed6f242cd07ee5732324168.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mastiff</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>146</xmin>
+			<xmax>564</xmax>
+			<ymin>194</ymin>
+			<ymax>450</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>n02108422_3726_jpg.rf.d8cffc3f1f0ab8b423f9a9a67437a86f.jpg</filename>
+	<path>n02108422_3726_jpg.rf.d8cffc3f1f0ab8b423f9a9a67437a86f.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bullmastiff</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>183</xmin>
+			<xmax>623</xmax>
+			<ymin>145</ymin>
+			<ymax>522</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>n02093256_2073_jpg.rf.c15f471884bcd255e261c6ee3eb731c6.jpg</filename>
+	<path>n02093256_2073_jpg.rf.c15f471884bcd255e261c6ee3eb731c6.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>staffford</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>82</xmin>
+			<xmax>514</xmax>
+			<ymin>1</ymin>
+			<ymax>640</ymax>
+		</bndbox>
+	</object>
+</annotation>

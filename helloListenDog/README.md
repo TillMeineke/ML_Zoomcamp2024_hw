@@ -52,7 +52,7 @@ For a project, the repository/folder should contain the following:
   - [x] Data preparation and data cleaning
   - [ ] EDA, feature importance analysis
     - [ ] 0 points: No EDA
-    - [ ] 1 point: Basic EDA (looking at min-max values, checking for missing values)
+    - [x] 1 point: Basic EDA (looking at min-max values, checking for missing values)
     - [ ] 2 points: Extensive EDA (ranges of values, missing values, analysis of target variable, feature importance analysis) For images: analyzing the content of the images. For texts: frequent words, word clouds, etc
   - [ ] Model selection process and parameter tuning
     - [ ] adapt custom YOLO11 model with a training notebook to run on macOS with Metal programming framework
@@ -175,7 +175,7 @@ Ultralytics recommends for best results, to ensure the YOLOv8/YOLOv11 model is w
 
 [Baidu's RT-DETR, a Vision Transformer-Based Real-Time Object Detector](./docs/DETR_beats_YOLO2304.08069v3.pdf) seems like another interesting model architecture to test (faster and more accurate compared against YOLO), but support or deployment on the Raspberry Pi AI Camera is not yet documented.
 
-I started with training a custom YOLO11 model with a training notebook provided by [Roboflow](https://github.com/roboflow-ai/notebooks/blob/main/notebooks/train-yolo11-object-detection-on-custom-dataset.ipynb), to test my dataset and to get a feeling for the training process and data preparation. This notebook is optimized for training on Google Colab (select GPU runtime), but can be adapted for local training (on macOS you can use the MPS backend for training with Metal programming framework, see [here](https://pytorch.org/docs/stable/notes/mps.html)).
+I started with training a custom YOLO11 model with a training notebook provided by [Roboflow](https://github.com/roboflow-ai/notebooks/blob/main/notebooks/train-yolo11-object-detection-on-custom-dataset.ipynb), to test my dataset and to get a feeling for the training process and data preparation. This [notebook](./notebooks/02b_train_yolo11_object_detection_on_custom_dataset.ipynb) is optimized for training on Google Colab (select GPU runtime), but will be adapted for local training (on macOS you can use the MPS backend for training with Metal programming framework, see [here](https://pytorch.org/docs/stable/notes/mps.html)).
 
 ### Data collection, labeling and preprocessing
 
@@ -186,9 +186,11 @@ This being my first object detection project, having no experience with generati
 1. [143 Different Dog Breeds image Classification](https://www.kaggle.com/datasets/rafsunahmad/143-different-dog-breeds-image-classifier "143 Different Dog Breeds image Classification")
 2. [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 
-This already gave me ca. 100 - 250 images for 9 out of the 15 dog breeds in the "Listenhunde" category 1 and 3.
+This already gave me ca. 100 - 250 images for 9 out of the 15 dog breeds in the "Listenhunde" category 1 and 3. I manually downloaded pictures for the missing breeds from [hundund.de](https://www.hundund.de/hunderassen/).
 
-The notebook [Train YOLO11 Object Detection on Custom Dataset](./notebooks/train_yolo11_object_detection_on_custom_dataset.ipynb) from Roboflow ()
+The notebook [Train YOLO11 Object Detection on Custom Dataset](./notebooks/02b_train_yolo11_object_detection_on_custom_dataset.ipynb) from Roboflow made me try their free service, but I realized soon their limitations, so I needed to find another way to label my dataset. Trying out [LabelImg](https://github.com/HumanSignal/labelImg) (crashed on macOS), [Label-Studio](https://github.com/HumanSignal/label-studio) (hard to setup, but promising), and [MakeSense](https://www.makesense.ai) (page reload made me loose all annotations), I finally used [AnyLabeling](https://anylabeling.nrl.ai) to label my dataset.
+
+AnyLabeling provides AutoLabeling feature, so I could preannotate the pictures with class dog and person, and then manually correct the bounding boxes and add the dog breed labels. The dataset is stored in the
 
 |Example Image|dog breed|FCI classification|HR classification|HundeG classification|[Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/) / [Kaggle Find my Dog](./docs/FindMyDog_Kaggle_120breeds.md) <br>[# img]|[143 Different Dog Breeds](./docs/143_Different_Dog_Breeds_Kaggle.md) [# img]|annotated Dataset v1<br> [# dogs]|[hundund.de](https://www.hundund.de/hunderassen/) [# img]|
 | :-: | :- | :-: | :- | :-: | :-: | :-: | :-: | :-: |

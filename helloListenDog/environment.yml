@@ -40,10 +40,14 @@ dependencies:
   - seaborn
   - setuptools
   - streamlit
+  - supervision
   - tqdm
+  - ultralytics
   - xgboost
   - lxml
   - pip:
+    - albumentations
+    - roboflow
     - fiftyone
     - keras-hub
     - keras-image-helper

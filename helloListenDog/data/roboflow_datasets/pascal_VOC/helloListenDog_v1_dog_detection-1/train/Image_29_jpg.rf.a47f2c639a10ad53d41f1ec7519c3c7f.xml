@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Image_29_jpg.rf.a47f2c639a10ad53d41f1ec7519c3c7f.jpg</filename>
+	<path>Image_29_jpg.rf.a47f2c639a10ad53d41f1ec7519c3c7f.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mastiff</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>2</xmin>
+			<xmax>599</xmax>
+			<ymin>60</ymin>
+			<ymax>580</ymax>
+		</bndbox>
+	</object>
+</annotation>

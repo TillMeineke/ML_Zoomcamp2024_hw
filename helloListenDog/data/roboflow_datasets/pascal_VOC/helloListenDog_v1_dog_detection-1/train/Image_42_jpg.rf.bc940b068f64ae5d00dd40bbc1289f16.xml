@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Image_42_jpg.rf.bc940b068f64ae5d00dd40bbc1289f16.jpg</filename>
+	<path>Image_42_jpg.rf.bc940b068f64ae5d00dd40bbc1289f16.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dogue_de_bordeaux</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>28</xmin>
+			<xmax>526</xmax>
+			<ymin>155</ymin>
+			<ymax>497</ymax>
+		</bndbox>
+	</object>
+</annotation>

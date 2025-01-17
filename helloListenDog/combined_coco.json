@@ -1,6 +1,11 @@
 {
     "licenses": [],
-    "info": {},
+    "info": {
+        "description": "dogBreed Listenhunde Dataset",
+        "version": "1.0",
+        "year": 2025,
+        "date_created": "2025/01/13"
+    },
     "categories": [
         {
             "id": 1,

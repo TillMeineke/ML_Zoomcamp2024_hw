@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Image_53_jpg.rf.c43eeb598c1e1e0c9461b4ea12ecfced.jpg</filename>
+	<path>Image_53_jpg.rf.c43eeb598c1e1e0c9461b4ea12ecfced.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dogo_argentino</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>1</xmin>
+			<xmax>607</xmax>
+			<ymin>139</ymin>
+			<ymax>503</ymax>
+		</bndbox>
+	</object>
+</annotation>

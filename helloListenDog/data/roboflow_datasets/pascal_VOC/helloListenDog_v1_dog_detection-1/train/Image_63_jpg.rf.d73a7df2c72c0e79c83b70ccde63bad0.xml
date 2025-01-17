@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Image_63_jpg.rf.d73a7df2c72c0e79c83b70ccde63bad0.jpg</filename>
+	<path>Image_63_jpg.rf.d73a7df2c72c0e79c83b70ccde63bad0.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>am_pit_bull_terrier</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>146</xmin>
+			<xmax>633</xmax>
+			<ymin>146</ymin>
+			<ymax>571</ymax>
+		</bndbox>
+	</object>
+</annotation>

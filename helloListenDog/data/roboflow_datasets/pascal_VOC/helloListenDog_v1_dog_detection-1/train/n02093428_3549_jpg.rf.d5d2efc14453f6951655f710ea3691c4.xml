@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>n02093428_3549_jpg.rf.d5d2efc14453f6951655f710ea3691c4.jpg</filename>
+	<path>n02093428_3549_jpg.rf.d5d2efc14453f6951655f710ea3691c4.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>amstaff</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>56</xmin>
+			<xmax>557</xmax>
+			<ymin>44</ymin>
+			<ymax>637</ymax>
+		</bndbox>
+	</object>
+</annotation>

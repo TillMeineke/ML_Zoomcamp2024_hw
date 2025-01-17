@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>Image_63_jpg.rf.b67f024a41e8ef1ffd86a5c9d0f82978.jpg</filename>
+	<path>Image_63_jpg.rf.b67f024a41e8ef1ffd86a5c9d0f82978.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bullterrier</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>100</xmin>
+			<xmax>522</xmax>
+			<ymin>72</ymin>
+			<ymax>626</ymax>
+		</bndbox>
+	</object>
+</annotation>
