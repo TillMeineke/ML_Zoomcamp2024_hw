@@ -53,6 +53,9 @@ Comment:
 
 nice project 👍🏼
 
+- [x] Learning in public 1: Evaluation Review [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7285976421116637184-hFMv?utm_source=share&utm_medium=member_desktop) on 17 January 2025
+- [x] Learning in public 2: General learnings from evaluation [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-learninginpublic-datascience-activity-7285987756806131712-ecnk?utm_source=share&utm_medium=member_desktop) on 17 January 2025
+
 ## Project 2 - Evaluation: Elated Nash's Submission
 
 GitHub Link: <https://github.com/marvik/ml_zoomcamp_capstone_1>
@@ -95,7 +98,9 @@ I evaluated the submission according to the following criteria:
    - [x] There's code for deployment to cloud or Kubernetes cluster (local or remote). There's a URL for testing - or video/screenshot of testing it (2 points)
 
 Comment:
+
 Nice and clear project 👍
+
 Deployment not running anymore?
 
 ```plaintext
@@ -107,6 +112,9 @@ Details: HTTPSConnectionPool(host='online-shopper-prediction-558797510368.us-cen
 ping <https://online-shopper-prediction-558797510368.us-central1.run.app/predict>
 ping: cannot resolve <https://online-shopper-prediction-558797510368.us-central1.run.app/predict>: Unknown host
 ```
+
+- [x] Learning in public 1: Evaluation Review [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7285978850105192450-AoNS?utm_source=share&utm_medium=member_desktop) on 17 January 2025
+- [x] Learning in public 2: Coding fail [LinkedIn](https://www.linkedin.com/posts/tillmeineke_datascience-machinelearning-pylabel-activity-7285989292449878016-NBBj?utm_source=share&utm_medium=member_desktop) on 17 January 2025
 
 ## Project 3 - Evaluation: Brava Man's Submission
 GitHub Link: <https://github.com/Wali-Mohamed/used_car_price_prediction>
@@ -161,3 +169,6 @@ nice project 👍
 - C:\Users\user\.virtualenvs\10-kubernetes-taEED_rI\Lib\site-packages\sklearn\preprocessing\_encoders.py:246: UserWarning: Found unknown categories in columns [0, 1] during transform. These unknown categories will be encoded as all zeros
 - typo: pip install -r requirements.t**e**xt
 - just a link to an ip address with a nice web app, but no code for cloud deployment
+
+- [x] Learning in public 1: Review [LinkeIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7285981649710813184-Z2hb?utm_source=share&utm_medium=member_desktop) on 17 January 2025
+- [x] Learning in public 2: Insights from Peer Project Reviews [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-machinelearning-activity-7287394676809068545-4W0s?utm_source=share&utm_medium=member_desktop)

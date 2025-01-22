@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>staffordshire_bullterrier_0026.jpg</filename>
+	<size>
+		<width>500</width>
+		<height>376</height>
+		<depth/>
+	</size>
+	<object>
+		<name>dogo_argentino</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>13</xmin>
+			<xmax>240</xmax>
+			<ymin>102</ymin>
+			<ymax>359</ymax>
+		</bndbox>
+	</object>
+</annotation>

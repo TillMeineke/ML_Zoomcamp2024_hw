@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>staffordshire_bullterrier_0117.jpg</filename>
+	<size>
+		<width>500</width>
+		<height>375</height>
+		<depth/>
+	</size>
+	<object>
+		<name>staffordshire_bullterrier</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>68</xmin>
+			<xmax>208</xmax>
+			<ymin>85</ymin>
+			<ymax>333</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>staffordshire_bullterrier</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>195</xmin>
+			<xmax>326</xmax>
+			<ymin>59</ymin>
+			<ymax>334</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>staffordshire_bullterrier</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>316</xmin>
+			<xmax>465</xmax>
+			<ymin>154</ymin>
+			<ymax>346</ymax>
+		</bndbox>
+	</object>
+</annotation>

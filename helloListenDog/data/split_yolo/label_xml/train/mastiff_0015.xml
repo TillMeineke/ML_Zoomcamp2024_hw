@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>mastiff_0015.jpg</filename>
+	<size>
+		<width>572</width>
+		<height>800</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>dogue_de_bordeaux</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>0</xmin>
+			<xmax>565</xmax>
+			<ymin>20</ymin>
+			<ymax>800</ymax>
+		</bndbox>
+	</object>
+</annotation>

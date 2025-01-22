@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>dogo_argentino_0053.jpg</filename>
+	<size>
+		<width>2304</width>
+		<height>1728</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>dogo_argentino</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>138</xmin>
+			<xmax>1930</xmax>
+			<ymin>1</ymin>
+			<ymax>1638</ymax>
+		</bndbox>
+	</object>
+</annotation>

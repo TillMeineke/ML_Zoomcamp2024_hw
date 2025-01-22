@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>rottweiler_0104.jpg</filename>
+	<size>
+		<width>226</width>
+		<height>275</height>
+		<depth/>
+	</size>
+	<object>
+		<name>person</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>118</xmin>
+			<xmax>226</xmax>
+			<ymin>35</ymin>
+			<ymax>240</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>rottweiler</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>20</xmin>
+			<xmax>138</xmax>
+			<ymin>14</ymin>
+			<ymax>275</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>human_face</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>148</xmin>
+			<xmax>196</xmax>
+			<ymin>60</ymin>
+			<ymax>104</ymax>
+		</bndbox>
+	</object>
+</annotation>

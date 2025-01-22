@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>american_staffordshire_terrier_0011.jpg</filename>
+	<size>
+		<width>375</width>
+		<height>500</height>
+		<depth/>
+	</size>
+	<object>
+		<name>am_staffordshire_terrier</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>41</xmin>
+			<xmax>375</xmax>
+			<ymin>129</ymin>
+			<ymax>400</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>human_face</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>280</xmin>
+			<xmax>336</xmax>
+			<ymin>134</ymin>
+			<ymax>181</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>271</xmin>
+			<xmax>374</xmax>
+			<ymin>118</ymin>
+			<ymax>236</ymax>
+		</bndbox>
+	</object>
+</annotation>

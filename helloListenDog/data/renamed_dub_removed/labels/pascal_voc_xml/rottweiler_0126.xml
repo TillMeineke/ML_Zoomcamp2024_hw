@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>rottweiler_0126.jpg</filename>
+	<size>
+		<width>333</width>
+		<height>500</height>
+		<depth/>
+	</size>
+	<object>
+		<name>other_dog_breed</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>116</xmin>
+			<xmax>283</xmax>
+			<ymin>379</ymin>
+			<ymax>500</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>rottweiler</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>56</xmin>
+			<xmax>268</xmax>
+			<ymin>0</ymin>
+			<ymax>471</ymax>
+		</bndbox>
+	</object>
+</annotation>

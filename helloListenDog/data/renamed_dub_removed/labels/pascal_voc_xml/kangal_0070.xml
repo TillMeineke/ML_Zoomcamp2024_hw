@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>kangal_0070.jpg</filename>
+	<size>
+		<width>418</width>
+		<height>450</height>
+		<depth/>
+	</size>
+	<object>
+		<name>kangal</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>90</xmin>
+			<xmax>336</xmax>
+			<ymin>219</ymin>
+			<ymax>355</ymax>
+		</bndbox>
+	</object>
+</annotation>

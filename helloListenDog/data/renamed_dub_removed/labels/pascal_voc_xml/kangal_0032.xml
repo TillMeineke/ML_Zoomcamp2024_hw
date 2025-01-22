@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>kangal_0032.jpg</filename>
+	<size>
+		<width>450</width>
+		<height>360</height>
+		<depth/>
+	</size>
+	<object>
+		<name>kangal</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>320</xmin>
+			<xmax>353</xmax>
+			<ymin>105</ymin>
+			<ymax>169</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>other_dog_breed</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>0</xmin>
+			<xmax>69</xmax>
+			<ymin>177</ymin>
+			<ymax>252</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>kangal</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>249</xmin>
+			<xmax>323</xmax>
+			<ymin>181</ymin>
+			<ymax>336</ymax>
+		</bndbox>
+	</object>
+</annotation>

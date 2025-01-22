@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>neapolitan_mastiff_0002.jpg</filename>
+	<size>
+		<width>2585</width>
+		<height>2500</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>neapolitan_mastiff</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>489</xmin>
+			<xmax>2167</xmax>
+			<ymin>97</ymin>
+			<ymax>2500</ymax>
+		</bndbox>
+	</object>
+</annotation>

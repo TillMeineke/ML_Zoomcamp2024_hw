@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>mastiff_0076.jpg</filename>
+	<size>
+		<width>1125</width>
+		<height>1500</height>
+		<depth/>
+	</size>
+	<object>
+		<name>other_dog_breed</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>73</xmin>
+			<xmax>1040</xmax>
+			<ymin>100</ymin>
+			<ymax>1500</ymax>
+		</bndbox>
+	</object>
+</annotation>

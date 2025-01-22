@@ -1,21 +1,5 @@
 # 🐶 helloListenDog - Dog breed object detection 🐕
 
-<style>img[src$="#dog"] {
-  display: block;
-  margin: 0 auto;
-  border-radius: 20px;
-  width: 300px;
-}
-</style>
-
-<style>img[src$="#dog2"] {
-  display: block;
-  margin: 0 auto;
-  border-radius: 20px;
-  width: 600px;
-}
-</style>
-
 Capstone project for [ML zoomcamp cohort 2024](https://github.com/DataTalksClub/machine-learning-zoomcamp)
 
 13.12.2024 - 07.01.2025
@@ -113,7 +97,7 @@ The eleven dog breeds belonging to **Category 3** are depicted below:
 
 ### Model selection
 
-The model should be able to detect dogs in an image, video or camera stream and predict, if the breed belongs to category 1 or category 3. For privacy reasons, the model should be able to detect human faces to blur them out. The model should be able to run on a mobile device, like a smartphone <!-- [Object Detection with YOLOv5 on iOS](https://github.com/pytorch/ios-demo-app/tree/master/ObjectDetection)--> or a Raspberry Pi <!--[Real Time Inference on Raspberry Pi 4 (30 fps!)](https://pytorch.org/tutorials/intermediate/realtime_rpi.html) -->, but also on a server (project scope).
+The model should be able to detect dogs in an image, video or camera stream and predict, if the breed belongs to category 1 or category 3. For privacy reasons, the model should be able to detect human faces to blur them out. The model should be able to run on a mobile device, like a [smartphone](https://github.com/pytorch/ios-demo-app/tree/master/ObjectDetection "Object Detection with YOLOv5 on iOS") or a Raspberry Pi<!--[Real Time Inference on Raspberry Pi 4 (30 fps!)](https://pytorch.org/tutorials/intermediate/realtime_rpi.html) -->, but also on a server (project scope).
 
 #### Why object detection?
 
@@ -299,3 +283,20 @@ Depending on how comfortable you are with working with images, you can even:
 -->
 
 ![Flying Dog](./images/flying_dog.gif#dog "Flying dog")
+
+
+<style>img[src$="#dog"] {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 300px;
+}
+</style>
+
+<style>img[src$="#dog2"] {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 600px;
+}
+</style>

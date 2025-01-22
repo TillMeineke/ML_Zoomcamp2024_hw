@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>kangal_0007.jpg</filename>
+	<size>
+		<width>719</width>
+		<height>450</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>kangal</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>19</xmin>
+			<xmax>386</xmax>
+			<ymin>45</ymin>
+			<ymax>369</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>416</xmin>
+			<xmax>573</xmax>
+			<ymin>1</ymin>
+			<ymax>306</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>human_face</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>476</xmin>
+			<xmax>550</xmax>
+			<ymin>40</ymin>
+			<ymax>100</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>mastin_espanol_0048.jpg</filename>
+	<size>
+		<width>450</width>
+		<height>311</height>
+		<depth/>
+	</size>
+	<object>
+		<name>mastin_espanol</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>20</xmin>
+			<xmax>450</xmax>
+			<ymin>59</ymin>
+			<ymax>272</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>183</xmin>
+			<xmax>374</xmax>
+			<ymin>0</ymin>
+			<ymax>112</ymax>
+		</bndbox>
+	</object>
+</annotation>

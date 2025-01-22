@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>cau_ovcharka_0048.jpg</filename>
+	<size>
+		<width>306</width>
+		<height>450</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>cau_ovcharka</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>53</xmin>
+			<xmax>291</xmax>
+			<ymin>156</ymin>
+			<ymax>442</ymax>
+		</bndbox>
+	</object>
+</annotation>

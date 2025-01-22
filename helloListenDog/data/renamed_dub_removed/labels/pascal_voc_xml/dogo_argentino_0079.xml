@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>dogo_argentino_0079.jpg</filename>
+	<size>
+		<width>450</width>
+		<height>313</height>
+		<depth/>
+	</size>
+	<object>
+		<name>person</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>0</xmin>
+			<xmax>315</xmax>
+			<ymin>28</ymin>
+			<ymax>313</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>human_face</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>121</xmin>
+			<xmax>204</xmax>
+			<ymin>57</ymin>
+			<ymax>135</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>dogo_argentino</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>269</xmin>
+			<xmax>429</xmax>
+			<ymin>196</ymin>
+			<ymax>307</ymax>
+		</bndbox>
+	</object>
+</annotation>

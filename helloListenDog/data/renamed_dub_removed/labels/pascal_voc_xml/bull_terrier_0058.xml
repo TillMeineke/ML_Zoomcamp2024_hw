@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>bull_terrier_0058.jpg</filename>
+	<size>
+		<width>320</width>
+		<height>277</height>
+		<depth/>
+	</size>
+	<object>
+		<name>bull_terrier</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>11</xmin>
+			<xmax>129</xmax>
+			<ymin>32</ymin>
+			<ymax>264</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bull_terrier</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>169</xmin>
+			<xmax>291</xmax>
+			<ymin>23</ymin>
+			<ymax>260</ymax>
+		</bndbox>
+	</object>
+</annotation>

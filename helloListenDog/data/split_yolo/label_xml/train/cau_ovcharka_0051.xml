@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>cau_ovcharka_0051.jpg</filename>
+	<size>
+		<width>327</width>
+		<height>450</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>human_face</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>216</xmin>
+			<xmax>286</xmax>
+			<ymin>58</ymin>
+			<ymax>144</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>cau_ovcharka</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>36</xmin>
+			<xmax>197</xmax>
+			<ymin>122</ymin>
+			<ymax>450</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>164</xmin>
+			<xmax>327</xmax>
+			<ymin>27</ymin>
+			<ymax>442</ymax>
+		</bndbox>
+	</object>
+</annotation>

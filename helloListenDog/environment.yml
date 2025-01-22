@@ -15,17 +15,16 @@ channels:
   - anaconda
 dependencies:
   - black
-  - fiftyone
+  #  - fiftyone
   - flask
   - grpcio
   - gunicorn
   - isort
   - jupyterlab
-  - labelImg
+  #  - labelImg
   - matplotlib
   - mlflow
   - numpy<2.0
-  - opencv
   - pandas
   - pillow
   - pip
@@ -40,23 +39,25 @@ dependencies:
   - seaborn
   - setuptools
   - streamlit
-  - supervision
+  #  - supervision needs manual install with --no-deps flag
   - tqdm
-  - ultralytics
+  #  - ultralytics
   - xgboost
-  - lxml
+  #  - lxml
   - pip:
-    - albumentations
-    - roboflow
-    - fiftyone
-    - keras-hub
-    - keras-image-helper
-    - label-studio
-    - pylabel
-    - scipy
-    - tensorflow==2.17.1
-    - tensorflow-metal==1.1.0
-    - tensorflow-serving-api==2.7.0
-    - torch
-    - torchaudio
-    - torchvision
+      - albumentations
+      - roboflow
+      #    - fiftyone
+      - keras-cv
+      - keras-hub
+      - keras-image-helper
+      #    - label-studio
+      - opencv-python-headless
+      - pylabel
+      - scipy
+      - tensorflow==2.17.1
+      - tensorflow-metal==1.1.0
+      - tensorflow-serving-api==2.7.0
+      - torch
+      - torchaudio
+      - torchvision

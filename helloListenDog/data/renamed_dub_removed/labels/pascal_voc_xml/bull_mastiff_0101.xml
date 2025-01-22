@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>bull_mastiff_0101.jpg</filename>
+	<size>
+		<width>500</width>
+		<height>337</height>
+		<depth/>
+	</size>
+	<object>
+		<name>other_dog_breed</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>235</xmin>
+			<xmax>491</xmax>
+			<ymin>140</ymin>
+			<ymax>331</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bull_mastiff</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>131</xmin>
+			<xmax>282</xmax>
+			<ymin>106</ymin>
+			<ymax>221</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>344</xmin>
+			<xmax>496</xmax>
+			<ymin>0</ymin>
+			<ymax>305</ymax>
+		</bndbox>
+	</object>
+</annotation>

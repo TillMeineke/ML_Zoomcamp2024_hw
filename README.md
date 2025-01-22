@@ -291,6 +291,18 @@ scored xx/16
 - [ ] Web app (optional)
 - [ ] Write a report / make a presentation
 
+#### [Evaluation of 3 Capstone 1 projects](./11-project_eval/Capstone_1.md)
+
+- [x] [Project 1 - Post Engagement Prediction Project](https://github.com/tomojpin1234/machine-learning-zoomcamp-2024-capstone-1)
+  - [x] Learning in public 1: Evaluation Review [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7285976421116637184-hFMv?utm_source=share&utm_medium=member_desktop) on 17 January 2025
+  - [x] Learning in public 2: General learnings from evaluation [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-learninginpublic-datascience-activity-7285987756806131712-ecnk?utm_source=share&utm_medium=member_desktop) on 17 January 2025
+- [ ] [Project 2 - Online Shopper Purchase Prediction](https://github.com/marvik/ml_zoomcamp_capstone_1)
+  - [x] Learning in public 1: Evaluation Review [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7285978850105192450-AoNS?utm_source=share&utm_medium=member_desktop) on 17 January 2025
+  - [x] Learning in public 2: Coding fail [LinkedIn](https://www.linkedin.com/posts/tillmeineke_datascience-machinelearning-pylabel-activity-7285989292449878016-NBBj?utm_source=share&utm_medium=member_desktop) on 17 January 2025
+- [ ] [Project 3 - Used Car Prices in UK Dataset Analysis](https://github.com/Wali-Mohamed/used_car_price_prediction)
+  - [x] Learning in public 1: Review [LinkeIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7285981649710813184-Z2hb?utm_source=share&utm_medium=member_desktop) on 17 January 2025
+  - [ ] Learning in public 2: []()
+
 ### [ ] Capstone 2 Project: due 28 January 2025 00:00
 
 ## [Kaggle competition](https://www.kaggle.com/competitions/ml-zoomcamp-2024-competition/)

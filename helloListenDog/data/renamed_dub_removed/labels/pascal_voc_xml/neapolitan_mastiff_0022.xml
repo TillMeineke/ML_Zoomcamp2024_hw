@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>neapolitan_mastiff_0022.jpg</filename>
+	<size>
+		<width>1920</width>
+		<height>1280</height>
+		<depth/>
+	</size>
+	<object>
+		<name>other_dog_breed</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>422</xmin>
+			<xmax>801</xmax>
+			<ymin>903</ymin>
+			<ymax>1219</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>neapolitan_mastiff</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>89</xmin>
+			<xmax>1680</xmax>
+			<ymin>93</ymin>
+			<ymax>1151</ymax>
+		</bndbox>
+	</object>
+</annotation>

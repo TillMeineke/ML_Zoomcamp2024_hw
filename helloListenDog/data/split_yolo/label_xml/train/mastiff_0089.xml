@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>mastiff_0089.jpg</filename>
+	<size>
+		<width>1204</width>
+		<height>1500</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>other_dog_breed</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>547</xmin>
+			<xmax>1045</xmax>
+			<ymin>76</ymin>
+			<ymax>1320</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>other_dog_breed</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>155</xmin>
+			<xmax>775</xmax>
+			<ymin>0</ymin>
+			<ymax>1436</ymax>
+		</bndbox>
+	</object>
+</annotation>

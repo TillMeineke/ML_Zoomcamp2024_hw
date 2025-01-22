@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>mastin_espanol_0004.jpg</filename>
+	<size>
+		<width>350</width>
+		<height>242</height>
+		<depth/>
+	</size>
+	<object>
+		<name>mastin_espanol</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>17</xmin>
+			<xmax>337</xmax>
+			<ymin>30</ymin>
+			<ymax>224</ymax>
+		</bndbox>
+	</object>
+</annotation>

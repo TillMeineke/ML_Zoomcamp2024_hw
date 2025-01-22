@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>rottweiler_0024.jpg</filename>
+	<size>
+		<width>500</width>
+		<height>453</height>
+		<depth/>
+	</size>
+	<object>
+		<name>rottweiler</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>34</xmin>
+			<xmax>428</xmax>
+			<ymin>30</ymin>
+			<ymax>453</ymax>
+		</bndbox>
+	</object>
+</annotation>

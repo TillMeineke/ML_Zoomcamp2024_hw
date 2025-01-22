@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>mastiff_0072.jpg</filename>
+	<size>
+		<width>1600</width>
+		<height>1067</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>staffordshire_bullterrier</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>497</xmin>
+			<xmax>1582</xmax>
+			<ymin>198</ymin>
+			<ymax>1067</ymax>
+		</bndbox>
+	</object>
+</annotation>

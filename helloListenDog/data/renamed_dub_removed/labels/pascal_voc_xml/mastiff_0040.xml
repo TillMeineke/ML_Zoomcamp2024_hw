@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>mastiff_0040.jpg</filename>
+	<size>
+		<width>1804</width>
+		<height>1700</height>
+		<depth/>
+	</size>
+	<object>
+		<name>mastiff</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>296</xmin>
+			<xmax>1744</xmax>
+			<ymin>40</ymin>
+			<ymax>1700</ymax>
+		</bndbox>
+	</object>
+</annotation>

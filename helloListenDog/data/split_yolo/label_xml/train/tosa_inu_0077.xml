@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>tosa_inu_0077.jpg</filename>
+	<size>
+		<width>1786</width>
+		<height>1339</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>tosa_inu</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>361</xmin>
+			<xmax>1528</xmax>
+			<ymin>0</ymin>
+			<ymax>1339</ymax>
+		</bndbox>
+	</object>
+</annotation>

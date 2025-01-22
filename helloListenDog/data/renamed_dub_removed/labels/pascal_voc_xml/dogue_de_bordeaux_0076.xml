@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>dogue_de_bordeaux_0076.jpg</filename>
+	<size>
+		<width>1500</width>
+		<height>976</height>
+		<depth/>
+	</size>
+	<object>
+		<name>dogue_de_bordeaux</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>625</xmin>
+			<xmax>1282</xmax>
+			<ymin>40</ymin>
+			<ymax>940</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>dogue_de_bordeaux</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>131</xmin>
+			<xmax>625</xmax>
+			<ymin>42</ymin>
+			<ymax>955</ymax>
+		</bndbox>
+	</object>
+</annotation>

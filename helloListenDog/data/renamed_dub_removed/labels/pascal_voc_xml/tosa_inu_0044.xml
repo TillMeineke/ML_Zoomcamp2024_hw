@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>tosa_inu_0044.jpg</filename>
+	<size>
+		<width>2048</width>
+		<height>1536</height>
+		<depth/>
+	</size>
+	<object>
+		<name>tosa_inu</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>338</xmin>
+			<xmax>1125</xmax>
+			<ymin>275</ymin>
+			<ymax>1536</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tosa_inu</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>800</xmin>
+			<xmax>1760</xmax>
+			<ymin>146</ymin>
+			<ymax>1535</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>265</xmin>
+			<xmax>2048</xmax>
+			<ymin>0</ymin>
+			<ymax>1536</ymax>
+		</bndbox>
+	</object>
+</annotation>

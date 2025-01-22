@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>american_pit_bull_terrier_0085.jpg</filename>
+	<size>
+		<width>336</width>
+		<height>240</height>
+		<depth/>
+	</size>
+	<object>
+		<name>am_pit_bull_terrier</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>110</xmin>
+			<xmax>251</xmax>
+			<ymin>8</ymin>
+			<ymax>229</ymax>
+		</bndbox>
+	</object>
+</annotation>

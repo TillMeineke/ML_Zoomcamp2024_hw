@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>american_staffordshire_terrier_0052.jpg</filename>
+	<size>
+		<width>323</width>
+		<height>500</height>
+		<depth/>
+	</size>
+	<object>
+		<name>am_staffordshire_terrier</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>0</xmin>
+			<xmax>322</xmax>
+			<ymin>8</ymin>
+			<ymax>489</ymax>
+		</bndbox>
+	</object>
+</annotation>

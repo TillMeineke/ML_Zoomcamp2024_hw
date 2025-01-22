@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>bull_mastiff_0042.jpg</filename>
+	<size>
+		<width>500</width>
+		<height>217</height>
+		<depth/>
+	</size>
+	<object>
+		<name>bull_mastiff</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>0</xmin>
+			<xmax>489</xmax>
+			<ymin>24</ymin>
+			<ymax>208</ymax>
+		</bndbox>
+	</object>
+</annotation>

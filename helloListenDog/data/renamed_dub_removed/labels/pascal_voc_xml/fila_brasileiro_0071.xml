@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>fila_brasileiro_0071.jpg</filename>
+	<size>
+		<width>450</width>
+		<height>313</height>
+		<depth/>
+	</size>
+	<object>
+		<name>fila_brasileiro</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>56</xmin>
+			<xmax>398</xmax>
+			<ymin>20</ymin>
+			<ymax>282</ymax>
+		</bndbox>
+	</object>
+</annotation>

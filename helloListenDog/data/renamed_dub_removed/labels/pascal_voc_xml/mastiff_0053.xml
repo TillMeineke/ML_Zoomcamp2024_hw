@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<annotation>
+	<filename>mastiff_0053.jpg</filename>
+	<size>
+		<width>1500</width>
+		<height>880</height>
+		<depth/>
+	</size>
+	<object>
+		<name>dogo_argentino</name>
+		<pose/>
+		<truncated/>
+		<difficult/>
+		<bndbox>
+			<xmin>54</xmin>
+			<xmax>1403</xmax>
+			<ymin>123</ymin>
+			<ymax>828</ymax>
+		</bndbox>
+	</object>
+</annotation>
