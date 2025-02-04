@@ -14,7 +14,34 @@ Demand forecasting is always helpful for companies to optimize their resources a
 
 ### Clone the repository
 
+Either clone my whole [repository](https://github.com/TillMeineke/ML_Zoomcamp2024_hw)
 
+```bash
+git clone https://github.com/TillMeineke/ML_Zoomcamp2024_hw.git
+# and move to the project folder
+cd ML_Zoomcamp2024_hw/NYTaxiForecast
+```
+
+or donwload needed files from [this folder](https://github.com/TillMeineke/ML_Zoomcamp2024_hw/tree/main/NYTaxiForecast).
+
+### Install dependencies
+
+```bash
+conda env create -f environment.yml
+conda activate NYTaxiForecast
+```
+
+### Run the notebook
+
+```bash
+jupyter notebook notebooks/00_EDA_prophet_train.ipynb
+```
+
+### Run the training script
+
+```bash
+python src/train.py
+```
 
 ## EDA
 
@@ -50,8 +77,11 @@ see `train.py` in `src`-folder
 
 ### Conda environment
 
+see running the project and `environment.yml`
 
 ## Containerization
+
+
 
 ## Cloud deployment
 
