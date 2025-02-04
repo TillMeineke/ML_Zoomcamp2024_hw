@@ -22,7 +22,7 @@ git clone https://github.com/TillMeineke/ML_Zoomcamp2024_hw.git
 cd ML_Zoomcamp2024_hw/NYTaxiForecast
 ```
 
-or donwload needed files from [this folder](https://github.com/TillMeineke/ML_Zoomcamp2024_hw/tree/main/NYTaxiForecast).
+or download needed files from [this folder](https://github.com/TillMeineke/ML_Zoomcamp2024_hw/tree/main/NYTaxiForecast).
 
 ### Install dependencies
 

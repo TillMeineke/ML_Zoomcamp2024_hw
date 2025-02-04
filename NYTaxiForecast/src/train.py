@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-
 # ## Import libraries and load data
-import pandas as pd
-import numpy as np
-# import plotly.express as px
+from warnings import simplefilter
+import os
 import pickle
+import pandas as pd
+# import numpy as np
+# import plotly.express as px
 
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
@@ -14,8 +15,6 @@ from statsmodels.tsa.deterministic import CalendarFourier, DeterministicProcess
 from neuralprophet import NeuralProphet
 
 # plt.style.available
-
-from warnings import simplefilter
 
 simplefilter("ignore")
 
@@ -247,6 +246,11 @@ future = m.make_future_dataframe(data, periods=30)
 forecast = m.predict(future)
 forecast.head()
 
+
+# ## Save the model
+
+# make directory if it doesn't exist
+os.makedirs("../models", exist_ok=True)
 
 # ### save the model
 with open("../models/prophet.pkl", "wb") as f:
