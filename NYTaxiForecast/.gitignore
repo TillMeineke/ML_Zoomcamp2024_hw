@@ -1,4 +1,6 @@
 !/data
 .env
 
+src/lightning_logs/
 notebooks/lightning_logs/
+lightning_logs/

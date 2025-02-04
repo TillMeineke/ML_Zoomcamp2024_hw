@@ -6,4 +6,5 @@
 4. Linear trend [LinkedIn](https://www.linkedin.com/posts/tillmeineke_datascience-timeseriesanalysis-mlzoomcamp-activity-7292525374867963906-xRpl?utm_source=share&utm_medium=member_desktop)
 5. 365 day moving average [LinkedIn](https://www.linkedin.com/posts/tillmeineke_datascience-timeseriesanalysis-mlzoomcamp-activity-7292526318049488896-7a1z?utm_source=share&utm_medium=member_desktop)
 6. yearly mean [LinkedIn](https://www.linkedin.com/posts/tillmeineke_nyctaxi-urbanmobility-datavisualization-activity-7292527765935812610-JUKH?utm_source=share&utm_medium=member_desktop)
-7. 
+7. lag_features [LinkedIn](https://www.linkedin.com/posts/tillmeineke_datavisualization-dataanalytics-mlzoomcamp-activity-7292563768352366592-GQqf?utm_source=share&utm_medium=member_desktop)
+8. 

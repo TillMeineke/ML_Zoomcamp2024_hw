@@ -10,7 +10,11 @@ Author: Till Meineke
 
 Demand forecasting is always helpful for companies to optimize their resources and make better decisions. In this project, we will work with a dataset of New York taxi trips. The goal is to predict the number of taxi trips for the next week.
 
-## Project structure
+## Run the project
+
+### Clone the repository
+
+
 
 ## EDA
 
@@ -20,13 +24,23 @@ I restrict the data to a period from 01.01.2023 to 31.12.2023, because it the la
 
 ### Missing values
 
+Did some check
+
 ### Analysis of target variable
+
+- mean
+- trend
+- seasonality
 
 ### Feature importance analysis
 
 ## Model training
 
+- Prophet
+
 ## Exporting notebook to python script
+
+see `train.py` in `src`-folder
 
 ## Reproducibility
 
@@ -36,7 +50,6 @@ I restrict the data to a period from 01.01.2023 to 31.12.2023, because it the la
 
 ### Conda environment
 
-### Pipenv environment
 
 ## Containerization
 
@@ -47,33 +60,32 @@ I restrict the data to a period from 01.01.2023 to 31.12.2023, because it the la
 For a project, the repository/folder should contain the following:
 
 - `README.md` with
-  - [ ] Description of the problem
+  - [x] Description of the problem
     - [ ] 0 points: Problem is not described
-    - [ ] 1 point: Problem is described in README birefly without much details
+    - [x] 1 point: Problem is described in README birefly without much details
     - [ ] 2 points: Problem is described in README with enough context, so it's clear what the problem is and how the solution will be used
   - [ ] Instructions on how to run the project
 - Data
   - [x] You should either commit the dataset you used or have clear instructions how to download the dataset
 - Notebook (suggested name - `notebook.ipynb`) with
-  - [ ] Data preparation and data cleaning
+  - [x] Data preparation and data cleaning
   - [ ] EDA, feature importance analysis
     - [ ] 0 points: No EDA
     - [x] 1 point: Basic EDA (looking at min-max values, checking for missing values)
     - [ ] 2 points: Extensive EDA (ranges of values, missing values, analysis of target variable, feature importance analysis) For images: analyzing the content of the images. For texts: frequent words, word clouds, etc
-  - [ ] Model selection process and parameter tuning
-    - [ ] adapt custom YOLO11 model with a training notebook to run on macOS with Metal programming framework
+  - [x] Model selection process and parameter tuning
 - Script `train.py` (suggested name)
-  - [ ] Training the final model
+  - [x] Training the final model
     - [ ] 0 points: No model training
-    - [ ] 1 point: Trained only one model, no parameter tuning
+    - [x] 1 point: Trained only one model, no parameter tuning
     - [ ] 2 points: Trained multiple models (linear and tree-based). For neural networks: tried multiple variations - with dropout or without, with extra inner layers or without
     - [ ] 3 points: Trained multiple models and tuned their parameters. For neural networks: same as previous, but also with tuning: adjusting learning rate, dropout rate, size of the inner layer, etc.
-  - [ ] Saving it to a file (e.g. pickle) or saving it with specialized software (BentoML)
+  - [x] Saving it to a file (e.g. pickle) or saving it with specialized software (BentoML)
     - [ ] 0 points: No script for training a model
-    - [ ] 1 point: The logic for training the model is exported to a separate script
+    - [x] 1 point: The logic for training the model is exported to a separate script
 - [ ] Reproducibility
   - [ ] 0 points: Not possible to execute the notebook and the training script. Data is missing or it's not easily accessible
-  - [ ] 1 point: It's possible to re-execute the notebook and the training script without errors. The dataset is committed in the project repository or there are clear instructions on how to download the data
+  - [x] 1 point: It's possible to re-execute the notebook and the training script without errors. The dataset is committed in the project repository or there are clear instructions on how to download the data
 - Script `predict.py` (suggested name)
   - [ ] Loading the model
   - [ ] Serving it via a web service (with Flask or specialized software - BentoML, KServe, etc)
@@ -81,10 +93,10 @@ For a project, the repository/folder should contain the following:
     - [ ] 1 point: Model is deployed (with Flask, BentoML or a similar framework)
 - Files with dependencies
   - [ ] `Pipenv` and `Pipenv.lock` if you use Pipenv
-  - [ ] or equivalents: conda environment file, `requirements.txt` or `pyproject.toml`
+  - [x] or equivalents: conda environment file, `requirements.txt` or `pyproject.toml`
     - [ ] 0 points: No dependency management
     - [ ] 1 point: Provided a file with dependencies (requirements.txt, pipfile, bentofile.yaml with dependencies, etc)
-    - [ ] 2 points: Provided a file with dependencies and used virtual environment. README says how to install the dependencies and how to activate the env
+    - [x] 2 points: Provided a file with dependencies and used virtual environment. README says how to install the dependencies and how to activate the env
 - [ ] Dockerfile for running the service
   - [ ] 0 points: No containerization
   - [ ] 1 point: Dockerfile is provided or a tool that creates a docker image is used (e.g. BentoML)
