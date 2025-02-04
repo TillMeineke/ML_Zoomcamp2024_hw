@@ -81,8 +81,6 @@ see running the project and `environment.yml`
 
 ## Containerization
 
-
-
 ## Cloud deployment
 
 ## Deliverables
