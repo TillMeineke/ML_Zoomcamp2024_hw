@@ -10,3 +10,9 @@
 - [vision/gallery/transforms/plot_transforms_getting_started.py](https://github.com/pytorch/vision/blob/main/gallery/transforms/plot_transforms_getting_started.py)
 - [Transforms v2: End-to-end object detection/segmentation example](https://pytorch.org/vision/stable/auto_examples/transforms/plot_transforms_e2e.html)
 - [vision/references/detection/coco_eval.py](https://github.com/pytorch/vision/blob/main/references/detection/coco_eval.py)
+- [fasterrcnn-pytorch-training-pipeline (GitHub repo)](https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline/tree/main)
+- [Wheat Detection using Faster RCNN and PyTorch](https://debuggercafe.com/wheat-detection-using-faster-rcnn-and-pytorch/)
+- [Small Scale Traffic Light Detection using PyTorch](https://debuggercafe.com/small-scale-traffic-light-detection/)
+- [Plant Disease Detection using the PlantDoc Dataset and PyTorch Faster RCNN](https://debuggercafe.com/plant-disease-detection-using-plantdoc/)
+- [Using Any Torchvision Pretrained Model as Backbone for PyTorch Faster RCNN](https://debuggercafe.com/using-any-torchvision-pretrained-model-as-backbone-for-pytorch-faster-rcnn/)
+- 

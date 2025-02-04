@@ -1,0 +1,64 @@
+# Conda Environment Setup Instructions
+#  - Using an environment.yml file with conda
+#  - Key Terminal Commands:
+#
+#    conda env create -f environment.yml -y
+#    conda env update --file environment.yml --prune
+#    conda env export --name NYTaxi_forecast > environment.yml
+#    conda env remove --name NYTaxi_forecast
+#    conda env list
+
+name: NYTaxi_forecast
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - catboost
+  - darts
+  - black
+  - flask
+  - grpcio
+  - gunicorn
+  - hierarchicalforecast
+  - holidays
+  - ipywidgets
+  - isort
+  - joblib
+  - jupyter_client
+  - jupyter_core
+  - jupyterlab
+  - jupyterlab_pygments
+  - jupyterlab_server
+  - lightgbm
+  - matplotlib
+  - missingno
+  - neuralforecast
+  - numpy<2.0
+  - pandas=2.2.3
+  - pip
+  - pipenv
+  - plotly
+  - pyarrow
+  - pylint
+  - python=3.11
+  - requests
+  - ruff
+  - scikit-learn=1.5.2
+  - seaborn
+  - setuptools
+  - sktime
+  - statsmodels
+  - statsforecast
+  - tqdm
+  - utilsforecast
+  - xgboost
+  - pip:
+    - scipy
+    - keras-image-helper
+    - tensorflow==2.17.1
+    - tensorflow-metal==1.1.0
+    - tensorflow-serving-api==2.7.0
+    - torch
+    - torchaudio
+    - torchvision

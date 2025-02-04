@@ -46,14 +46,15 @@ dependencies:
   #  - lxml
   - pip:
       - albumentations
-      - roboflow
+      - cvzone
       #    - fiftyone
       - keras-cv
       - keras-hub
       - keras-image-helper
       #    - label-studio
-      - opencv-python-headless
+      - opencv-python
       - pylabel
+      - roboflow
       - scipy
       - tensorflow==2.17.1
       - tensorflow-metal==1.1.0

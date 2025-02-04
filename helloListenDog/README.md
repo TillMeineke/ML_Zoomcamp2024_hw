@@ -97,7 +97,7 @@ The eleven dog breeds belonging to **Category 3** are depicted below:
 
 ### Model selection
 
-The model should be able to detect dogs in an image, video or camera stream and predict, if the breed belongs to category 1 or category 3. For privacy reasons, the model should be able to detect human faces to blur them out. The model should be able to run on a mobile device, like a [smartphone](https://github.com/pytorch/ios-demo-app/tree/master/ObjectDetection "Object Detection with YOLOv5 on iOS") or a Raspberry Pi<!--[Real Time Inference on Raspberry Pi 4 (30 fps!)](https://pytorch.org/tutorials/intermediate/realtime_rpi.html) -->, but also on a server (project scope).
+The model should be able to detect dogs in an image, video or camera stream and predict, if the breed belongs to category 1 or category 3. For privacy reasons, the model should be able to detect human faces to blur them out. The model should be able to run on a mobile device, like a [smartphone](https://github.com/pytorch/ios-demo-app/tree/master/ObjectDetection "Object Detection with YOLOv5 on iOS") or a [Raspberry Pi](https://pytorch.org/tutorials/intermediate/realtime_rpi.html "Real Time Inference on Raspberry Pi 4 (30 fps!)"), but also on a server (project scope).
 
 #### Why object detection?
 
@@ -172,7 +172,10 @@ This being my first object detection project, having no experience with generati
 
 This already gave me ca. 100 - 250 images for 9 out of the 15 dog breeds in the "Listenhunde" category 1 and 3. I manually downloaded pictures for the missing breeds from [hundund.de](https://www.hundund.de/hunderassen/).
 
-The notebook [Train YOLO11 Object Detection on Custom Dataset](./notebooks/02b_train_yolo11_object_detection_on_custom_dataset.ipynb) from Roboflow made me try their free service, but I realized soon their limitations, so I needed to find another way to label my dataset. Trying out [LabelImg](https://github.com/HumanSignal/labelImg) (crashed on macOS), [Label-Studio](https://github.com/HumanSignal/label-studio) (hard to setup, but promising), and [MakeSense](https://www.makesense.ai) (page reload made me loose all annotations), I finally used [AnyLabeling](https://anylabeling.nrl.ai) to label my dataset.
+The notebook [Train YOLO11 Object Detection on Custom Dataset](./notebooks/02b_train_yolo11_object_detection_on_custom_dataset.ipynb) from Roboflow made me try their free service, but I realized soon their limitations, so I needed to find another way to label my dataset. 
+
+
+Trying out [LabelImg](https://github.com/HumanSignal/labelImg) (crashed on macOS), [Label-Studio](https://github.com/HumanSignal/label-studio) (hard to setup, but promising), and [MakeSense](https://www.makesense.ai) (page reload made me loose all annotations), I finally used [AnyLabeling](https://anylabeling.nrl.ai) to label my dataset.
 
 AnyLabeling provides AutoLabeling feature, so I could preannotate the pictures with class dog and person, and then manually correct the bounding boxes and add the dog breed labels. The dataset is stored in the
 

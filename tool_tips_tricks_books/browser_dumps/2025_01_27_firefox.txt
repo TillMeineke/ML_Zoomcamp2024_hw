@@ -1,0 +1,20 @@
+https://app.roboflow.com/mlzoomcamp2024/hellolistendog_v1_dog_detection/1 | helloListenDog_v1_dog_detection - v1 2024-12-23 10:01pm
+https://github.com/roboflow/roboflow-python/blob/main/roboflow/util/folderparser.py | roboflow-python/roboflow/util/folderparser.py at main · roboflow/roboflow-python
+https://stackoverflow.com/questions/12759761/pip-force-install-ignoring-dependencies | python - pip: force install ignoring dependencies - Stack Overflow
+https://roboflow.com/formats/coco-json | What is the COCO JSON Annotation Format?
+https://keras.io/examples/vision/retinanet/#implementing-utility-functions | Object Detection with RetinaNet
+https://keras.io/examples/vision/yolov8/ | Efficient Object Detection with YOLOV8 and KerasCV
+https://www.tensorflow.org/api_docs/python/tf/ragged/constant | tf.ragged.constant  |  TensorFlow v2.16.1
+https://keras.io/keras_hub/guides/classification_with_keras_hub/ | Image Classification with KerasHub
+https://www.tensorflow.org/api_docs/python/tf/data | Module: tf.data  |  TensorFlow v2.16.1
+https://keras.io/examples/vision/object_detection_using_vision_transformer/ | Object detection with Vision Transformers
+
+https://www.kaggle.com/code/vyacheslavshen/eda-and-phi3-mini-prediction | EDA and Phi3-mini prediction
+
+https://duckduckgo.com/?q=firefox+alle+erweiterungen+in+symbolleiste&ia=web | firefox alle erweiterungen in symbolleiste at DuckDuckGo
+https://bitreporter.de/webanwendungen/tabliss-schoene-hintergrundbilder-fuer-neue-browser-tabs/ | Tabliss: schöne Hintergrundbilder für neue Browser-Tabs
+https://www.computerbild.de/download/Tabliss-fuer-Firefox-21905565.html | Tabliss für Firefox - Download - COMPUTER BILD
+https://www.heise.de/select/ct/2020/1/1577474674272057 | Schöner losbrowsen | c't | Heise Magazine
+https://support.mozilla.org/de/kb/erweiterungen-verwalten-erweiterungen-schaltflache | Verwalten Ihrer Erweiterungen mithilfe der Erweiterungen-Schaltfläche | Hilfe zu Firefox
+
+https://addons.mozilla.org/de/firefox/themes/ | Themes – Add-ons für Firefox (de)
