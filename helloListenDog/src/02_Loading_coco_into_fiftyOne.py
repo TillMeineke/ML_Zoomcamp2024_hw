@@ -1,4 +1,6 @@
 # Load a COCO dataset into FiftyOne
+# voxel51 on DTC-YT: https://www.youtube.com/watch?v=gditgUhTmVs
+
 import fiftyone as fo
 import json
 import os
