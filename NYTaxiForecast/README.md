@@ -8,7 +8,7 @@ Author: Till Meineke
 
 ## Problem description
 
-Demand forecasting is always helpful for companies to optimize their resources and make better decisions. In this project, we will work with a dataset of New York taxi trips. The goal is to predict the number of taxi trips for the next week.
+Demand forecasting is always helpful for companies to optimize their resources and make better decisions. In this project, we will work with a dataset of New York taxi trips. The goal is to predict the number of taxi trips for the few next weeks.
 
 ## Run the project
 
