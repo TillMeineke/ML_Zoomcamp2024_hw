@@ -160,6 +160,10 @@ Extra material in subfolder contains the setup of the environment, the portfolio
 - [ ] Explore more: Deploy the model from previous modules and from your project with Kubernetes
 - [ ] Explore more: Learn about Kubernetes namespaces. Here we used the default namespace
 
+## Module 11
+
+- skipped
+
 ## Projects
 
 ### [Midterm Project](./fungiIncognita): due 26 November 2024 00:00
@@ -241,9 +245,9 @@ scored 16/16
   - [x] Learn in public 1: markdown formatting [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7270040728104284161-MV00?utm_source=share&utm_medium=member_desktop) on 04 December 2024
   - [x] Learn in public 2: dataset "easy" datasets [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7270043951871524865-AUTk?utm_source=share&utm_medium=member_desktop) on 04 December 2024
 
-### [Capstone 1 Project](FIXME:): due 7 January 2025 00:00
+### [Capstone 1 Project](./helloListenDog/): due 7 January 2025 00:00
 
-scored xx/16
+scored 9/16
 
 - Start: 13 December 2024
 - [x] Problem description: [README](./helloListenDog/README.md#project-description)
@@ -291,19 +295,65 @@ scored xx/16
 - [ ] Web app (optional)
 - [ ] Write a report / make a presentation
 
-#### [Evaluation of 3 Capstone 1 projects](./11-project_eval/Capstone_1.md)
+#### [Evaluation of 3 Capstone 1 projects](./project_eval/Capstone_1.md)
 
 - [x] [Project 1 - Post Engagement Prediction Project](https://github.com/tomojpin1234/machine-learning-zoomcamp-2024-capstone-1)
   - [x] Learning in public 1: Evaluation Review [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7285976421116637184-hFMv?utm_source=share&utm_medium=member_desktop) on 17 January 2025
   - [x] Learning in public 2: General learnings from evaluation [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-learninginpublic-datascience-activity-7285987756806131712-ecnk?utm_source=share&utm_medium=member_desktop) on 17 January 2025
-- [ ] [Project 2 - Online Shopper Purchase Prediction](https://github.com/marvik/ml_zoomcamp_capstone_1)
+- [x] [Project 2 - Online Shopper Purchase Prediction](https://github.com/marvik/ml_zoomcamp_capstone_1)
   - [x] Learning in public 1: Evaluation Review [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7285978850105192450-AoNS?utm_source=share&utm_medium=member_desktop) on 17 January 2025
   - [x] Learning in public 2: Coding fail [LinkedIn](https://www.linkedin.com/posts/tillmeineke_datascience-machinelearning-pylabel-activity-7285989292449878016-NBBj?utm_source=share&utm_medium=member_desktop) on 17 January 2025
-- [ ] [Project 3 - Used Car Prices in UK Dataset Analysis](https://github.com/Wali-Mohamed/used_car_price_prediction)
+- [x] [Project 3 - Used Car Prices in UK Dataset Analysis](https://github.com/Wali-Mohamed/used_car_price_prediction)
   - [x] Learning in public 1: Review [LinkeIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-activity-7285981649710813184-Z2hb?utm_source=share&utm_medium=member_desktop) on 17 January 2025
-  - [ ] Learning in public 2: []()
+  - [x] Learning in public 2: Insights from Peer Project Reviews [LinkedIn](https://www.linkedin.com/posts/tillmeineke_mlzoomcamp-machinelearning-activity-7287394676809068545-4W0s?utm_source=share&utm_medium=member_desktop)
 
-### [ ] Capstone 2 Project: due 28 January 2025 00:00
+### [Capstone 2 Project](./NYTaxiForecast/): due 28 January 2025 00:00
+
+scored x/16
+
+- Start: 3 January 2025
+- [x] Problem description: [README](./NYTaxiForecast/README.md#problem-description)
+  - [x] context
+  - [x] problem
+  - [x] use of solution
+- [x] Find a dataset: [NY TLC](./NYTaxiForecast/data/raw/)
+- [x] Do time series [EDA](FIXME:)
+  - [x] ranges of values
+  - [x] missing values
+  - [x] analysis of target variable
+  - [ ] feature importance analysis
+- [x] Model training
+  - [x] Train multiple models
+  - [ ] tune hyperparameters
+- [x] Export the best model to script and save model
+- [x] Reproducibility
+  - [x] re-execute the notebook without errors
+  - [x] execute the training script without errors
+  - [x] submit the dataset
+- [ ] Deploy the model - Flask / Steamlit
+  - [ ] Flask
+  - [ ] Streamlit
+- [ ] Dependency and environment management
+  - [x] [conda environment](./NYTaxiForecast/environment.yml)
+  - [ ] Makefile
+  - [x] environment.yml
+  - [ ] requirements.txt
+  - [ ] Pipfile
+  - [x] Readme
+    - [x] installation
+    - [x] activation
+- [ ] Containerization
+  - [ ] Dockerfile
+  - [ ] README
+    - [ ] build a container
+    - [ ] run
+- [ ] Cloud deployment
+  - [ ] AWS
+    - [ ] docker - beanstalk
+  - [ ] README
+    - [ ] deployment described with code
+      - [ ] cloud
+    - [ ] URL for testing / video or screenshot of testing
 
 ## [Kaggle competition](https://www.kaggle.com/competitions/ml-zoomcamp-2024-competition/)
 
